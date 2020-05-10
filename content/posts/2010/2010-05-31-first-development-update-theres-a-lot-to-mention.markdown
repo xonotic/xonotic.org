@@ -28,7 +28,7 @@ I'll start out in a little bit of a rush, trying to sum up the most important de
 
 The player models are finally getting the update they deserve. Dib and tZork (hope I didn't miss anyone) are working on getting Oblivion's awesome player models working and looking fine in the game. Dib is also working on fixing the weapon scale, which previously was too big.
 
-More screenshots in the [image gallery](http://xonotic.org/media).
+More screenshots in the [image gallery](/media/).
   
 
 ### Maps

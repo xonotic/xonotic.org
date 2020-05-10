@@ -6,7 +6,7 @@ categories:
 - Announcements
 ---
 
-_Link for the impatient: [xonotic.org/tools/cacs](http://xonotic.org/tools/cacs)_
+_Link for the impatient: [xonotic.org/tools/cacs](/tools/cacs/)_
 
 Back in the days of Nexuiz, finding cmds and cvars was difficult. We had a wiki with a limited list, that didn't always keep up with the ever-changing game. Thanks to handy tip from a fellow player, I learned I could use "cmdlist" and "cvarlist" to dump them all to console. Combined with "log_file", I was able to get an exhaustive list of every command and cvar in the game... which is a lot.
 
@@ -28,7 +28,7 @@ Today I'd like to announce integrating the tool into xonotic.org under an emergi
   "The new CACS tool"
 %}}
 
-You can visit the tool at [xonotic.org/tools/cacs](http://xonotic.org/tools/cacs).
+You can visit the tool at [xonotic.org/tools/cacs](/tools/cacs/).
 
 An isolated version of the tool and source code with multigame support is available on [GitHub](https://github.com/z/cacs).
 

@@ -15,7 +15,7 @@ Welcome back reading WoX-BloX! For those who are still not familiar what this is
 
 ### Global Gamers 5 years anniversary
 
-[![](/m/uploads/2011/11/gg-logo.jpg)](http://www.globalgamers.net/)
+[![](/m/uploads/2011/11/gg-logo.jpg)](https://globalgamers.net/)
 
 As you could read in [a previous blog post](/posts/2011/global-gamers-turns-5-celebrates-with-xonotic/), 11/11/11, Global Gamers officially turned 5 years old! Global Gamers is an IRC network formed on a simple concept: gaming should be fun! To promote that fun they host multiple game servers for classics like Quake2 as well as cutting-edge hits like BF3, and of course, Xonotic! On 12th November as a part of their celebrational events they held a four-match Xonotic free-for-all contest. The matches for the contest were a blast, with participants from AU, US and EU too!
 The first three winners were:
@@ -24,7 +24,7 @@ The first three winners were:
 2. ChaLK (420 points)
 3. CrancK (347 points)
 
-Congratulations to the winners, and GG for all the other **25 players** who celebrated with Global Gamers! You can find **demos from fisume^'s point of view** [here](http://uploaded.to/file/bsrar33g), and a complete list with endgame screenshots of all participants with their scores [here](http://www.globalgamers.net/gg-xonotic-scores.zip). Also, Jehar from [TastySpleenTV](http://tastyspleen.tv/) has made a very nice screencast commentary lasting more than two hours!
+Congratulations to the winners, and GG for all the other **25 players** who celebrated with Global Gamers! You can find **demos from fisume^'s point of view** [here](http://uploaded.to/file/bsrar33g), and a complete list with endgame screenshots of all participants with their scores [here](https://globalgamers.net/gg-xonotic-scores.zip). Also, Jehar from [TastySpleenTV](http://tastyspleen.tv/) has made a very nice screencast commentary lasting more than two hours!
 
 [Jehar's screencast Part1 @ own3D.tv](http://www.own3d.tv/TastyspleenTV#/watch/278491)
 

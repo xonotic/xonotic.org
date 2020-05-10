@@ -169,8 +169,8 @@ poke around. In the interim, I'll be seeing you out on the servers. Happy
 fragging to you in 2020! 
 
 
-[2017 distinct players]: https://xonotic.org/m/uploads/2018/01/2017_players_per_month.png
-[2017 games per month]: https://xonotic.org/m/uploads/2018/01/2017_games_per_month.png
+[2017 distinct players]: /m/uploads/2018/01/2017_players_per_month.png
+[2017 games per month]: /m/uploads/2018/01/2017_games_per_month.png
 [xonstatdb]: https://gitlab.com/xonotic/xonstatdb
 [repo]: https://github.com/antzucaro/xonotic-by-the-numbers
 [WTWRP votable]: http://stats.xonotic.org/server/13293

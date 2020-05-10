@@ -25,7 +25,7 @@ The competition for the top spot was fierce, but in the end everyone wins - we n
   * [Opium](http://forums.xonotic.org/showthread.php?tid=3653) by cityy
   * [Synthetic](http://forums.xonotic.org/showthread.php?tid=3438&pid=53185#pid53185) by [foogs](http://forums.xonotic.org/member.php?action=profile&uid=3690)
   * [Imprisoned](http://forums.xonotic.org/showthread.php?tid=3575) by Justin
-  * [Solace](http://forums.xonotic.org/showthread.php?tid=3438&pid=53042#pid53042) by [Debugger](﻿http://forums.xonotic.org/member.php?action=profile&uid=222)
+  * [Solace](http://forums.xonotic.org/showthread.php?tid=3438&pid=53042#pid53042) by [Debugger](http://forums.xonotic.org/member.php?action=profile&uid=222)
   * [Pluvial](http://forums.xonotic.org/showthread.php?tid=3668) by Debugger
   * [metalmaze](http://forums.xonotic.org/showthread.php?tid=3488) by [DarkSlayer](http://forums.xonotic.org/member.php?action=profile&uid=3816)
   * [Facility 123](http://forums.xonotic.org/showthread.php?tid=3651) by [Cortez](http://forums.xonotic.org/member.php?action=profile&uid=95)

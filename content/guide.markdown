@@ -51,7 +51,7 @@ Preface
 
 This guide aims at showing all fundamental aspects of vanilla Xonotic gameplay to enable new players to pick up the ropes quickly.
 
-Note that whereas movement aspects should usually apply more or less unchanged to modified servers offering InstaGib, vehicle CTF or [Overkill](/okguide) gameplay, I will not explain the specifics of these game mutators/rulesets - I simply lack the expertise in non-vanilla game modes. The XDF ruleset has different physics and a separate video-guide called [XDF Academy](/posts/2018/2018-07-22-xdf-academy). If you want to fully apply the knowledge gained from this guide, search for vanilla servers - Normal category in the server browser.
+Note that whereas movement aspects should usually apply more or less unchanged to modified servers offering InstaGib, vehicle CTF or [Overkill](/okguide/) gameplay, I will not explain the specifics of these game mutators/rulesets - I simply lack the expertise in non-vanilla game modes. The XDF ruleset has different physics and a separate video-guide called [XDF Academy](/posts/2018/2018-07-22-xdf-academy/). If you want to fully apply the knowledge gained from this guide, search for vanilla servers - Normal category in the server browser.
 
 Remember that the Xonotic player community is generally considered a very friendly and helpful one and for many people (including me) this is the key aspect that gets one hooked to this game. If you meet very strong players online and wonder how they do certain things, it usually pays off to simply ask them. Most of the experienced players will take their time to shortly explain gameplay techniques to newbies if asked nicely. Some of them might even offer to show you around by giving you a short live tutorial. That’s how I myself learned about blaster jumping and strafe turning for example.
 
@@ -95,7 +95,7 @@ Beyond this, advanced techniques known from other games as “strafe jumping” 
 
 ***
 
-These are techniques which are essential for Xonotic race mode / CTS where servers use cpma-like physics. In vanilla mode, the effect is limited but some times it may tip the scales or allow for certain jumps. If you would like to obtain a better understanding of how strafe jumping works, check out [Hero's strafe jumping lesson](http://www.xonotic.org/2013/02/a-strafe-jumping-lesson-from-hero "Youtube: Strafe Jumping Lesson from Hero"). These techniques can be practiced best on the Xonotic CTS/Defrag servers, but I recommend to approach these servers as a platform for learning and training movement. Some maps are designed for people that have perfectionized the above mentioned movement techniques, so don't let the maps discourage you. On half of the maps offered there I for example have a hard time even reaching the first waypoint, let alone finishing it - but it's excellent training as it provides direct feedback (=fail) if you use the technique right.
+These are techniques which are essential for Xonotic race mode / CTS where servers use cpma-like physics. In vanilla mode, the effect is limited but some times it may tip the scales or allow for certain jumps. If you would like to obtain a better understanding of how strafe jumping works, check out [Hero's strafe jumping lesson](/2013/02/a-strafe-jumping-lesson-from-hero/). These techniques can be practiced best on the Xonotic CTS/Defrag servers, but I recommend to approach these servers as a platform for learning and training movement. Some maps are designed for people that have perfectionized the above mentioned movement techniques, so don't let the maps discourage you. On half of the maps offered there I for example have a hard time even reaching the first waypoint, let alone finishing it - but it's excellent training as it provides direct feedback (=fail) if you use the technique right.
 
 
 
@@ -108,7 +108,7 @@ Let’s now have a look at two important aspects of a very useful movement tool 
 
 But you’ll not always want to do very high jumps, for example if you’re on the run and need to hit a passageway without bumping your head on an arch above it (like the mega armor on Stormkeep coming from Hagar). In such cases, it can be useful to fire downwards while you are already (or still) in the air during bunny hopping, allowing the blaster projectile to travel a short distance before impact and having more space between impact and yourself, so the push is not that strong.
 
-You’ll have to experiment a bit with the timing of shooting and jumping to reliably achieve the desired jump heighth, but this will become muscle memory rather quickly since you’ll be using blaster jumps a lot in Xonotic gameplay.
+You’ll have to experiment a bit with the timing of shooting and jumping to reliably achieve the desired jump height, but this will become muscle memory rather quickly since you’ll be using blaster jumps a lot in Xonotic gameplay.
 
 Wall Blastering
 -------------
@@ -164,7 +164,7 @@ You will find ramps on a lot of maps, if you look for them. Now that I’ve show
     [![Double Ramp on Xoylent](/m/uploads/2014/04/xoylent-ramp-2-thumb.png)](/m/uploads/2014/04/xoylent-ramp-2.png)  
     *click to view full size*
 
--   One of the most tricky ramp jumps I’m going to show you here is the one from devastator to mega health. Unless you do a [circle jump](http://www.xonotic.org/2013/02/a-strafe-jumping-lesson-from-hero), this one is not possible to my knowledge to do with walking speed, so you’ll have to do a bunny hop onto the ramp. I always start between the devastator’s spawn point and the wall behind it, start a bunny hop and usually hit the ramp at the right time then. You’ll have to experiment a bit and find the good starting point for you, then you can reproduce that jump and start to get a feeling how you can do it in-game on the fly, without stopping at your favorite starting point. When turning around after the ramp jump you can switch from the forward key to the appropriate strafe key in order to lose less speed, but it’s not required to perform that jump.  
+-   One of the most tricky ramp jumps I’m going to show you here is the one from devastator to mega health. Unless you do a [circle jump](/2013/02/a-strafe-jumping-lesson-from-hero/), this one is not possible to my knowledge to do with walking speed, so you’ll have to do a bunny hop onto the ramp. I always start between the devastator’s spawn point and the wall behind it, start a bunny hop and usually hit the ramp at the right time then. You’ll have to experiment a bit and find the good starting point for you, then you can reproduce that jump and start to get a feeling how you can do it in-game on the fly, without stopping at your favorite starting point. When turning around after the ramp jump you can switch from the forward key to the appropriate strafe key in order to lose less speed, but it’s not required to perform that jump.  
     [![Ramp to Mega Health on Xoylent](/m/uploads/2014/04/xoylent-ramp-3-thumb.png)](/m/uploads/2014/04/xoylent-ramp-3.png)  
     *click to view full size*
 
@@ -529,7 +529,7 @@ If you have already set up weapon binds following the instructions [above](#keyb
 
     r_drawviewmodel 0
 
-Now you’ll only know what weapon you hold by remembering the bind you pressed last and by the color of the crosshair. But if you managed to get the weapon binds into your cerebellum, this is manageable - decide for yourself if you’re ready for this. I started using this setting when publishing the [Newbie Corner \#6](http://www.xonotic.org/2013/09/halogenes-newbie-corner-part-6-optimizing-perception), and feel very comfortable with it for already quite a while.
+Now you’ll only know what weapon you hold by remembering the bind you pressed last and by the color of the crosshair. But if you managed to get the weapon binds into your cerebellum, this is manageable - decide for yourself if you’re ready for this. I started using this setting when publishing the [Newbie Corner \#6](/2013/09/halogenes-newbie-corner-part-6-optimizing-perception/), and feel very comfortable with it for already quite a while.
 
 When using the zoom to improve sight in a fast paced game like Xonotic, you won’t want the view to be impaired by some mask around the crosshair that generates the impression you look through some binoculars or something:
 
