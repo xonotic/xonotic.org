@@ -1,0 +1,16 @@
+OutputLogFile: "htmltest.log"
+OutputDir: ".htmltest"
+DirectoryPath: "public"
+
+
+#Affects almost every page
+IgnoreAltMissing: true
+
+#Will still issue warnings, but these are unfixable
+IgnoreExternalBrokenLinks: true
+
+#Ignore sites producing spurious 404s
+IgnoreURLs:
+- "spreadsheets.google.com"
+- "bugs.debian.org"
+- "dl.dropbox.com"

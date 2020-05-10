@@ -1,0 +1,42 @@
+build-site:
+  image: tmaier/docker-compose:18.09
+  services:
+    - docker:dind
+  stage: build
+  before_script:
+    - |
+      if [ "$CI_COMMIT_REF_NAME" == "master" ]; then
+        HUGO_ENV="development"
+      else
+        HUGO_ENV="production"
+      fi
+  script:
+    - docker-compose run hugo hugo --verbose --environment $HUGO_ENV
+  artifacts:
+    paths:
+      - public
+
+test:
+  stage: test
+  image: wjdp/htmltest
+  script:
+    - echo "testing"
+    - ls -la
+    - ls public
+    - htmltest
+  artifacts:
+    paths:
+      - .htmltest/htmltest.log
+    when: always
+  allow_failure: true
+
+pages:
+  image: alpine:latest
+  stage: deploy
+  script:
+  - echo "Using artifact from build stage..."
+  artifacts:
+    paths:
+    - public
+  only:
+  - staging

@@ -1,5 +1,9 @@
 # Uploaded media files
 static/uploads/
 
-# The destination/output directory
+# The destination/output directories
 public/
+resources/
+
+#The htmltest output
+.htmltest
