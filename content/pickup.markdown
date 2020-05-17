@@ -5,6 +5,8 @@ date: 2016-12-11 08:30:00+00:00
 slug: pickup
 title: Pickup
 type: page
+markup: html
+
 ---
 
 <div class="row">

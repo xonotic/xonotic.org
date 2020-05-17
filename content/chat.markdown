@@ -5,6 +5,7 @@ date: 2016-12-10 07:30:00+00:00
 slug: chat
 title: Chat
 type: page
+markup: html
 ---
 
 <div class="small-12 large-4 columns">

@@ -1,5 +1,5 @@
 # forked from publysher/hugo
-FROM debian:wheezy
+FROM debian:buster
 MAINTAINER z@xnz.me
 
 # Install pygments (for syntax highlighting)
@@ -8,10 +8,11 @@ RUN apt-get -qq update \
     && rm -rf /var/lib/apt/lists/*
 
 # Download and install hugo
-ENV HUGO_VERSION 0.16
-ENV HUGO_BINARY hugo_${HUGO_VERSION}-1_amd64.deb
+ENV HUGO_VERSION 0.70.0
+ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
 
-ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
+#ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
+ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
 RUN dpkg -i /tmp/hugo.deb \
     && rm /tmp/hugo.deb
 

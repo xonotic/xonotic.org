@@ -23,6 +23,11 @@
     <link rel="manifest" href="/manifest.json?v=BGGj7qk0Kl">
     <link rel="shortcut icon" href="/favicon.ico?v=BGGj7qk0Kl">
 
+{{ if eq (hugo.Environment) "production" }}
+    <link rel="canonical" href="https://xonotic.org">
+    <meta name="robots" content="noindex, nofollow, noimageindex">
+{{ end }}
+
     <!-- YouTube gaming page info -->
     <script type="application/ld+json">
     {

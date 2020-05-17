@@ -12,7 +12,7 @@ To excel at Overkill there are two things to practice: aim and speed. If you're 
 <!-- not using hugo's ToC since it's too fine grained -->
 * [Movement](#movement)
     * [Bunny Hopping](#bunny-hopping)
-    * [Laser / Blaster](#laser-blaster)
+    * [Laser / Blaster](#laser--blaster)
     * [Dodging](#dodging)
     * [Nade Jumping](#nade-jumping)
 * [Weapons](#weapons)
