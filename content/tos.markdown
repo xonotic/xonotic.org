@@ -7,18 +7,18 @@ title: Terms of Service
 type: page
 ---
 
-*Last Updated June 16, 2018*
+*Last Updated November 17, 2021*
 
 Please read these Terms of Service carefully before using Xonotic's [forums][forums] or [player
 statistics][player statistics] services operated by Team Xonotic. 
 
-### Definitions
+## Definitions
 
 * **Service** - the XonStat player statistics system and the Xonotic forums provided by Team Xonotic
 * **You** - the user of the service
 * **We** - the past and present contributors to Xonotic
 
-### Terms
+## Terms
 
 By accessing the services at https://stats.xonotic.org and https://forums.xonotic.org, you 
 are agreeing to be bound by these terms
@@ -42,18 +42,49 @@ We reserve the right to:
 * Discontinue, interrupt, or change the service without any advance notice or consent. 
 * Release full or partial versions of the underlying dataset, provided it has been anonymized.
 
-### Privacy Policy
+## Privacy Policy
 
 Your privacy is important to us. It is Team Xonotic's policy to respect your privacy regarding any
 information we collect from you across our web properties https://stats.xonotic.org and
-https://forums.xonotic.org, along with any other sites we own and operate.
+https://forums.xonotic.org, along with any other sites we own and operate. We comply with 
+[general data protection regulations][gdpr] (GDPR) and other relevant laws to the best of our ability.
 
-We only collect information when we truly need it to provide a service to you and the community at
+Usage of our player statistics system and other web properties constitutes acceptance of the
+policies outlined in this document. If you have any questions about how we handle user data and 
+personal information, feel free to contact us.
+
+### Who is responsible for processing your data?
+
+The members of Team Xonotic are the data controllers for Xonotic. The primary point of contact for
+reaching these team members is the email address `admin` at `xonotic.org`. 
+
+Team Xonotic runs services which may collect and process data related to our users.
+We only collect data when we truly need it to provide a service to you and the community at
 large. We collect it by fair and lawful means, with your knowledge and consent via configurable, 
 in-game options (cl_allow_uidtracking and cl_allow_uid2name for XonStat) or via signup forms 
-(for the forums). We also let you know why we’re collecting it and how it will be used. You are 
+(for the forums). You are 
 free to refuse our request for your personal information by not opting in to either of these
 services.
+
+### What data is collected, and why?
+
+1. When you connect to a web property on xonotic.org, data is temporarily collected by the web servers to
+   service your requests. Your IP address is included in this data set, and is used to
+   maintain your connection to the site. It is also used to identify potential cybersecurity
+   attacks on our infrastructure. Data of this nature is not retained permanently. It instead is
+   rotated out on a weekly basis.
+2. Our forum software requires you to disclose personal information before you can obtain an
+   account. This information includes a username and email address, and is used to communicate
+   with you through the forum's messaging and notification systems. Session cookies are also used
+   to persist your session (your authentication) across different visits from your browser and even across different
+   pages.
+3. If you provide consent to statistics tracking via the cvars mentioned above and also play on a
+   server that has opted into sending their match data to the system, your data will be included in
+   game submissions from that server when you play. This includes information about your client and your
+   performance in the game itself: frags, deaths, flag captures, weapon accuracy, and the like. This data
+   is retained indefinitely for purposes of recording historical match information for later review
+   by members of the player base. Although this information is not personal in nature, we do
+   support anonymization of client data upon request. 
 
 We retain the collected information for as long as necessary to provide you and the community at
 large with the requested service. We will protect that data with all means at our disposal to avoid 
@@ -61,14 +92,43 @@ unauthorised access, disclosure, copying, use or modification. In such cases whe
 released to the public, we will ensure that they are anonymized such that client-identifiable key 
 information is no longer present.
 
+### Who has access to your data?
+
+Your data is stored on computers secured by a professional hosting provider in the European Union.
+Team Xonotic members can access this data according to their roles in the community. For example,
+forum administrators can see metadata behind all forum posts and system administrators are able to
+see raw web server logs. We restrict team member access to those necessary for them to effectively perform
+their roles.
+
 We don’t share any personally identifying information publicly or with third-parties, except when
 required to by law.
 
-Usage of our player statistics system and other web properties constitutes acceptance of the
-policies outlined in this document. If you have any questions about how we handle user data and 
-personal information, feel free to contact us.
+### What rights do I have over data collected?
 
-This policy is effective as of 16 June 2018.
+1. Right of access
 
+You can ask us for confirmation if your personal data is or is not being processed. We can assist
+you retrieving this data upon request. This will likely involve utilization of web APIs.
+
+2. Right to rectification
+
+You can ask us to fix data we have collected about you if you believe it to be inaccurate,
+incomplete, or not needed. 
+
+3. Right to withdraw consent
+
+At any time you may withdraw your consent to data collection for one or more of our services. We
+will stop processing your data as soon as the request is received.
+
+4. Right to erasure or anonymization
+
+You can ask us to erase the data collected about you. The team reserves the right to implement 
+complete and irreversible anonymization instead of erasure in order to maintain the integrity of
+some services.
+
+
+This policy is effective as of 17 November 2021.
+
+[gdpr]: https://www.gdpreu.org/
 [forums]: https://forums.xonotic.org
 [player statistics]: https://stats.xonotic.org
