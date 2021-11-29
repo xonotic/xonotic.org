@@ -47,24 +47,22 @@ We reserve the right to:
 Your privacy is important to us. It is Team Xonotic's policy to respect your privacy regarding any
 information we collect from you across our web properties https://stats.xonotic.org and
 https://forums.xonotic.org, along with any other sites we own and operate. We comply with 
-[general data protection regulations][gdpr] (GDPR) and other relevant laws to the best of our ability.
+[the general data protection regulation][gdpr] (GDPR) and other relevant laws to the best of our ability.
 
-Usage of our player statistics system and other web properties constitutes acceptance of the
-policies outlined in this document. If you have any questions about how we handle user data and 
-personal information, feel free to contact us.
+This document describes how we process data that can be considered personal data when you make use of our
+player statistics system and other web properties. If you have any questions about how we handle user
+data and personal information, feel free to contact us.
 
 ### Who is responsible for processing your data?
 
-The members of Team Xonotic are the data controllers for Xonotic. The primary point of contact for
-reaching these team members is the email address `admin` at `xonotic.org`. 
+Controller in terms of the GDPR is Team Xonotic. The primary point of contact for reaching this team is
+the email address `admin` at `xonotic.org`. 
 
-Team Xonotic runs services which may collect and process data related to our users.
-We only collect data when we truly need it to provide a service to you and the community at
-large. We collect it by fair and lawful means, with your knowledge and consent via configurable, 
-in-game options (cl_allow_uidtracking and cl_allow_uid2name for XonStat) or via signup forms 
-(for the forums). You are 
-free to refuse our request for your personal information by not opting in to either of these
-services.
+Team Xonotic runs services which may collect and process data related to our users. We only collect data
+when we truly need it to provide a service to you and the community at large. Team Xonotic does not use
+personal data for commercial purposes. We collect it by fair and lawful means, with your knowledge and,
+where required, with your consent via configurable, in-game options.
+
 
 ### What data is collected, and why?
 
@@ -78,8 +76,20 @@ services.
    with you through the forum's messaging and notification systems. Session cookies are also used
    to persist your session (your authentication) across different visits from your browser and even across different
    pages.
-3. If you provide consent to statistics tracking via the cvars mentioned above and also play on a
-   server that has opted into sending their match data to the system, your data will be included in
+3. Xonotic offers player's statistics to be tracked and displayed on stats.xonotic.org ("Xonstat"). 
+   When playing on a server that sends statistical data to Xonstat, your playing activities
+   (win/loss, frags, deaths, flag captures, weapon accuracy, damage dealt and the like) are being
+   sent to Xonstat. By default, this information is sent anonymously and without reference to your
+   user ID or the nick you have chosen. Your participation in a match recorded to Xonstat will then 
+   show your nick as "Anonymous Player" without a statistics profile behind it. Should you choose to
+   activate player statistics via the menu (the cvar governing this is "cl_allow_uidtracking"), you
+   consent to your user ID being sent by the server you play on to Xonstat, where your playing activity
+   will be recorded under the profile "Anonymous Player" followed by your user ID. If you activate
+   "show your name" (check whether this is actually the right term) (the cvar governing this is
+   "cl_allow_uid2name"), the nick you have chosen at the time of the end of the match will be included
+   in the match's statistic. (To be continued)
+   
+   ...your data will be included in
    game submissions from that server when you play. This includes information about your client and your
    performance in the game itself: frags, deaths, flag captures, weapon accuracy, and the like. This data
    is retained indefinitely for purposes of recording historical match information for later review
