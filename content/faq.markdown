@@ -111,7 +111,7 @@ On Windows: Click Start->Run, and enter drwtsn32, click Ok in the next window, r
 
 ## Where can I get more help?
 
-Visit the official Xonotic [forum](http://forums.xonotic.org/), there is a support and bug report area, or [ask in chat](/chat).
+Visit the official Xonotic [forum](http://forums.xonotic.org/), there is a support and bug report area, or [ask in chat](http://xonotic.org/chat).
 
 # General questions
 
