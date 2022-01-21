@@ -7,38 +7,43 @@ title: Chat
 type: page
 ---
 
-The main official chat rooms are linked below.  There are [many others](https://gitlab.com/xonotic/xonotic/-/wikis/Channels), some with specific topics.
+The main official chat rooms are linked below.  There are [many others](https://gitlab.com/xonotic/xonotic/-/wikis/Chat-Rooms), some with specific topics.
 
-Please consider [these tips](https://github.com/fizerkhan/irc-etiquette#readme) when asking a question.  [This one](https://github.com/fizerkhan/irc-etiquette#give-others-a-chance-to-answer) is especially important. Many people are logged in all the time but only check messages every few hours, and only respond to questions they can help with.  
+Please consider [these tips](https://github.com/fizerkhan/irc-etiquette#readme) when asking a question.  [This one](https://github.com/fizerkhan/irc-etiquette#give-others-a-chance-to-answer) is especially important.  
+Most people only check messages every few hours, and only respond to questions they can help with.  
 Most questions will be answered if you are patient, polite, clear, and don't break [rules](/rules).
 
 <div class="small-12 large-6 columns">
 
-#### [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat): [#xonotic](https://webchat.quakenet.org/?channels=xonotic) on [irc.quakenet.org](irc://irc.quakenet.org/xonotic)
+#### [Matrix](https://matrix.org/docs/guides/introduction)
+Matrix Space (group of rooms): [#official:xonotic.org](https://matrix.to/#/#official:xonotic.org)  
+Main room: [#main:xonotic.org](https://matrix.to/#/#main:xonotic.org)
 
-Account registration is optional.
+You remain in the chat room while your device is powered off and you can read the messages later.  
+Messages are synced between multiple clients.
 
-You can only see what is said while your client is open and your device is on.  
-Nobody can reply to you if you close it.
+Account registration is required.
 
-[QuakeNet Web chat](https://webchat.quakenet.org/?channels=xonotic) is available but installing a [PC](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) or [mobile](https://en.wikipedia.org/wiki/Comparison_of_mobile_Internet_Relay_Chat_clients) client is recommended.
+There are [many clients](https://matrix.org/clients) including [Element web chat](https://matrix.to/#/#main:xonotic.org).
 
-Hosted by [QuakeNet](https://quakenet.org)
+Anyone can host a federated Matrix homeserver.  
+Lists of public homeservers are maintained at  
+[hello-matrix.net](https://www.hello-matrix.net/public_servers.php) and [joinmatrix.org](https://joinmatrix.org/servers/)
 
 </div>
 <div class="small-12 large-6 columns">
 
-#### [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)): [#main:xonotic.org](https://matrix.to/#/#main:xonotic.org)
+#### [Internet Relay Chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
+Network: [irc.quakenet.org](irc://irc.quakenet.org/xonotic)  
+Main channel: [#xonotic](https://webchat.quakenet.org/?channels=xonotic)
 
-Account registration is required.
+To receive messages you must keep your client open and your device powered on.
 
-You stay in the chat room after closing your client and powering off your device.  
-You can read the messages later by logging in with any client or device.
+Account registration is optional.
 
-[Element web chat](https://matrix.to/#/#main:xonotic.org) and [many other clients](https://matrix.org/clients) are available.
+[Web chat](https://webchat.quakenet.org/?channels=xonotic) is available but installing a [client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) is strongly recommended.
 
-Anyone can host a federated Matrix homeserver.  
-A [list of public homeservers](https://www.hello-matrix.net/public_servers.php) is maintained.
+Hosted by [QuakeNet](https://quakenet.org)
 
 </div>
 
