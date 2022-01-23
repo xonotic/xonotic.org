@@ -81,20 +81,27 @@ where required, with your consent via configurable, in-game options.
    (win/loss, frags, deaths, flag captures, weapon accuracy, damage dealt and the like) are being
    sent to Xonstat. By default, this information is sent anonymously and without reference to your
    user ID or the nick you have chosen. Your participation in a match recorded to Xonstat will then 
-   show your nick as "Anonymous Player" without a statistics profile behind it. Should you choose to
+   show your nick as "Anonymous Player" without a statistics profile behind it, and only participants of the game
+   might be able to associate your statistical values to your nick by remembrance. Should you choose to
    activate player statistics via the menu (the cvar governing this is "cl_allow_uidtracking"), you
    consent to your user ID being sent by the server you play on to Xonstat, where your playing activity
    will be recorded under the profile "Anonymous Player" followed by your user ID. If you activate
    "show your name" (check whether this is actually the right term) (the cvar governing this is
    "cl_allow_uid2name"), the nick you have chosen at the time of the end of the match will be included
-   in the match's statistic. (To be continued)
-   
-   ...your data will be included in
-   game submissions from that server when you play. This includes information about your client and your
-   performance in the game itself: frags, deaths, flag captures, weapon accuracy, and the like. This data
-   is retained indefinitely for purposes of recording historical match information for later review
-   by members of the player base. Although this information is not personal in nature, we do
-   support anonymization of client data upon request. 
+   in the match's statistic.
+
+   As far as playing activities without reference to the user ID or the nick may be considered personal data,
+   they are processed on the basis of Art. 6 para 1 lit. f GDPR, whereas our legitimate interests are to be able
+   to offer insights to players into their performance as part of the gaming experience.
+   Where the user chooses to activate player statistics or to even show the name, processing of the user ID and,
+   if applicable, the nick name is based upon the players consent granted by expressly activating this function
+   (Art. 6 para 1 lit. a GDPR). Players can revoke their consent any time effecting future games by just unchecking
+   the relevant checkboxes. We also support retrospective anonymization of client data upon request, which is to be
+   directed at team (at) xonotic.org.  
+
+   Statistical data including, where the user has chosen to submit this, user ID and nick name will be retained
+   indefinitively for the purpose of recording historical match information for later review by members of the
+   player base. 
 
 We retain the collected information for as long as necessary to provide you and the community at
 large with the requested service. We will protect that data with all means at our disposal to avoid 
@@ -127,8 +134,9 @@ incomplete, or not needed.
 
 3. Right to withdraw consent
 
-At any time you may withdraw your consent to data collection for one or more of our services. We
-will stop processing your data as soon as the request is received.
+Where processing of your personal data is based upon your consent, you may at any time withdraw such
+consent. We will then stop processing your data for the purposes covered by your consent as soon as
+the request is received.
 
 4. Right to erasure or anonymization
 
