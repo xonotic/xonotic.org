@@ -153,24 +153,24 @@ An searchable list is available [here](http://www.xonotic.org/tools/cacs/), or y
 
 Colors can be used in nicknames and chat messages via two ways: Either the simple way by typing ^ followed by a number between 0 and 9 or by typing ^x followed by three hexadecimal numbers (0-F) representing red, green and blue components of the color before the text. The second way allows for much more colors. For example if you type ^xF00message the text "message" will be displayed in red color. Simple examples:
 
-code   | rgb code  | color
--------|-----------|--------
-^0     | ^x000     | black
-^1     | ^xF00     | red
-^2     | ^x0F0     | green
-^3     | ^xFF0     | yellow
-^4     | ^x00F     | blue
-^5     | ^x0FF     | cyan
-^6     | ^xF0F     | magenta
-^7     | ^xFFF     | white
-^8     |           | half-transparent black
-^9     | ^x888     | grey
-       | ^x800     | dark red
-       | ^x080     | dark green
-       | ^x880     | dark yellow
-       | ^x008     | dark blue
-       | ^x088     | dark cyan
-       | ^x808     | dark magenta
+| code   | rgb code  | color
+|--------|-----------|--------
+| ^0     | ^x000     | black
+| ^1     | ^xF00     | red
+| ^2     | ^x0F0     | green
+| ^3     | ^xFF0     | yellow
+| ^4     | ^x00F     | blue
+| ^5     | ^x0FF     | cyan
+| ^6     | ^xF0F     | magenta
+| ^7     | ^xFFF     | white
+| ^8     |           | half-transparent black
+| ^9     | ^x888     | grey
+|        | ^x800     | dark red
+|        | ^x080     | dark green
+|        | ^x880     | dark yellow
+|        | ^x008     | dark blue
+|        | ^x088     | dark cyan
+|        | ^x808     | dark magenta
 
 ## How do I watch/record demos?
 
