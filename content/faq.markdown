@@ -91,9 +91,9 @@ Try run xonotic-wgl.exe instead of xonotic.exe (on Windows). Adding the command 
 
 ## Mouse is too slow and sensitivity is at top (on Mac / Linux)
 
-Mac: The default mouse acceleration on Mac is very high and strange. The Xonotic defaults work fine with it but some mouse drivers seem to 'correct' the mouse acceleration and conflict with the Xonotic defaults. Try to **disable the option Turn off OS mouse acceleration** in the Settings->Input menu. Or the same via console: `apple_mouse_noaccel 0; vid_restart` ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}}))
+Mac: The default mouse acceleration on Mac is very high and strange. The Xonotic defaults work fine with it but some mouse drivers seem to 'correct' the mouse acceleration and conflict with the Xonotic defaults. Try to **disable the option Disable system mouse acceleration** in the Settings->Input menu. Or the same via console: `apple_mouse_noaccel 0; vid_restart` ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}}))
 
-Linux: A similar problem can arise on Linux. It's also Turn off OS mouse acceleration in the Settings->Input menu but the console command is different (and only available in the glx executable): `vid_dga 0; vid_restart` ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}}))
+Linux: A similar problem can arise on Linux. It's also Disable system mouse acceleration in the Settings->Input menu but the console command is different (and only available in the glx executable): `vid_dga 0; vid_restart` ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}}))
 
 ## I can't switch to 32 bit color depth (on Windows)
 
@@ -174,7 +174,7 @@ Colors can be used in nicknames and chat messages via two ways: Either the simpl
 
 ## How do I watch/record demos?
 
-Demos are recordings of matches that you have played. To automatically record a demo each time you play enable the option Record demos while playing in Multiplayer->Media. Or if you just want to record some matches open the console and type `rec <demos/name>` before playing. That is before starting a game or connecting to a server. The demo file will then be stored in [your config folder](#config)/data/demos/\<name\>.dem. If you downloaded a demo, copy it to [\<your config folder\>](#config)/data/demos/\<name\>.dem. You might have to create this directory if you have never recorded a demo before. To watch demos you can choose a demo file in Multiplayer->Media and click the play button. Also you can watch demos typing `ply <demos/name>` in the console ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}})).
+Demos are recordings of matches that you have played. To automatically record a demo each time you play enable the option Auto record demos in Multiplayer->Media->Demos. Or if you just want to record some matches open the console and type `rec demos/<name>` before playing. That is before starting a game or connecting to a server. The demo file will then be stored in [your config folder](#config)/data/demos/\<name\>.dem. If you downloaded a demo, copy it to [\<your config folder\>](#config)/data/demos/. You might have to create this directory if you have never recorded a demo before. To watch demos you can choose a demo file in Multiplayer->Media->Demos and click the Play button. Also you can watch demos typing `ply demos/<name>` in the console ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}})).
 
 # Server setup
 
