@@ -68,7 +68,6 @@ Coordinators are here to guide contributors, provide information both in and out
 
   * [LegendGuard](https://forums.xonotic.org/member.php?action=profile&uid=8789)
   * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
-  * [martin-t](http://forums.xonotic.org/member.php?action=profile&uid=5337)
   * [matthiaskrgr](http://forums.xonotic.org/member.php?action=profile&uid=2969)
   * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
   * [z411](https://forums.xonotic.org/member.php?action=profile&uid=9139)
