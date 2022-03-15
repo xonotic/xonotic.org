@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2010-05-30 15:09:26+00:00
+date: 2022-03-15 10:53:06+00:00
 type: page
 slug: team
 title: Team Xonotic
@@ -19,12 +19,16 @@ The Core team consists of members who discuss and vote on large project changes.
   * [CuBe0wL](http://forums.xonotic.org/member.php?action=profile&uid=15)
   * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
   * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
+  * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
 
 ### Extended Team
 
+  * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
   * [Cloudwalk](http://forums.xonotic.org/member.php?action=profile&uid=8922)
   * [Freddy](http://forums.xonotic.org/member.php?action=profile&uid=5301)
   * [Halogene](http://forums.xonotic.org/member.php?action=profile&uid=53)
+  * [illwieckz](http://forums.xonotic.org/member.php?action=profile&uid=4581)
+  * [LegendGuard](http://forums.xonotic.org/member.php?action=profile&uid=8789)
   * [morosophos](http://forums.xonotic.org/member.php?action=profile&uid=7970)
   * [MrBougo](http://forums.xonotic.org/member.php?action=profile&uid=30)
   * [Nitroxis](http://forums.xonotic.org/member.php?action=profile&uid=1003)
@@ -32,7 +36,7 @@ The Core team consists of members who discuss and vote on large project changes.
   * [packer](http://forums.xonotic.org/member.php?action=profile&uid=373)
   * [SpiKe](http://forums.xonotic.org/member.php?action=profile&uid=3421)
   * [sev](http://forums.xonotic.org/member.php?action=profile&uid=46)
-  * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
+  * [z411](http://forums.xonotic.org/member.php?action=profile&uid=9139)
   * [zykure](http://forums.xonotic.org/member.php?action=profile&uid=3578)
 
 
@@ -55,18 +59,22 @@ Coordinators are here to guide contributors, provide information both in and out
 
   * [kuniuthefrogg](http://forums.xonotic.org/member.php?action=profile&uid=184)
   * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
+  * [SpiKe](http://forums.xonotic.org/member.php?action=profile&uid=3421)
 
 #### Engine Code
 
+  * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
   * [divVerent](http://forums.xonotic.org/member.php?action=profile&uid=4)
   * [Cloudwalk](http://forums.xonotic.org/member.php?action=profile&uid=8922)
 
 #### Game Code
 
+  * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
+  * [LegendGuard](http://forums.xonotic.org/member.php?action=profile&uid=8789)
   * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
-  * [martin-t](http://forums.xonotic.org/member.php?action=profile&uid=5337)
   * [matthiaskrgr](http://forums.xonotic.org/member.php?action=profile&uid=2969)
   * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
+  * [z411](http://forums.xonotic.org/member.php?action=profile&uid=9139)
 
 #### Marketing / PR
 
