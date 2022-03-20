@@ -1,16 +1,15 @@
 ---
 author: admin
 comments: false
-date: 2022-03-15 10:53:06+00:00
+date: 2022-03-20 17:45:00+10:00
 type: page
 slug: team
 title: Team Xonotic
-wordpress_id: 97
 ---
 
-## Core Team
+This international group of leaders collaboratively oversees development, makes project management and community decisions by voting, and provides infrastructure. You can find most of them [on Matrix](/chat).
 
-The Core team consists of members who discuss and vote on large project changes. This international group of leaders is a classic group of collaborators who above all else, will try and do what's best for the game and community. You can find most of them in [#dev:xonotic.org](https://matrix.to/#/#dev:xonotic.org) on Matrix.
+### Core Team
 
   * [divVerent](http://forums.xonotic.org/member.php?action=profile&uid=4)
   * [-z-](http://forums.xonotic.org/member.php?action=profile&uid=1)
