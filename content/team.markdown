@@ -11,13 +11,13 @@ This international group of leaders collaboratively oversees development, makes 
 
 ### Core Team
 
-  * [divVerent](http://forums.xonotic.org/member.php?action=profile&uid=4)
   * [-z-](http://forums.xonotic.org/member.php?action=profile&uid=1)
-  * [Merlijn Hofstra](http://forums.xonotic.org/member.php?action=profile&uid=34)
   * [Antibody](http://forums.xonotic.org/member.php?action=profile&uid=530)
   * [CuBe0wL](http://forums.xonotic.org/member.php?action=profile&uid=15)
-  * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
+  * [divVerent](http://forums.xonotic.org/member.php?action=profile&uid=4)
   * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
+  * [Merlijn Hofstra](http://forums.xonotic.org/member.php?action=profile&uid=34)
+  * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
   * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
 
 ### Extended Team
@@ -33,8 +33,8 @@ This international group of leaders collaboratively oversees development, makes 
   * [Nitroxis](http://forums.xonotic.org/member.php?action=profile&uid=1003)
   * [nyov](http://forums.xonotic.org/member.php?action=profile&uid=842)
   * [packer](http://forums.xonotic.org/member.php?action=profile&uid=373)
-  * [SpiKe](http://forums.xonotic.org/member.php?action=profile&uid=3421)
   * [sev](http://forums.xonotic.org/member.php?action=profile&uid=46)
+  * [SpiKe](http://forums.xonotic.org/member.php?action=profile&uid=3421)
   * [z411](http://forums.xonotic.org/member.php?action=profile&uid=9139)
   * [zykure](http://forums.xonotic.org/member.php?action=profile&uid=3578)
 
