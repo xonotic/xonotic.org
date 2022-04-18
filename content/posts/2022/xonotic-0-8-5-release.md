@@ -55,6 +55,7 @@ kaboom
 gg
 
 ##### Campaign updates (menu, maps)
+- Bromine and Opium now replace the Oilrig and Drain levels.
 
 ##### Strafe hud
 
@@ -72,8 +73,9 @@ gg
 ##### Duel gametype
 
 ##### Maps
-- new official maps (bromine, go, opium, ???)
-- patches to existing official maps
+- New official maps: [Bromine](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/129) by *packer* and [Opium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/135) by *cityy* !
+- [Drain](https://xonotic.org/teamvotes/371/) and [Oilrig](https://xonotic.org/teamvotes/384/) are now hidden and will be removed in a future release
+- Various fixes and/or visual updates to some maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Finalrage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged)
 
 ##### afk/idle auto move to spec
 
