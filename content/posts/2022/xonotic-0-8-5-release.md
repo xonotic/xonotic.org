@@ -78,8 +78,11 @@ gg
 - Various fixes and/or visual updates to some maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Finalrage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged)
 
 ##### afk/idle auto move to spec
+- Optionally autokick players who intentionally teamkill - should this be added here?
 
 ##### ToS
+- At first start, a "Terms of Service" dialogue will explain transparently what data is required or optional.
+- Server admins can (and should) specify server specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the serverlist).
 
 ##### warmup & resetmatch
 
@@ -87,6 +90,11 @@ gg
 - More appropriate selections of equivalent weapons, ammo, powerups.
 - Layouts and item placements that vary between different mods and modes are (almost fully) supported.
 - Various map entities including damage sources, weapon and ammo sources, doors and sounds now behave as they do in Q3.
+
+##### Improved map entity functionality
+- Several fixes and code cleanup for existing functionality
+- Several map entities can now be (de)activated by relays: [Merge Request](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/542)
+- Updated entity description for NetRadiant: [Merge Request](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/116)
 
 ##### rulesets
 
