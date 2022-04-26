@@ -48,8 +48,11 @@ kaboom
 ##### New weapon models
 - Crylink
   - such screenshot
+  <!-- <a href="/m/uploads/2022/02/crylink.jpg"><img src="/m/uploads/2022/02/crylink.jpg" title="Crylink by Morphed" class="right th m10" width=210 /></a> -->
+
 - Electro
   - wery purdy
+  <!-- <a href="/m/uploads/2022/02/crylink.jpg"><img src="/m/uploads/2022/02/electro.jpg" title="Electro by Morphed" class="right th m10" width=210 /></a> -->
 
 ##### Freezetag gameplay updates
 gg
