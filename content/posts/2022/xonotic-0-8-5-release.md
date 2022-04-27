@@ -46,13 +46,19 @@ also a thing
 kaboom
 
 ##### New weapon models
+
+The arduous effort on the valuable contributions of <a href="http://forums.xonotic.org/member.php?action=profile&amp;uid=8">Morphed</a> did an amazing work making Crylink and Electro models. We were shocked to see his modeling progress.
 - Crylink
-  - such screenshot
-  <!-- <a href="/m/uploads/2022/02/crylink.jpg"><img src="/m/uploads/2022/02/crylink.jpg" title="Crylink by Morphed" class="right th m10" width=210 /></a> -->
+  - Prototype
+  <br/><a href="/m/uploads/2022/01/crylinkprototype.jpg"><img src="/m/uploads/2022/01/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="left th m10" /></a><br/>
+  - Final result
+  <br/><a href="/m/uploads/2022/01/crylinkfinalresult.jpg"><img src="/m/uploads/2022/01/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="right th m10" /></a><br/>
 
 - Electro
-  - wery purdy
-  <!-- <a href="/m/uploads/2022/02/crylink.jpg"><img src="/m/uploads/2022/02/electro.jpg" title="Electro by Morphed" class="right th m10" width=210 /></a> -->
+  - Prototype
+  <br/><a href="/m/uploads/2022/01/electroprototype.jpeg"><img src="/m/uploads/2022/01/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="left th m10" /></a><br/>
+  - Final result
+  <br/><a href="/m/uploads/2022/01/electrofinalresult.jpg"><img src="/m/uploads/2022/01/electrofinalresult_t.jpg" title="Electro by Morphed" class="right th m10" /></a><br/>
 
 ##### Freezetag gameplay updates
 gg
