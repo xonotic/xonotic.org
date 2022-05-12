@@ -11,7 +11,8 @@ type: page
 <i class="fas fa-download"></i> &nbsp;**HTTPS mirror links**  
 &emsp;&emsp;&emsp;[dl.xonotic.org (DE)](https://dl.xonotic.org/xonotic-0.8.5.zip)  
 &emsp;&emsp;&emsp;[rm.cloudns.org (DE)](https://www.rm.cloudns.org/~xonotic/xonotic-0.8.5.zip)  
-&emsp;&emsp;&emsp;[z.xnz.me (US)](https://z.xnz.me/xonotic/builds/xonotic-0.8.5.zip)  
+&emsp;&emsp;&emsp;~~[z.xnz.me (US)](https://z.xnz.me/xonotic/builds/xonotic-0.8.5.zip)~~  
+&emsp;&emsp;&emsp;[xonotic.au (AU)](https://xonotic.au/downloads/xonotic-0.8.5.zip)  
 <i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent)
 
 <span style="font-size: 90%">Size: 1337MB  

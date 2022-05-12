@@ -46,19 +46,12 @@ also a thing
 kaboom
 
 ##### New weapon models
+The arduous effort on the valuable contributions of [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) did an amazing work making Crylink and Electro models. We were shocked to see his modeling progress.
 
-The arduous effort on the valuable contributions of <a href="http://forums.xonotic.org/member.php?action=profile&amp;uid=8">Morphed</a> did an amazing work making Crylink and Electro models. We were shocked to see his modeling progress.
-- Crylink
-  - Prototype
-  <br/><a href="/m/uploads/2022/01/crylinkprototype.jpg"><img src="/m/uploads/2022/01/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="left th m10" /></a><br/>
-  - Final result
-  <br/><a href="/m/uploads/2022/01/crylinkfinalresult.jpg"><img src="/m/uploads/2022/01/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="right th m10" /></a><br/>
-
-- Electro
-  - Prototype
-  <br/><a href="/m/uploads/2022/01/electroprototype.jpeg"><img src="/m/uploads/2022/01/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="left th m10" /></a><br/>
-  - Final result
-  <br/><a href="/m/uploads/2022/01/electrofinalresult.jpg"><img src="/m/uploads/2022/01/electrofinalresult_t.jpg" title="Electro by Morphed" class="right th m10" /></a><br/>
+| <h5>Crylink</h5> | <h5>Electro</h5> | |
+| :-: | :-: | :- |
+| <a href="/m/uploads/2022/01/crylinkprototype.jpg"><img src="/m/uploads/2022/01/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electroprototype.jpeg"><img src="/m/uploads/2022/01/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
+| <a href="/m/uploads/2022/01/crylinkfinalresult.jpg"><img src="/m/uploads/2022/01/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electrofinalresult.jpg"><img src="/m/uploads/2022/01/electrofinalresult_t.jpg" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
 ##### Freezetag gameplay updates
 gg
@@ -68,11 +61,15 @@ gg
 
 ##### Strafe hud
 
-##### menu updates, especially MOTD and ESC menu
+##### Menu updates
+- A small menu for quick access to the most commonly used options is now opened by the ESC key.
+- A new Welcome dialog replaces the old MOTD centreprint, bringing better looks, better accessibility for new players, and support for scrolling.
+- Settings menu (Video, Effects, Misc tabs) has been refined and has better support for upcoming DarkPlaces engine versions.
+- Server list now has the option to filter out very high ping servers.
 
 ##### More of the UI is translatable
 
-##### Centreprint updates
+##### HUD and Centreprint updates
 
 ##### Balance
 - vortex push force
@@ -128,3 +125,8 @@ gg
 
 ##### NetRadiant
 a whole bunch of MRs (mostly by illwieckz) were merged for netradiant
+
+### Breaking Changes
+- Several official maps have been significantly updated and old clients will have issues playing these maps on current servers.
+- Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy skins" are now the default skins.  If you were setting these cvars to `1`, you should now set them to `0` (the default) to continue using the glowy skins.
+
