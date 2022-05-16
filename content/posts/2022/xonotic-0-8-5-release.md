@@ -69,7 +69,13 @@ gg
 
 ##### More of the UI is translatable
 
-##### HUD and Centreprint updates
+##### HUD and Centerprint updates
+<img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
+<img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
+<img src="/m/uploads/2022/01/hud_centerprint.jpg" title="Centerprint title">
+- Added title to centerprint messages and improved animations
+- Added phase indicator for the timer
+- Added secondary timer for round-based game modes
 
 ##### Balance
 - vortex push force
@@ -94,7 +100,8 @@ gg
 - At first start, a "Terms of Service" dialogue will explain transparently what data is required or optional.
 - Server admins can (and should) specify server specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the serverlist).
 
-##### warmup & resetmatch
+##### Resetmatch
+- New votable command `resetmatch` to restart the game without restarting the whole server, meaning players stay in their teams and clients don't have to reconnect, making the whole process instant.
 
 ##### Q3 map compatibility
 - More appropriate selections of equivalent weapons, ammo, powerups.
