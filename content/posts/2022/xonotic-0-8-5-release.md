@@ -141,3 +141,22 @@ a whole bunch of MRs (mostly by illwieckz) were merged for netradiant
 - Several official maps have been significantly updated and old clients will have issues playing these maps on current servers.
 - Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy skins" are now the default skins.  If you were setting these cvars to `1`, you should now set them to `0` (the default) to continue using the glowy skins.
 
+### XonStat 2.0
+During the pandemic XonStat was written from the ground up, solving many of the pain points of the previous version. A full list is too lengthy for this post, but here are some highlights:
+
+* Code is in Go (statically typed, compiled) instead of Python (duck-typed, interpreted).
+* Standard library (net/http) HTTP server instead of via a WSGI web framework (Pyramid).
+* [API documentation][XonStat API docs] via Swagger, with just about every endpoint having a JSON representation!
+* Shared cache via Redis instead of per-process, in-memory cache via Python's Beaker.
+* Foundation 6 instead of Foundation 4 for the CSS framework.
+* Chart.js (HTML canvas) instead of NVD3.js (embedded SVG) for charting/visualization.
+* [Weng-Lin][Weng-Lin] instead of Elo for skill, with async calculations.
+* Rate limiting (none previously).
+* Tracking of spectators/forfeits (none previously).
+* [Badges][XonStat badges] incorporated into the codebase (previously standalone).
+* [Submission Inspector][XonStat submission inspector] for much easier troubleshooting.
+
+[XonStat API docs]: https://stats.xonotic.org/docs/index.html
+[XonStat badges]: https://forums.xonotic.org/showthread.php?tid=3436&pid=48043#pid48043
+[XonStat submission inspector]: https://gitlab.com/xonotic/xonstat-go#submission-inspector
+[Weng-Lin]: https://jmlr.csail.mit.edu/papers/volume12/weng11a/weng11a.pdf
