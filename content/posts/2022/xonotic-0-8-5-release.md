@@ -32,7 +32,8 @@ https://gohugo.io/content-management/summaries/
 
 ##### Player model skin updates
 - Improved visibility of all player models
-- Balanced primary ('shirt') and secondary ('glow') colors in some models
+- Balanced primary ('shirt') and secondary ('glow') colors in some models (especially in Erebus and derived models)
+- Fix burned glow color reducing number of actual colors from 15 to 9
 - Fixed primary and secondary colors being mixed up in some models
 
 ##### Bot skill and waypoints
@@ -127,6 +128,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Automatically keep bots balanced.
 - Add minplayers_per_team cvar: fill server with bots to reach this number of players per team (if bot_number is not enough).
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
+- Improve quickmenu input system
 
 ##### Freezetag updates
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost after you fire)
@@ -135,6 +137,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Start the automatic reviving progress as soon as the player gets frozen
 - Show autorevival progress of frozen players as waypoint health bar rather than normal health bar, which is barely visible for red players
 - Reduce auto-revival time when frozen players are hit by enemies (time reduction depends on hit force). Optionally this behaviour can be enabled when frozen players are hit by teammates too
+- Fix view jitter while floating on the water when frozen
 
 ##### Misc game mode changes
 - LMS: avoid forcing players to join on connection.
