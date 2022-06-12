@@ -19,7 +19,7 @@ https://gohugo.io/content-management/summaries/
 ### Highlights
 
 ##### Scoreboard item stats
-stuff
+  Item pickup counts are now displayed in a dedicated panel under the scoreboard
 
 ##### New build systems
 - Everything is compiled on a much newer and self-hosted platform.  
@@ -31,13 +31,41 @@ stuff
 - A redesigned Makefile is included that makes it easy to compile a build optimised for your machine.
 
 ##### Player model skin updates
-things
+- Improved visibility of all player models
+- Balanced primary ('shirt') and secondary ('glow') colors in some models
+- Fixed primary and secondary colors being mixed up in some models
 
 ##### Bot skill and waypoints
-foo
+- Fixed underwater navigation
+- Fixed all kinds of issues when bots walk on flooded floors
+- Bots no longer get stuck in bad spots (without linked waypoints) or when other bots of the same team block all their ways
+- Fixed bad behaviour in FT and CA and improved behaviour in many game modes
+- Added ability to jump and crouch thanks to new dedicated waypoints
+- Improved ability of climbing ladders and using jumppads
+- Improved ability of running avoiding dangers and bunny hoping
+- Improved ability of chasing enemies
+- Improved item rating
+- Fixed bad jetpack usage
+- Fixed bots ignoring teleports and warpzones
+- Improved waypoint editor:
+  - Fixed creation of waypoints underwater
+  - New waypoints (jump, crouch, custom jumppad waypoint, support)
+  - Added ability to create waypoints at crosshair
+  - Added ability to create waypoints for jumppads without automatically generated waypoints
+  - Added ability to create support waypoints to replace incoming links of a problematic teleport / jumppad
+  - Made easier to create hardwired links
+  - Automatic symmetrical waypoint creation for ctf (symmetrical) maps
+  - Waypoint files are now versioned and timestamped
+  - Added a wpeditor menu with all the commands (can be bound to a key in the key binder)
+- Improved performance
+- Other minor fixes and improvements
 
 ##### Scrollable chat history
-is a thing
+It's now possible to scroll the chat history with mouse wheel up/down.
+
+##### Player tags fixes and improvements
+- overlapping player tags are now always visible with lower alpha.
+- an empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 
 ##### Underwater oxygen meter
 also a thing
@@ -53,11 +81,10 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 | <a href="/m/uploads/2022/01/crylinkprototype.jpg"><img src="/m/uploads/2022/01/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electroprototype.jpeg"><img src="/m/uploads/2022/01/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
 | <a href="/m/uploads/2022/01/crylinkfinalresult.jpg"><img src="/m/uploads/2022/01/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electrofinalresult.jpg"><img src="/m/uploads/2022/01/electrofinalresult_t.jpg" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
-##### Freezetag gameplay updates
-gg
-
 ##### Campaign updates (menu, maps)
 - Bromine and Opium now replace the Oilrig and Drain levels.
+- Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
+- Add a "Restart level" button in the ESC menu to allow a quick level restart.
 
 ##### Strafe hud
 
@@ -68,6 +95,7 @@ gg
 - Server list now has the option to filter out very high ping servers.
 
 ##### More of the UI is translatable
+- Welcome message and key names are now translatable.
 
 ##### HUD and Centerprint updates
 <img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
@@ -93,8 +121,27 @@ gg
 - Various fixes and/or visual updates to some maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Finalrage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged)
 - [Drain](https://xonotic.org/teamvotes/371/) and [Oilrig](https://xonotic.org/teamvotes/384/) are now hidden and will be removed in a future release
 
-##### afk/idle auto move to spec
+##### Misc changes
+- Automatically move idle players to spectators after some time.
 - Optionally autokick players who intentionally teamkill - should this be added here?
+- Automatically keep bots balanced.
+- Add minplayers_per_team cvar: fill server with bots to reach this number of players per team (if bot_number is not enough).
+- Allow assigning each enemy unique colors in all game modes without teams except duel.
+
+##### Freezetag updates
+- Apply spawnshield for 1 second after you've been revived (spawnshield is lost after you fire)
+- Reduce auto-revival time based on manual revival progress. To compensate for the increased ease of revival, don't award an extra point for revival (just for the time spent reviving)
+- Don't reset autorevive progress when a frozen player falls into the void
+- Start the automatic reviving progress as soon as the player gets frozen
+- Show autorevival progress of frozen players as waypoint health bar rather than normal health bar, which is barely visible for red players
+- Reduce auto-revival time when frozen players are hit by enemies (time reduction depends on hit force). Optionally this behaviour can be enabled when frozen players are hit by teammates too
+
+##### Misc game mode changes
+- LMS: avoid forcing players to join on connection.
+- LMS, CA, FT: minor fixes and improvements.
+
+##### Automatic sendcvar
+- Client automatically sends cvars to the server whenever they are changed, for setting that are handled by the server.
 
 ##### ToS
 - At first start, a "Terms of Service" dialogue will explain transparently what data is required or optional.
