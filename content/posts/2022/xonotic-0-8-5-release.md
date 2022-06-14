@@ -128,7 +128,10 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Automatically keep bots balanced.
 - Add minplayers_per_team cvar: fill server with bots to reach this number of players per team (if bot_number is not enough).
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
-- Improve quickmenu input system
+- Improve quickmenu input system.
+- Waypoints now show icons rather than text.
+- Refactored rain/snow to be much faster and more reliable, especially on larger maps.
+- Allow dropping powerups on death, off by default.
 
 ##### Freezetag updates
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost after you fire)
