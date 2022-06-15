@@ -37,6 +37,7 @@ https://gohugo.io/content-management/summaries/
 - Fixed primary and secondary colors being mixed up in some models
 
 ##### Bot skill and waypoints
+- Set default bot skill to 8 (from 1)
 - Fixed underwater navigation
 - Fixed all kinds of issues when bots walk on flooded floors
 - Bots no longer get stuck in bad spots (without linked waypoints) or when other bots of the same team block all their ways
@@ -132,6 +133,8 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Waypoints now show icons rather than text.
 - Refactored rain/snow to be much faster and more reliable, especially on larger maps.
 - Allow dropping powerups on death, off by default.
+- Items such as Strenght and Shield now initially spawn at the same time.
+- Add bots and nobots votes.
 
 ##### Freezetag updates
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost after you fire)
@@ -145,6 +148,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 ##### Misc game mode changes
 - LMS: avoid forcing players to join on connection.
 - LMS, CA, FT: minor fixes and improvements.
+- Give only available weapons in CA/FT/LMS.
 
 ##### Automatic sendcvar
 - Client automatically sends cvars to the server whenever they are changed, for setting that are handled by the server.
