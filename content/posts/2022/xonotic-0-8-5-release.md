@@ -134,7 +134,8 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Automatically move idle players to spectators after some time.
 - Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
 - Automatically keep bots balanced.
-- Add minplayers (active in FFA modes) and minplayers_per_team (active in team modes) cvars: fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
+- Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
+  These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
 - Improve quickmenu input system.
 - Waypoints now show icons rather than text.
