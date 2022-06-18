@@ -72,7 +72,12 @@ https://gohugo.io/content-management/summaries/
 - Other minor fixes and improvements.
 
 ##### New sounds
-kaboom
+
+Now the sounds are more refined and smoother. 
+- Pickups are a little finer, when we use the powerups, we're feeling a force coming and growling from inside. 
+- Players' footsteps are a bit more realistic, when they jump and land on some metal ramp, it's like they are hitting iron with their feet. 
+- Spawns are more attractive and it feels like air is coming out from inside.
+- Weapon shots are direct, futuristic and mixed with an audacious sensation.
 
 ##### New weapon models
 The arduous effort on the valuable contributions of [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) did an amazing work making Crylink and Electro models. We were shocked to see his modeling progress.
