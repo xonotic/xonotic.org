@@ -23,7 +23,7 @@ https://gohugo.io/content-management/summaries/
   This has fixed several old problems with SDL on Linux.
 - Fresh Windows DLLs are compiled automatically as part of every build, replacing ancient manually updated files.  
   Lack of HTTPS and multi channel audio on Windows are fixed.
-- HTTPS is now fully supported for pk3 downloads from servers, and is used by default for all xonstat connections.  
+- HTTPS is now fully supported for pk3 downloads from servers, and is used by default for all XonStat connections.  
   This will improve reliability of servers that take advantage of it.
 - A redesigned Makefile is included that makes it easy to compile a build optimised for your machine.
 
@@ -54,9 +54,9 @@ https://gohugo.io/content-management/summaries/
   - Added ability to create waypoints for jumppads without automatically generated waypoints.
   - Added ability to create support waypoints to replace incoming links of a problematic teleport / jumppad.
   - Made creating hardwired links easier.
-  - Automatic symmetrical waypoint creation for ctf (symmetrical) maps.
+  - Automatic symmetrical waypoint creation for CTF (symmetrical) maps.
   - Waypoint files are now versioned and timestamped.
-  - Added a wpeditor menu with all the commands (can be bound to a key in the key binder).
+  - Added a waypoint editor menu with all the commands (can be bound to a key in the key binder).
 - Improved performance.
 - Other minor fixes and improvements.
 
@@ -85,7 +85,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 ##### Underwater oxygen meter
 - There is now an indication meter on the HUD displaying the player's current oxygen amount when they are underwater.
 
-##### Strafe hud
+##### Strafe HUD
 
 ##### HUD and Centerprint updates
 <img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
@@ -101,7 +101,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 
 ##### Menu updates
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
-- A new Welcome dialog replaces the old MOTD centreprint, bringing better looks, better accessibility for new players, and support for scrolling.
+- A new Welcome dialog replaces the old MOTD centerprint, bringing better looks, better accessibility for new players, and support for scrolling.
 - Settings menu (Video, Effects, Misc tabs) has been refined and has better support for upcoming DarkPlaces engine versions.
 - Server list now has the option to filter out very high ping servers.
 
@@ -129,8 +129,8 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 <a href="/m/uploads/2022/01/bromine.jpg"><img src="/m/uploads/2022/01/bromine_t.jpg" title="Bromine by packer" class="th"></a>
   - [Opium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/135) by *cityy*  
 <a href="/m/uploads/2022/01/opium.jpg"><img src="/m/uploads/2022/01/opium_t.jpg" title="Opium by cityy" class="th"></a>
-- Various fixes and/or visual updates to existing maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Finalrage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged).
-- [Drain](https://xonotic.org/teamvotes/371/) and [Oilrig](https://xonotic.org/teamvotes/384/) are now hidden from the game menus and will be removed in the next release.
+- Various fixes and/or visual updates to existing maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Final Rage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged).
+- [Drain](https://xonotic.org/teamvotes/371/) and [Oil Rig](https://xonotic.org/teamvotes/384/) are now hidden from the game menus and will be removed in the next release.
 
 ##### Misc changes
 - Automatically move idle players to spectators after some time.
@@ -143,10 +143,10 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Waypoints now show icons rather than text.
 - Refactored rain/snow to be much faster and more reliable, especially on larger maps.
 - Allow dropping powerups on death, off by default.
-- Items such as Strenght and Shield now initially spawn at the same time.
+- Items such as Strength and Shield now initially spawn at the same time.
 - Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
 
-##### Freezetag updates
+##### Freeze Tag updates
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost if you fire).
 - Reduce auto-revival time based on manual revival progress. To compensate for the increased ease of revival, don't award an extra point for revival (just for the time spent reviving).
 - Don't reset autorevive progress when a frozen player falls into the void.
@@ -164,8 +164,8 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 ##### Automatic sendcvar
 - Client automatically sends cvars to the server whenever they are changed, for setting that are handled by the server.
 
-##### ToS
-- At first start, a "Terms of Service" dialogue will explain transparently what data is required or optional.
+##### Terms of Service
+- At first start, a "Terms of Service" (ToS) dialogue will explain transparently what data is required or optional.
 - Server admins can (and should) specify server specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the serverlist).
 
 ##### Resetmatch
@@ -191,7 +191,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - csqc_muzzleflash: muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye), muzzle effects and bullet cases are not rendered when first person weapon model is disabled.
 - Simple item sprites no longer disappear behind grate textures.
 - Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
-- Several xonstat related bugs fixed.
+- Several XonStat related bugs fixed.
 - Wall rockets are no longer a thing.
 - Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
 - CTS waypoint placement fixed for even the most complicated map.
@@ -204,7 +204,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - QL-style mouse accel mode.
 
 ##### NetRadiant
-- a whole bunch of MRs (mostly by illwieckz) were merged for netradiant.
+- a whole bunch of MRs (mostly by illwieckz) were merged for NetRadiant.
 
 ### Breaking Changes
 - Several official maps have been significantly updated and old clients will have issues playing these maps on current servers.
