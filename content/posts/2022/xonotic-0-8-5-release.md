@@ -18,9 +18,6 @@ https://gohugo.io/content-management/summaries/
 
 ### Highlights
 
-##### Scoreboard item stats
-- Item pickup counts are now displayed in a dedicated panel under the scoreboard.
-
 ##### New build systems
 - Everything is compiled on a much newer and self-hosted platform.  
   This has fixed several old problems with SDL on Linux.
@@ -33,7 +30,8 @@ https://gohugo.io/content-management/summaries/
 ##### Player model skin updates
 - Improved visibility of all player models.
 - Balanced primary ('shirt') and secondary ('glow') colors in some models (especially in Erebus and derived models).
-- Fix burned glow color reducing number of actual colors from 15 to 9.
+- Fix burned glow color reducing number of available colors from 15 to 9.  
+  Side effect of this change is that now glow color of the blue team is now blue-cyan instead of cyan (burned blue-cyan), other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up in some models.
 
 ##### Bot skill and waypoints
@@ -62,16 +60,6 @@ https://gohugo.io/content-management/summaries/
 - Improved performance.
 - Other minor fixes and improvements.
 
-##### Scrollable chat history
-- It's now possible to scroll the chat history with mouse wheel up/down.
-
-##### Player tags fixes and improvements
-- Overlapping player tags are now always visible with lower alpha.
-- An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
-
-##### Underwater oxygen meter
-- There is now an indication meter on the HUD displaying the player's current oxygen amount when they are underwater.
-
 ##### New sounds
 kaboom
 
@@ -88,7 +76,28 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
 - Add a "Restart level" button in the ESC menu to allow a quick level restart.
 
+##### Scoreboard item stats
+- Item pickup counts are now displayed in a dedicated panel under the scoreboard.
+
+##### Scrollable chat history
+- It's now possible to scroll the chat history with mouse wheel up/down.
+
+##### Underwater oxygen meter
+- There is now an indication meter on the HUD displaying the player's current oxygen amount when they are underwater.
+
 ##### Strafe hud
+
+##### HUD and Centerprint updates
+<img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
+<img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
+<img src="/m/uploads/2022/01/hud_centerprint.jpg" title="Centerprint title">
+- Added a title to centerprint messages and improved animations.
+- Added a phase indicator for the timer.
+- Added a secondary timer for round-based game modes which displays the remaining round time.
+
+##### Player tags fixes and improvements
+- Overlapping player tags are now always visible with lower alpha.
+- An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 
 ##### Menu updates
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
@@ -99,14 +108,6 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 ##### More of the UI is translatable/translated
 - Welcome message and key names are now translatable.
 - 5 years worth of translation updates in different languages, thanks to all our translators! Portuguese (Brazil) and Turkish are now available in the game menu.
-
-##### HUD and Centerprint updates
-<img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
-<img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
-<img src="/m/uploads/2022/01/hud_centerprint.jpg" title="Centerprint title">
-- Added a title to centerprint messages and improved animations.
-- Added a phase indicator for the timer.
-- Added a secondary timer for round-based game modes which displays the remaining round time.
 
 ##### Balance
 - Vortex's push force has been reduced from 400 to 200.  
