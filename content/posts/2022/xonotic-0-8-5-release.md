@@ -34,6 +34,17 @@ https://gohugo.io/content-management/summaries/
   Side effect of this change is that now glow color of the blue team is now blue-cyan instead of cyan (burned blue-cyan), other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up in some models.
 
+| player models |
+| ------ |
+| ![_player_models](/uploads/f861a806abf9482991a6c10323f4588a/_player_models.png) |
+
+<details><summary>Click to see hidden (unavailable in the menu) player models</summary>
+
+| hidden player models |
+| ------ |
+| ![_player_models_hidden](/uploads/50c48d73e863214952fe1ce7cfbbccf7/_player_models_hidden.png) |
+</details>
+
 ##### Bot skill and waypoints
 - Set default bot skill to 8 (from 1).
 - Fixed underwater navigation.
