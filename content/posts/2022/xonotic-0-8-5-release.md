@@ -36,13 +36,13 @@ https://gohugo.io/content-management/summaries/
 
 | player models |
 | ------ |
-| ![_player_models](/m/uploads/2022/01/player_models.png) |
+| ![player models](/m/uploads/2022/01/player_models.png) |
 
 <details><summary>Click to see hidden (unavailable in the menu) player models</summary>
 
 | hidden player models |
 | ------ |
-| ![_player_models_hidden](/m/uploads/2022/01/player_models_hidden.png) |
+| ![hidden player models](/m/uploads/2022/01/player_models_hidden.png) |
 </details>
 
 ##### Bot skill and waypoints
