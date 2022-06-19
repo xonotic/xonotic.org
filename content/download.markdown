@@ -8,34 +8,31 @@ wordpress_id: 839
 type: page
 ---
 
-<i class="fas fa-download"></i> &nbsp;**HTTPS mirror links**  
-&emsp;&emsp;&emsp;[dl.xonotic.org (DE)](https://dl.xonotic.org/xonotic-0.8.5.zip)  
-&emsp;&emsp;&emsp;[rm.cloudns.org (DE)](https://www.rm.cloudns.org/~xonotic/xonotic-0.8.5.zip)  
-&emsp;&emsp;&emsp;~~[z.xnz.me (US)](https://z.xnz.me/xonotic/builds/xonotic-0.8.5.zip)~~  
-&emsp;&emsp;&emsp;[xonotic.au (AU)](https://xonotic.au/downloads/xonotic-0.8.5.zip)  
-<i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent)
-
-<span style="font-size: 90%">Size: 1337MB  
-Checksum: [sha512sum](https://dl.xonotic.org/xonotic-0.8.5.sha512)
-</span>
-
 No installation required, just unzip and run. Got questions? See the [FAQ](/faq) or [live chat](/chat) with us.
 
-[Terms of Service and Privacy Policy][tos]
+**Mirror links**  
+&emsp; <i class="fas fa-download"></i> [xonotic.org][805zip] (DE)  
+&emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://www.rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
+&emsp; <i class="fas fa-download"></i> [xonotic.au](https://xonotic.au/downloads/xonotic-0.8.5.zip) (AU)  
+
+<i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent)
+
+1337MB&emsp; [sha512sum][805sum]&emsp; [Release Notes][805post]
+
+[Terms of Service and Privacy Policy](/tos)
 
 ---
 
 ### <a name="system-requirements"></a>System requirements
 
-##### Supported platforms:
+##### Hardware accelerated OpenGL 2.1
+##### At least 4GB of RAM
+##### A supported platform:
 - Windows 7 or newer (x86 or x86-64)
 - Linux with glibc (libc6) 2.29 or newer (x86-64)
 - macOS (x86-64)
 
 Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling) the included source code.
-
-##### OpenGL 2.1 or newer GPU and drivers
-##### At least 4GB of RAM
 
 ---
 
@@ -70,6 +67,7 @@ The source of all code parts (also included in the main zip).
 ---
 
 ### <a name="please-note"></a>Attention: Developers, Artists and Mappers
+
 Please refer to the [Xonotic Git README](https://gitlab.com/xonotic/xonotic/blob/master/README.md) for information about compiling the latest sources and contributing.<br/>
 It's important to base your work on the latest git sources, rather than the files on this download page.<br/>
 Joining the [development community discussions](https://gitlab.com/xonotic/xonotic/blob/master/README.md#community) is strongly encouraged.
@@ -78,12 +76,51 @@ Joining the [development community discussions](https://gitlab.com/xonotic/xonot
 
 ### <a name="older-downloads"></a>Older downloads
 
-<i class="fas fa-download"></i> [**Xonotic 0.8.2**](https://dl.xonotic.org/xonotic-0.8.2.zip) (946MB, [sha256sum](https://dl.xonotic.org/xonotic-0.8.2.sha256))  
-<i class="fas fa-download"></i> [**Xonotic 0.8.1**](https://dl.xonotic.org/xonotic-0.8.1.zip) (940MB, [md5sum](https://dl.xonotic.org/xonotic-0.8.1.md5))  
-<i class="fas fa-download"></i> [**Xonotic 0.8.0**](https://dl.xonotic.org/xonotic-0.8.0.zip) (953MB, [md5sum](https://dl.xonotic.org/xonotic-0.8.0.md5))  
-<i class="fas fa-download"></i> [**Xonotic 0.7.0**](https://dl.xonotic.org/xonotic-0.7.0.zip) (993MB, [md5sum](https://dl.xonotic.org/xonotic-0.7.0.md5))  
-<i class="fas fa-download"></i> [**Xonotic 0.6.0**](https://dl.xonotic.org/xonotic-0.6.0.zip) (965MB, [md5sum](https://dl.xonotic.org/xonotic-0.6.0.md5))  
-<i class="fas fa-download"></i> [**Xonotic 0.5.0**](https://dl.xonotic.org/xonotic-0.5.0.zip) (943MB, [md5sum](https://dl.xonotic.org/xonotic-0.5.0.md5))  
-<i class="fas fa-download"></i> [**Xonotic 0.1.0**](https://dl.xonotic.org/xonotic-0.1.0preview.zip) (1.3GB, [md5sum](https://dl.xonotic.org/xonotic-0.1.0preview.md5))  
+<!-- override some CSS so it looks decent -->
+<style>
+table {
+	table-layout: auto;
+	margin-left: unset;
+	width: 55%;
+}
+table tr td {
+	font-size: 1.2rem; /* same size as paragraph text */
+}
+</style>
 
-[tos]: /tos/
+|   |   |   |   |
+| - | - | - | - |
+| <i class="fas fa-download"></i> [**Xonotic 0.8.2**][802zip] | 946MB | [sha256sum][802sum] | [release notes][802post] |
+| <i class="fas fa-download"></i> [**Xonotic 0.8.1**][801zip] | 940MB | [md5sum][801sum]    | [release notes][801post] |
+| <i class="fas fa-download"></i> [**Xonotic 0.8.0**][800zip] | 953MB | [md5sum][800sum]    | [release notes][800post] |
+| <i class="fas fa-download"></i> [**Xonotic 0.7.0**][700zip] | 993MB | [md5sum][700sum]    | [release notes][700post] |
+| <i class="fas fa-download"></i> [**Xonotic 0.6.0**][600zip] | 965MB | [md5sum][600sum]    | [release notes][600post] |
+| <i class="fas fa-download"></i> [**Xonotic 0.5.0**][500zip] | 943MB | [md5sum][500sum]    | [release notes][500post] |
+| <i class="fas fa-download"></i> [**Xonotic 0.1.0**][100zip] | 1.3GB | [md5sum][100sum]    | [release notes][100post] |
+
+[805zip]:https://dl.xonotic.org/xonotic-0.8.5.zip
+[802zip]:https://dl.xonotic.org/xonotic-0.8.2.zip
+[801zip]:https://dl.xonotic.org/xonotic-0.8.1.zip
+[800zip]:https://dl.xonotic.org/xonotic-0.8.0.zip
+[700zip]:https://dl.xonotic.org/xonotic-0.7.0.zip
+[600zip]:https://dl.xonotic.org/xonotic-0.6.0.zip
+[500zip]:https://dl.xonotic.org/xonotic-0.5.0.zip
+[100zip]:https://dl.xonotic.org/xonotic-0.1.0preview.zip
+
+[805sum]:https://dl.xonotic.org/xonotic-0.8.5.sha512
+[802sum]:https://dl.xonotic.org/xonotic-0.8.2.sha256
+[801sum]:https://dl.xonotic.org/xonotic-0.8.1.md5
+[800sum]:https://dl.xonotic.org/xonotic-0.8.0.md5
+[700sum]:https://dl.xonotic.org/xonotic-0.7.0.md5
+[600sum]:https://dl.xonotic.org/xonotic-0.6.0.md5
+[500sum]:https://dl.xonotic.org/xonotic-0.5.0.md5
+[100sum]:https://dl.xonotic.org/xonotic-0.1.0preview.md5
+
+[805post]:/posts/2022/xonotic-0-8-5-release
+[802post]:/posts/2017/xonotic-0-8-2-release
+[801post]:/posts/2015/xonotic-0-8-1-release
+[800post]:/posts/2015/xonotic-0-8-release
+[700post]:/posts/2013/xonotic-0-7-release
+[600post]:/posts/2012/xonotic-0-6-is-now-available
+[500post]:/posts/2011/xonotic-0-5-release
+[100post]:/posts/2010/xonotic-0-1-preview-released
