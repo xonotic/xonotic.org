@@ -78,6 +78,7 @@ Now the sounds are more refined and smoother.
 - Players' footsteps are a bit more realistic, when they jump and land on some metal ramp, it's like they are hitting iron with their feet. 
 - Spawns are more attractive and it feels like air is coming out from inside.
 - Weapon shots are direct, futuristic and mixed with an audacious sensation.
+- New kill sound consisting of a high-pitched version of the hit indication sound.
 
 ##### New weapon models
 The arduous effort on the valuable contributions of [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) did an amazing work making Crylink and Electro models. We were shocked to see his modeling progress.
