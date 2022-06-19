@@ -34,15 +34,11 @@ https://gohugo.io/content-management/summaries/
   Side effect of this change is that now glow color of the blue team is now blue-cyan instead of cyan (burned blue-cyan), other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up in some models.
 
-| player models |
-| ------ |
-| ![player models](/m/uploads/2022/01/player_models.png) |
+<a href="/m/uploads/2022/01/player_models.png"><img src="/m/uploads/2022/01/player_models.png" title="Player models" class="th">
 
 <details><summary>Click to see hidden (unavailable in the menu) player models</summary>
 
-| hidden player models |
-| ------ |
-| ![hidden player models](/m/uploads/2022/01/player_models_hidden.png) |
+<a href="/m/uploads/2022/01/player_models_hidden.png"><img src="/m/uploads/2022/01/player_models_hidden.png" title="Hidden player models" class="th">
 </details>
 
 ##### Bot skill and waypoints
