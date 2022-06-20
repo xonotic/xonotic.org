@@ -217,9 +217,6 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Added a Quake Live style mouse acceleration mode.
 - Most glow maps (bright textures used on lights) are now working on many Quake 3 maps.
 
-##### NetRadiant
-- a whole bunch of MRs (mostly by illwieckz) were merged for NetRadiant.
-
 ### Breaking Changes
 - Several official maps have been significantly updated and old clients will have issues playing these maps on current servers.
 - Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy skins" are now the default skins.  If you were setting these cvars to `1`, you should now set them to `0` (the default) to continue using the glowy skins.
