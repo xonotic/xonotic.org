@@ -48,20 +48,18 @@ This script will examine your installation and update only the files needed to b
 
 ### <a name="extra-downloads"></a>Extra downloads
 
-<i class="fas fa-download"></i><a name="netradiant"></a> [**NetRadiant Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.5-mappingsupport.zip) (1337MB, [sha512sum](https://dl.xonotic.org/xonotic-0.8.5.sha512))  
-The official Xonotic map editor with all the assets required to create maps.  
-This download only contains binaries for Windows, users of macOS and Linux will need to compile the included source code or download illwieckz's NetRadiant builds.  
+<i class="fas fa-download"></i><a name="netradiant"></a> [**Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.5-mappingsupport.zip)&emsp; 1337MB&emsp; [sha512sum][805sum]  
+The assets required to create Xonotic maps in the NetRadiant level editor.  
 
-<i class="fas fa-external-link-alt"></i><a name="netradiant-illwieckz"></a> [**illwieckz’s NetRadiant builds**](https://netradiant.gitlab.io/page/download)  
-Recent NetRadiant binaries built by illwieckz for Windows and Linux. <!--This is a much newer version of the NetRadiant program than is found in the 0.8.2 Mapping Support download.-->  
-The assets are not included so you also need the above Mapping Support package.
+<i class="fas fa-external-link-alt"></i><a name="netradiant-illwieckz"></a> [**NetRadiant**](https://netradiant.gitlab.io/page/download)  
+The official Xonotic level editor, compiled for Windows and Linux by illwieckz.  
 
 <!--
 <i class="fas fa-download"></i><a name="higher-quality"></a> [**Higher quality Xonotic download (????MB)**](https://dl.xonotic.org/xonotic-0.8.2-high.zip)  
 A release build with JPEG textures, instead of DDS textures with S3 compression. This build has a larger file size and is compatible with old GPU drivers that lack S3TC support. It uses significantly more RAM and has longer loading times.
 -->
 
-<i class="fas fa-download"></i><a name="source"></a> [**Xonotic source code**](https://dl.xonotic.org/xonotic-0.8.5-source.zip) (1337MB, [sha512sum](https://dl.xonotic.org/xonotic-0.8.5.sha512))  
+<i class="fas fa-download"></i><a name="source"></a> [**Xonotic source code**](https://dl.xonotic.org/xonotic-0.8.5-source.zip)&emsp; 1337MB&emsp; [sha512sum][805sum]  
 The source of all code parts (also included in the main zip).
 
 ---
