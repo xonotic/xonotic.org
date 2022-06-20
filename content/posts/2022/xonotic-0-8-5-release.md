@@ -158,6 +158,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Allow dropping powerups on death, off by default.
 - Items such as Strength and Shield now initially spawn at the same time.
 - Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
+- Clients automatically send cvars to the server when they're changed, for settings handled by the server.
 
 ##### Freeze Tag updates
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost if you fire).
@@ -173,9 +174,6 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - LMS, CA, FT: minor fixes and improvements.
 - New "most_available" weaponarena only gives the weapons available as pickups on the map.  
   This allows for g_weaponarena mutator and/or CA/FT/LMS gamemodes to only have weapons which the mapper intended the map to have.
-
-##### Automatic sendcvar
-- Client automatically sends cvars to the server whenever they are changed, for setting that are handled by the server.
 
 ##### Terms of Service
 - At first start, a "Terms of Service" (ToS) dialogue will explain transparently what data is required or optional.
