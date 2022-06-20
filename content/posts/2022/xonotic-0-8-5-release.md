@@ -192,7 +192,8 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Several map entities can now be (de)activated by relays: [Merge Request](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/542)
 - Updated entity description for NetRadiant: [Merge Request](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/116)
 
-##### rulesets
+##### Rulesets
+Popular gameplay configurations are now organised in `ruleset-*.cfg` files.
 
 ##### QC physics
 - goes brrrr
