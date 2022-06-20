@@ -89,24 +89,19 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
 - Add a "Restart level" button in the ESC menu to allow a quick level restart.
 
-##### Scoreboard item stats
-- Item pickup counts are now displayed in a dedicated panel under the scoreboard.
-
 ##### Scrollable chat history
 - It's now possible to scroll the chat history with mouse wheel up/down.
 
-##### Underwater oxygen meter
-- There is now an indication meter on the HUD displaying the player's current oxygen amount when they are underwater.
-
-##### Strafe HUD
-
-##### HUD and Centerprint updates
+##### HUD, Centerprint and Scoreboard updates
 <img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
 <img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
 <img src="/m/uploads/2022/01/hud_centerprint.jpg" title="Centerprint title">
 - Added a title to centerprint messages and improved animations.
 - Added a phase indicator for the timer.
 - Added a secondary timer for round-based game modes which displays the remaining round time.
+- The player's remaining oxygen is now indicated by a meter while underwater.
+- Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
+- Item pickup counts are now displayed in a dedicated panel under the scoreboard.
 
 ##### Player tags fixes and improvements
 - Overlapping player tags are now always visible with lower alpha.
