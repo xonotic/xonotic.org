@@ -227,7 +227,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 - Server admins can (and should) specify server specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the serverlist).
 
 ##### Resetmatch
-- New votable command `resetmatch` to restart the game without restarting the whole server, meaning players stay in their teams and clients don't have to reconnect, making the whole process instant.
+New votable command `resetmatch` restarts the match without restarting the whole server, meaning players stay in their teams and don't have to reconnect.  Loading screens are eliminated and the process is instant.
 
 ##### Quake 3 map compatibility
 - More appropriate selections of equivalent items.
