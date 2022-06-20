@@ -18,7 +18,7 @@ https://gohugo.io/content-management/summaries/
 
 ### Highlights
 
-##### New build systems
+##### Build systems
 - Everything is compiled on a much newer and self-hosted platform.  
   This has fixed several old problems with SDL on Linux.
 - Fresh Windows DLLs are compiled automatically as part of every build, replacing ancient manually updated files.  
@@ -27,7 +27,7 @@ https://gohugo.io/content-management/summaries/
   This will improve reliability of servers that take advantage of it.
 - A redesigned Makefile is included that makes it easy to compile a build optimised for your machine.
 
-##### Player model skin updates
+##### Player model skins
 - Improved visibility of all player models.
 - Balanced primary ('shirt') and secondary ('glow') colors in some models (especially in Erebus and derived models).
 - Fix burned glow color reducing number of available colors from 15 to 9.  
@@ -84,15 +84,15 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 | <a href="/m/uploads/2022/01/crylinkprototype.jpg"><img src="/m/uploads/2022/01/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electroprototype.jpeg"><img src="/m/uploads/2022/01/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
 | <a href="/m/uploads/2022/01/crylinkfinalresult.jpg"><img src="/m/uploads/2022/01/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electrofinalresult.jpg"><img src="/m/uploads/2022/01/electrofinalresult_t.jpg" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
-##### Campaign updates (menu, maps)
+##### Campaign (menu, maps)
 - Bromine and Opium now replace the Oilrig and Drain levels.
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
-- Add a "Restart level" button in the ESC menu to allow a quick level restart.
+- Add a "Restart level" button in the new ESC menu to allow a quick level restart.
 
 ##### Scrollable chat history
 - It's now possible to scroll the chat history with mouse wheel up/down.
 
-##### HUD, Centerprint and Scoreboard updates
+##### HUD, Centerprint and Scoreboard
 <img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
 <img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
 <img src="/m/uploads/2022/01/hud_centerprint.jpg" title="Centerprint title">
@@ -103,11 +103,11 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
 - Item pickup counts are now displayed in a dedicated panel under the scoreboard.
 
-##### Player tags fixes and improvements
+##### Player nametags
 - Overlapping player tags are now always visible with lower alpha.
 - An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 
-##### Menu updates
+##### Menu
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
 - A new Welcome dialog replaces the old MOTD centerprint, bringing better looks, better accessibility for new players, and support for scrolling.
 - Settings menu (Video, Effects, Misc tabs) has been refined and has better support for upcoming DarkPlaces engine versions.
@@ -140,7 +140,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Various fixes and/or visual updates to existing maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Final Rage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged).
 - [Drain](https://xonotic.org/teamvotes/371/) and [Oil Rig](https://xonotic.org/teamvotes/384/) are now hidden from the game menus and will be removed in the next release.
 
-##### Misc changes
+##### Misc
 - Automatically move idle players to spectators after some time.
 - Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
 - Automatically keep bots balanced.
@@ -155,7 +155,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
 - Clients automatically send cvars to the server when they're changed, for settings handled by the server.
 
-##### Freeze Tag updates
+##### Freeze Tag
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost if you fire).
 - Reduce auto-revival time based on manual revival progress. To compensate for the increased ease of revival, don't award an extra point for revival (just for the time spent reviving).
 - Don't reset autorevive progress when a frozen player falls into the void.
@@ -182,7 +182,7 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Layouts and item placements that vary between different mods and gametypes are (almost fully) supported.
 - Many Q3 map entities including damage sources, weapon and ammo givers, doors and sounds now behave more like they do in Q3.
 
-##### Improved map entity functionality
+##### Map entity logic and documentation
 - Several fixes and code cleanup for existing functionality.
 - Several map entities can now be (de)activated by relays: [Merge Request](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/542)
 - Updated entity description for NetRadiant: [Merge Request](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/116)
@@ -211,10 +211,6 @@ Popular gameplay configurations are now organised in `ruleset-*.cfg` files.
 - Added a Quake Live style mouse acceleration mode.
 - Most glow maps (bright textures used on lights) are now working on many Quake 3 maps.
 
-### Breaking Changes
-- Several official maps have been significantly updated and old clients will have issues playing these maps on current servers.
-- Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy skins" are now the default skins.  If you were setting these cvars to `1`, you should now set them to `0` (the default) to continue using the glowy skins.
-
 ### XonStat 2.0
 During the pandemic XonStat was written from the ground up, solving many of the pain points of the previous version. A full list is too lengthy for this post, but here are some highlights:
 
@@ -234,3 +230,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 [XonStat badges]: https://forums.xonotic.org/showthread.php?tid=3436&pid=48043#pid48043
 [XonStat submission inspector]: https://gitlab.com/xonotic/xonstat-go#submission-inspector
 [Weng-Lin]: https://jmlr.csail.mit.edu/papers/volume12/weng11a/weng11a.pdf
+
+### Backward compatibility issues
+- Several official maps have been significantly updated and old clients will have issues playing these maps on updated servers.
+- Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy skins" are now the default skins.  Server admins who were setting these cvars to `1` should now set them to `0` (the default) to continue using the glowy skins.
