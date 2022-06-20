@@ -132,12 +132,24 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 
 ##### Maps
 - New official maps:
-  - [Bromine](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/129) by *packer*  
+  - [Bromine] by *packer*  
 <a href="/m/uploads/2022/01/bromine.jpg"><img src="/m/uploads/2022/01/bromine_t.jpg" title="Bromine by packer" class="th"></a>
-  - [Opium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/135) by *cityy*  
+  - [Opium] by *cityy*  
 <a href="/m/uploads/2022/01/opium.jpg"><img src="/m/uploads/2022/01/opium_t.jpg" title="Opium by cityy" class="th"></a>
-- Various fixes and/or visual updates to existing maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Final Rage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged).
-- [Drain](https://xonotic.org/teamvotes/371/) and [Oil Rig](https://xonotic.org/teamvotes/384/) are now hidden from the game menus and will be removed in the next release.
+- Various fixes and/or visual updates to existing maps: [Erbium], [Final Rage], [Implosion], [Silent Siege], [Solarium], [Space Elevator], and [more][maps_more].
+- [Drain] and [Oil Rig] are now hidden from the game menus and will be removed in the next release.
+
+[Bromine]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/129
+[Opium]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/135
+[Erbium]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101
+[Final Rage]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155
+[Implosion]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156
+[Silent Siege]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134
+[Solarium]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132
+[Space Elevator]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137
+[maps_more]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged
+[Drain]:https://xonotic.org/teamvotes/371/
+[Oil Rig]:https://xonotic.org/teamvotes/384/
 
 ##### Miscellaneous
 - Automatically move idle players to spectators after some time.
@@ -216,7 +228,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 * Shared cache via Redis instead of per-process, in-memory cache via Python's Beaker.
 * Foundation 6 instead of Foundation 4 for the CSS framework.
 * Chart.js (HTML canvas) instead of NVD3.js (embedded SVG) for charting/visualization.
-* [Weng-Lin][Weng-Lin] instead of Elo for skill, with async calculations.
+* [Weng-Lin] instead of Elo for skill, with async calculations.
 * Rate limiting (none previously).
 * Tracking of spectators/forfeits (none previously).
 * [Badges][XonStat badges] incorporated into the codebase (previously standalone).
