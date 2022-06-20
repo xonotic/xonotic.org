@@ -89,9 +89,6 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
 - Add a "Restart level" button in the new ESC menu to allow a quick level restart.
 
-##### Scrollable chat history
-- It's now possible to scroll the chat history with mouse wheel up/down.
-
 ##### HUD, Centerprint and Scoreboard
 <img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
 <img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
@@ -107,13 +104,15 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Overlapping player tags are now always visible with lower alpha.
 - An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 
-##### Menu
+##### Menu and UI
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
 - A new Welcome dialog replaces the old MOTD centerprint, bringing better looks, better accessibility for new players, and support for scrolling.
 - Settings menu (Video, Effects, Misc tabs) has been refined and has better support for upcoming DarkPlaces engine versions.
 - Server list now has the option to filter out very high ping servers.
+- It's now possible to scroll the chat history with mouse wheel up/down.
+- Improve quickmenu input system.
 
-##### More of the UI is translatable/translated
+##### Translations
 - Welcome message and key names are now translatable.
 - 5 years worth of translation updates in different languages, thanks to all our translators! Portuguese (Brazil) and Turkish are now available in the game menu.
 
@@ -140,20 +139,22 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Various fixes and/or visual updates to existing maps: [Erbium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/101), [Final Rage](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/155), [Implosion](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/156), [Silent Siege](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/134), [Solarium](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/132), [Space Elevator](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/137), and [more](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests?milestone_title=Xonotic+0.8.5+-+Mapping&scope=all&state=merged).
 - [Drain](https://xonotic.org/teamvotes/371/) and [Oil Rig](https://xonotic.org/teamvotes/384/) are now hidden from the game menus and will be removed in the next release.
 
-##### Misc
+##### Miscellaneous
 - Automatically move idle players to spectators after some time.
 - Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
 - Automatically keep bots balanced.
 - Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
   These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
-- Improve quickmenu input system.
 - Waypoints now show icons rather than text.
 - Refactored rain/snow to be much faster and more reliable, especially on larger maps.
-- Allow dropping powerups on death, off by default.
-- Items such as Strength and Shield now initially spawn at the same time.
 - Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
 - Clients automatically send cvars to the server when they're changed, for settings handled by the server.
+- Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
+- Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
+- Simple item sprites no longer disappear behind grate textures.
+- Several bugs with submission of data to XonStat are fixed.
+- CTS waypoint placement is now reliable for arbitrarily complex map entity chains.
 
 ##### Freeze Tag
 - Apply spawnshield for 1 second after you've been revived (spawnshield is lost if you fire).
@@ -164,11 +165,16 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - Reduce auto-revival time when frozen players are hit by enemies (time reduction depends on hit force). Optionally this behaviour can be enabled when frozen players are hit by teammates too.
 - Fix view jitter while floating on the water when frozen.
 
-##### Misc game mode changes
+##### Gameplay miscellaneous
 - LMS: avoid forcing players to join on connection.
 - LMS, CA, FT: minor fixes and improvements.
 - New "most_available" weaponarena only gives the weapons available as pickups on the map.  
   This allows for g_weaponarena mutator and/or CA/FT/LMS gamemodes to only have weapons which the mapper intended the map to have.
+- Items such as Strength and Shield now initially spawn at the same time.
+- Allow dropping powerups on death, off by default.
+- Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
+- Wall rockets are no longer a thing.
+- Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
 
 ##### Terms of Service
 - At first start, a "Terms of Service" (ToS) dialogue will explain transparently what data is required or optional.
@@ -193,16 +199,6 @@ Popular gameplay configurations are now organised in `ruleset-*.cfg` files.
 ##### QC physics
 - goes brrrr
 - is used by default which allowed some issues with stairs and moving platforms to be fixed
-
-##### All the fixing and refactoring
-- csqc_muzzleflash: muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye), muzzle effects and bullet cases are not rendered when first person weapon model is disabled.
-- Simple item sprites no longer disappear behind grate textures.
-- Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
-- Several XonStat related bugs fixed.
-- Wall rockets are no longer a thing.
-- Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
-- CTS waypoint placement fixed for even the most complicated map.
-- And many, many more fixes we already forgot about.
 
 ##### DarkPlaces Engine
 - graphics (gloss, CL_MeshEntities).
