@@ -184,10 +184,10 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 ##### Resetmatch
 - New votable command `resetmatch` to restart the game without restarting the whole server, meaning players stay in their teams and clients don't have to reconnect, making the whole process instant.
 
-##### Q3 map compatibility
-- More appropriate selections of equivalent weapons, ammo, powerups.
-- Layouts and item placements that vary between different mods and modes are (almost fully) supported.
-- Various map entities including damage sources, weapon and ammo sources, doors and sounds now behave as they do in Q3.
+##### Quake 3 map compatibility
+- More appropriate selections of equivalent items.
+- Layouts and item placements that vary between different mods and gametypes are (almost fully) supported.
+- Many Q3 map entities including damage sources, weapon and ammo givers, doors and sounds now behave more like they do in Q3.
 
 ##### Improved map entity functionality
 - Several fixes and code cleanup for existing functionality.
@@ -211,10 +211,11 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - And many, many more fixes we already forgot about.
 
 ##### DarkPlaces Engine
-- graphics (gloss, q3 glow maps, CL_MeshEntities).
+- graphics (gloss, CL_MeshEntities).
 - Significant performance improvements in bot matches and when world origin is inside playable area.
 - ipv6 dpmasters.
-- QL-style mouse accel mode.
+- Added a Quake Live style mouse acceleration mode.
+- Most glow maps (bright textures used on lights) are now working on many Quake 3 maps.
 
 ##### NetRadiant
 - a whole bunch of MRs (mostly by illwieckz) were merged for NetRadiant.
