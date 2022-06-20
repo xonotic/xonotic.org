@@ -40,7 +40,7 @@ Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/x
 
 Since Xonotic version 0.5, an auto-update tool is included in the Xonotic application directory.
 
-To use it, navigate to the *misc->tools->rsync-updater* subdirectory, then double-click (or execute in a terminal) the `update-to-release.sh` (Linux/Mac) script, or the `update-to-release.bat` (Windows) script.
+To use it, navigate to the `Xonotic/misc/tools/rsync-updater/` subdirectory, then double-click (or execute in a terminal) the `update-to-release.sh` (Linux/Mac) or `update-to-release.bat` (Windows) script.
 
 This script will examine your installation and update only the files needed to bring your copy up to date using the `rsync` tool. In no time you'll have a shiny new client with which to play!
 
