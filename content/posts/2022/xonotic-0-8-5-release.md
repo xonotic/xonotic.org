@@ -126,9 +126,9 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
   This also reduces visual clutter compared to having all the missing pellets fly around.
 - There are also a couple other new cvars and a few of the existing cvars have been edited to allow for more in-depth weapon customization.
 
-##### Duel gametype
-- Duel is now its own gamemode, there is no longer a need for deathmatch with max playercount of 2.  
-  For backend this allows for more accurate gamemode detection and case handling.
+##### Duel
+Duel is now a dedicated gametype, there is no longer a need for deathmatch with max playercount of 2.  
+This allows duel-specific gameplay settings and cleaner handling by XonStat.
 
 ##### Maps
 - New official maps:
@@ -208,9 +208,9 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 ##### Rulesets
 Popular gameplay configurations are now organised in `ruleset-*.cfg` files.
 
-##### QC physics
-- goes brrrr
-- is used by default which allowed some issues with stairs and moving platforms to be fixed
+##### QC Physics
+Player physics is now implemented in QuakeC gamecode instead of using the engine physics.  
+This will enable custom features that otherwise wouldn't be possible.  It also brings bug fixes for stairs and moving platforms.
 
 ##### DarkPlaces Engine
 - graphics (gloss, CL_MeshEntities).
