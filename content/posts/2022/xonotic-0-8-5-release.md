@@ -205,23 +205,6 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
 - Add a "Restart level" button in the new ESC menu to allow a quick level restart.
 
-##### Miscellaneous
-- Automatically move idle players to spectators after some time.
-- Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
-- Automatically keep bots balanced.
-- Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
-  These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
-- Allow assigning each enemy unique colors in all game modes without teams except duel.
-- Waypoints now show icons rather than text.
-- Refactored rain/snow to be much faster and more reliable, especially on larger maps.
-- Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
-- Clients automatically send cvars to the server when they're changed, for settings handled by the server.
-- Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
-- Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
-- Simple item sprites no longer disappear behind grate textures.
-- Several bugs with submission of data to XonStat are fixed.
-- CTS waypoint placement is now reliable for arbitrarily complex map entity chains.
-
 ##### Terms of Service
 - At first start, a "Terms of Service" (ToS) dialogue will explain transparently what data is required or optional.
 - Server admins can (and should) specify server specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the serverlist).
@@ -252,6 +235,23 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - A workaround is applied to fix IPv6-enabled servers having unreliable IPv4 in the server list.
 - A Quake Live style mouse acceleration mode was added.
 - Most glow maps on Quake 3 maps (bright textures used on lights) are now working.
+
+##### Miscellaneous
+- Automatically move idle players to spectators after some time.
+- Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
+- Automatically keep bots balanced.
+- Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
+  These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
+- Allow assigning each enemy unique colors in all game modes without teams except duel.
+- Waypoints now show icons rather than text.
+- Refactored rain/snow to be much faster and more reliable, especially on larger maps.
+- Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
+- Clients automatically send cvars to the server when they're changed, for settings handled by the server.
+- Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
+- Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
+- Simple item sprites no longer disappear behind grate textures.
+- Several bugs with submission of data to XonStat are fixed.
+- CTS waypoint placement is now reliable for arbitrarily complex map entity chains.
 
 ---
 
