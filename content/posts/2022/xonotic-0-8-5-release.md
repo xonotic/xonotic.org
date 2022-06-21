@@ -27,7 +27,7 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Reduce auto-revival time based on manual revival progress. To compensate for the increased ease of revival, don't award an extra point for revival (just for the time spent reviving).
 - Don't reset autorevive progress when a frozen player falls into the void.
 - Start the automatic reviving progress as soon as the player gets frozen.
-- Show autorevival progress of frozen players as waypoint health bar rather than normal health bar, which is barely visible for red players.
+- Show autorevival progress of frozen players as waypoint sprite health bar rather than normal health bar, which was barely visible for red players.
 - Reduce auto-revival time when frozen players are hit by enemies (time reduction depends on hit force). Optionally this behaviour can be enabled when frozen players are hit by teammates too.
 - Fix view jitter while floating on the water when frozen.
 
@@ -248,10 +248,11 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
 - Simple item sprites no longer disappear behind grate textures.
 - Rain and snow are faster and more reliable, especially on larger maps.
-- Waypoints now show icons rather than text.
+- Waypoint sprites now show icons rather than text.
 - Overlapping player name tags are now always visible with lower alpha.
 - An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 - Bloom is more subtle.
+- CTS waypoint sprite placement is now reliable for arbitrarily complex map entity chains.
 
 ##### Miscellaneous
 - Automatically move idle players to spectators after some time.
@@ -259,7 +260,6 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
 - Clients automatically send cvars to the server when they're changed, for settings handled by the server.
 - Several bugs with submission of data to XonStat are fixed.
-- CTS waypoint placement is now reliable for arbitrarily complex map entity chains.
 
 ---
 
