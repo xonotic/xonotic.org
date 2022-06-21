@@ -66,6 +66,10 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
   - Added a waypoint editor menu with all the commands (can be bound to a key in the key binder).
 - Improved performance.
 - Other minor fixes and improvements.
+- Automatically keep bots balanced between teams.
+- Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
+  These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
+- Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
 
 ##### Gameplay miscellaneous
 - LMS: avoid forcing players to join on connection.
@@ -245,11 +249,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 ##### Miscellaneous
 - Automatically move idle players to spectators after some time.
 - Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
-- Automatically keep bots balanced.
-- Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
-  These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
-- Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
 - Clients automatically send cvars to the server when they're changed, for settings handled by the server.
 - Several bugs with submission of data to XonStat are fixed.
 - CTS waypoint placement is now reliable for arbitrarily complex map entity chains.
