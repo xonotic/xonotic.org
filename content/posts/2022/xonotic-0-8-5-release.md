@@ -41,7 +41,22 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
   This also reduces visual clutter compared to having all the missing pellets fly around.
 - There are also a couple other new cvars and a few of the existing cvars have been edited to allow for more in-depth weapon customization.
 
-##### Bot skill and waypoints
+##### Gameplay miscellaneous
+- LMS: avoid forcing players to join on connection.
+- LMS, CA, FT: minor fixes and improvements.
+- New "most_available" weaponarena only gives the weapons available as pickups on the map.  
+  This allows for g_weaponarena mutator and/or CA/FT/LMS gamemodes to only have weapons which the mapper intended the map to have.
+- Items such as Strength and Shield now initially spawn at the same time.
+- Allow dropping powerups on death, off by default.
+- Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
+- Wall rockets are no longer a thing.
+- Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
+
+---
+
+### Bots
+
+##### Behaviour
 - Set default bot skill to 8 (from 1).
 - Fixed underwater navigation.
 - Fixed all kinds of issues when bots walk on flooded floors.
@@ -54,33 +69,25 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Improved item rating.
 - Fixed bad jetpack usage.
 - Fixed bots ignoring teleports and warpzones.
-- Improved waypoint editor:
-  - Fixed creation of waypoints underwater.
-  - New waypoints (jump, crouch, custom jumppad waypoint, support).
-  - Added ability to create waypoints at crosshair.
-  - Added ability to create waypoints for jumppads without automatically generated waypoints.
-  - Added ability to create support waypoints to replace incoming links of a problematic teleport / jumppad.
-  - Made creating hardwired links easier.
-  - Automatic symmetrical waypoint creation for CTF (symmetrical) maps.
-  - Waypoint files are now versioned and timestamped.
-  - Added a waypoint editor menu with all the commands (can be bound to a key in the key binder).
+
+##### Waypoint editor
+- Fixed creation of waypoints underwater.
+- New waypoints (jump, crouch, custom jumppad waypoint, support).
+- Added ability to create waypoints at crosshair.
+- Added ability to create waypoints for jumppads without automatically generated waypoints.
+- Added ability to create support waypoints to replace incoming links of a problematic teleport / jumppad.
+- Made creating hardwired links easier.
+- Automatic symmetrical waypoint creation for CTF (symmetrical) maps.
+- Waypoint files are now versioned and timestamped.
+- Added a waypoint editor menu with all the commands (can be bound to a key in the key binder).
+
+##### Bots miscellaneous
 - Improved performance.
 - Other minor fixes and improvements.
 - Automatically keep bots balanced between teams.
 - Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
   These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
 - Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
-
-##### Gameplay miscellaneous
-- LMS: avoid forcing players to join on connection.
-- LMS, CA, FT: minor fixes and improvements.
-- New "most_available" weaponarena only gives the weapons available as pickups on the map.  
-  This allows for g_weaponarena mutator and/or CA/FT/LMS gamemodes to only have weapons which the mapper intended the map to have.
-- Items such as Strength and Shield now initially spawn at the same time.
-- Allow dropping powerups on death, off by default.
-- Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
-- Wall rockets are no longer a thing.
-- Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
 
 ---
 
