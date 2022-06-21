@@ -157,10 +157,6 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 - It's now possible to scroll the chat history with mouse wheel up/down.
 - Improve quickmenu input system.
 
-##### Player nametags
-- Overlapping player tags are now always visible with lower alpha.
-- An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
-
 ##### Translations
 - Welcome message and key names are now translatable.
 - 5 years worth of translation updates in different languages, thanks to all our translators! Portuguese (Brazil) and Turkish are now available in the game menu.
@@ -236,6 +232,16 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - A Quake Live style mouse acceleration mode was added.
 - Most glow maps on Quake 3 maps (bright textures used on lights) are now working.
 
+##### Visual effects and sprites
+- Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
+- Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
+- Simple item sprites no longer disappear behind grate textures.
+- Rain and snow are faster and more reliable, especially on larger maps.
+- Waypoints now show icons rather than text.
+- Overlapping player name tags are now always visible with lower alpha.
+- An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
+- Bloom is more subtle.
+
 ##### Miscellaneous
 - Automatically move idle players to spectators after some time.
 - Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
@@ -243,13 +249,8 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
   These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
 - Allow assigning each enemy unique colors in all game modes without teams except duel.
-- Waypoints now show icons rather than text.
-- Refactored rain/snow to be much faster and more reliable, especially on larger maps.
 - Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
 - Clients automatically send cvars to the server when they're changed, for settings handled by the server.
-- Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
-- Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
-- Simple item sprites no longer disappear behind grate textures.
 - Several bugs with submission of data to XonStat are fixed.
 - CTS waypoint placement is now reliable for arbitrarily complex map entity chains.
 
