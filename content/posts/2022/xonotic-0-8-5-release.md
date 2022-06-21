@@ -197,8 +197,8 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 - Fresh Windows DLLs are compiled automatically as part of every build, replacing ancient manually updated files.  
   Lack of HTTPS and multi channel audio on Windows are fixed.
 - HTTPS is now fully supported for pk3 downloads from servers, and is used by default for all XonStat connections.  
-  This will improve reliability of servers that take advantage of it.
-- A redesigned Makefile is included that makes it easy to compile a build optimised for your machine.
+  This will improve reliability on servers that take advantage of it.
+- A redesigned Makefile is included that makes it easy to [compile a build optimised for your machine](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling).
 
 ##### Campaign (menu, maps)
 - Bromine and Opium now replace the Oilrig and Drain levels.
@@ -247,11 +247,11 @@ Player physics is now implemented in QuakeC gamecode instead of using the engine
 This will enable custom features that otherwise wouldn't be possible.  It also brings bug fixes for stairs and moving platforms.
 
 ##### DarkPlaces Engine
-- graphics (gloss, CL_MeshEntities).
-- Significant performance improvements in bot matches and when world origin is inside playable area.
-- ipv6 dpmasters.
-- Added a Quake Live style mouse acceleration mode.
-- Most glow maps (bright textures used on lights) are now working on many Quake 3 maps.
+- Significantly faster and smoother performance in bot matches and when the world origin is inside the playable area.
+- A very old regression that caused incorrect gloss intensity is fixed.
+- A workaround is applied to fix IPv6-enabled servers having unreliable IPv4 in the server list.
+- A Quake Live style mouse acceleration mode was added.
+- Most glow maps on Quake 3 maps (bright textures used on lights) are now working.
 
 ---
 
