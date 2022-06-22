@@ -114,7 +114,14 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 <a href="/m/uploads/2022/01/bromine.jpg"><img src="/m/uploads/2022/01/bromine_t.jpg" title="Bromine by packer" class="th"></a>
   - [Opium] by *cityy*  
 <a href="/m/uploads/2022/01/opium.jpg"><img src="/m/uploads/2022/01/opium_t.jpg" title="Opium by cityy" class="th"></a>
-- Various fixes and/or visual updates to existing maps: [Erbium], [Final Rage], [Implosion], [Silent Siege], [Solarium], [Space Elevator], and [more][maps_more].
+- Various fixes and/or visual updates to existing maps:
+  - [Erbium]: brushes/textures/clips/shaders cleanups, fixed projectiles entering the ground under the Mega Armor.
+  - [Final Rage]: added more lamps to fix very dark areas, fixed a few perching spots.
+  - [Implosion]: lightning bolts effect on top of the central towers (to indicate danger), tweaked the catwalks below the map, textures/clips cleanups.
+  - [Silent Siege]: brushes/patches/textures/clips cleanups, fixed a visible caulk, added a small light above the Mega Armor.
+  - [Solarium]: glass texture on the big windows, brushes/patches/textures cleanups.
+  - [Space Elevator]: aligned the jump pads with the glowy pipes, updated bot waypoints.
+  - and [more][maps_more].
 - [Drain] and [Oil Rig] are now hidden from the game menus and will be removed in the next release.
 
 [Bromine]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/129
@@ -208,7 +215,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 - A redesigned Makefile is included that makes it easy to [compile a build optimised for your machine](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling).
 
 ##### Campaign (menu, maps)
-- Bromine and Opium now replace the Oilrig and Drain levels.
+- Bromine and Opium now replace the Oil Rig and Drain levels.
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
 - Add a "Restart level" button in the new ESC menu to allow a quick level restart.
 
