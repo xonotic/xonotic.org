@@ -110,9 +110,9 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 
 ##### Maps
 - New official maps:
-  - [Bromine] by *packer*  
+  - [Bromine] by *packer*, a rusty styled map for large games!  
 <a href="/m/uploads/2022/01/bromine.jpg"><img src="/m/uploads/2022/01/bromine_t.jpg" title="Bromine by packer" class="th"></a>
-  - [Opium] by *cityy*  
+  - [Opium] by *cityy*, a medium sized level with plenty of vertical action!  
 <a href="/m/uploads/2022/01/opium.jpg"><img src="/m/uploads/2022/01/opium_t.jpg" title="Opium by cityy" class="th"></a>
 - Various fixes and/or visual updates to existing maps:
   - [Erbium]: brushes/textures/clips/shaders cleanups, fixed projectiles entering the ground under the Mega Armor.
