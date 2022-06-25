@@ -100,11 +100,11 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
   Side effect of this change is that now glow color of the blue team is now blue-cyan instead of cyan (burned blue-cyan), other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up in some models.
 
-<a href="/m/uploads/2022/01/player_models.png"><img src="/m/uploads/2022/01/player_models.png" title="Player models" class="th"></a>
+<a href="/m/uploads/2022/01/player_models.webp"><img src="/m/uploads/2022/01/player_models.webp" title="Player models" class="th"></a>
 
 <details><summary>Click to see hidden (unavailable in the menu) player models</summary>
 
-<a href="/m/uploads/2022/01/player_models_hidden.png"><img src="/m/uploads/2022/01/player_models_hidden.png" title="Hidden player models" class="th"></a>
+<a href="/m/uploads/2022/01/player_models_hidden.webp"><img src="/m/uploads/2022/01/player_models_hidden.webp" title="Hidden player models" class="th"></a>
 </details>
 <br>
 
