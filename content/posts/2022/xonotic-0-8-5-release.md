@@ -152,6 +152,17 @@ The arduous effort on the valuable contributions of [Morphed](https://forums.xon
 | <a href="/m/uploads/2022/01/crylinkprototype.jpg"><img src="/m/uploads/2022/01/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electroprototype.jpeg"><img src="/m/uploads/2022/01/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
 | <a href="/m/uploads/2022/01/crylinkfinalresult.jpg"><img src="/m/uploads/2022/01/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/01/electrofinalresult.jpg"><img src="/m/uploads/2022/01/electrofinalresult_t.jpg" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
+##### New monster models and animations
+
+Joining the existing Zombies are the Wyvern, Golem, Mage and Spider.
+
+<a href="/m/uploads/2022/01/mobs_blue.webp"><img src="/m/uploads/2022/01/mobs_blue_928w.webp" title="Monsters on Blue team" class="th"></a><br>
+
+They're supported by reworked and faster code with some new abilities.  
+The Invasion gametype remains a work in progress but you may encounter these monsters on certain maps or servers.  
+
+<a href="/m/uploads/2022/01/mobs_red.webp"><img src="/m/uploads/2022/01/mobs_red_928w.webp" title="Monsters on Red team" class="th"></a>
+
 ---
 
 ### User Interface
