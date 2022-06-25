@@ -185,6 +185,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 - Server list now has the option to filter out very high ping servers.
 - It's now possible to scroll the chat history with mouse wheel up/down.
 - Improve quickmenu input system.
+- The default Luma theme is refined for a cleaner look.
 
 ##### Translations
 - Welcome message and key names are now translatable.
@@ -224,6 +225,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 - HTTPS is now fully supported for pk3 downloads from servers, and is used by default for all XonStat connections.  
   This will improve reliability on servers that take advantage of it.
 - A redesigned Makefile is included that makes it easy to [compile a build optimised for your machine](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling).
+- Higher quality compression gives a sharper look with less artifacts to sprites and surfaces using official textures.
 
 ##### Campaign (menu, maps)
 - Bromine and Opium now replace the Oil Rig and Drain levels.
@@ -259,7 +261,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - A very old regression that caused incorrect gloss intensity is fixed.
 - A workaround is applied to fix IPv6-enabled servers having unreliable IPv4 in the server list.
 - A Quake Live style mouse acceleration mode was added.
-- Most glow maps on Quake 3 maps (bright textures used on lights) are now working.
+- Most glow maps (bright textures used on lights) on Quake 3 maps are now working.
 
 ##### Visual effects and sprites
 - Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
