@@ -49,7 +49,7 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Items such as Strength and Shield now initially spawn at the same time.
 - Allow dropping powerups on death, off by default.
 - Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
-- Wall rockets are no longer a thing.
+- Rockets can no longer be fired such that they're stuck in a wall.
 - Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
 
 ---
