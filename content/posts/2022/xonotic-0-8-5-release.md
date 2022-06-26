@@ -161,8 +161,6 @@ Joining the existing Zombies are the Wyvern, Golem, Mage and Spider.
 They're supported by reworked and faster code with some new abilities.  
 The Invasion gametype remains a work in progress but you may encounter these monsters on certain maps or servers.  
 
-<a href="/m/uploads/2022/01/mobs_red.webp"><img src="/m/uploads/2022/01/mobs_red_928w.webp" title="Monsters on Red team" class="th"></a>
-
 ---
 
 ### User Interface
