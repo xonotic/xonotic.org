@@ -177,6 +177,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 - The player's remaining oxygen is now indicated by a meter while underwater.
 - Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
 - Item pickup counts are now displayed in a dedicated panel under the scoreboard.
+<a href="/m/uploads/2022/01/item_stats.png"><img src="/m/uploads/2022/01/item_stats.png" title="Item stats" class="th"></a>
 
 ##### Menu
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
