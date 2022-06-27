@@ -169,6 +169,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 <img src="/m/uploads/2022/01/hud_subtext.jpg" title="Timer Phase indicator">
 <img src="/m/uploads/2022/01/hud_sectimer.jpg" title="Secondary timer">
 <img src="/m/uploads/2022/01/hud_centerprint.jpg" title="Centerprint title">
+
 - Added a title to centerprint messages and improved animations.
 - Added a phase indicator for the timer.
 - Added a secondary timer for round-based game modes which displays the remaining round time.
@@ -271,6 +272,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - Overlapping player name tags are now always visible with lower alpha.
 - An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 - Bloom is more subtle.
+- Refraction effect of water and warpzones is more subtle.
 - CTS waypoint sprite placement is now reliable for arbitrarily complex map entity chains.
 
 ##### Miscellaneous
