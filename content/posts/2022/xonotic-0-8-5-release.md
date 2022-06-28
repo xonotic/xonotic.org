@@ -7,9 +7,11 @@ title: Xonotic 0.8.5 Release
 categories:
 - Announcements
 ---
-By default, Hugo automatically takes the first 70 words of your content as its summary and stores it into the `.Summary` page variable for use in your templates.  
-Alternatively, you may add the <code>&#60;&#33;&#45;&#45;more&#45;&#45;&#62;</code> summary divider where you want to split the article.  
-https://gohugo.io/content-management/summaries/
+
+<!-- https://gohugo.io/content-management/summaries/ -->
+
+Xonotic 0.8.5 is here at last!  It's been a while in the making so there's plenty of progress to read about here.  
+Much has changed outside the game itself too and although some times were a little too eventful, what didn't kill us ended up making our infrastructure stronger.
 
 #### [Download it here](/download)
 <!--more-->
