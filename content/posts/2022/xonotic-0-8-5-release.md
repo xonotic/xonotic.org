@@ -268,8 +268,8 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - `gl_flashblend` mode no longer causes corona effects to be excessively huge and bright.
 
 ##### Visual effects and sprites
-- Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
-- Muzzle effects and bullet cases are not rendered when the first person weapon model is disabled.
+- Weapon muzzle effects always originate at the weapon model now, fixes obscured camera when using `g_shootfromeye 1`.
+- Muzzle effects and bullet cases are no longer rendered when the first person weapon model is disabled.
 - Simple item sprites no longer disappear behind grate textures.
 - Rain and snow are faster and more reliable, especially on larger maps.
 - Waypoint sprites now show icons rather than text.
