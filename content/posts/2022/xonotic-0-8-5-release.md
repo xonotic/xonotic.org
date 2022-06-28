@@ -287,5 +287,5 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 ---
 
 ### Backward compatibility issues
-- Several official maps have been significantly updated and old clients will have issues playing these maps on updated servers.
-- Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy skins" are now the default skins.  Server admins who were setting these cvars to `1` should now set them to `0` (the default) to continue using the glowy skins.
+- Several official maps have been significantly updated and current clients will have issues with these maps on old servers, or vice versa.
+- Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy" skins are now the default skins.  Server admins who were setting these cvars to `1` to improve player visibility should now set them to `0` (the default).
