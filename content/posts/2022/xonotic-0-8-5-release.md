@@ -168,12 +168,15 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 ### User Interface
 
 ##### HUD, Centerprints and Scoreboard
-<img src="/m/uploads/2022/06/hud_subtext.jpg" title="Timer Phase indicator">
-<img src="/m/uploads/2022/06/hud_sectimer.jpg" title="Secondary timer">
-<img src="/m/uploads/2022/06/hud_centerprint.jpg" title="Centerprint title">
 
-- Added a title to centerprint messages and improved animations.
-- Added a phase indicator for the timer.
+<p></p> <!-- half a <br> :) -->
+
+&emsp; <img src="/m/uploads/2022/06/hud_centreprint_ft.webp" title="Match starting centreprint with title" class="th">
+&emsp; <img src="/m/uploads/2022/06/hud_timer_modicons.webp" title="Warmup phase in Freeze Tag" class="th">
+&emsp; <img src="/m/uploads/2022/06/hud_timer.webp" title="Sudden Death phase with round timelimit" class="th">
+
+- Added a title to centerprint messages and improved their animations and legibility.
+- Added a match phase subtext to the timer.
 - Added a secondary timer for round-based game modes which displays the remaining round time.
 - The player's remaining oxygen is now indicated by a meter while underwater.
 - Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
