@@ -183,7 +183,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 ##### Menu
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
 - A new Welcome dialog replaces the old MOTD centerprint, bringing better looks, better accessibility for new players, and support for scrolling.
-- Settings menu (Video, Effects, Misc tabs) has been refined and has better support for upcoming DarkPlaces engine versions.
+- Video, Effects and Misc settings are more helpful, have less footguns, and support upcoming DarkPlaces Engine versions.
 - Server list now has the option to filter out very high ping servers.
 - It's now possible to scroll the chat history with mouse wheel up/down.
 - Improve quickmenu input system.
@@ -264,6 +264,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - A workaround is applied to fix IPv6-enabled servers having unreliable IPv4 in the server list.
 - A Quake Live style mouse acceleration mode was added.
 - Most glow maps (bright textures used on lights) on Quake 3 maps are now working.
+- `gl_flashblend` mode no longer causes corona effects to be excessively huge and bright.
 
 ##### Visual effects and sprites
 - Weapon muzzle effects now originate at the weapon model (instead of obscuring the camera when using g_shootfromeye).
