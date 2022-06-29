@@ -176,9 +176,9 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 &emsp; <img src="/m/uploads/2022/06/hud_timer_modicons.webp" title="Warmup phase in Freeze Tag" class="th">
 &emsp; <img src="/m/uploads/2022/06/hud_timer.webp" title="Sudden Death phase with round timelimit" class="th">
 
-- Added a title to centerprint messages and improved their animations and legibility.
-- Added a match phase subtext to the timer.
-- Added a secondary timer for round-based game modes which displays the remaining round time.
+- A title was added to centerprint messages and their animations and legibility improved.
+- The Timer HUD panel now indicates the match phase with a subtext.  
+  A secondary timer for round-based game modes displays the remaining round time.
 - The player's remaining oxygen is now indicated by a meter while underwater.
 - Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
 - Item pickup counts are now displayed in a dedicated panel under the scoreboard.
@@ -190,12 +190,13 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 - Video, Effects and Misc settings are more helpful, have less footguns, and support upcoming DarkPlaces Engine versions.
 - Server list now has the option to filter out very high ping servers.
 - It's now possible to scroll the chat history with mouse wheel up/down.
-- Improve quickmenu input system.
-- The default Luma theme is refined for a cleaner look.
+- The quickmenu has a better input system.
+- The default Luma theme was refined for a cleaner look.
 
 ##### Translations
 - Welcome message and key names are now translatable.
-- 5 years worth of translation updates in different languages, thanks to all our translators! Portuguese (Brazil) and Turkish are now available in the game menu.
+- 5 years worth of translation updates for multiple languages are included, thanks to all our translators!  
+  Portuguese (Brazil) and Turkish are now available in the game menu.
 
 ---
 
