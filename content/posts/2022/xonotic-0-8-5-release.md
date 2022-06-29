@@ -231,7 +231,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
   This will improve reliability on servers that take advantage of it.
 - A redesigned Makefile is included that makes it easy to [compile a build optimised for your machine](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling).
 - Higher quality compression gives a sharper look with less artifacts to sprites and surfaces using official textures.
-- The `mappingsupport` pack no longer includes a very old version of NetRadiant.
+- The `mappingsupport` pack no longer includes a very old version of NetRadiant, [see below](#netradiant).
 
 ##### Campaign (menu, maps)
 - Bromine and Opium now replace the Oil Rig and Drain levels.
@@ -297,7 +297,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 
 ---
 
-### NetRadiant updates
+### <a name="netradiant"></a> NetRadiant updates
 
 Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
 
