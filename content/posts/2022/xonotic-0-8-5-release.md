@@ -236,7 +236,7 @@ More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https:/
 ### Other changes in Xonotic
 
 ##### Build systems
-- Xonotic is now compiled on a much newer and self-hosted platform.  
+- Xonotic is compiled on a much newer and self-hosted platform.  
   This fixed several old problems with SDL on Linux.
 - Fresh Windows DLLs are compiled automatically as part of every build, replacing ancient manually updated files.  
   Lack of HTTPS and multi channel audio on Windows are fixed.
@@ -247,26 +247,26 @@ More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https:/
 - The `mappingsupport` pack no longer includes a very old version of NetRadiant, [see above](#netradiant).
 
 ##### Campaign
-- Bromine and Opium now replace the Oil Rig and Drain levels.
-- Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
-- Add a "Restart level" button in the new ESC menu to allow a quick level restart.
+- Bromine and Opium have replaced the Oil Rig and Drain levels.
+- The match is reset when the player joins so the timer is cleared and a nice 3 second countdown appears.
+- A convenient "Restart level" button is included in the new ESC menu.
 
 ##### Terms of Service
-- At first start, a "Terms of Service" (ToS) dialogue will explain transparently what data is required or optional.
-- Server admins can (and should) specify server specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the serverlist).
+At first start, a "Terms of Service" (ToS) dialogue will explain transparently what data is required or optional.  
+Server admins can (and should) provide server-specific Terms of Service that will be displayed in the server info dialogue (right-click on the server in the multiplayer menu).
 
 ##### Resetmatch
 New votable command `resetmatch` restarts the match without restarting the whole server, meaning players stay in their teams and don't have to reconnect.  Loading screens are eliminated and the process is instant.
 
 ##### Quake 3 map compatibility
-- More appropriate selections of equivalent items.
+- More appropriate equivalents are selected for some items.
 - Layouts and item placements that vary between different mods and gametypes are (almost fully) supported.
 - Many Q3 map entities including damage sources, weapon and ammo givers, doors and sounds now behave more like they do in Q3.
 
 ##### Map entity logic and documentation
-- Several fixes and code cleanup for existing functionality.
+- Several fixes and code cleanups were applied to existing functionality.
 - Several map entities can now be (de)activated by relays: [Merge Request](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/542)
-- Updated entity description for NetRadiant: [Merge Request](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/116)
+- Entity descriptions for NetRadiant were updated: [Merge Request](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/116)
 
 ##### Rulesets
 Popular gameplay configurations are now organised in `ruleset-*.cfg` files.
@@ -276,9 +276,9 @@ Player physics is now implemented in QuakeC gamecode instead of using the engine
 This will enable custom features that otherwise wouldn't be possible.  It also brings bug fixes for stairs and moving platforms.
 
 ##### DarkPlaces Engine
-- Significantly faster and smoother performance in bot matches and when the world origin is inside the playable area.
+- Performance is significantly faster and smoother in bot matches and when the world origin is in the playable area.
 - A very old regression that caused incorrect gloss intensity is fixed.
-- A workaround is applied to fix IPv6-enabled servers having unreliable IPv4 in the server list.
+- A workaround was applied to fix IPv6-enabled servers having unreliable IPv4 in the server list.
 - A Quake Live style mouse acceleration mode was added.
 - Most glow maps (bright textures used on lights) on Quake 3 maps are now working.
 - `gl_flashblend` mode no longer causes corona effects to be excessively huge and bright.
@@ -296,9 +296,9 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - CTS waypoint sprite placement is now reliable for arbitrarily complex map entity chains.
 
 ##### Miscellaneous
-- Automatically move idle players to spectators after some time.
-- Optionally autokick players who repeatedly teamkill, as they are likely intentionally teamkilling.
-- Allow assigning each enemy unique colors in all game modes without teams except duel.
+- Idle players are automatically moved to spectators after some time (60 seconds by default).
+- Optional automatic kicking of players who repeatedly teamkill was added.
+- Each enemy can now be assigned a unique color in all game modes without teams (except duel).
 - Clients automatically send cvars to the server when they're changed, for settings handled by the server.
 - Several bugs with submission of data to XonStat are fixed.
 
