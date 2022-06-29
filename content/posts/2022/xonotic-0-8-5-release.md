@@ -270,6 +270,17 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - Most glow maps (bright textures used on lights) on Quake 3 maps are now working.
 - `gl_flashblend` mode no longer causes corona effects to be excessively huge and bright.
 
+##### <a name="netradiant"></a> NetRadiant level editor
+
+Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
+
+- Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implemented such features.
+- Xonotic map build menu for NetRadiant ([Merge request](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5)) was updated, following good advices by Julius they are expected to produce good looking maps on par with official maps. Map compilation is expected to be faster.
+- Available for macOS and FreeBSD in addition to Linux and Windows.
+
+More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https://netradiant.gitlab.io/post/2022-06-28-updated-builds/) and more informations about changes having been done the past years can be found on the [NetRadiant website](https://netradiant.gitlab.io/) itself.
+
+
 ##### Visual effects and sprites
 - Weapon muzzle effects always originate at the weapon model now, fixes obscured camera when using `g_shootfromeye 1`.
 - Muzzle effects and bullet cases are no longer rendered when the first person weapon model is disabled.
@@ -294,15 +305,3 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 ### Backward compatibility issues
 - Several official maps have been significantly updated and current clients will have issues with these maps on old servers, or vice versa.
 - Behaviour of `sv_defaultcharacterskin 1; sv_defaultplayerskin 1` is inverted: the "glowy" skins are now the default skins.  Server admins who were setting these cvars to `1` to improve player visibility should now set them to `0` (the default).
-
----
-
-### <a name="netradiant"></a> NetRadiant updates
-
-Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
-
-There is no need for any Xonotic mapping support package anymore when using upstream NetRadiant. Features used in released game like [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/) and [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/) were implemented in both the NetRadiant level editor and the q3map2 map compiler. The Xonotic mapping support package may still be needed when using others editors if they did not implemented such features.
-
-The Xonotic map build menu for NetRadiant [was updated](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5), following good advices by Julius they are expected to produce good looking maps on par with official maps. Map build is expected to be faster. NetRadiant is now available for macOS and FreeBSD in addition to Linux and Windows.
-
-You'll get more details about the [NetRadiant builds at Xonotic 0.8.5 release time](https://netradiant.gitlab.io/post/2022-06-28-updated-builds/) and more informations about changes having been done the past years on the [NetRadiant website](https://netradiant.gitlab.io/) itself.
