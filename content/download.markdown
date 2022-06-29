@@ -48,11 +48,12 @@ This script will examine your installation and update only the files needed to b
 
 ### <a name="extra-downloads"></a>Extra downloads
 
-<i class="fas fa-download"></i><a name="netradiant"></a> [**Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.5-mappingsupport.zip)&emsp; 1337MB&emsp; [sha512sum][805sum]  
-The assets required to create Xonotic maps in the NetRadiant level editor.  
+<i class="fas fa-external-link-alt"></i><a name="netradiant"></a> [**NetRadiant**](https://netradiant.gitlab.io/page/download)  
+The official Xonotic level editor, compiled for Windows, Linux and macOS by illwieckz.  
+You can also [compile it from source](https://gitlab.com/xonotic/netradiant). Following mapping support package isn't required.  
 
-<i class="fas fa-external-link-alt"></i><a name="netradiant-illwieckz"></a> [**NetRadiant**](https://netradiant.gitlab.io/page/download)  
-The official Xonotic level editor, compiled for Windows and Linux by illwieckz.  
+<i class="fas fa-download"></i><a name="mappingsupport"></a> [**Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.5-mappingsupport.zip)&emsp; 1337MB&emsp; [sha512sum][805sum]  
+The assets required to create Xonotic maps in other level editors and Radiant forks.  
 
 <!--
 <i class="fas fa-download"></i><a name="higher-quality"></a> [**Higher quality Xonotic download (????MB)**](https://dl.xonotic.org/xonotic-0.8.2-high.zip)  
