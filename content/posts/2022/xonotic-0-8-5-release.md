@@ -10,11 +10,12 @@ categories:
 
 <!-- https://gohugo.io/content-management/summaries/ -->
 
-Xonotic 0.8.5 is here at last!  It's been a while in the making so there's plenty of progress to read about here.  
-Much has changed outside the game itself too and although some times were a little too eventful, what didn't kill us ended up making our infrastructure stronger.
+Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 making this quite a long read for all the right reasons.  Refined gameplay, new and updated maps and models, new sound effects, more dangerous bots, new HUD and menu features, more translations, better infrastructure, too many fixes to count, and much more.  
+[XonStat](#xonstat) and [NetRadiant](#netradiant) made great progress.
 
-#### [Download it here](/download)
 <!--more-->
+
+### [Download it here](/download)
 
 ---
 
@@ -198,7 +199,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 
 ---
 
-### XonStat 2.0
+### XonStat 2.0 <a name="xonstat"></a>
 During the pandemic XonStat was written from the ground up, solving many of the pain points of the previous version. A full list is too lengthy for this post, but here are some highlights:
 
 * Code is in Go (statically typed, compiled) instead of Python (duck-typed, interpreted).
