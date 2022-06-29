@@ -99,7 +99,7 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Improved visibility of all player models.
 - Balanced primary ('shirt') and secondary ('glow') colors in some models (especially in Erebus and derived models).
 - Fix burned glow color reducing number of available colors from 15 to 9.  
-  Side effect of this change is that now glow color of the blue team is now blue-cyan instead of cyan (burned blue-cyan), other team colors are unchanged.
+  Side effect of this change is that now glow color of the blue team is blue-cyan (original color) instead of cyan, other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up in some models.
 
 <a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" title="Player models" class="th"></a>
@@ -274,7 +274,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 
 Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
 
-- Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implemented such features.
+- Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
 - Xonotic map build menu for NetRadiant was updated ([merge request](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5)). Following good advices by Julius they are expected to produce good looking maps on par with official maps. Map compilation is expected to be faster.
 - Available for macOS and FreeBSD in addition to Linux and Windows.
 
