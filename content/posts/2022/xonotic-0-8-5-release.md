@@ -221,20 +221,32 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 
 ---
 
-### Everything Else
+### NetRadiant level editor <a name="netradiant"></a>
+
+Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
+
+- Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
+- Xonotic map build menu for NetRadiant was updated ([merge request](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5)). Following good advices by Julius they are expected to produce good looking maps on par with official maps. Map compilation is expected to be faster.
+- Available for macOS and FreeBSD in addition to Linux and Windows.
+
+More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https://netradiant.gitlab.io/post/2022-06-28-updated-builds/) and more informations about changes having been done the past years can be found on the [NetRadiant website](https://netradiant.gitlab.io/) itself.
+
+---
+
+### Other changes in Xonotic
 
 ##### Build systems
-- Everything is compiled on a much newer and self-hosted platform.  
-  This has fixed several old problems with SDL on Linux.
+- Xonotic is now compiled on a much newer and self-hosted platform.  
+  This fixed several old problems with SDL on Linux.
 - Fresh Windows DLLs are compiled automatically as part of every build, replacing ancient manually updated files.  
   Lack of HTTPS and multi channel audio on Windows are fixed.
 - HTTPS is now fully supported for pk3 downloads from servers, and is used by default for all XonStat connections.  
   This will improve reliability on servers that take advantage of it.
 - A redesigned Makefile is included that makes it easy to [compile a build optimised for your machine](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling).
 - Higher quality compression gives a sharper look with less artifacts to sprites and surfaces using official textures.
-- The `mappingsupport` pack no longer includes a very old version of NetRadiant, [see below](#netradiant).
+- The `mappingsupport` pack no longer includes a very old version of NetRadiant, [see above](#netradiant).
 
-##### Campaign (menu, maps)
+##### Campaign
 - Bromine and Opium now replace the Oil Rig and Drain levels.
 - Reset the match on join so that timer is cleared and a nice 3 second countdown show up.
 - Add a "Restart level" button in the new ESC menu to allow a quick level restart.
@@ -270,16 +282,6 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - A Quake Live style mouse acceleration mode was added.
 - Most glow maps (bright textures used on lights) on Quake 3 maps are now working.
 - `gl_flashblend` mode no longer causes corona effects to be excessively huge and bright.
-
-##### <a name="netradiant"></a> NetRadiant level editor
-
-Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
-
-- Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
-- Xonotic map build menu for NetRadiant was updated ([merge request](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5)). Following good advices by Julius they are expected to produce good looking maps on par with official maps. Map compilation is expected to be faster.
-- Available for macOS and FreeBSD in addition to Linux and Windows.
-
-More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https://netradiant.gitlab.io/post/2022-06-28-updated-builds/) and more informations about changes having been done the past years can be found on the [NetRadiant website](https://netradiant.gitlab.io/) itself.
 
 ##### Visual effects and sprites
 - Weapon muzzle effects always originate at the weapon model now, fixes obscured camera when using `g_shootfromeye 1`.
