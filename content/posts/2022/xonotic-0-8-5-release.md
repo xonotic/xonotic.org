@@ -1,7 +1,7 @@
 ---
 author: Xonotic Team
 comments: false
-date: 2022-04-01 13:37:42+00:00
+date: 2022-07-01 13:37:42+00:00
 slug: xonotic-0-8-5-release
 title: Xonotic 0.8.5 Release
 categories:
