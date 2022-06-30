@@ -126,13 +126,13 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 
 <p style="margin-bottom:0px">Existing maps received various fixes and/or visual updates:</p>
 
-  - [Erbium]: brushes/textures/clips/shaders cleanups, fixed projectiles entering the ground under the Mega Armor.
-  - [Final Rage]: added more lamps to fix very dark areas, fixed a few perching spots.
-  - [Implosion]: lightning bolts effect added on top of the central towers (indicates danger), tweaked the catwalks below the map, textures/clips cleanups.
-  - [Silent Siege]: brushes/patches/textures/clips cleanups, fixed a visible caulk, added a small light above the Mega Armor.
-  - [Solarium]: glass texture added to the big windows, brushes/patches/textures cleanups.
-  - [Space Elevator]: aligned the jump pads with the glowy pipes, updated bot waypoints.
-  - and [more][maps_more].
+- [Erbium]: brushes/textures/clips/shaders cleanups, fixed projectiles entering the ground under the Mega Armor.
+- [Final Rage]: added more lamps to fix very dark areas, fixed a few perching spots.
+- [Implosion]: lightning bolts effect added on top of the central towers (indicates danger), tweaked the catwalks below the map, textures/clips cleanups.
+- [Silent Siege]: brushes/patches/textures/clips cleanups, fixed a visible caulk, added a small light above the Mega Armor.
+- [Solarium]: glass texture added to the big windows, brushes/patches/textures cleanups.
+- [Space Elevator]: aligned the jump pads with the glowy pipes, updated bot waypoints.
+- and [more][maps_more].
 
 [Drain] and [Oil Rig] are now hidden from the game menus and will be removed in the next release.
 
@@ -161,10 +161,18 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 ##### Weapon models
 [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
 
+<!-- override some CSS so table looks better -->
+<style>
+table {
+	table-layout: auto;
+	width: 100%;
+}
+</style>
+
 | <h5>Crylink</h5> | <h5>Electro</h5> | |
 | :-: | :-: | :- |
-| <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
-| <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.jpg" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
+| <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.webp" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.webp" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
+| <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.webp" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.webp" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
 ##### Monster models
 Joining the existing Zombies are the new Wyvern, Golem, Mage and Spider.
@@ -183,6 +191,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 &emsp; <img src="/m/uploads/2022/06/hud_centreprint_ft.webp" title="Match starting centreprint with title" class="th">
 &emsp; <img src="/m/uploads/2022/06/hud_timer_modicons.webp" title="Warmup phase in Freeze Tag" class="th">
 &emsp; <img src="/m/uploads/2022/06/hud_timer.webp" title="Sudden Death phase with round timelimit" class="th">
+<p></p> <!-- this is not the hack you're looking for -->
 
 - A title was added to centerprint messages and their animations and legibility improved.
 - The Timer HUD panel now indicates the match phase with a subtext.  
