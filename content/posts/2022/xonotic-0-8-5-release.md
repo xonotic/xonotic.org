@@ -132,6 +132,7 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - [Silent Siege]: brushes/patches/textures/clips cleanups, fixed a visible caulk, added a small light above the Mega Armor.
 - [Solarium]: glass texture added to the big windows, brushes/patches/textures cleanups.
 - [Space Elevator]: aligned the jump pads with the glowy pipes, updated bot waypoints.
+- Warfare: recompiled the map to fix some poorly rendered terrain textures.
 - and [more][maps_more].
 
 [Drain] and [Oil Rig] are now hidden from the game menus and will be removed in the next release.
