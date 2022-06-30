@@ -97,11 +97,13 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 ### Artwork
 
 ##### Player model skins
-- Improved visibility of all player models.
+<p style="margin-bottom:0px">All player models have improved visibility by default, and there's several fixes:</p>
+
 - Balanced primary ('shirt') and secondary ('glow') colors in some models (especially in Erebus and derived models).
-- Fix burned glow color reducing number of available colors from 15 to 9.  
-  Side effect of this change is that now glow color of the blue team is blue-cyan (original color) instead of cyan, other team colors are unchanged.
-- Fixed primary and secondary colors being mixed up in some models.
+- Fixed burned glow color reducing the number of available colors from 15 to 9.  
+  A side effect of this is that the glow color of the blue team is blue-cyan (original color) instead of cyan.  
+  Other team colors are unchanged.
+- Fixed primary and secondary colors being mixed up on some models.
 
 <a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" title="Player models" class="th"></a>
 
@@ -112,20 +114,24 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 <br>
 
 ##### Maps
-- New official maps:
-  - [Bromine] by *packer*, a rusty styled map for large games!  
-<a href="/m/uploads/2022/06/bromine.jpg"><img src="/m/uploads/2022/06/bromine_t.jpg" title="Bromine by packer" class="th"></a>
-  - [Opium] by *cityy*, a medium sized level with plenty of vertical action!  
-<a href="/m/uploads/2022/06/opium.jpg"><img src="/m/uploads/2022/06/opium_t.jpg" title="Opium by cityy" class="th"></a>
-- Various fixes and/or visual updates to existing maps:
+<p style="margin-bottom:0px">We have two new official maps:</p>
+
+- [Bromine] by *packer*, a rusty styled map for large games!  
+  <a href="/m/uploads/2022/06/bromine.jpg"><img src="/m/uploads/2022/06/bromine_t.jpg" title="Bromine by packer" class="th"></a>
+- [Opium] by *cityy*, a medium sized level with plenty of vertical action!  
+  <a href="/m/uploads/2022/06/opium.jpg"><img src="/m/uploads/2022/06/opium_t.jpg" title="Opium by cityy" class="th"></a>
+
+<p style="margin-bottom:0px">Existing maps received various fixes and/or visual updates:</p>
+
   - [Erbium]: brushes/textures/clips/shaders cleanups, fixed projectiles entering the ground under the Mega Armor.
   - [Final Rage]: added more lamps to fix very dark areas, fixed a few perching spots.
-  - [Implosion]: lightning bolts effect on top of the central towers (to indicate danger), tweaked the catwalks below the map, textures/clips cleanups.
+  - [Implosion]: lightning bolts effect added on top of the central towers (indicates danger), tweaked the catwalks below the map, textures/clips cleanups.
   - [Silent Siege]: brushes/patches/textures/clips cleanups, fixed a visible caulk, added a small light above the Mega Armor.
-  - [Solarium]: glass texture on the big windows, brushes/patches/textures cleanups.
+  - [Solarium]: glass texture added to the big windows, brushes/patches/textures cleanups.
   - [Space Elevator]: aligned the jump pads with the glowy pipes, updated bot waypoints.
   - and [more][maps_more].
-- [Drain] and [Oil Rig] are now hidden from the game menus and will be removed in the next release.
+
+[Drain] and [Oil Rig] are now hidden from the game menus and will be removed in the next release.
 
 [Bromine]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/129
 [Opium]:https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/135
@@ -139,29 +145,30 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 [Drain]:https://xonotic.org/teamvotes/371/
 [Oil Rig]:https://xonotic.org/teamvotes/384/
 
-##### New sounds
-Now the sounds are more refined and smoother. 
+##### Sounds
+<p style="margin-bottom:0px">Refreshed weapon and item sounds are easier to distinguish in combat, and more fun.</p>
+
 - Pickups are a little finer, when we use the powerups, we're feeling a force coming and growling from inside. 
 - Players' footsteps are a bit more realistic, when they jump and land on some metal ramp, it's like they are hitting iron with their feet. 
 - Spawns are more attractive and it feels like air is coming out from inside.
 - Weapon shots are direct, futuristic and mixed with an audacious sensation.
 - New kill sound consisting of a high-pitched version of the hit indication sound.
+- Loss of armor is clearly audible.
 
-##### New weapon models
-The arduous effort on the valuable contributions of [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) did an amazing work making Crylink and Electro models. We were shocked to see his modeling progress.
+##### Weapon models
+[Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
 
 | <h5>Crylink</h5> | <h5>Electro</h5> | |
 | :-: | :-: | :- |
 | <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.jpg" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.jpeg" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
 | <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.jpg" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.jpg" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
-##### New monster models and animations
-
-Joining the existing Zombies are the Wyvern, Golem, Mage and Spider.
+##### Monster models
+Joining the existing Zombies are the new Wyvern, Golem, Mage and Spider.
 
 <a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" title="Monsters on Blue team" class="th"></a><br>
 
-They're supported by reworked and faster code with some new abilities.  
+They feature new animations and are supported by reworked and faster code with some new abilities.  
 The Invasion gametype remains a work in progress but you may encounter these monsters on certain maps or servers.  
 
 ---
@@ -169,9 +176,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 ### User Interface
 
 ##### HUD, Centerprints and Scoreboard
-
 <p></p> <!-- half a <br> :) -->
-
 &emsp; <img src="/m/uploads/2022/06/hud_centreprint_ft.webp" title="Match starting centreprint with title" class="th">
 &emsp; <img src="/m/uploads/2022/06/hud_timer_modicons.webp" title="Warmup phase in Freeze Tag" class="th">
 &emsp; <img src="/m/uploads/2022/06/hud_timer.webp" title="Sudden Death phase with round timelimit" class="th">
@@ -223,7 +228,6 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 ---
 
 ### NetRadiant level editor <a name="netradiant"></a>
-
 Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the Xonotic team with code hosted at [Xonotic GitLab forge](https://gitlab.com/xonotic/netradiant).
 
 - Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
