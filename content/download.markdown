@@ -1,7 +1,7 @@
 ---
 author: detrate and bones_was_here
 comments: false
-date: 2022-04-01 13:37:42+00:00
+date: 2022-06-30 13:37:42+00:00
 slug: download
 title: Download Xonotic 0.8.5
 wordpress_id: 839
@@ -12,12 +12,12 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 
 **Mirror links**  
 &emsp; <i class="fas fa-download"></i> [xonotic.org][805zip] (DE)  
-&emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://www.rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
 &emsp; <i class="fas fa-download"></i> [xonotic.au](https://xonotic.au/downloads/xonotic-0.8.5.zip) (AU)  
+<!-- &emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://www.rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  -->
 
-<i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent)
+<!-- <i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent) -->
 
-1337MB&emsp; [sha512sum][805sum]&emsp; [Release Notes][805post]
+1172MiB&emsp; [sha512sum][805sum]&emsp; [Release Notes][805post]
 
 [Terms of Service and Privacy Policy](/tos)
 
@@ -52,7 +52,7 @@ This script will examine your installation and update only the files needed to b
 The official Xonotic level editor, compiled for Windows, Linux and macOS by illwieckz.  
 You can also [compile it from source](https://gitlab.com/xonotic/netradiant#getting-the-sources). The following mapping support package isn't required by NetRadiant.  
 
-<i class="fas fa-download"></i><a name="mappingsupport"></a> [**Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.5-mappingsupport.zip)&emsp; 1337MB&emsp; [sha512sum][805sum]  
+<i class="fas fa-download"></i><a name="mappingsupport"></a> [**Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.5-mappingsupport.zip)&emsp; 170MiB&emsp; [sha512sum][805sum]  
 The assets required to create Xonotic maps in other level editors and Radiant forks.  
 
 <!--
@@ -60,7 +60,7 @@ The assets required to create Xonotic maps in other level editors and Radiant fo
 A release build with JPEG textures, instead of DDS textures with S3 compression. This build has a larger file size and is compatible with old GPU drivers that lack S3TC support. It uses significantly more RAM and has longer loading times.
 -->
 
-<i class="fas fa-download"></i><a name="source"></a> [**Xonotic source code**](https://dl.xonotic.org/xonotic-0.8.5-source.zip)&emsp; 1337MB&emsp; [sha512sum][805sum]  
+<i class="fas fa-download"></i><a name="source"></a> [**Xonotic source code**](https://dl.xonotic.org/xonotic-0.8.5-source.zip)&emsp; 7MiB&emsp; [sha512sum][805sum]  
 The source of all code parts (also included in the main zip).
 
 ---
