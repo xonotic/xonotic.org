@@ -1,5 +1,9 @@
 # The destination/output directory
 public/
 
+# Newer versions of hugo use this file
+.hugo_build.lock
+
 # Data that gets refreshed via external processes
 data/**
+
