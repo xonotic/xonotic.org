@@ -129,6 +129,7 @@
 ^7in_bind : binds a command to the specified key in the selected bindmap
 ^7in_bindlist : bindlist: displays bound keys for all bindmaps, or the given bindmap
 ^7in_bindmap : selects active foreground and background (used only if a key is not bound in the foreground) bindmaps for typing
+^7in_releaseall : releases all currently pressed keys (debug command)
 ^7in_unbind : removes command on the specified key in the selected bindmap
 ^7infobar : display a text in the infobar (usage: infobar expiretime string)
 ^7iplog_list : lists names of players whose IP address begins with the supplied text (example: iplog_list 123.456.789)
