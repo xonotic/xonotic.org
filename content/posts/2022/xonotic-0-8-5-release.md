@@ -64,37 +64,36 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 ### Bots
 
 ##### Behaviour
-- Set default bot skill to 8 (from 1).
+- Default bot skill increased from 1 to 8.
 - Fixed underwater navigation.
 - Fixed all kinds of issues when bots walk on flooded floors.
-- Bots no longer get stuck in bad spots (without linked waypoints) or when other bots of the same team block all their ways.
-- Fixed bad behaviour in FT and CA and improved behaviour in many game modes.
+- Bots no longer get stuck in bad spots (without linked waypoints) or when blocked by other bots of the same team.
+- Fixed bad behaviour in Freeze Tag and Clan Arena and improved behaviour in many game modes.
 - Added ability to jump and crouch thanks to new dedicated waypoints.
-- Improved ability of climbing ladders and using jumppads.
-- Improved ability of running avoiding dangers and bunny hoping.
-- Improved ability of chasing enemies.
+- Improved ability to climb ladders and use jumppads.
+- Improved ability to avoid danger while running and bunny hopping.
+- Improved ability to chase enemies.
 - Improved item rating.
 - Fixed bad jetpack usage.
-- Fixed bots ignoring teleports and warpzones.
+- Fixed bots ignoring teleporters and warpzones.
 
 ##### Waypoint editor
 - Fixed creation of waypoints underwater.
-- New waypoints (jump, crouch, custom jumppad waypoint, support).
+- Added new waypoint types (jump, crouch, custom jumppad waypoint, support).
 - Added ability to create waypoints at crosshair.
 - Added ability to create waypoints for jumppads without automatically generated waypoints.
-- Added ability to create support waypoints to replace incoming links of a problematic teleport / jumppad.
+- Added ability to create support waypoints to replace incoming links of a problematic teleporter or jumppad.
 - Made creating hardwired links easier.
-- Automatic symmetrical waypoint creation for CTF (symmetrical) maps.
+- Automatic symmetrical waypoint creation for symmetrical Capture The Flag maps.
 - Waypoint files are now versioned and timestamped.
 - Added a waypoint editor menu with all the commands (can be bound to a key in the key binder).
 
 ##### Bots miscellaneous
 - Improved performance.
-- Other minor fixes and improvements.
-- Automatically keep bots balanced between teams.
-- Add minplayers_per_team cvar (active in team modes) and make minplayers cvar only affect FFA modes.  
-  These fill server with bots to reach this number of players. When human players join these bots disconnect unlike bots from bot_number cvar.
-- Add bots and nobots votes to add/remove bots added through minplayers and minplayers_per_team.
+- Added automatic balancing of bots between teams.
+- Added `minplayers_per_team` cvar (active only in team modes) and made `minplayers` cvar only affect Free For All modes.  
+  These cvars add or remove (when humans join) bots as necessary to achieve the configured minimum player count.
+- Added bots and nobots votes to add/remove bots added through `minplayers` and `minplayers_per_team`.
 
 ---
 
@@ -302,7 +301,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 - An empty bar is always drawn under health and armor bars to highlight values from 0 to 100.
 - Bloom is more subtle.
 - Refraction effect of water and warpzones is more subtle.
-- CTS waypoint sprite placement is now reliable for arbitrarily complex map entity chains.
+- Race CTS waypoint sprite placement is now reliable for arbitrarily complex map entity chains.
 
 ##### Miscellaneous
 - Idle players are automatically moved to spectators after some time (60 seconds by default).
