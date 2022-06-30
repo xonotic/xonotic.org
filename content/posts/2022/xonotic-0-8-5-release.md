@@ -10,8 +10,8 @@ categories:
 
 <!-- https://gohugo.io/content-management/summaries/ -->
 
-Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 making this quite a long read for all the right reasons.  Refined gameplay, new and updated maps and models, new sound effects, more dangerous bots, new HUD and menu features, more translations, better infrastructure, too many fixes to count, and much more.  
-[XonStat](#xonstat) and [NetRadiant](#netradiant) made great progress.
+Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 making this quite a long read for all the right reasons: refined gameplay, new and updated maps and models, new sound effects, more dangerous bots, new HUD and menu features, more translations, better infrastructure, too many fixes to count, and much more.  
+[XonStat](#xonstat) and [NetRadiant](#netradiant) made great progress too.
 
 <!--more-->
 
@@ -21,39 +21,43 @@ Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 ma
 
 ### Gameplay
 
+##### Balance
+Vortex's push force has been reduced from 400 to 200 so players no longer fly to the other end of the map when hit by a Vortex shot.
+
+Electro primary bolts are now capable of detonating secondary orbs in close proximity.  
+This adds support for midair combos but is currently disabled by default.  
+Previously, bolts could only trigger the combo by hitting the orbs' bounding boxes or an adjacent surface.
+
+Crylink now has a _linkexplode_ property which makes all pellets explode at once when any of them hit a player.  
+This makes damage more consistent because when only 1 pellet hits, the others may still deal splash damage.  
+It also reduces visual clutter compared to having all the missed pellets bouncing around.
+
 ##### Duel
 Duel is now a dedicated gametype, there is no longer a need for deathmatch with max playercount of 2.  
 This allows duel-specific gameplay settings and cleaner handling by XonStat.
 
 ##### Freeze Tag
-- Apply spawnshield for 1 second after you've been revived (spawnshield is lost if you fire).
-- Reduce auto-revival time based on manual revival progress. To compensate for the increased ease of revival, don't award an extra point for revival (just for the time spent reviving).
-- Don't reset autorevive progress when a frozen player falls into the void.
-- Start the automatic reviving progress as soon as the player gets frozen.
-- Show autorevival progress of frozen players as waypoint sprite health bar rather than normal health bar, which was barely visible for red players.
-- Reduce auto-revival time when frozen players are hit by enemies (time reduction depends on hit force). Optionally this behaviour can be enabled when frozen players are hit by teammates too.
-- Fix view jitter while floating on the water when frozen.
+<p style="margin-bottom:0px">Clever tactics are rewarded with epic comebacks and laziness is punished with these changes:</p>
 
-##### Balance
-- Vortex's push force has been reduced from 400 to 200.  
-  Players no longer fly to the other end of the map when hit by a Vortex shot.
-- Electro primary bolts are now capable of detonating Electro secondary orbs by flying close enough to them.  
-  Though this midair combo trigger radius is 0 units by default meaning that there is no real change yet. Bolts can now also be within 0 units to trigger the combo instead of only hitting the orbs' bounding boxes or a surface next to them.
-- Crylink now has a linkexplode property which makes all pellets explode at once when any of them hit a player.  
-  Linkexplode allows for more consistent damage output when only 1 pellet needs to hit a player for all of them to detonate dealing damage to players within their splash radiuses.  
-  This also reduces visual clutter compared to having all the missing pellets fly around.
-- There are also a couple other new cvars and a few of the existing cvars have been edited to allow for more in-depth weapon customization.
+- Players are immune to damage for 1 second after being revived.  This spawn shield is lost if they fire.
+- Manual revival progress now contributes to automatic revival progress. To compensate for the increased ease of reviving players, an extra point is no longer awarded for a revival (time spent reviving is still rewarded).
+- Auto revival progress is no longer reset when a frozen player falls into the void.
+- Auto revival progress starts as soon as the player gets frozen.
+- Auto revival progress is displayed as a waypoint sprite health bar rather than a normal health bar, which was barely visible for red team players.
+- Auto revival progress advances when frozen players are hit by enemies (the amount depends on the hit force).  
+  Optionally this behaviour can be enabled for when frozen players are hit by teammates too.
+- View jitter when floating on water while frozen is fixed.
+- Players now spawn with 100 armor points instead of 0.
 
 ##### Gameplay miscellaneous
-- LMS: avoid forcing players to join on connection.
-- LMS, CA, FT: minor fixes and improvements.
-- New "most_available" weaponarena only gives the weapons available as pickups on the map.  
-  This allows for g_weaponarena mutator and/or CA/FT/LMS gamemodes to only have weapons which the mapper intended the map to have.
+- Spectators are no longer forced to join in Last Man Standing.
+- New "most_available" weapon arena setting only gives the weapons available as pickups on the map.  
+  This allows weapon arena mutators and gametypes to only have the weapons the mapper intended the map to have.
 - Items such as Strength and Shield now initially spawn at the same time.
-- Allow dropping powerups on death, off by default.
+- Dropping powerups on death is supported, off by default.
 - Powerup code has been redesigned and Speed and Invisibility are now implemented as powerups instead of buffs.
 - Rockets can no longer be fired such that they're stuck in a wall.
-- Taller weapon & ammo hitboxes so you don't jump straight over them without acquiring them.
+- Weapon & ammo hitboxes are taller so you don't jump straight over them without acquiring them.
 
 ---
 
