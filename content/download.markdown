@@ -14,6 +14,7 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 &emsp; <i class="fas fa-download"></i> [xonotic.org][805zip] (DE)  
 &emsp; <i class="fas fa-download"></i> [xonotic.au](https://xonotic.au/downloads/xonotic-0.8.5.zip) (AU)  
 &emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
+&emsp; <i class="fas fa-download"></i> [dl.unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.5.zip) (US)  
 
 <!-- <i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent) -->
 
