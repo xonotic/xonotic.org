@@ -225,7 +225,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 ##### Translations
 - Welcome message and key names are now translatable.
 - 5 years worth of translation updates for multiple languages are included, thanks to all our translators!  
-  Portuguese (Brazil) and Turkish are now available in the game menu.
+  Japanese, Portuguese (Brazil) and Turkish are now available in the game menu.
 
 ---
 
