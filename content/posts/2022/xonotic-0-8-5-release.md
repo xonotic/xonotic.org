@@ -15,7 +15,18 @@ Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 ma
 
 <!--more-->
 
-### [Download it here](/download)
+### Download information:
+
+#### New to Xonotic?
+[Download it here](/download)
+
+#### Already have Xonotic on your machine?
+There's no need to download the game again to get into the action. Use the following steps to upgrade your client to the 0.8.5 release:
+
+  1. Navigate to your Xonotic installation folder
+  2. Navigate to the misc/tools/rsync-updater folder
+  3. Execute the update-to-release.sh (for Linux or Mac) or update-to-release.bat (for Windows) and wait for it to complete
+  4. Profit. You're done!
 
 ---
 
@@ -93,7 +104,7 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Added automatic balancing of bots between teams.
 - Added `minplayers_per_team` cvar (active only in team modes) and made `minplayers` cvar only affect Free For All modes.  
   These cvars add or remove (when humans join) bots as necessary to achieve the configured minimum player count.
-- Added bots and nobots votes to add/remove bots added through `minplayers` and `minplayers_per_team`.
+- Added bots and nobots votes to add/remove bots through `minplayers` and `minplayers_per_team` cvars.
 
 ---
 
