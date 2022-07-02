@@ -1,7 +1,7 @@
 ---
 author: Xonotic Team
 comments: false
-date: 2022-04-01 13:37:42+00:00
+date: 2022-06-30 13:37:42+00:00
 slug: xonotic-0-8-5-release
 title: Xonotic 0.8.5 Release
 categories:
@@ -15,7 +15,18 @@ Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 ma
 
 <!--more-->
 
-### [Download it here](/download)
+### Download information:
+
+#### New to Xonotic?
+[Download it here](/download)
+
+#### Already have Xonotic on your machine?
+There's no need to download the game again to get into the action. Use the following steps to upgrade your client to the 0.8.5 release:
+
+  1. Navigate to your Xonotic installation folder
+  2. Navigate to the misc/tools/rsync-updater folder
+  3. Execute the update-to-release.sh (for Linux or Mac) or update-to-release.bat (for Windows) and wait for it to complete
+  4. Profit. You're done!
 
 ---
 
@@ -93,7 +104,7 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Added automatic balancing of bots between teams.
 - Added `minplayers_per_team` cvar (active only in team modes) and made `minplayers` cvar only affect Free For All modes.  
   These cvars add or remove (when humans join) bots as necessary to achieve the configured minimum player count.
-- Added bots and nobots votes to add/remove bots added through `minplayers` and `minplayers_per_team`.
+- Added bots and nobots votes to add/remove bots through `minplayers` and `minplayers_per_team` cvars.
 
 ---
 
@@ -214,7 +225,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 ##### Translations
 - Welcome message and key names are now translatable.
 - 5 years worth of translation updates for multiple languages are included, thanks to all our translators!  
-  Portuguese (Brazil) and Turkish are now available in the game menu.
+  Japanese, Portuguese (Brazil) and Turkish are now available in the game menu.
 
 ---
 
@@ -244,7 +255,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the [Xonotic Team](/team) with code hosted at [Xonotic GitLab](https://gitlab.com/xonotic/netradiant).
 
 - Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
-- Xonotic map build menu for NetRadiant was updated ([merge request](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5)). Following good advices by Julius they are expected to produce good looking maps on par with official maps. Map compilation is expected to be faster.
+- Xonotic map build menu for NetRadiant was updated ([merge request](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/5)). Following good advices by Julius they are expected to produce good looking maps on par with official maps.
 - Available for macOS and FreeBSD in addition to Linux and Windows.
 
 More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https://netradiant.gitlab.io/post/2022-06-28-updated-builds/) and more informations about changes having been done the past years can be found on the [NetRadiant website](https://netradiant.gitlab.io/) itself.
