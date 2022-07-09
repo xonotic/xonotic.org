@@ -19,7 +19,7 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 &emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
 &emsp; <i class="fas fa-download"></i> [github.com](https://github.com/garymoon/xonotic/releases/download/xonotic-v0.8.5/xonotic-0.8.5.zip) (Global)  
 
-**Bittorrent**  
+**BitTorrent**  
 &emsp; <i class="fas fa-cloud-download-alt fa-fw"></i> [**Torrent file**](https://archive.org/download/xonotic-0.8.5/xonotic-0.8.5_archive.torrent) (courtesy of [archive.org](https://archive.org/details/xonotic-0.8.5))  
 &emsp; <i class="fas fa-magnet fa-fw"></i> [**Magnet link**](magnet:?xt=urn:btih:b3a90f204f8178553ce34eb938587e3ded705640&dn=xonotic-0.8.5&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2F&ws=http%3A%2F%2Fia902508.us.archive.org%2F0%2Fitems%2F)  
 
