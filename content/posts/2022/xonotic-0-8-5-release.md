@@ -57,8 +57,8 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Auto revival progress is displayed as a waypoint sprite health bar rather than a normal health bar, which was barely visible for red team players.
 - Auto revival progress advances when frozen players are hit by enemies (the amount depends on the hit force).  
   Optionally this behaviour can be enabled for when frozen players are hit by teammates too.
-- View jitter when floating on water while frozen is fixed.
 - Players now spawn with 100 armor points instead of 0.
+- View jitter when floating on water while frozen is fixed.
 
 ##### Gameplay miscellaneous
 - Spectators are no longer forced to join in Last Man Standing.
@@ -336,4 +336,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 ### Backward compatibility notes
 Several official maps have been significantly updated and old clients will have issues with these maps on current servers, or vice versa.
 
-The "glowy" player model skins are now used by default and the behaviour of cvars `sv_defaultcharacterskin` and `sv_defaultplayerskin` is inverted.  Server admins who were setting these cvars to "1" to improve player visibility should now use the default value of "0".
+<p style="margin-bottom:0px">The "glowy" high visibility player model skins are now used by default, and the skin numbers are inverted.</p>
+
+- Players: if you were using `playerskin 1` and forcing other players to look like yourself, you should now use `playerskin 0` (the default).
+- Server admins: if you were using `sv_defaultcharacterskin 1` and `sv_defaultplayerskin 1`, you should now use the default values of "0".
