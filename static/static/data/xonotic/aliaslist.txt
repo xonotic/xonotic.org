@@ -1,3 +1,6 @@
+^7^2alias^7: create a script function (parameters are passed in as $X (being X a number), $* for all parameters, $X- for all parameters starting from $X). Without arguments show the list of all alias
+^7]alias 
+^7Current alias commands:
 ^7+attack2 : +button3
 ^7+con_chat_maximize : _con_chat_maximized 1; _backup_con_chatvars; con_notify 0; con_chattime 3600; cl_deathscoreboard 0; scr_centertime 0; r_track_sprites 0
 ^7+crouch : +button5
@@ -7,7 +10,9 @@
 ^7+hook : +button6
 ^7+hud_panel_radar_maximized : cl_cmd hud radar 1
 ^7+jetpack : +button10
-^7+show_info : +button7
+^7+show_info : +show_info$cl_welcome_in_menu_dialog
+^7+show_info0 : +button7
+^7+show_info1 : menu_showwelcomedialog
 ^7+userbind : _userbind_call userbind${1}_press
 ^7+zoom : set _togglezoom -; +button4
 ^7-attack2 : -button3
@@ -19,7 +24,9 @@
 ^7-hook : -button6
 ^7-hud_panel_radar_maximized : cl_cmd hud radar 0
 ^7-jetpack : -button10
-^7-show_info : -button7
+^7-show_info : -show_info$cl_welcome_in_menu_dialog
+^7-show_info0 : -button7
+^7-show_info1 : 
 ^7-userbind : _userbind_call userbind${1}_release
 ^7-zoom : set _togglezoom +; -button4
 ^7_backup_con_chatvars : _backup_con_chatvars_$_backup_con_chatvars_set
@@ -97,7 +104,7 @@
 ^7butcher : editmob butcher ${* ?}
 ^7chmap : changelevel ${* ?}
 ^7cl_hook_activeweapon : 
-^7cl_hook_gameend : rpn /cl_matchcount dup load 1 + =
+^7cl_hook_gameend : 
 ^7cl_hook_gamestart_all : 
 ^7cl_hook_gamestart_as : 
 ^7cl_hook_gamestart_ca : 
@@ -141,7 +148,7 @@
 ^7dumpweapons : qc_cmd_svcl dumpweapons ${* ?}
 ^7editmob : qc_cmd_svcmd  editmob              ${* ?}
 ^7effectindexdump : qc_cmd_sv     effectindexdump      ${* ?}
-^7endmatch : timelimit -1
+^7endmatch : _endmatch 1
 ^7exit : quit
 ^7extendmatchtime : qc_cmd_sv     extendmatchtime      ${* ?}
 ^7findat : qc_cmd_svcl findat ${* ?}
@@ -212,13 +219,16 @@
 ^7make_mapinfo : qc_cmd_sv     make_mapinfo         ${* ?}
 ^7makesaved : seta $1 "${$1 ?}"
 ^7maplist : qc_cmd_svmenu maplist ${* ?}
+^7menu_credits_export : _menu_credits_export 1; menu_restart
 ^7menu_loadmap_prepare : disconnect; wait; g_campaign 0; menu_cmd rpn /_menu_loadmap_maxplayers menu_maxplayers minplayers bot_number 1 add max minplayers_per_team 4 mul max max def; _menu_loadmap_prepare_maxpl; g_maplist_shufflenow
+^7menu_showgamemenudialog : menu_cmd directmenu GameMenu
 ^7menu_showhudexit : menu_cmd directmenu HUDExit
 ^7menu_showhudoptions : menu_cmd directpanelhudmenu ${* ?}
 ^7menu_showmonstertools : menu_cmd directmenu MonsterTools
 ^7menu_showquitdialog : menu_cmd directmenu Quit
 ^7menu_showsandboxtools : menu_cmd directmenu SandboxTools
 ^7menu_showteamselect : menu_cmd directmenu TeamSelect
+^7menu_showwelcomedialog : menu_cmd directmenu Welcome
 ^7menu_sync : menu_cmd sync
 ^7minigame : qc_cmd_cmd    minigame             ${* ?}
 ^7mobbutcher : editmob butcher ${* ?}
@@ -262,6 +272,7 @@
 ^7reducematchtime : qc_cmd_sv     reducematchtime      ${* ?}
 ^7reload : impulse 20
 ^7removefromlist : qc_cmd_svmenu removefromlist ${* ?}
+^7resetmatch : qc_cmd_sv     resetmatch           ${* ?}
 ^7restartnotifs : qc_cmd_svcl restartnotifs ${* ?}
 ^7rpn : qc_cmd_svmenu rpn ${* ?}
 ^7runtest : qc_cmd_svcl runtest ${* ?}
@@ -301,6 +312,7 @@
 ^7sv_fbskin_rainbow : sv_defaultcharacter 1; sv_defaultplayermodel models/player/megaerebus.iqm; sv_defaultplayerskin 1; sv_defaultplayercolors 95
 ^7sv_fbskin_red : sv_defaultcharacter 1; sv_defaultplayermodel models/player/megaerebus.iqm; sv_defaultplayerskin 1; sv_defaultplayercolors 68
 ^7sv_fbskin_unique : sv_defaultcharacter 1; sv_defaultplayermodel models/player/megaerebus.iqm; sv_defaultplayerskin 1; sv_defaultplayercolors ""
+^7sv_hook_firstjoin : 
 ^7sv_hook_gameend : 
 ^7sv_hook_gamestart_all : 
 ^7sv_hook_gamestart_as : 
@@ -319,6 +331,7 @@
 ^7sv_hook_gamestart_ons : 
 ^7sv_hook_gamestart_rc : 
 ^7sv_hook_gamestart_tdm : 
+^7sv_hook_lastleave : 
 ^7sv_hook_readyrestart : 
 ^7sv_hook_warmupend : 
 ^7sv_loadconfig : exec $serverconfig
@@ -341,7 +354,7 @@
 ^7sv_vote_gametype_hook_rc : 
 ^7sv_vote_gametype_hook_tdm : 
 ^7tdem : timedemo $1
-^7team_auto : cmd selectteam auto; cmd join
+^7team_auto : togglemenu 0; cmd selectteam auto; cmd join
 ^7team_blue : cmd selectteam blue; cmd join
 ^7team_pink : cmd selectteam pink; cmd join
 ^7team_red : cmd selectteam red; cmd join
@@ -360,9 +373,6 @@
 ^7timein : qc_cmd_svcmd  timein               ${* ?}
 ^7timeout : qc_cmd_svcmd  timeout              ${* ?}
 ^7togglezoom : ${_togglezoom}zoom
-^7topfrag_cmd : scr_screenshot_name "topfrags/${cl_worldbasename}-${_thetime}-"; wait; screenshot; wait; scr_screenshot_name "$scr_screenshot_name"
-^7topfrag_ss : topfrag_ts; topfrag_cmd;
-^7topfrag_ts : prvm_globalget client time  _thetime
 ^7trace : qc_cmd_sv     trace                ${* ?}
 ^7unban : qc_cmd_sv     unban                ${* ?}
 ^7unlockteams : qc_cmd_sv     unlockteams          ${* ?}
@@ -396,13 +406,14 @@
 ^7weapbest : impulse 13
 ^7weaplast : impulse 11
 ^7weapnext : _weapnext_${cl_weaponpriority_useforcycling}
-^7weapon_arc : impulse 249
-^7weapon_blaster : impulse 230
-^7weapon_crylink : impulse 236
-^7weapon_devastator : impulse 239
-^7weapon_electro : impulse 235
+^7weapon_arc : impulse 230
+^7weapon_ballstealer : impulse 247
+^7weapon_blaster : impulse 231
+^7weapon_crylink : impulse 232
+^7weapon_devastator : impulse 233
+^7weapon_electro : impulse 234
 ^7weapon_find : qc_cmd_cl     weapon_find          ${* ?}
-^7weapon_fireball : impulse 246
+^7weapon_fireball : impulse 236
 ^7weapon_group_0 : impulse 14
 ^7weapon_group_1 : impulse 1
 ^7weapon_group_2 : impulse 2
@@ -414,23 +425,22 @@
 ^7weapon_group_8 : impulse 8
 ^7weapon_group_9 : impulse 9
 ^7weapon_hagar : impulse 238
-^7weapon_hlac : impulse 243
+^7weapon_hlac : impulse 241
 ^7weapon_hook : impulse 242
-^7weapon_machinegun : impulse 232
-^7weapon_minelayer : impulse 234
-^7weapon_mortar : impulse 233
-^7weapon_porto : impulse 240
-^7weapon_rifle : impulse 245
-^7weapon_seeker : impulse 247
-^7weapon_shockwave : impulse 248
-^7weapon_shotgun : impulse 231
-^7weapon_tuba : impulse 244
-^7weapon_turret_ewheel : impulse 250
-^7weapon_turret_flac : impulse 251
-^7weapon_turret_hellion : impulse 252
-^7weapon_turret_hk : impulse 253
-^7weapon_vaporizer : impulse 241
-^7weapon_vortex : impulse 237
+^7weapon_machinegun : impulse 243
+^7weapon_magespike : impulse 244
+^7weapon_minelayer : impulse 245
+^7weapon_mortar : impulse 246
+^7weapon_okhmg : impulse 248
+^7weapon_okmachinegun : impulse 249
+^7weapon_oknex : impulse 250
+^7weapon_okrpc : impulse 251
+^7weapon_okshotgun : impulse 252
+^7weapon_turret_ewheel : impulse 235
+^7weapon_turret_flac : impulse 237
+^7weapon_turret_hellion : impulse 239
+^7weapon_turret_hk : impulse 240
+^7weapon_turret_phaser : impulse 253
 ^7weapprev : _weapprev_${cl_weaponpriority_useforcycling}
 ^7who : qc_cmd_svcmd  who                  ${* ?}
 ^7wpeditor : qc_cmd_cmd    wpeditor             ${* ?}
