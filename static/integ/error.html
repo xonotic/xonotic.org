@@ -6,7 +6,7 @@
 
 	{{ httpInclude "/integ/favicon.html" }}
 
-	<title>{{placeholder "http.error.status_code"}} {{placeholder "http.error.status_text"}} - Xonotic</title>
+	<title>{{placeholder "http.error.status_code"}} {{placeholder "http.error.message"}} - Xonotic</title>
 
 	{{ httpInclude "/integ/includes2.html" }}
 </head>
@@ -15,19 +15,20 @@
 
 	<div class="row">
 		<div class="small-12 columns text-center">
-			<h2 style="color:red">
-				Quake Error: {{placeholder "http.error.status_code"}} {{placeholder "http.error.status_text"}}
+			<h2>
+				<span style="color:red">Quake Error: {{placeholder "http.error.status_code"}}</span><br>
+				{{placeholder "http.error.message"}}
 			</h2>
-			<h3>
-				{{placeholder "http.request.scheme"}}://{{placeholder "http.request.host"}}:{{placeholder "http.request.port"}}
-				<br>
-				{{placeholder "http.request.method"}} {{placeholder "http.request.uri"}} {{placeholder "http.request.proto"}}
-				<hr>
-				Try searching xonotic.org
-			</h3>
-			<iframe src="https://duckduckgo.com/search.html?site=https://xonotic.org&prefill=Search via DuckDuckGo&focus=yes" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
+		<!--	<h5>
+				{{placeholder "http.request.scheme"}}://{{placeholder "http.request.hostport"}}{{placeholder "http.request.uri"}}<br>
+				{{placeholder "http.request.proto"}} {{placeholder "http.request.method"}}
+			</h5>	-->
 			<br>
-			<br>
+			<form method="get" id="search" action="https://duckduckgo.com/" style="width:50%; margin:auto;">
+				<input type="hidden" name="sites" value="xonotic.org" />
+				<input type="text" class="search" name="q" maxlength="300" placeholder="Search xonotic.org with DuckDuckGo" style="background:rgba(0,0,0,0.33); color:white;" autofocus />
+				<input type="submit" value="Search" style="visibility:hidden;" />
+			</form>
 		</div>
 	</div>
 
