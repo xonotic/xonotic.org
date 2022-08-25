@@ -8,6 +8,7 @@
        url('../fonts/xolonium-regular-latin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 @font-face {
@@ -19,6 +20,7 @@
        url('../fonts/PTS55F-webfont.svg#pt_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 /* Foundation Overrides */

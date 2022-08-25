@@ -7,6 +7,7 @@
        url('../fonts/xolonium-regular-latin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 body {
