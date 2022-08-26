@@ -35,7 +35,7 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 ##### At least 4GB of RAM
 ##### A supported platform:
 - Windows 7 or newer (x86 or x86-64)
-- Linux with glibc (libc6) 2.29 or newer (x86-64)
+- Linux (x86-64) with glibc/libc6 2.29 or newer, libSDL2, libvorbisfile, libcurl, libpng
 - macOS (x86-64)
 
 Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling) the included source code.
