@@ -119,11 +119,13 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
   Other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up on some models.
 
-<a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" title="Player models" class="th"></a>
+<!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
+<a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" title="Player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
 
 <details><summary>Click to see hidden (unavailable in the menu) player models</summary>
 
-<a href="/m/uploads/2022/06/player_models_hidden.webp"><img src="/m/uploads/2022/06/player_models_hidden_928w.webp" title="Hidden player models" class="th"></a>
+<!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
+<a href="/m/uploads/2022/06/player_models_hidden.webp"><img src="/m/uploads/2022/06/player_models_hidden_928w.webp" title="Hidden player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
 </details>
 <br>
 
@@ -197,7 +199,8 @@ table {
 ##### Monster models
 Joining the existing Zombies are the new Wyvern, Golem, Mage and Spider.
 
-<a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" title="Monsters on Blue team" class="th"></a><br>
+<!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
+<a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" title="Monsters on Blue team" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a><br>
 
 They feature new animations and are supported by reworked and faster code with some new abilities.  
 The Invasion gametype remains a work in progress but you may encounter these monsters on certain maps or servers.  
