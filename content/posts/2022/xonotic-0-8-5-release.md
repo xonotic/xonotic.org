@@ -211,10 +211,10 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 
 ##### HUD, Centerprints and Scoreboard
 <p></p> <!-- half a <br> :) -->
-&emsp; <img src="/m/uploads/2022/06/hud_centreprint_ft.webp" title="Match starting centreprint with title" class="th">
-&emsp; <img src="/m/uploads/2022/06/hud_timer_modicons.webp" title="Warmup phase in Freeze Tag" class="th">
-&emsp; <img src="/m/uploads/2022/06/hud_timer.webp" title="Sudden Death phase with round timelimit" class="th">
-<p></p> <!-- this is not the hack you're looking for -->
+
+&emsp; ![Match starting centreprint with title](/m/uploads/2022/06/hud_centreprint_ft.webp)
+&emsp; ![Warmup phase in Freeze Tag](/m/uploads/2022/06/hud_timer_modicons.webp)
+&emsp; ![Sudden Death phase with round timelimit](/m/uploads/2022/06/hud_timer.webp)
 
 - A title was added to centerprint messages and their animations and legibility improved.
 - The Timer HUD panel now indicates the match phase with a subtext.  
@@ -222,7 +222,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 - The player's remaining oxygen is now indicated by a meter while underwater.
 - Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
 - Item pickup counts are now displayed in a dedicated panel under the scoreboard.
-<img src="/m/uploads/2022/06/item_stats.png" title="Item stats panel showing MANY items" class="th">
+  ![Item stats panel showing MANY items](/m/uploads/2022/06/item_stats.png)
 
 ##### Menu
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
