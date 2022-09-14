@@ -120,12 +120,12 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Fixed primary and secondary colors being mixed up on some models.
 
 <!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
-<a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" title="Player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
+<a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" width="928" height="262" loading="lazy" title="Player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
 
 <details><summary>Click to see hidden (unavailable in the menu) player models</summary>
 
 <!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
-<a href="/m/uploads/2022/06/player_models_hidden.webp"><img src="/m/uploads/2022/06/player_models_hidden_928w.webp" title="Hidden player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
+<a href="/m/uploads/2022/06/player_models_hidden.webp"><img src="/m/uploads/2022/06/player_models_hidden_928w.webp" width="928" height="262" loading="lazy" title="Hidden player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
 </details>
 <br>
 
@@ -133,9 +133,9 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 <p style="margin-bottom:0px">We have two new official maps:</p>
 
 - [Bromine] by *packer*, a rusty styled map for large games!  
-  <a href="/m/uploads/2022/06/bromine.jpg"><img src="/m/uploads/2022/06/bromine_t.jpg" title="Bromine by packer" class="th"></a>
+  <a href="/m/uploads/2022/06/bromine.jpg"><img src="/m/uploads/2022/06/bromine_t.jpg" width="512" height="288" loading="lazy" title="Bromine by packer" class="th"></a>
 - [Opium] by *cityy*, a medium sized level with plenty of vertical action!  
-  <a href="/m/uploads/2022/06/opium.jpg"><img src="/m/uploads/2022/06/opium_t.jpg" title="Opium by cityy" class="th"></a>
+  <a href="/m/uploads/2022/06/opium.jpg"><img src="/m/uploads/2022/06/opium_t.jpg" width="512" height="288" loading="lazy" title="Opium by cityy" class="th"></a>
 
 <p style="margin-bottom:0px">Existing maps received various fixes and/or visual updates:</p>
 
@@ -186,21 +186,21 @@ table {
 
 | <h5>Explosives ammo pack</h5> | <h5>Cell ammo</h5> |
 | :-: | :-: |
-| <video class="th" autoplay muted loop playsinline controls poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" width="512" height="288" title="Explosives ammo pack by Morphed"><source src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4"></video> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" width="512" height="369" title="Cell ammo by Morphed" class="th"></a> |
+| <video class="th" autoplay muted loop playsinline controls poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" width="512" height="288" title="Explosives ammo pack by Morphed"><source src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4"></video> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" width="512" height="369"  loading="lazy" title="Cell ammo by Morphed" class="th"></a> |
 
 ##### Weapon models
 [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
 
 | <h5>Crylink</h5> | <h5>Electro</h5> | |
 | :-: | :-: | :- |
-| <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.webp" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.webp" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
-| <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.webp" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.webp" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
+| <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.webp" width="380" height="214" loading="lazy" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.webp" width="380" height="214" loading="lazy" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
+| <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.webp" width="380" height="214" loading="lazy" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.webp" width="380" height="214" loading="lazy" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
 ##### Monster models
 Joining the existing Zombies are the new Wyvern, Golem, Mage and Spider.
 
 <!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
-<a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" title="Monsters on Blue team" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a><br>
+<a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" width="928" height="367" loading="lazy" title="Monsters on Blue team" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a><br>
 
 They feature new animations and are supported by reworked and faster code with some new abilities.  
 The Invasion gametype remains a work in progress but you may encounter these monsters on certain maps or servers.  
