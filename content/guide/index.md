@@ -102,7 +102,7 @@ These are techniques which are essential for Xonotic race mode / CTS where serve
 Blaster Jumping
 -------------
 
-[![Blaster Jumping](https://gitlab.com/xonotic/xonotic/wikis/assets/images/blaster-jumping_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/blaster-jumping.png)
+![Blaster Jumping](blaster-jumping.webp)
 
 Let’s now have a look at two important aspects of a very useful movement tool in Xonotic, the blaster! While dealing somewhat low damage, the blaster is one of the most important weapons in Xonotic. It’s projectile creates a blast upon impact on any surface or object that deals little damage to players being nearby, but pushes such players away from the impact spot. That way, the push force of the blaster projectile impact can be used to move both other players and yourself around. You can test this easily by standing and shooting at the ground below you with the blaster. You’ll notice that you get pushed up into the air by the blast. Now if you jump at the same time, you can get pushed even higher. If you get the timing right, you can get very high, like from the upper platform to the roof or from the fan to crylink on the map Xoylent.
 
@@ -113,7 +113,7 @@ You’ll have to experiment a bit with the timing of shooting and jumping to rel
 Wall Blastering
 -------------
 
-[![Wall Blastering](https://gitlab.com/xonotic/xonotic/wikis/assets/images/wall-blastering_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/wall-blastering.png)
+![Wall Blastering](wall-blastering.webp)
 
 Now, when accelerating fast, you won’t always want to do that vertically. Some times the first few bunny hops are not fast enough to reach a place (or to get out of a place) in time. With the technique of wall blastering you can easily reach rather high horizontal speeds instantly, out of the stand.
 
@@ -271,7 +271,7 @@ Since we’ve now learned how to master Xonotic movement, it’s time to have a 
 
 ### Blaster
 
-[![Blaster](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Blaster_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Blaster.png)
+![Blaster](Blaster.webp "0.5")
 
 I already explained the blaster as versatile movement tool in [the Blaster Jumping Section](#blaster-jumping). Apart from moving yourself around, you can also use it for juggling around *other* players, irritating annyoing campers or generally messing with other people’s movement. Pushing people around or forcing a prolonged bunny hop can be especially effective on space maps. Unless shooting at sitting ducks (such as campers), you might want to aim at your target’s feet to make use of its splash damage, as the blaster projectile needs some time to travel even though it is rather fast, thus aiming directly at moving targets can be rather tricky.
 
@@ -279,7 +279,7 @@ The blaster does not eat any ammo. Secondary fire will switch to the previously 
 
 ### Shotgun
 
-[![Shotgun](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Shotgun_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Shotgun.png)
+![Shotgun](Shotgun.webp "0.5")
 
 The shotgun is your second spawn weapon. Primary fire is very powerful in close combat and, due to the bullets’ spread and being insta hit, a useful finishing weapon at medium range. Note that the push force of primary fire will slow down targets moving towards you, which can be very effective on space maps at spots where players are supposed to touch down from distant jump pads. If you shoot them with shotgun while they are still flying, they probably won’t make it to their usual landing spot.
 
@@ -287,7 +287,7 @@ The secondary fire mode allows you to swing the shotgun like a big trout and to 
 
 ### Machinegun
 
-[![Machinegun](https://gitlab.com/xonotic/xonotic/wikis/assets/images/MachineGun_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/MachineGun.png)
+![Machinegun](MachineGun.webp "0.5")
 
 The machine gun’s (or “uzi’s”) primary fire has a high spread, so it’s useful mostly in close to medium range. Secondary fire has lower spread and shoots small bursts, which is more useful at medium to longer ranges. As the machine gun projectiles have a little push force and are fired rapidly, it can be quite useful for slowing down players that come at you at high speeds. In fact, it’s hard to get into slapping range of someone that has a steady aim as long as such player is firing the machine gun.
 
@@ -295,19 +295,19 @@ You’ll notice a ring around your crosshair that shows the depleting ammo. Once
 
 ### Mortar
 
-[![Mortar](https://gitlab.com/xonotic/xonotic/uploads/de93c9e5ab17eaeb078a588c29e7b175/Mortar-thumb.png)](https://gitlab.com/xonotic/xonotic/uploads/93f1ac02ce277908480bc953fafd5a16/Mortar.png)
+![Mortar](Mortar.webp "0.5")
 
 The mortar fires ballistic grenades which deal a lot of direct and splash damage in addition to pushing the player away from the impact. Whereas primary fire detonates upon impact, secondary fire detonates exactly 0.5 seconds after the first bounce of the grenade. With this knowledge you can time the detonation of secondary mortar. Mortar is a very effective weapon against any non-flying targets and to spam around corners.
 
 ### Electro
 
-[![Electro](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Electro_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Electro.png)
+![Electro](Electro.webp "0.5")
 
 The electro primary behaves like an ordinary rocket launcher as you might know it from other games. However, it’s not really useful for doing high jumps. The secondary fire mode looks like some ordinary sluggish grenade like balls, but has a not so obvious special function: if you detonate the up to three blobs the secondary fire mode can release with primary fire, they will explode with a big WOOOSH that deals a lot of direct and splash damage (around 130 dmg!). This makes the electro especially useful for blocking entries, releasing upon several opponents that are busy fighting each other or spamming where you predict someone to come. Note that you only have to directly hit the balls when trying to set it off mid-air. Otherwise the splash of the primary's impact on a surface nearby is sufficient to set off the combo-explosion. This means that you can even set it off through walls (shooting blobs around a corner and hitting wall with primary) or even mid-air (just shoot through where your blobs fall).
 
 ### Crylink
 
-[![Crylink](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Crylink_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Crylink.png)
+![Crylink](Crylink.webp "0.5")
 
 The crylink has a couple of very non-obvious features, which makes this weapon rather interesting and unique. First of all, due to negative (!) push force, getting hit by crylink particles will effectively slow you down very much, no matter of the direction you’re moving in in relation to the firing player. Even if you move at insane speeds, getting hit by several crylink particles at once will make you perform a full stop. This makes the crylink very popular amongst defending CTF players, as you can really annoy fast flag runners with it provided you manage to hit them.
 
@@ -323,7 +323,7 @@ It wouldn't be Xonotic if you couldn't use the unique negative push force for mo
 
 ### Vortex
 
-[![Vortex](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Vortex_thumb.png)](https://gitlab.com/xonotic/xonotic/wikis/assets/images/Vortex.png)
+![Vortex](Vortex.webp "0.5")
 
 In the hands of a player with a good aim the vortex is probably the most powerful weapon in the entire game. It fires a single beam with zero spread that will instantly hit anything in its way and will even shoot through other players. You’ll notice a small ring around the crosshair when holding the vortex in your hands. If the ring is full, the vortex is charged (and also starts to glow red). Charging happens automatically while you hold the weapon, and it does not cost any ammo. Upon firing, the vortex obviously discharges and starts to recharge unless you switch to another weapon (which you should do, but more about weapon combos [later](#weapon-comboing)). When fully charged, the vortex deals 80 dmg, if you shoot with it immediately again, it deals 76 dmg, minimum damage you can deal with it is 59 (if you switch to another weapon immediately after shooting and then shoot vortex immediately after reswitching back to it, so it doesn’t have the refire time for recharging).
 
@@ -331,13 +331,13 @@ Secondary fire only zooms in, as the weapon is strong enough as it is even witho
 
 ### Hagar
 
-[![Hagar](https://gitlab.com/xonotic/xonotic/uploads/2742ae22aeb5e5abc98bbb31adea67d3/Hagar-thumb.png)](https://gitlab.com/xonotic/xonotic/uploads/ef2ff2d57348dd661e4cfe4bb5777b04/Hagar.png)
+![Hagar](Hagar.webp "0.5")
 
 The hagar rapidly fires small rockets, since 0.8.2 without spread. By holding secondary you can load up to 4 rockets that you can fire simultaneously in a three-tip-star formation by releasing secondary fire. If you hold secondary fire too long, hagar will make a little beep and automatically release the loaded rockets so you can’t run around the map and just keeping hagar loaded all the time until you find someone. Unloading hagar secondary can deal a lot of damage at close range, however you’ll need to watch out not to get killed yourself by the splash damage it does. The high splash makes this weapon quite useful against opponents standing next to a wall so the rockets that miss will at least do splash damage. Due to the removed spread compared to 0.8.1, hagar can now also be used on long distances effectively, with the travel time of the projectiles opening yet another bit of gameplay depth. On most competitive servers you’ll be able to discharge the hagar secondary without firing the rockets by pressing primary again while still holding secondary.
 
 ### Devastator
 
-[![Devastator](https://gitlab.com/xonotic/xonotic/uploads/7e6c49a82cc34f0d1efa2502a09d4df1/Devastator-thumb.png)](https://gitlab.com/xonotic/xonotic/uploads/6e5d3a1ae5fa2f3e269af0cb099e1086/Devastator.png)
+![Devastator](Devastator.webp "0.5")
 
 The devastator also has some very interesting features that are not very typical for this kind of weapon. First of all you can use the secondary fire to immediately detonate remotely any rocket you fired (provided of course it is still flying). No need to hit a flying target directly, just get the rocket near and, BAM, there you go. Apart from the high splash damage, the explosion also deals quite a lot of push force, so if you want to push some flying player off the map, devastator is your weapon of choice as you can not only push players away from you (push direction obviously depends on the explosion’s position in relation to the player).
 
