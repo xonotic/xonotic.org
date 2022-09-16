@@ -43,9 +43,6 @@ hr {
 ul, ol, dl {
   font-size: 1.1rem;
 }
-.top-bar {
-  height: 50px;
-}
 .top-bar, .top-bar-section { display: inline-block; }
 .top-bar .name h1 a {
   color: rgb(200, 200, 200);
