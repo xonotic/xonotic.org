@@ -72,7 +72,18 @@ ul, ol, dl {
   background: none;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
- background: #333;
+  background: #333;
+}
+.f-dropdown {
+  background: rgba(0,0,0,0.8);
+  max-width: min-content;
+  border: none;
+  /* left and right shadows, offset downward to prevent a top shadow, same colour as th:hover */
+  box-shadow: -4px 6px 8px rgba(0, 140, 186, 0.7), 4px 6px 8px rgba(0, 140, 186, 0.7);
+}
+.f-dropdown li { /* this applies to the entries listed in the dropdown box */
+  width: 100%; /* fix hover highlight not taking full box width */
+  text-align: left; /* the nav bar is inside a div with class="text-center" */
 }
 .panel {
   background-color: #151515;
