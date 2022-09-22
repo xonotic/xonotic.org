@@ -1,0 +1,6 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+	{{- if .Anchor -}}
+		<a class="heading-link" href="#{{ .Anchor | safeURL }}"><img src="/static/img/heading-link.svg" alt="" width="20" height="20"></a>
+	{{- end -}}
+	{{ .Text | safeHTML -}}
+</h{{ .Level }}>
