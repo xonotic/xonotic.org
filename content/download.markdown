@@ -29,11 +29,11 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 
 ---
 
-### <a name="system-requirements"></a>System requirements
+### System requirements
 
-##### Hardware accelerated OpenGL 2.1
-##### At least 4GB of RAM
-##### A supported platform:
+##### Hardware accelerated OpenGL 2.1 {#}
+##### At least 4GB of RAM {#}
+##### A supported platform: {#}
 - Windows 7 or newer (x86 or x86-64)
 - Linux (x86-64) with glibc/libc6 2.29 or newer, libSDL2, libvorbisfile, libcurl, libpng
 - macOS (x86-64)
@@ -42,7 +42,7 @@ Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/x
 
 ---
 
-### <a name="upgrading"></a>Upgrading from an older version
+### Upgrading from an older version {#upgrading}
 
 Since Xonotic version 0.5, an auto-update tool is included in the Xonotic application directory.
 
@@ -52,7 +52,7 @@ This script will examine your installation and update only the files needed to b
 
 ---
 
-### <a name="extra-downloads"></a>Extra downloads
+### Extra downloads
 
 <i class="fas fa-external-link-alt"></i><a name="netradiant"></a> [**NetRadiant**](https://netradiant.gitlab.io/page/download)  
 The official Xonotic level editor, compiled for Windows, Linux and macOS by illwieckz.  
@@ -71,7 +71,7 @@ The source of all code parts (also included in the main zip).
 
 ---
 
-### <a name="please-note"></a>Attention: Developers, Artists and Mappers
+### Attention: Developers, Artists and Mappers {#please-note}
 
 Please refer to the [Xonotic Git README](https://gitlab.com/xonotic/xonotic/blob/master/README.md) for information about compiling the latest sources and contributing.<br/>
 It's important to base your work on the latest git sources, rather than the files on this download page.<br/>
@@ -79,7 +79,7 @@ Joining the [development community discussions](https://gitlab.com/xonotic/xonot
 
 ---
 
-### <a name="older-downloads"></a>Older downloads
+### Older downloads
 
 <!-- override some CSS so it looks decent -->
 <style>

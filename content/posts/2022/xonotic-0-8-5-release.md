@@ -15,12 +15,12 @@ Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 ma
 
 <!--more-->
 
-### Download information:
+### Download information: {#}
 
-#### New to Xonotic?
+#### New to Xonotic? {#}
 [Download it here](/download)
 
-#### Already have Xonotic on your machine?
+#### Already have Xonotic on your machine? {#}
 There's no need to download the game again to get into the action. Use the following steps to upgrade your client to the 0.8.5 release:
 
   1. Navigate to your Xonotic installation folder
@@ -229,7 +229,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 
 ---
 
-### XonStat 2.0 <a name="xonstat"></a>
+### XonStat 2.0 {#xonstat}
 During the pandemic XonStat was written from the ground up, solving many of the pain points of the previous version. A full list is too lengthy for this post, but here are some highlights:
 
 * Code is in Go (statically typed, compiled) instead of Python (duck-typed, interpreted).
@@ -251,7 +251,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 
 ---
 
-### NetRadiant level editor <a name="netradiant"></a>
+### NetRadiant level editor {#netradiant}
 Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the [Xonotic Team](/team) with code hosted at [Xonotic GitLab](https://gitlab.com/xonotic/netradiant).
 
 - Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
@@ -262,7 +262,7 @@ More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https:/
 
 ---
 
-### Other changes in Xonotic
+### Other changes in Xonotic {#other}
 
 ##### Build systems
 - Xonotic is compiled on a much newer and self-hosted platform.  

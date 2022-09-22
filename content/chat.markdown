@@ -15,7 +15,7 @@ Most questions will be answered if you are patient, polite, clear, and don't bre
 
 <div class="small-12 large-6 columns">
 
-#### [Matrix](https://matrix.org/docs/guides/introduction)
+#### [Matrix](https://matrix.org/docs/guides/introduction) {#}
 Space (group of rooms): [![#space:xonotic.org](https://xonotic.org/badgen/matrix/members/space/xonotic.org?color=orange)](https://matrix.to/#/#space:xonotic.org)  
 Main room direct link: [![#main:xonotic.org](https://xonotic.org/badgen/matrix/members/main/xonotic.org?color=blue)](https://matrix.to/#/#main:xonotic.org)
 
@@ -33,7 +33,7 @@ Lists of public homeservers are maintained at
 </div>
 <div class="small-12 large-6 columns">
 
-#### [Internet Relay Chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
+#### [Internet Relay Chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat) {#}
 Network: [irc.quakenet.org](irc://irc.quakenet.org/xonotic)  
 Main channel: [#xonotic](https://webchat.quakenet.org/?channels=xonotic)
 
