@@ -34,9 +34,9 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 ##### Hardware accelerated OpenGL 2.1 {#}
 ##### At least 4GB of RAM {#}
 ##### A supported platform: {#}
-- Windows 7 or newer (x86 or x86-64)
-- Linux (x86-64) with glibc/libc6 2.29 or newer, libSDL2, libvorbisfile, libcurl, libpng
-- macOS (x86-64)
+&emsp; <i class="fa-brands fa-windows"></i> Windows 7 or newer (x86 or x86-64)  
+&emsp; <i class="fa-brands fa-linux"></i> Linux (x86-64) with glibc/libc6 2.29 or newer, libSDL2, libvorbisfile, libcurl, libpng  
+&emsp; <i class="fa-brands fa-apple"></i> macOS (x86-64)  
 
 Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling) the included source code.
 
