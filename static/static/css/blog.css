@@ -43,9 +43,6 @@ hr {
 ul, ol, dl {
   font-size: 1.1rem;
 }
-.top-bar {
-  height: 50px;
-}
 .top-bar, .top-bar-section { display: inline-block; }
 .top-bar .name h1 a {
   color: rgb(200, 200, 200);
@@ -58,14 +55,14 @@ ul, ol, dl {
 .top-bar-section ul li > a {
   color: rgb(200, 200, 200);
   font-family: Xolonium, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-shadow: 0px 1px 1px rgba(200, 200, 200, 0.4);
 }
-.top-bar-section li:not(.has-form) a:not(.button) {
-  line-height: 50px;
+.top-bar {
+  background: none;
 }
-.top-bar, .contain-to-grid {
-  background: linear-gradient( rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 95% );
+.contain-to-grid {
+  background: rgba(0, 0, 0, 0.333);
   margin-bottom: 15px;
 }
 .top-bar.expanded .title-area {
@@ -75,7 +72,18 @@ ul, ol, dl {
   background: none;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
- background: #333;
+  background: #333;
+}
+.f-dropdown {
+  background: rgba(0,0,0,0.8);
+  max-width: min-content;
+  border: none;
+  /* left and right shadows, offset downward to prevent a top shadow, same colour as th:hover */
+  box-shadow: -4px 6px 8px rgba(0, 140, 186, 0.7), 4px 6px 8px rgba(0, 140, 186, 0.7);
+}
+.f-dropdown li { /* this applies to the entries listed in the dropdown box */
+  width: 100%; /* fix hover highlight not taking full box width */
+  text-align: left; /* the nav bar is inside a div with class="text-center" */
 }
 .panel {
   background-color: #151515;
