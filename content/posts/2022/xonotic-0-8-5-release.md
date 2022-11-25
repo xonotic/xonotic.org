@@ -174,8 +174,17 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 
 The new cell and explosives ammo pack item models made by [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) are visually attractive. Cell item behaves like a pretty shinning blue plasma lamp. Explosives ammo pack has a shader animation changing Mortar, Hagar and Devastator icons.
 
-<a href="/m/uploads/2022/06/explosives_ammo_pack.mp4"><img src="/m/uploads/2022/06/explosives_ammo_pack_t.gif" title="Explosives ammo pack by Morphed" class="th"></a>
-<a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" title="Cell ammo by Morphed" class="th"></a>
+<!-- override some CSS so table looks better -->
+<style>
+table {
+	table-layout: auto;
+	width: 100%;
+}
+</style>
+
+| <h5>Cell ammo</h5> | <h5>Explosives ammo pack</h5> |
+| :-: | :-: |
+| <a href="/m/uploads/2022/06/explosives_ammo_pack.mp4"><img src="/m/uploads/2022/06/explosives_ammo_pack_t.gif" title="Explosives ammo pack by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" title="Cell ammo by Morphed" class="th"></a> |
 
 ##### Weapon models
 [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
