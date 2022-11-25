@@ -182,7 +182,7 @@ table {
 }
 </style>
 
-| <h5>Cell ammo</h5> | <h5>Explosives ammo pack</h5> |
+| <h5>Explosives ammo pack</h5> | <h5>Cell ammo</h5> |
 | :-: | :-: |
 | <a href="/m/uploads/2022/06/explosives_ammo_pack.mp4"><video class="lazy" autoplay muted loop playsinline width="512" height="288" poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" loading="lazy"><source data-src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4" title="Explosives ammo pack by Morphed" class="th"></video></a> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" title="Cell ammo by Morphed" class="th"></a> |
 
