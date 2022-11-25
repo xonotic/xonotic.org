@@ -184,18 +184,10 @@ table {
 
 | <h5>Cell ammo</h5> | <h5>Explosives ammo pack</h5> |
 | :-: | :-: |
-| <a href="/m/uploads/2022/06/explosives_ammo_pack.mp4"><img src="/m/uploads/2022/06/explosives_ammo_pack_t.gif" title="Explosives ammo pack by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" title="Cell ammo by Morphed" class="th"></a> |
+| <a href="/m/uploads/2022/06/explosives_ammo_pack.mp4"><video class="lazy" autoplay muted loop playsinline width="512" height="288" poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" loading="lazy"><source data-src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4" title="Explosives ammo pack by Morphed" class="th"></video></a> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" title="Cell ammo by Morphed" class="th"></a> |
 
 ##### Weapon models
 [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
-
-<!-- override some CSS so table looks better -->
-<style>
-table {
-	table-layout: auto;
-	width: 100%;
-}
-</style>
 
 | <h5>Crylink</h5> | <h5>Electro</h5> | |
 | :-: | :-: | :- |
