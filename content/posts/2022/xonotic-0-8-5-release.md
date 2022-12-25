@@ -170,8 +170,9 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - New kill sound consisting of a high-pitched version of the hit indication sound.
 - Loss of armor is clearly audible.
 
-##### Weapon models
-[Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
+##### Item models
+
+The new cell and explosives ammo pack item models made by [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) are visually attractive. Cell item behaves like a pretty shinning blue plasma lamp. Explosives ammo pack has a shader animation changing Mortar, Hagar and Devastator icons.
 
 <!-- override some CSS so table looks better -->
 <style>
@@ -180,6 +181,13 @@ table {
 	width: 100%;
 }
 </style>
+
+| <h5>Explosives ammo pack</h5> | <h5>Cell ammo</h5> |
+| :-: | :-: |
+| <video class="th" autoplay muted loop playsinline controls poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" width="512" height="288" title="Explosives ammo pack by Morphed"><source src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4"></video> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" width="512" height="369" title="Cell ammo by Morphed" class="th"></a> |
+
+##### Weapon models
+[Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
 
 | <h5>Crylink</h5> | <h5>Electro</h5> | |
 | :-: | :-: | :- |
