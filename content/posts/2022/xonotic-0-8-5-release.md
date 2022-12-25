@@ -184,7 +184,7 @@ table {
 
 | <h5>Explosives ammo pack</h5> | <h5>Cell ammo</h5> |
 | :-: | :-: |
-| <video autoplay muted loop playsinline poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" loading="lazy"><source src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4" title="Explosives ammo pack by Morphed" class="th"></video> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" title="Cell ammo by Morphed" class="th"></a> |
+| <video class="th" autoplay muted loop playsinline controls poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" width="512" height="288" title="Explosives ammo pack by Morphed"><source src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4"></video> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" width="512" height="369" title="Cell ammo by Morphed" class="th"></a> |
 
 ##### Weapon models
 [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
