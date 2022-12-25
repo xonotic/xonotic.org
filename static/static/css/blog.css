@@ -94,10 +94,21 @@ ul, ol, dl {
 }
 .th {
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.4);
+  border-color: rgba(0,0,0,0); /* completely transparent so we only see the background-color effect */
+  background-color: rgba(0,0,0,0.333);
+  line-height: inherit; /* why does Foundation set this to 0 ? */
 }
 .th:hover, .th:focus {
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.7);
 }
+img {
+  /* To prevent Layout Shifts and make PageSpeed/Lighthouse happy we must specify image dimensions,
+   * this is done automatically for markdown images in layouts/_default/_markup/render-image.html
+   * but Foundation makes browsers include the "th" border in the dimensions by setting box-sizing: border-box;
+   * causing unnecessary/undesired downscaling in certain cases such as images inside tables. */
+  box-sizing: content-box;
+}
+
 
 /* Sections */
 body > section.pad {
@@ -162,10 +173,7 @@ body > section.pad {
   text-shadow: 2px 2px #363636;
 }
 
-/* Thumbnails */
-.th {
-  border-color: #0E0E0E;
-}
+/* Thumbnails (see also .th above) */
 .m10 { margin: 10px; }
 
 /* Post date */
