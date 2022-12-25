@@ -1,0 +1,65 @@
+<!-- max width that fits in the page while avoiding browser scaling with current CSS,
+     ignoring border effects (see: img { box-sizing } in blog.css);
+     this is the default "thumbnail" width -->
+{{- $th_width := 936 -}}
+<!-- default CSS class -->
+{{- $th_class := `class="th"` -}}
+
+{{- $th_src := .Destination -}}
+{{- $th_height := 0 -}}
+{{- $th_dimensions := "" -}}
+{{- $th_link_open := "" -}}
+{{- $th_link_close := "" -}}
+{{- $th_caption_open := "" -}}
+{{- $th_caption_close := "" -}}
+
+{{- $whitespace := "\n\t " -}}
+{{- if .Title -}}
+	<!-- split the delimited Title string into width multiplier, class list and caption text -->
+	{{- $array := split .Title "||" -}}
+	{{- if gt ($scale := trim (index $array 0) $whitespace) 0 -}}
+		{{- $th_width = mul $th_width ($scale | float) | int -}}
+	{{- end -}}
+	{{- if $class := trim (index $array 1) $whitespace -}}
+		{{- $th_class = printf `class="%s"` $class -}}
+	{{- end -}}
+	{{- if $caption := trim (index $array 2) $whitespace -}}
+		{{- $th_caption_open = printf `<figure %s>` $th_class | safeHTML -}}
+		{{- $th_caption_close = printf `<figcaption>%s</figcaption></figure>` $caption | safeHTML -}}
+		{{- $th_class = "" -}} <!-- specified classes applied to <figure> and not <img> -->
+	{{- end -}}
+{{- end -}}
+
+{{- if or ($img := .Page.Resources.Get .Destination) ($img := resources.Get .Destination) -}}
+	<!-- if this image is a Page Resource or Global Resource,
+	     compress as lossy webp, generate thumbnail if necessary,
+	     and fingerprint to support permanent caching with automatic cache busting -->
+	{{- $fullsize := $img.Resize (printf "%dx webp" $img.Width) -}}
+	{{- if gt $img.Width $th_width -}}
+		{{- $th := $img.Resize (printf "%dx webp" $th_width) -}}
+		{{- $th_src = $th.RelPermalink -}}
+		{{- $th_height = $th.Height -}}
+		{{- $th_link_open = printf `<a href="%s">` $fullsize.RelPermalink | safeHTML -}}
+		{{- $th_link_close = "</a>" | safeHTML -}}
+	{{- else -}}
+		{{- $th_src = $fullsize.RelPermalink -}}
+		{{- $th_width = $fullsize.Width -}}
+		{{- $th_height = $fullsize.Height -}}
+	{{- end -}}
+{{- else -}}
+	<!-- for static image files we must only determine their dimensions -->
+	{{- $path := add "/static" .Destination -}}
+	{{- if fileExists $path -}}
+		{{- $img := imageConfig $path -}}
+		{{- $th_width = $img.Width -}}
+		{{- $th_height = $img.Height -}}
+	{{- end -}}
+{{- end -}}
+
+{{- if gt $th_height 0 -}}
+	{{- $th_dimensions = printf `width="%d" height="%d"` $th_width $th_height -}}
+{{- end -}}
+
+{{- $th_caption_open }}{{ $th_link_open }}
+	{{ printf `<img src="%s" alt="%s" title="%s" loading="lazy" %s %s>` $th_src .Text .Text $th_dimensions $th_class | safeHTML }}
+{{ $th_link_close }}{{ $th_caption_close -}}

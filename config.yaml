@@ -9,4 +9,7 @@ markup:
     renderer:
       # xonotic.org includes inline html which is disabled by default in goldmark
       unsafe: true
+imaging:
+  quality: 100
+  resampleFilter: Lanczos
 ---
