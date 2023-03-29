@@ -17,8 +17,11 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 &emsp; <i class="fas fa-download"></i> [xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.5.zip) (US)  
 &emsp; <i class="fas fa-download"></i> [xonotic.au](https://xonotic.au/downloads/xonotic-0.8.5.zip) (AU)  
 &emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
+&emsp; <i class="fas fa-download"></i> [github.com](https://github.com/garymoon/xonotic/releases/download/xonotic-v0.8.5/xonotic-0.8.5.zip) (Global)  
 
-<!-- <i class="fas fa-cloud-download-alt"></i> [**BitTorrent link**](https://dl.xonotic.org/xonotic-0.8.5.zip.torrent) -->
+**BitTorrent**  
+&emsp; <i class="fas fa-cloud-download-alt fa-fw"></i> [**Torrent file**](https://archive.org/download/xonotic-0.8.5/xonotic-0.8.5_archive.torrent) (courtesy of [archive.org](https://archive.org/details/xonotic-0.8.5))  
+&emsp; <i class="fas fa-magnet fa-fw"></i> [**Magnet link**](magnet:?xt=urn:btih:b3a90f204f8178553ce34eb938587e3ded705640&dn=xonotic-0.8.5&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2F&ws=http%3A%2F%2Fia902508.us.archive.org%2F0%2Fitems%2F)  
 
 1172MiB&emsp; [sha512sum][805sum]&emsp; [Release Notes][805post]
 
@@ -26,20 +29,20 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 
 ---
 
-### <a name="system-requirements"></a>System requirements
+### System requirements
 
-##### Hardware accelerated OpenGL 2.1
-##### At least 4GB of RAM
-##### A supported platform:
-- Windows 7 or newer (x86 or x86-64)
-- Linux with glibc (libc6) 2.29 or newer (x86-64)
-- macOS (x86-64)
+##### Hardware accelerated OpenGL 2.1 {#}
+##### At least 4GB of RAM {#}
+##### A supported platform: {#}
+&emsp; <i class="fa-brands fa-windows"></i> Windows 7 or newer (x86 or x86-64)  
+&emsp; <i class="fa-brands fa-linux"></i> Linux (x86-64) with glibc/libc6 2.29 or newer, libSDL2, libvorbisfile, libcurl, libpng  
+&emsp; <i class="fa-brands fa-apple"></i> macOS (x86-64)  
 
 Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling) the included source code.
 
 ---
 
-### <a name="upgrading"></a>Upgrading from an older version
+### Upgrading from an older version {#upgrading}
 
 Since Xonotic version 0.5, an auto-update tool is included in the Xonotic application directory.
 
@@ -49,7 +52,7 @@ This script will examine your installation and update only the files needed to b
 
 ---
 
-### <a name="extra-downloads"></a>Extra downloads
+### Extra downloads
 
 <i class="fas fa-external-link-alt"></i><a name="netradiant"></a> [**NetRadiant**](https://netradiant.gitlab.io/page/download)  
 The official Xonotic level editor, compiled for Windows, Linux and macOS by illwieckz.  
@@ -68,7 +71,7 @@ The source of all code parts (also included in the main zip).
 
 ---
 
-### <a name="please-note"></a>Attention: Developers, Artists and Mappers
+### Attention: Developers, Artists and Mappers {#please-note}
 
 Please refer to the [Xonotic Git README](https://gitlab.com/xonotic/xonotic/blob/master/README.md) for information about compiling the latest sources and contributing.<br/>
 It's important to base your work on the latest git sources, rather than the files on this download page.<br/>
@@ -76,7 +79,7 @@ Joining the [development community discussions](https://gitlab.com/xonotic/xonot
 
 ---
 
-### <a name="older-downloads"></a>Older downloads
+### Older downloads
 
 <!-- override some CSS so it looks decent -->
 <style>

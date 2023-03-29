@@ -15,12 +15,12 @@ Xonotic 0.8.5 is here at last!  There's been thousands of commits since 0.8.2 ma
 
 <!--more-->
 
-### Download information:
+### Download information: {#}
 
-#### New to Xonotic?
+#### New to Xonotic? {#}
 [Download it here](/download)
 
-#### Already have Xonotic on your machine?
+#### Already have Xonotic on your machine? {#}
 There's no need to download the game again to get into the action. Use the following steps to upgrade your client to the 0.8.5 release:
 
   1. Navigate to your Xonotic installation folder
@@ -57,8 +57,8 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - Auto revival progress is displayed as a waypoint sprite health bar rather than a normal health bar, which was barely visible for red team players.
 - Auto revival progress advances when frozen players are hit by enemies (the amount depends on the hit force).  
   Optionally this behaviour can be enabled for when frozen players are hit by teammates too.
-- View jitter when floating on water while frozen is fixed.
 - Players now spawn with 100 armor points instead of 0.
+- View jitter when floating on water while frozen is fixed.
 
 ##### Gameplay miscellaneous
 - Spectators are no longer forced to join in Last Man Standing.
@@ -119,11 +119,13 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
   Other team colors are unchanged.
 - Fixed primary and secondary colors being mixed up on some models.
 
-<a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" title="Player models" class="th"></a>
+<!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
+<a href="/m/uploads/2022/06/player_models.webp"><img src="/m/uploads/2022/06/player_models_928w.webp" width="928" height="262" loading="lazy" title="Player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
 
 <details><summary>Click to see hidden (unavailable in the menu) player models</summary>
 
-<a href="/m/uploads/2022/06/player_models_hidden.webp"><img src="/m/uploads/2022/06/player_models_hidden_928w.webp" title="Hidden player models" class="th"></a>
+<!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
+<a href="/m/uploads/2022/06/player_models_hidden.webp"><img src="/m/uploads/2022/06/player_models_hidden_928w.webp" width="928" height="262" loading="lazy" title="Hidden player models" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a>
 </details>
 <br>
 
@@ -131,9 +133,9 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 <p style="margin-bottom:0px">We have two new official maps:</p>
 
 - [Bromine] by *packer*, a rusty styled map for large games!  
-  <a href="/m/uploads/2022/06/bromine.jpg"><img src="/m/uploads/2022/06/bromine_t.jpg" title="Bromine by packer" class="th"></a>
+  <a href="/m/uploads/2022/06/bromine.jpg"><img src="/m/uploads/2022/06/bromine_t.jpg" width="512" height="288" loading="lazy" title="Bromine by packer" class="th"></a>
 - [Opium] by *cityy*, a medium sized level with plenty of vertical action!  
-  <a href="/m/uploads/2022/06/opium.jpg"><img src="/m/uploads/2022/06/opium_t.jpg" title="Opium by cityy" class="th"></a>
+  <a href="/m/uploads/2022/06/opium.jpg"><img src="/m/uploads/2022/06/opium_t.jpg" width="512" height="288" loading="lazy" title="Opium by cityy" class="th"></a>
 
 <p style="margin-bottom:0px">Existing maps received various fixes and/or visual updates:</p>
 
@@ -170,8 +172,9 @@ This allows duel-specific gameplay settings and cleaner handling by XonStat.
 - New kill sound consisting of a high-pitched version of the hit indication sound.
 - Loss of armor is clearly audible.
 
-##### Weapon models
-[Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
+##### Item models
+
+The new cell and explosives ammo pack item models made by [Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) are visually attractive. Cell item behaves like a pretty shinning blue plasma lamp. Explosives ammo pack has a shader animation changing Mortar, Hagar and Devastator icons.
 
 <!-- override some CSS so table looks better -->
 <style>
@@ -181,15 +184,23 @@ table {
 }
 </style>
 
+| <h5>Explosives ammo pack</h5> | <h5>Cell ammo</h5> |
+| :-: | :-: |
+| <video class="th" autoplay muted loop playsinline controls poster="/m/uploads/2022/06/explosives_ammo_pack_t.jpg" width="512" height="288" title="Explosives ammo pack by Morphed"><source src="/m/uploads/2022/06/explosives_ammo_pack.mp4" type="video/mp4"></video> | <a href="/m/uploads/2022/06/cell_ammo.jpg"><img src="/m/uploads/2022/06/cell_ammo_t.jpg" width="512" height="369"  loading="lazy" title="Cell ammo by Morphed" class="th"></a> |
+
+##### Weapon models
+[Morphed](https://forums.xonotic.org/member.php?action=profile&amp;uid=8) has turned up the polygon count in the splash damage department with these impressive Crylink and Electro models.  They're animated and feel like a natural match for the gameplay and art style.
+
 | <h5>Crylink</h5> | <h5>Electro</h5> | |
 | :-: | :-: | :- |
-| <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.webp" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.webp" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
-| <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.webp" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.webp" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
+| <a href="/m/uploads/2022/06/crylinkprototype.jpg"><img src="/m/uploads/2022/06/crylinkprototype_t.webp" width="380" height="214" loading="lazy" title="Prototype - Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electroprototype.jpeg"><img src="/m/uploads/2022/06/electroprototype_t.webp" width="380" height="214" loading="lazy" title="Prototype - Electro by Morphed" class="th"></a> | <h5>Prototype</h5> |
+| <a href="/m/uploads/2022/06/crylinkfinalresult.jpg"><img src="/m/uploads/2022/06/crylinkfinalresult_t.webp" width="380" height="214" loading="lazy" title="Crylink by Morphed" class="th"></a> | <a href="/m/uploads/2022/06/electrofinalresult.jpg"><img src="/m/uploads/2022/06/electrofinalresult_t.webp" width="380" height="214" loading="lazy" title="Electro by Morphed" class="th"></a> | <h5>Textured</h5> |
 
 ##### Monster models
 Joining the existing Zombies are the new Wyvern, Golem, Mage and Spider.
 
-<a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" title="Monsters on Blue team" class="th"></a><br>
+<!-- this image has a black tinted (33% opacity) transparent background, it was created before "th" class included the same effect so we need to override that here -->
+<a href="/m/uploads/2022/06/mobs_blue.webp"><img src="/m/uploads/2022/06/mobs_blue_928w.webp" width="928" height="367" loading="lazy" title="Monsters on Blue team" class="th" style="background-color:rgba(0,0,0,0); border-color:rgba(0,0,0,0.333)"></a><br>
 
 They feature new animations and are supported by reworked and faster code with some new abilities.  
 The Invasion gametype remains a work in progress but you may encounter these monsters on certain maps or servers.  
@@ -200,10 +211,10 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 
 ##### HUD, Centerprints and Scoreboard
 <p></p> <!-- half a <br> :) -->
-&emsp; <img src="/m/uploads/2022/06/hud_centreprint_ft.webp" title="Match starting centreprint with title" class="th">
-&emsp; <img src="/m/uploads/2022/06/hud_timer_modicons.webp" title="Warmup phase in Freeze Tag" class="th">
-&emsp; <img src="/m/uploads/2022/06/hud_timer.webp" title="Sudden Death phase with round timelimit" class="th">
-<p></p> <!-- this is not the hack you're looking for -->
+
+&emsp; ![Match starting centreprint with title](/m/uploads/2022/06/hud_centreprint_ft.webp)
+&emsp; ![Warmup phase in Freeze Tag](/m/uploads/2022/06/hud_timer_modicons.webp)
+&emsp; ![Sudden Death phase with round timelimit](/m/uploads/2022/06/hud_timer.webp)
 
 - A title was added to centerprint messages and their animations and legibility improved.
 - The Timer HUD panel now indicates the match phase with a subtext.  
@@ -211,7 +222,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 - The player's remaining oxygen is now indicated by a meter while underwater.
 - Assistance with strafe jumping and other physics tricks is provided by a new strafe HUD panel.
 - Item pickup counts are now displayed in a dedicated panel under the scoreboard.
-<img src="/m/uploads/2022/06/item_stats.png" title="Item stats panel showing MANY items" class="th">
+  ![Item stats panel showing MANY items](/m/uploads/2022/06/item_stats.png)
 
 ##### Menu
 - A small menu for quick access to the most commonly used options is now opened by the ESC key.
@@ -229,7 +240,7 @@ The Invasion gametype remains a work in progress but you may encounter these mon
 
 ---
 
-### XonStat 2.0 <a name="xonstat"></a>
+### XonStat 2.0 {#xonstat}
 During the pandemic XonStat was written from the ground up, solving many of the pain points of the previous version. A full list is too lengthy for this post, but here are some highlights:
 
 * Code is in Go (statically typed, compiled) instead of Python (duck-typed, interpreted).
@@ -251,7 +262,7 @@ During the pandemic XonStat was written from the ground up, solving many of the 
 
 ---
 
-### NetRadiant level editor <a name="netradiant"></a>
+### NetRadiant level editor {#netradiant}
 Development activity got a boost and the project now has its own website ([netradiant.gitlab.io](https://netradiant.gitlab.io/)) and its own release schedule and downloads (see the [NetRadiant download page](https://netradiant.gitlab.io/page/download/)). This is still a Xonotic project maintained by the [Xonotic Team](/team) with code hosted at [Xonotic GitLab](https://gitlab.com/xonotic/netradiant).
 
 - Mapping support package is not needed anymore with features implemented in both the NetRadiant level editor and the q3map2 map compiler: [PK3 symlink](https://netradiant.gitlab.io/post/2021-02-25-pk3-symlink/), [DDS prefix](https://netradiant.gitlab.io/post/2021-11-08-dds-prefix/). The Xonotic mapping support package may still be needed when using others editors if they did not implement such features.
@@ -262,7 +273,7 @@ More details about the [NetRadiant builds at Xonotic 0.8.5 release time](https:/
 
 ---
 
-### Other changes in Xonotic
+### Other changes in Xonotic {#other}
 
 ##### Build systems
 - Xonotic is compiled on a much newer and self-hosted platform.  
@@ -336,4 +347,7 @@ This will enable custom features that otherwise wouldn't be possible.  It also b
 ### Backward compatibility notes
 Several official maps have been significantly updated and old clients will have issues with these maps on current servers, or vice versa.
 
-The "glowy" player model skins are now used by default and the behaviour of cvars `sv_defaultcharacterskin` and `sv_defaultplayerskin` is inverted.  Server admins who were setting these cvars to "1" to improve player visibility should now use the default value of "0".
+<p style="margin-bottom:0px">The "glowy" high visibility player model skins are now used by default, and the skin numbers are inverted.</p>
+
+- Players: if you were using `playerskin 1` and forcing other players to look like yourself, you should now use `playerskin 0` (the default).
+- Server admins: if you were using `sv_defaultcharacterskin 1` and `sv_defaultplayerskin 1`, you should now use the default values of "0".

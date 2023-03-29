@@ -9,8 +9,7 @@ aliases:
 
 # Xonotic FAQs
 
-<a name="install"></a>
-## How do I install Xonotic?
+## How do I install Xonotic? {#install}
 
 **There is no need to install Xonotic!** The zip file you downloaded from the homepage has everything. All binaries to run the game on Linux, Windows and macOS are inside of it. Just unzip the archive and run the appropriate executable for your OS.
 
@@ -115,8 +114,7 @@ Visit the official Xonotic [forum](http://forums.xonotic.org/), there is a suppo
 
 # General questions
 
-<a name="config"></a>
-## Where are the configuration files located?
+## Where are the configuration files located? {#config}
 
   * Linux: ~/.xonotic
   * Windows: C:\\Users\\\<your_user_name\>\\Saved Games\\xonotic
