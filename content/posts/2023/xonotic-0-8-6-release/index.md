@@ -1,7 +1,7 @@
 ---
 author: Xonotic Team
 comments: false
-date: 2023-mm-dd hh:mm:ss+00:00
+date: 2023-05-27 13:37:42+00:00
 slug: xonotic-0-8-6-release
 title: Xonotic 0.8.6 Release
 categories:
