@@ -15,12 +15,12 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 <!--more-->
 
-### Download information:
+### Download information {#}
 
-#### New to Xonotic?
+#### New to Xonotic? {#}
 [Download it here](/download)
 
-#### Already have Xonotic on your machine?
+#### Already have Xonotic on your machine? {#}
 There's no need to download the game again to get into the action. Use the following steps to upgrade your client to the 0.8.6 release:
 
   1. Navigate to your Xonotic installation folder
@@ -28,7 +28,6 @@ There's no need to download the game again to get into the action. Use the follo
   3. Execute the update-to-release.sh (for Linux or Mac) or update-to-release.bat (for Windows) and wait for it to complete
   4. Profit. You're done!
 
----
 
 ---
 
@@ -54,13 +53,6 @@ There's no need to download the game again to get into the action. Use the follo
 
 ##### New models?
 
-<!-- override some CSS so table looks better -->
-<style>
-table {
-	table-layout: auto;
-	width: 100%;
-}
-</style>
 
 ---
 
@@ -78,10 +70,10 @@ https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1039)
 
 ---
 
-### XonStat? <a name="xonstat"></a>
+### XonStat? {#xonstat}
 ---
 
-### NetRadiant level editor? <a name="netradiant"></a>
+### NetRadiant level editor? {#netradiant}
 
 ---
 
@@ -144,20 +136,14 @@ Fix(es)
 - Several fixes for minor issues (Author: Mario) [1095](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1095)
 - Fix some shotgun bugs (Author: terencehill) [1061](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1061)
 - Improve instagib powerup replacement algorithm + Extralife pickup sound fix (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
-- Fix some bmodels not being linked/unlinked correctly with sv_areagrid_link_SOLID_NOT 0 (Author: Juhu, Reviewer(s): bones_was_here) [1168](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1168)
-- Fix compilation on macOS (Author: kiwixz) [140](https://gitlab.com/xonotic/darkplaces/-/merge_requests/140)
 - Demo camera: fix jerky mouse movement in all directions (Author: terencehill) [1151](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1151)
 - Check to make sure neither entity has been freed when calling touch functions (Author: Mario) [1139](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1139)
-- Release the mouse during loading screen (Author: kiwixz) [138](https://gitlab.com/xonotic/darkplaces/-/merge_requests/138)
 - Allow mappers to define item skins (Author: Mario) [1107](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1107)
 - Fix error spam that occurs when standing in the way of rotating doors (Author: Mario) [1105](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1105)
 - Disable sv_gameplayfix_unstickplayers as it introduces glitchy visuals while riding elevators (Author: Mario) [1071](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1071)
 - Clear item waypoints when deleting items to fix issues with dropped powerups (Author: Mario) [1070](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1070)
 - Merge branch Mario/pokenade_crash_fix (XS merge request) (Author: Mario) [1041](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1041)
 - When the match is over notify that the vote in progress is canceled (Author: terencehill) [1181](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1181)
-- Keep sockets opened after first disconnect (Author: kiwixz) [137](https://gitlab.com/xonotic/darkplaces/-/merge_requests/137)
-- Reinstate the ability to override engine commands with QC commands (Author: bones_was_here, Reviewer(s): terencehill) [136](https://gitlab.com/xonotic/darkplaces/-/merge_requests/136)
-- Refactor loading screen and fix it (Author: kiwixz) [135](https://gitlab.com/xonotic/darkplaces/-/merge_requests/135)
 - flip bot_primary_fireballmooth boolean so bots are able to fire fireball alt fire randomly (Author: Dr. Jaska) [1104](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1104)
 - Fix team selection for 0.8.5 clients on current servers that use g_balance_teams 0 (Author: bones_was_here) [1059](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1059)
 - Fix #2718 "Online dedicated servers panic when gotomap is called during an intermission" (Author: terencehill) [1055](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1055)
@@ -179,9 +165,6 @@ Fix(es)
 
 ### Gameplay: CTF
 - Fixed notification bug in 3-4 team CTF (Author: z411) [1087](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1087)
-
-### Gameplay: Physics
-- Work around float precision problems with scaled model bboxes (Author: bones_was_here) [1078](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1078)
 
 Refactoring
 ---
@@ -210,12 +193,10 @@ NO_TYPE_GIVEN
 - Merge branch Mario/ctf_colormaps (S merge request) (Author: Mario) [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038)
 - Merge branch Mario/nade_orb_overlay  (S merge request) (Author: Mario) [1035](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1035)
 - Remove legacy MOTD (Author: bones_was_here, Reviewer(s): terencehill) [1012](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1012)
-- Remove GLX client support in developer builds (./all compile) (Author: bones_was_here) [95](https://gitlab.com/xonotic/xonotic/-/merge_requests/95)
 - Make best pings green, good pings yellow, medium pings orange and worst pings red in scoreboard (Author: z411) [968](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/968)
 - Update the list of translators in the credits (Author: SpiKe) [1176](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1176)
 - 100% abstain votes in map voting now chooses a random map (Author: Dr. Jaska) [1172](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1172)
 - add %o and %O to chat formatting for own origin (Author: Dr. Jaska) [1166](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1166)
-- Add SPAWNFUNC_CHECK_FIELDS macro to enable/disable map entity whitelist checks (Author: LegendaryGuard) [1163](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1163)
 - Monster loot off-switch (Author: Dr. Jaska) [1162](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1162)
 - Crylink: require 2 or more pellets for waitrelease (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
 - Fix crylink and vaporizer being able to fire with empty magazines (Author: Dr. Jaska) [1147](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1147)
@@ -231,8 +212,6 @@ NO_TYPE_GIVEN
 - Merge branch Mario/no_csproject_test (XS merge request) (Author: Mario) [1043](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1043)
 - Merge branch Mario/qc_droptofloor (XS merge request) (Author: Mario) [1042](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1042)
 - r_ambient: default to 0 (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
-- Team page: improve wording of header paragraph (Author: bones_was_here) [59](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/59)
-- Breaking changes for 0.8.6 (Author: bones_was_here) [1178](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1178)
 - Package xoncompat repo containing assets from removed maps (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 - Keepaway fixes (Author: bones_was_here) [1175](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1175)
 - Update entity definition bboxes to match 0.8.5 and/or xonotic-data.pk3dir!1131 (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
@@ -241,21 +220,13 @@ NO_TYPE_GIVEN
 - Add overkill blaster keepforce and keepdamage cvars (Author: bones_was_here) [1158](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1158)
 - fix g_maplist_remove completely breaking due to argv override (Author: Dr. Jaska) [1156](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1156)
 - Resolve "Flag respawn called twice quickly" (Author: Dr. Jaska) [1155](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1155)
-- Don't link pure and SOLID_NOT entities to the area grid in DP master (Author: bones_was_here) [1154](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1154)
 - Delete 4 unused model files (Author: Dr. Jaska) [1149](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1149)
 - Implement safe removal of elements of an intrusive list while looping over them (Author: terencehill, Reviewer(s): bones_was_here) [1148](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1148)
 - Resolve "Setting a weapon's primary damage to 1 causes extremely overpowered push" (Author: Dr. Jaska, Reviewer(s): terencehill, bones_was_here) [1145](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1145)
 - Autopause for dedicated servers, better autopause for singleplayer/listen (Author: bones_was_here) [1144](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1144)
 - WarpZoneLib_BoxTouchesBrush() fixes (Author: bones_was_here) [1142](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1142)
 - Update entities.ent with weapon_arc (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
-- Remove legacy Quake bbox expansion, give QC full control of bboxes (Author: bones_was_here) [1131](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1131)
-- Fix qcsrc genmod.sh including files twice (Author: kiwixz) [1129](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1129)
-- Merge pending-release into master (Author: SpiKe) [171](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/171)
 - fov calculating python script (Author: Dr. Jaska) [98](https://gitlab.com/xonotic/xonotic/-/merge_requests/98)
-- tools: remove daemonmap (Author: Thomas Debesse) [197](https://gitlab.com/xonotic/netradiant/-/merge_requests/197)
-- Unload dlcache packs when changing map or disconnecting (Author: bones_was_here) [134](https://gitlab.com/xonotic/darkplaces/-/merge_requests/134)
-- Implement DP_QC_FINDBOX builtin (Author: bones_was_here) [132](https://gitlab.com/xonotic/darkplaces/-/merge_requests/132)
-- Add cvars that disable linking of SOLID_NOT entities: [cl|sv]_areagrid_link_SOLID_NOT (Author: bones_was_here) [131](https://gitlab.com/xonotic/darkplaces/-/merge_requests/131)
 - Clean up ammo_pickupevalfunc to not reference items directly (Author: Mario) [1120](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1120)
 - Fix wrong minimap scales on Dance, Implosion, Space-Elevator and Xoylent (Author: SpiKe) [170](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/170)
 - Localization: update translation names for zh series (Author: William Goodspeed) [1115](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1115)
@@ -266,29 +237,20 @@ NO_TYPE_GIVEN
 - Quickmenu: allow players to make server's custom quickmenu default (Author: terencehill) [1090](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1090)
 - Atelier: place the teleporter exits slightly above the ground + use nodrawnonsolid instead of caulk for the decals (Author: SpiKe) [166](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/166)
 - Add copies of LOD models for a crate and jumppad that work with automatic LOD loading (Author: Mario) [165](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/165)
-- Add AGPLv3 Xonotic website LICENSE.txt and licenses for self-hosted components (Author: bones_was_here, Reviewer(s): Ant Zucaro) [70](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/70)
 - New opt-in feature for less stalemates in CA when round timer runs out (Author: Dr. Jaska) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
-- Remove modernizr.js (Author: bones_was_here) [69](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/69)
-- Implement and document asset processing for markdown images (Author: bones_was_here) [68](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/68)
-- Features and fixes for nav bar and footer (Author: bones_was_here) [67](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/67)
 - Improved StrafeHUD (Author: Juhu) [1066](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1066)
 - q3map2: add -externalnames option to write explicit external lightmap names... (Author: Thomas Debesse) [196](https://gitlab.com/xonotic/netradiant/-/merge_requests/196)
 - Make it build on M1 Mac (Author: slipher) [195](https://gitlab.com/xonotic/netradiant/-/merge_requests/195)
 - Implosion: Flare lights + clip some walls + brush and texture cleanups (Author: SpiKe) [163](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/163)
 - Do not crash in Winding_Clip when using -D_GLIBCXX_ASSERTIONS (Author: Walter Doekes) [194](https://gitlab.com/xonotic/netradiant/-/merge_requests/194)
-- Add NSFW to Rules (Author: bones_was_here) [66](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/66)
 - Stormkeep: Fix a wallwalk to the MH (Author: SpiKe, Reviewer(s): Mirio, bones_was_here) [162](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/162)
-- Add torrent and github mirror links (Author: Gary Moon) [65](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/65)
 - Add a new bot skill level for extremely tough bots (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)
 - Remove Drain and Oil Rig (Author: SpiKe) [161](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/161)
 - Merge branch Mario/weapon_alias_fix (XS merge request) (Author: Mario) [1052](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1052)
 - Change default font hinting to 2, group font cvars better (Author: bones_was_here) [1048](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1048)
 - Fix URLs and syntax errors in AppData (Author: AsciiWolf) [96](https://gitlab.com/xonotic/xonotic/-/merge_requests/96)
-- Add more elaborate information for download/upgrade to 0.8.5 notes. (Author: Morosophos) [63](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/63)
-- 0.8.5 release post: do not mention faster map build (Author: Thomas Debesse) [62](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/62)
-- Enable dl.unvanquished.net download mirror (Author: Thomas Debesse) [61](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/61)
-- delete an old leftover gtkradiant build menu (Author: Thomas Debesse) [160](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/160)
 - Improve duel centerprint title (Author: terencehill) [1039](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1039)
+<!-- does netradiant's current builds include this NRC MR? -->
 - First bunch of merge from NetRadiantCustom (Author: Thomas Debesse) [193](https://gitlab.com/xonotic/netradiant/-/merge_requests/193)
 - Fix #2698 "arc is missing a suicide death message" (Author: terencehill) [1032](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1032)
 - Remove damage dealt, damage taken and ELO scoreinfo labels and therefore scoreboard panels from modes with independent players (CTS) (Author: Dr. Jaska) [1030](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1030)
@@ -296,12 +258,8 @@ NO_TYPE_GIVEN
 - Fix mismatching player sorting between server and client (Author: terencehill) [1026](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1026)
 - Disable CTS recording damage taken(/dealt) to scores (Author: Dr. Jaska) [1025](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1025)
 - Custom server's quickmenu (Author: terencehill, Reviewer(s): z411) [1018](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1018)
-- Release 0.8.5 (Author: bones_was_here) [60](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/60)
 - Scoreboard: allow showing average scores per round (Author: terencehill) [975](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/975)
-- Upgrade to self-hosted Font Awesome 6 (Author: bones_was_here, Reviewer(s): Ant Zucaro) [57](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/57)
-- Adding the natural curve mouse acceleration (Author: Francisco Parra Pérez) [122](https://gitlab.com/xonotic/darkplaces/-/merge_requests/122)
 - Mayhem and Team Mayhem gamemodes (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)
-- gitignore more map compilation output (Author: Thomas Debesse) [150](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/150)
 - Merge branch Mario/q3compat_sanity (M merge request) (Author: Mario, Reviewer(s): bones_was_here) [856](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/856)
 - LMS updates (Author: terencehill) [808](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/808)
 - Debugger/go (Author: Mirio) [43](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/43)
