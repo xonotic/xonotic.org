@@ -96,24 +96,24 @@ Generated Release Notes
 Feature(s)
 ---
 ### Gameplay: Physics
-- Jump pad trajectory origin and q3compat (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
+- Added Quake 3 jump pad compatibility (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
 
 ### Other: VFX
-- Use the player's color for Vortex charging instead of predefined colors (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
+- Vortex charging now uses the player's color instead of predefined colors (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
 
 ### UNKNOWN SECTION
-- Add Survival, a gamemode where randomly selected hunters must frag all the survivors without being caught (Author: Mario) [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072)
-- Add Team Keepaway, a teamplay variant of Keepaway where points are awarded for each frag to the team in possession of the ball (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)
-- Implemented announcer queue (Author: z411) [1075](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1075)
+- Added Survival, a gamemode where randomly selected hunters must frag all the survivors without being caught (Author: Mario) [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072)
+- Added Team Keepaway, a teamplay variant of Keepaway where points are awarded for each frag to the team in possession of the ball (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)
+- Implemented announcer queue to prevent overlapping announcements (Author: z411) [1075](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1075)
 - Automatic per-map min & max player limits, many warmup and player count and Welcome message things (Author: bones_was_here) [1022](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1022)
-- Add option to disable freecam (observer) in Clan Arena (enabled by default in XPM) (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
-- Implement g_warmup > 1 and related fixes and refactoring (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)
+- Added a server-side option to disable freecam in Clan Arena for dead players (enabled by default in XPM) (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
+- Implemented g_warmup > 1 and related fixes and refactoring (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)
 
 ### Gameplay: Map entities
-- Teamed items fixes and Q3 compatibility (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
+- Fixes for teamed items and Quake 3 compatibility (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
 
 ### Gameplay: Mutators
-- Allow manual powerup dropping (with use key) & fix powerup dropping outside of the map (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
+- Allow dropping powerups with the use key & fix powerup dropping outside of the map (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
 
 ### Artwork: Monsters
 - Add LOD models for the monsters to boost performance with lots of monsters in the map and fix some LOD related bugs (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
