@@ -206,6 +206,21 @@ NO_TYPE_GIVEN
 ---
 ### Other: Campaign
 - Campaign update. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)
+- The campaign has received an overhaul! Many new levels and improvements!  
+  Improvements:  
+  Level 9:  Changed Erbium instagib to Darkzone.  
+  Level 12: Changed Warfare Freeze Tag to Erbium.  
+  Level 16: Changed Runningman Keepaway into Team Keepaway.  
+  Level 18: Changed Bromine Deathmatch into Clan Arena.  
+  Level 27: Added forced respawn and 5min timelimit to Fuse Duel.  
+  Level 30: Changed from DM into Mayhem to avoid kill stealing.  
+  New levels:  
+  Level 3:  A new easy Mayhem level early in the campaign.  
+  Level 15: CTF in Go.  
+  Level 21: Team Mayhem in Trident.  
+  Level 23: Onslaught in Running Man.  
+  Level 28: Vampire Mutator CA in Warfare.  
+  Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
 
 ### UNKNOWN SECTION
 - Created a new electricity effect. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
