@@ -101,6 +101,24 @@ Generated Release Notes
 
 Feature(s)
 ---
+### Other: Campaign
+- Campaign update. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)
+- The campaign has received an overhaul! Many new levels and improvements!  
+  Improvements:  
+  Level 09: Changed Erbium instagib to Darkzone.  
+  Level 12: Changed Warfare Freeze Tag to Erbium.  
+  Level 16: Changed Runningman Keepaway into Team Keepaway.  
+  Level 18: Changed Bromine Deathmatch into Clan Arena.  
+  Level 27: Added forced respawn and 5min timelimit to Fuse Duel.  
+  Level 30: Changed from DM into Mayhem to avoid kill stealing.  
+  New levels:  
+  Level 03: A new easy Mayhem level early in the campaign.  
+  Level 15: CTF in Go.  
+  Level 21: Team Mayhem in Trident.  
+  Level 23: Onslaught in Running Man.  
+  Level 28: Vampire Mutator CA in Warfare.  
+  Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
+
 ### Gameplay: Physics
 - Added Quake 3 jump pad compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
 
@@ -181,7 +199,7 @@ Fix(es)
 - Fixed a few cases where particles and/or decals did not appear for some weapons at times. (Author: terencehill) [1112](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1112)
 - Fixed 2 more decal issues. (Author: terencehill) [1127](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1127)
 - Added checks to make sure neither entity has been deleted when calling touch functions. (Author: Mario) [1139](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1139)
-- Fixes for WarpZoneLib_BoxTouchesBrush(). (Author: bones_was_here) [1142](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1142)
+- Fixes for WarpZoneLib_BoxTouchesBrush function. (Author: bones_was_here) [1142](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1142)
 - Fixed inverted damage and edgedamage for splash damage having completely wrong force calculations. (Author: Dr. Jaska) [1145](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1145)
 - Fixed Crylink and Vaporizer being able to fire with empty magazines. (Author: Dr. Jaska) [1147](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1147)
 - Fixed demo camera's (`camera_enable 1` when replaying demos) jerky mouse movement. (Author: terencehill) [1151](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1151)
@@ -189,7 +207,7 @@ Fix(es)
 - Fixed a few issues with instagib and LMS items and in particular extralife. (Author: terencehill) [1164](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1164)
 - Fixed Extralife pickup sound + Improved instagib powerup replacement algorithm. (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
 - Fixed several Keepaway issues. (Author: bones_was_here) [1175](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1175)
-- When the match ends notify that the vote in progress is canceled. (Author: terencehill) [1181](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1181)
+- Fixed match end not notifying about the vote in progress being canceled. (Author: terencehill) [1181](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1181)
 - Fixed URLs and syntax errors in AppData. (Author: AsciiWolf) [96](https://gitlab.com/xonotic/xonotic/-/merge_requests/96)
 - Fixed make scripts failing with preset MAKEFLAGS which did not start with a dash. (Author: kiwixz) [97](https://gitlab.com/xonotic/xonotic/-/merge_requests/97)
 
@@ -229,7 +247,9 @@ Refactoring
 - Updated rsync scripts and their README. (Author: Dr. Jaska) [100](https://gitlab.com/xonotic/xonotic/-/merge_requests/100)
 
 ### Artwork: Weapons
+- Added Overkill weaponry decompiled sources (Blender 2.79b source files) and organize weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
+- Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
 - Optimized g_fireball and fixed g_fireball and v_fireball UVs and enhanced slight details in the fireball textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
 
 ### Gameplay: Physics
@@ -237,24 +257,6 @@ Refactoring
 
 NO_TYPE_GIVEN
 ---
-### Other: Campaign
-- Campaign update. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)
-- The campaign has received an overhaul! Many new levels and improvements!  
-  Improvements:  
-  Level 09: Changed Erbium instagib to Darkzone.  
-  Level 12: Changed Warfare Freeze Tag to Erbium.  
-  Level 16: Changed Runningman Keepaway into Team Keepaway.  
-  Level 18: Changed Bromine Deathmatch into Clan Arena.  
-  Level 27: Added forced respawn and 5min timelimit to Fuse Duel.  
-  Level 30: Changed from DM into Mayhem to avoid kill stealing.  
-  New levels:  
-  Level 03: A new easy Mayhem level early in the campaign.  
-  Level 15: CTF in Go.  
-  Level 21: Team Mayhem in Trident.  
-  Level 23: Onslaught in Running Man.  
-  Level 28: Vampire Mutator CA in Warfare.  
-  Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
-
 ### UNKNOWN SECTION
 - Implemented compatibility for Quake 3 (and its mods) mapinfo file formats (e.g. .defi and .arena) to a degree. (Author: Mario) [856](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/856)
 - Made `r_ambient` default to `0` instead of `4`. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
@@ -278,8 +280,6 @@ NO_TYPE_GIVEN
 - Compensate for Q3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
 
 ### Artwork: Weapons
-- Added Overkill weaponry decompiled sources (Blender 2.79b source files) and organize weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
-- Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
 
 ### UI: HUD etc
 - Made scoreboard pings colored! (Author: z411) [968](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/968)
