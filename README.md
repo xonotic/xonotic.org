@@ -9,6 +9,10 @@ Run it in the xonotic.org repo's root: `make server` or `hugo server --watch --g
 
 It will offer a [localhost link](http://localhost:1313/) to preview the site and the page(s) will be refreshed automatically when you save a change.
 
+Note that the navigation bar is hardcoded to redirect to xonotic.org instead of a relative addres due to it being used across different sub-domains.
+
+New posts will therefore appear on [localhost link /posts](http://localhost:1313/posts/).
+
 # Asset processing
 
 [Hugo Pipes](https://gohugo.io/hugo-pipes/) can be used to automate asset processing.
