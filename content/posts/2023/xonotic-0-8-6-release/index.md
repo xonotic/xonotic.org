@@ -102,8 +102,8 @@ Generated Release Notes
 Feature(s)
 ---
 ### Other: Campaign
-- Campaign update. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)
-- The campaign has received an overhaul! Many new levels and improvements!  
+- Campaign update. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)  
+  The campaign has received an overhaul! Many new levels and improvements!  
   Improvements:  
   Level 09: Changed Erbium instagib to Darkzone.  
   Level 12: Changed Warfare Freeze Tag to Erbium.  
@@ -120,14 +120,14 @@ Feature(s)
   Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
 
 ### Gameplay: Mayhem and Team Mayhem
-- Created Mayhem and Team Mayhem gamemodes. (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)
-- Mayhem is a mode full of chaos and deathmatching where everyone respawns with all weapons and full health/armor stack!  
+- Created Mayhem and Team Mayhem gamemodes. (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)  
+  Mayhem is a mode full of chaos and deathmatching where everyone respawns with all weapons and full health/armor stack!  
   In these gamemodes score is given 75% based on damage dealt and 25% based on frags.  
   In Free For All Mayhem the player (and in Team Mayhem the team) with the most damage dealt and frags earned at the end of a match wins!
 
 ### Gameplay: Team Keepaway
-- Added Team Keepaway. (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)
-- Team Keepaway is the teamplay variant of Free For All Keepaway.  
+- Added Team Keepaway. (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)  
+  Team Keepaway is the teamplay variant of Free For All Keepaway.  
   Points are awarded for each frag to the team in possession of the ball and for killing opposing teams' ball carriers!
 
 ### Gameplay: Survival
@@ -138,15 +138,15 @@ Feature(s)
 - Players are now allowed to get back into the game if they moved to spectator. (Author: terencehill) [1051](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1051)
 
 ### Moderation
-- New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)
-- In short, players are able to locally ignore someone's chat messages via `ignore #player_id`.  
+- New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
+  In short, players are able to locally ignore someone's chat messages via `ignore #player_id`.  
   Server Admins/Moderators are able to use `muteban #player_id` to mute a player from all chats for everyone,  
   `voteban #player_id` to disallow them from voting and `playban #player_id` to disallow them from playing.  
   Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic/-/wikis/Moderation-tools) for more information!
 
 ### Bots: Behaviour
-- New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)
-- These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
+- New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
+  These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
   and they prioritise low health targets instead of always targeting the closest opponent!  
   To opt in to these superbots set `skill` to `101` or any higher number, for toughest normal bots set `skill` to `100` or below.  
   Be warned that these bots are a real challenge to even the best veteran players.  
@@ -167,8 +167,8 @@ Feature(s)
 - Allowed mappers to define item skins. (Author: Mario) [1107](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1107)
 - Autopause for dedicated servers, better autopause for singleplayer/listen. (Author: bones_was_here) [1144](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1144)
 
-- Created `misc/tools/fov-calc.py`, a utility python script for Field of View (FoV) calculating. (Author: Dr. Jaska) [98](https://gitlab.com/xonotic/xonotic/-/merge_requests/98)
-- Did you know that due to its legacy the DarkPlaces engine calculates actual FoV based on what your FoV would look like were you to have a 4:3 monitor?  
+- Created `misc/tools/fov-calc.py`, a utility python script for Field of View (FoV) calculating. (Author: Dr. Jaska) [98](https://gitlab.com/xonotic/xonotic/-/merge_requests/98)  
+  Did you know that due to its legacy the DarkPlaces engine calculates actual FoV based on what your FoV would look like were you to have a 4:3 monitor?  
   This means that for example with a 16:9 your `fov 90` setting will not show 90 degrees horizontally but around 106.25 degrees.  
   There is now an utility tool for calculating your actual FoV on any resolution, with or without zoom scaling (e.g. Vortex scoping).  
   Fun fact: This FoV calculation behavior also exists in many other games like Counter Strikes games and Half-Life games due to their shared roots of Quake 1 game engine!
