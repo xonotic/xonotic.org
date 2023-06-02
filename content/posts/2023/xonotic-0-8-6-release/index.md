@@ -144,6 +144,40 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 - Added `%o` and `%O` to chat formatting so that players can easily check and/or tell their coordinates, e.g. check step height. (Author: Dr. Jaska) [1166](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1166)
 
+---
+
+### Campaign
+The campaign has received an overhaul! Many new levels and improvements. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)  
+
+##### Updates {#}
+- Level 09: Changed Erbium instagib to Darkzone.  
+- Level 12: Changed Warfare Freeze Tag to Erbium.  
+- Level 16: Changed Runningman Keepaway into Team Keepaway.  
+- Level 18: Changed Bromine Deathmatch into Clan Arena.  
+- Level 27: Added forced respawn and 5min timelimit to Fuse Duel.  
+- Level 30: Changed from DM into Mayhem to avoid kill stealing.  
+
+##### New levels {#}
+- Level 03: A new easy Mayhem level early in the campaign.  
+- Level 15: CTF in Go.  
+- Level 21: Team Mayhem in Trident.  
+- Level 23: Onslaught in Running Man.  
+- Level 28: Vampire Mutator CA in Warfare.  
+- Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
+
+---
+
+### Bots
+New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
+These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
+and they prioritise low health targets instead of always targeting the closest opponent!  
+To opt in to these superbots set `skill` to `101` or any higher number, for toughest normal bots set `skill` to `100` or below.  
+Be warned that these bots are a real challenge to even the best veteran players.  
+For these bots to be fun it is recommended to not give superbots hitscan weapons like the Vortex.
+
+##### Fixes
+- Fixed bots prematurely detonating guided Devastator rockets + more improvements! (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)
+- Fixed bots being unable to fire fireball alt fire. (Author: Dr. Jaska) [1104](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1104)
 
 ---
 
@@ -175,23 +209,6 @@ Generated Release Notes
 
 Feature(s)
 ---
-### Other: Campaign
-- Campaign update. (Author: Dr. Jaska) [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178)  
-  The campaign has received an overhaul! Many new levels and improvements!  
-  Improvements:  
-  Level 09: Changed Erbium instagib to Darkzone.  
-  Level 12: Changed Warfare Freeze Tag to Erbium.  
-  Level 16: Changed Runningman Keepaway into Team Keepaway.  
-  Level 18: Changed Bromine Deathmatch into Clan Arena.  
-  Level 27: Added forced respawn and 5min timelimit to Fuse Duel.  
-  Level 30: Changed from DM into Mayhem to avoid kill stealing.  
-  New levels:  
-  Level 03: A new easy Mayhem level early in the campaign.  
-  Level 15: CTF in Go.  
-  Level 21: Team Mayhem in Trident.  
-  Level 23: Onslaught in Running Man.  
-  Level 28: Vampire Mutator CA in Warfare.  
-  Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
 
 ### Moderation
 - New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
@@ -199,14 +216,6 @@ Feature(s)
   Server Admins/Moderators are able to use `muteban #player_id` to mute a player from all chats for everyone,  
   `voteban #player_id` to disallow them from voting and `playban #player_id` to disallow them from playing.  
   Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic/-/wikis/Moderation-tools) for more information!
-
-### Bots: Behaviour
-- New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
-  These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
-  and they prioritise low health targets instead of always targeting the closest opponent!  
-  To opt in to these superbots set `skill` to `101` or any higher number, for toughest normal bots set `skill` to `100` or below.  
-  Be warned that these bots are a real challenge to even the best veteran players.  
-  For these bots to be fun it is recommended to not give superbots hitscan weapons like the Vortex.
 
 ### Other: VFX
 - Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when firing. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
@@ -232,9 +241,6 @@ Feature(s)
 
 Fix(es)
 ---
-### Bots: Behaviour
-- Fixed bots prematurely detonating guided Devastator rockets + more improvements! (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)
-- Fixed bots being unable to fire fireball alt fire. (Author: Dr. Jaska) [1104](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1104)
 
 ### UNKNOWN SECTION
 - Fixed mismatching player sorting between server and client. (Author: terencehill) [1026](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1026)
