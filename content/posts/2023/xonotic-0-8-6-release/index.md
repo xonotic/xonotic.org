@@ -42,7 +42,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Updated entity definition bboxes to match 0.8.6 (for mappers). (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
 - Bromine: disabled the grass shadows + minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
 - Fixed a few minor visual issues on Opium and Solarium. (Author: SpiKe)
-- Packaged a xoncompat repo containing assets from maps (drain and oilrig) removed in 0.8.5 release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
+- Packaged a xoncompat repo containing assets from maps (drain and oilrig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 
 ### Artwork: Monsters
 - Added LOD models for the monsters to boost performance with lots of monsters in the map and fix some LOD related bugs. (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
@@ -271,10 +271,19 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 ---
 
 ### Behind the Scenes
-
+- Useful tools for debugging (Author: terencehill) [1152](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1152)
+- The files in the release zips now have correct date modified metadata. (Author: bones_was_here) [9a55f9d2](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
 <!--Fixes-->
+- Fixed error when unzipping `cygiconv-2.dll` with Windows Explorer. (Author: bones_was_here) [9a55f9d2](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
 - Fixed URLs and syntax errors in AppData. (Author: AsciiWolf) [96](https://gitlab.com/xonotic/xonotic/-/merge_requests/96)
 - Fixed make scripts failing with preset MAKEFLAGS which did not start with a dash. (Author: kiwixz) [97](https://gitlab.com/xonotic/xonotic/-/merge_requests/97)
+
+---
+
+### DarkPlaces Engine
+- Increase response buffer to allow listing more players in the ingame server browser. (Author: terencehill) [1d7fd4d7](https://gitlab.com/xonotic/darkplaces/-/commit/1d7fd4d72503aa1c8b6473cba0505373c15ac80e)
+<!--Fixes-->
+- Work around various obscure bugs in physics and logic caused by GCC and Clang compilers optimising incorrectly for CPUs with the AVX extension. (Author: bones_was_here)
 
 ---
 
@@ -304,6 +313,7 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 - Switched to QuakeC-based setcolor function implementation. (Author: Mario) [1126](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1126)
 - Improved xonotic-linux-sdl.sh script slightly. (Author: Dr. Jaska) [99](https://gitlab.com/xonotic/xonotic/-/merge_requests/99)
 - Updated rsync scripts and their README. (Author: Dr. Jaska) [100](https://gitlab.com/xonotic/xonotic/-/merge_requests/100)
+- Improved usability of WarpZoneLib_ExactTrigger_Touch() function. (Author: bones_was_here) [9956823e](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/9956823e4f50b794be0f40632ea8c36e6eb498d2) [7a46019a](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/7a46019af3dd728d31c44c8d40acc57ba1bd4f2f)
 
 ### Cruft removal
 - Removed view projecting function cs_project. (Author: Mario) [1043](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1043)
@@ -313,6 +323,7 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 - Removed map entity whitelist checks. (Author: LegendaryGuard) [1180](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1180)
 - Removed legacy MOTD. (Author: bones_was_here) [1012](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1012)
 - Removed override of engine +showscores command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
+- Remove trigger_init(), it's in the way and is mostly duplicating WarpZoneLib_ExactTrigger_Init() code. (Author: bones_was_here) [2b46f62d](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/2b46f62db61e8ca869fc591d9ebe4053c3e876d7)
 
 ---
 
