@@ -182,21 +182,40 @@ For these bots to be fun it is recommended to not give superbots hitscan weapons
 ---
 
 ### XonStat? {#xonstat}
+
 ---
 
 ### NetRadiant level editor? {#netradiant}
-- Fix build with GCC 13. (Author: Freddy) [198](https://gitlab.com/xonotic/netradiant/-/merge_requests/198)
+- First bunch of merge from NetRadiantCustom. (Author: Thomas Debesse) [193](https://gitlab.com/xonotic/netradiant/-/merge_requests/193)
 - q3map2: add -externalnames option to write explicit external lightmap names... (Author: Thomas Debesse) [196](https://gitlab.com/xonotic/netradiant/-/merge_requests/196)
+<!-- does netradiant's current builds include this NRC MR? -->
+<!-- no, but we don't build those... currently... -->
+<!-- if we did it would make more sense to include netradiant in these release notes -->
+<!-- that said, just because xonotic is ready for a stable release doesn't mean netradiant/q3map2 are (catharsis stormkeep lolderp) -->
+<!-- so imo netradiant should have its own releases, and release notes, and should finally increase the version number -->
+
+##### Fixes
+- Fix build with GCC 13. (Author: Freddy) [198](https://gitlab.com/xonotic/netradiant/-/merge_requests/198)
 - Make it build on M1 Mac. (Author: slipher) [195](https://gitlab.com/xonotic/netradiant/-/merge_requests/195)
 - Do not crash in Winding_Clip when using -D_GLIBCXX_ASSERTIONS. (Author: Walter Doekes) [194](https://gitlab.com/xonotic/netradiant/-/merge_requests/194)
-<!-- does netradiant's current builds include this NRC MR? -->
-- First bunch of merge from NetRadiantCustom. (Author: Thomas Debesse) [193](https://gitlab.com/xonotic/netradiant/-/merge_requests/193)
 
 ---
 
-### Other changes in Xonotic?
+### Moderation
+New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
+In short, players are able to locally ignore someone's chat messages via `ignore #player_id`.  
+Server Admins/Moderators are able to use `muteban #player_id` to mute a player from all chats for everyone,  
+`voteban #player_id` to disallow them from voting and `playban #player_id` to disallow them from playing.  
+Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic/-/wikis/Moderation-tools) for more information!
 
-Add new moderation tools for the game, one of the main objectives for 0.8.6. Apart of that, what about other new features?
+---
+
+### Visual Effects
+- Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when firing. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
+- Vortex charging now uses the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
+- Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
+
+---
 
 
 
@@ -209,18 +228,6 @@ Generated Release Notes
 
 Feature(s)
 ---
-
-### Moderation
-- New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
-  In short, players are able to locally ignore someone's chat messages via `ignore #player_id`.  
-  Server Admins/Moderators are able to use `muteban #player_id` to mute a player from all chats for everyone,  
-  `voteban #player_id` to disallow them from voting and `playban #player_id` to disallow them from playing.  
-  Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic/-/wikis/Moderation-tools) for more information!
-
-### Other: VFX
-- Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when firing. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
-- Vortex charging now uses the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
-- Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
 
 ### UNKNOWN SECTION
 - Implemented compatibility for Quake 3 (and its mods) mapinfo file formats (e.g. .defi and .arena) to a degree. (Author: Mario) [856](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/856)
