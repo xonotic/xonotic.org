@@ -57,13 +57,55 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ### Gameplay
 
-#### Some gameplay section
+##### Mayhem and Team Mayhem
+- Created Mayhem and Team Mayhem gamemodes. (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)  
+  Mayhem is a mode full of chaos and deathmatching where everyone respawns with all weapons and full health/armor stack!  
+  In these gamemodes score is given 75% based on damage dealt and 25% based on frags.  
+  In Free For All Mayhem the player (and in Team Mayhem the team) with the most damage dealt and frags earned at the end of a match wins!
 
----
+##### Team Keepaway
+- Added Team Keepaway. (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)  
+  Team Keepaway is the teamplay variant of Free For All Keepaway.  
+  Points are awarded for each frag to the team in possession of the ball and for killing opposing teams' ball carriers!
 
-### Features
+##### Survival
+- Added Survival, a gamemode where randomly selected hunters must frag all the survivors without being caught. (Author: Mario) [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072)
 
-#### Bla, bla, bla...
+##### Last Man Standing
+- Implemented 4 new features for LMS. (Author: terencehill) [808](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/808)
+- Players are now allowed to get back into the game if they moved to spectator. (Author: terencehill) [1051](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1051)
+
+##### Map entities
+- Fixes for teamed items and Quake 3 compatibility. (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
+- Fixed blocking of moving map entities with a BSP model being broken. (Author: terencehill) [1092](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1092)
+
+##### Physics
+- Added Quake 3 jump pad compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
+
+##### Mutators
+- Allowed dropping powerups with the use key & fix powerup dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
+
+##### Freeze Tag
+- Armor, ammo and weapons are no longer reset when player is gibbed, for example for players falling into the void. (Author: terencehill) [1179](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1179)
+
+##### Capture the Flag
+- Fixed not getting notifications in CTF if another team gets another team's flag in 3-4 team CTF. (Author: z411) [1087](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1087)
+
+##### Physics
+- Made all remaining entities use physics logic handled by QuakeC gamecode rather than the engine, allowing for future advancements in movement and gameplay. (Author: Mario) [1044](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1044)
+- q3df teleporter flags. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
+- Compensate for Q3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
+
+##### Clan Arena
+- Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Author: Dr. Jaska) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
+
+##### Balance
+- Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
+- Made cvars g_*_weaponarena no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
+
+##### Weapons
+- Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
+- Added overkill blaster keepforce and keepdamage cvars. (Author: bones_was_here) [1158](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1158)
 
 ---
 
@@ -104,9 +146,6 @@ Add new moderation tools for the game, one of the main objectives for 0.8.6. Apa
 
 <!-- output of prepare_releasenotes.py follows -->
 
-
-
-
 Generated Release Notes
 ===
 
@@ -129,24 +168,6 @@ Feature(s)
   Level 23: Onslaught in Running Man.  
   Level 28: Vampire Mutator CA in Warfare.  
   Level 31: A brutal END GAME level of Free For All Mayhem with superbots for true veterans on Trident.
-
-### Gameplay: Mayhem and Team Mayhem
-- Created Mayhem and Team Mayhem gamemodes. (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)  
-  Mayhem is a mode full of chaos and deathmatching where everyone respawns with all weapons and full health/armor stack!  
-  In these gamemodes score is given 75% based on damage dealt and 25% based on frags.  
-  In Free For All Mayhem the player (and in Team Mayhem the team) with the most damage dealt and frags earned at the end of a match wins!
-
-### Gameplay: Team Keepaway
-- Added Team Keepaway. (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)  
-  Team Keepaway is the teamplay variant of Free For All Keepaway.  
-  Points are awarded for each frag to the team in possession of the ball and for killing opposing teams' ball carriers!
-
-### Gameplay: Survival
-- Added Survival, a gamemode where randomly selected hunters must frag all the survivors without being caught. (Author: Mario) [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072)
-
-### Gameplay: LMS
-- Implemented 4 new features for LMS. (Author: terencehill) [808](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/808)
-- Players are now allowed to get back into the game if they moved to spectator. (Author: terencehill) [1051](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1051)
 
 ### Moderation
 - New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
@@ -184,15 +205,6 @@ Feature(s)
   There is now an utility tool for calculating your actual FoV on any resolution, with or without zoom scaling (e.g. Vortex scoping).  
   Fun fact: This FoV calculation behavior also exists in many other games like Counter Strikes games and Half-Life games due to their shared roots of Quake 1 game engine!
 
-### Gameplay: Map entities
-- Fixes for teamed items and Quake 3 compatibility. (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
-
-### Gameplay: Physics
-- Added Quake 3 jump pad compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
-
-### Gameplay: Mutators
-- Allowed dropping powerups with the use key & fix powerup dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
-
 ### UI: HUD etc
 - Made it possible to switch between the default quickmenu and a customized quickmenu provided by the server. (Author: terencehill) [1018](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1018)
 - Made map voting screen's chosen levelshot expand to the center of the screen for a second before it is loaded. (Author: terencehill) [1060](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1060)
@@ -229,18 +241,10 @@ Fix(es)
 - Fixed URLs and syntax errors in AppData. (Author: AsciiWolf) [96](https://gitlab.com/xonotic/xonotic/-/merge_requests/96)
 - Fixed make scripts failing with preset MAKEFLAGS which did not start with a dash. (Author: kiwixz) [97](https://gitlab.com/xonotic/xonotic/-/merge_requests/97)
 
-### Gameplay: FT
-- Armor, ammo and weapons are no longer reset when player is gibbed, for example for players falling into the void. (Author: terencehill) [1179](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1179)
-
 ### UI: HUD etc
 - Make the speed unit a global, consistent setting. (Author: z411) [1130](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1130)
 - Fixed welcome dialog popping up instead of pause menu on the first ESC key press when replaying a demo. (Author: terencehill) [1058](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1058)
 
-### Gameplay: Map entities
-- Fixed blocking of moving map entities with a BSP model being broken. (Author: terencehill) [1092](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1092)
-
-### Gameplay: CTF
-- Fixed not getting notifications in CTF if another team gets another team's flag in 3-4 team CTF. (Author: z411) [1087](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1087)
 
 Refactoring
 ---
@@ -255,9 +259,6 @@ Refactoring
 - Removed override of engine +showscores command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
 - Improved xonotic-linux-sdl.sh script slightly. (Author: Dr. Jaska) [99](https://gitlab.com/xonotic/xonotic/-/merge_requests/99)
 - Updated rsync scripts and their README. (Author: Dr. Jaska) [100](https://gitlab.com/xonotic/xonotic/-/merge_requests/100)
-
-### Gameplay: Physics
-- Made all remaining entities use physics logic handled by QuakeC gamecode rather than the engine, allowing for future advancements in movement and gameplay. (Author: Mario) [1044](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1044)
 
 NO_TYPE_GIVEN
 ---
@@ -276,10 +277,6 @@ NO_TYPE_GIVEN
 - Added an off-switch for monster loot (`g_monsters_drop`). (Author: Dr. Jaska) [1162](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1162)
 - Removed map entity whitelist checks. (Author: LegendaryGuard) [1180](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1180)
 
-### Gameplay: Physics
-- q3df teleporter flags. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
-- Compensate for Q3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
-
 ### UI: HUD etc
 - Made scoreboard pings colored! (Author: z411) [968](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/968)
 - Made showing the average scores per round in the scoreboard possible. (Author: terencehill) [975](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/975)
@@ -296,10 +293,3 @@ NO_TYPE_GIVEN
 - Added `%o` and `%O` to chat formatting so that players can easily check and/or tell their coordinates, e.g. check step height. (Author: Dr. Jaska) [1166](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1166)
 - Made 100% abstain votes in map voting choose a random map. (Author: Dr. Jaska) [1172](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1172)
 
-### Gameplay: Balance
-- [Created the Xonotic Balance Council responsible for future balance changes.](https://xonotic.org/balance_council/)
-
-- Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Author: Dr. Jaska) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
-- Made cvars g_*_weaponarena no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
-- Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
-- Added overkill blaster keepforce and keepdamage cvars. (Author: bones_was_here) [1158](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1158)
