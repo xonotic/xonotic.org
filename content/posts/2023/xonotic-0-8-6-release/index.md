@@ -315,3 +315,9 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 - Removed override of engine +showscores command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
 
 ---
+
+### Breaking Changes
+These changes partially break backwards compatibility with the assets available in 0.8.5:
+- [171](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/171)
+- [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
+- [1178](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1178)
