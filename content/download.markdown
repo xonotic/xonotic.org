@@ -8,7 +8,7 @@ wordpress_id: 839
 type: page
 ---
 
-No installation required, just unzip and run. Got questions? See the [FAQ](/faq) or [live chat](/chat) with us.
+No installation required, just unzip and run. Got questions? See the [FAQ](/faq) or [chat](/chat) with us.
 
 **Mirror links**  
 &emsp; <i class="fas fa-download"></i> [xonotic.org][805zip] (DE)  
@@ -44,11 +44,12 @@ Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/x
 
 ### Upgrading from an older version {#upgrading}
 
-Since Xonotic version 0.5, an auto-update tool is included in the Xonotic application directory.
+There's no need to download the game again to get into the action. Use the following steps to upgrade to the 0.8.6 release:
 
-To use it, navigate to the `Xonotic/misc/tools/rsync-updater/` subdirectory, then double-click (or execute in a terminal) the `update-to-release.sh` (Linux/Mac) or `update-to-release.bat` (Windows) script.
-
-This script will examine your installation and update only the files needed to bring your copy up to date using the `rsync` tool. In no time you'll have a shiny new client with which to play!
+  1. Navigate to your Xonotic installation folder
+  2. Navigate to the `misc/tools/rsync-updater` folder
+  3. Execute `update-to-release.sh` (for Linux or Mac) or `update-to-release.bat` (for Windows) and wait for it to complete
+  4. Profit. You're done!
 
 ---
 
