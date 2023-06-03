@@ -19,18 +19,16 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ---
 
-### Artwork: Maps
-<p style="margin-bottom:0px">We have two new official maps:</p>
+### Artwork
 
-- [Go] by *dublpaws* and *Debugger*, a space CTF map with a futuristic theme! (Author: Mirio) [43](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/43)
+#### Maps
+- New official maps:
+  - [Go] by *dublpaws* and *Debugger*, a space CTF map with a futuristic theme! (Author: Mirio) [43](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/43)
 
   <a href="/m/uploads/2023/06/Go.jpg"><img src="/m/uploads/2023/06/Go_small.jpg" width="512" height="288" loading="lazy" title="Go" class="th"></a>
-- [Trident] by *proraide*. Fight in an abandoned building! (Author: Amadeusz Sławiński) [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169)
+  - [Trident] by *proraide*. Fight in an abandoned building! (Author: Amadeusz Sławiński) [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169)
 
   <a href="/m/uploads/2023/06/Trident.jpg"><img src="/m/uploads/2023/06/Trident_small.jpg" width="512" height="288" loading="lazy" title="Trident" class="th"></a>
-
-<p style="margin-bottom:0px">The existing map collection also received some updates:</p>
-
 - Removed Drain and Oil Rig. (Author: SpiKe) [161](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/161)
 - Stormkeep: Fixed an invisible crouching spot near the Mega Health. (Author: SpiKe) [162](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/162)
 - Implosion: Added flare lights on top of the radio pylons + clipped the walls in the corridors + brush and texture cleanups. (Author: SpiKe) [163](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/163)
@@ -42,12 +40,12 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Updated entity definition bboxes to match 0.8.6 (for mappers). (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
 - Bromine: disabled the grass shadows + minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
 - Fixed a few minor visual issues on Opium and Solarium. (Author: SpiKe)
-- Packaged a xoncompat repo containing assets from maps (drain and oilrig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
+- Packaged a xoncompat repo containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 
-### Artwork: Monsters
+#### Monsters
 - Added LOD models for the monsters to boost performance with lots of monsters in the map and fix some LOD related bugs. (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
 
-### Artwork: Weapons
+#### Weapons
 - Added Overkill weaponry decompiled sources (Blender 2.79b source files) and organize weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
 - Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
