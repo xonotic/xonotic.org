@@ -43,7 +43,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Packaged a xoncompat repo containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 
 #### Monsters
-- Added LOD models for the monsters to boost performance with lots of monsters in the map and fix some LOD related bugs. (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
+- Added LOD models for the monsters to boost performance with lots of monsters in the map and fixed some LOD related bugs. (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
 
 #### Weapons
 - Added Overkill weaponry decompiled sources (Blender 2.79b source files) and organize weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
@@ -86,7 +86,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Allowed dropping powerups with the use key & fix powerup dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
 <!--Fixes-->
 - Fixed a few issues with instagib and LMS items and in particular extralife. (Author: terencehill) [1164](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1164)
-- Fixed Extralife pickup sound + Improved instagib powerup replacement algorithm. (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
+- Fixed Extralife pickup sound and improved instagib powerup replacement system. (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
 - Fixed pokenades causing a crash when monsters are disabled. (Author: Mario) [1041](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1041)
 
 ##### Freeze Tag
@@ -134,7 +134,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Clean up ammo sorting in the HUD to not reference items directly. (Author: Mario) [1121](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1121)
 
 ##### Scoreboard
-- Scoreboard UI and team selection. (Author: terencehill) [1027](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1027)
+- Implemented team selection in the scoreboard and added a scoreboard user interface (TAB-ESC to enter). (Author: terencehill) [1027](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1027)
 - Made scoreboard pings colored! (Author: z411) [968](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/968)
 - Made showing the average scores per round in the scoreboard possible. (Author: terencehill) [975](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/975)
 - Item Pickup panel. (Author: z411) [1094](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1094)
@@ -160,7 +160,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed `sv_vote_gametype_options` so that it defaults to the current gametype if it has no valid gametypes. (Author: Dr. Jaska) [1190](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1190)
 
 ##### Text
-- Changed default font hinting to 2 and grouped font cvars better. (Author: bones_was_here) [1048](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1048)
+- Changed default font hinting to 2. (Author: bones_was_here) [1048](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1048)
 - Added `%o` and `%O` to chat formatting so that players can easily check and/or tell their coordinates, e.g. check step height. (Author: Dr. Jaska) [1166](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1166)
 <!--Fixes-->
 
@@ -188,6 +188,7 @@ The campaign has received an overhaul! Many new levels and improvements. (Author
 ---
 
 ### Bots
+Improved aim and remote rocket detonation. (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)  
 New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
 These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
 and they prioritise low health targets instead of always targeting the closest opponent!  
@@ -195,7 +196,7 @@ To opt in to these superbots set `skill` to `101` or any higher number, for toug
 Be warned that these bots are a real challenge to even the best veteran players.  
 For these bots to be fun it is recommended to not give superbots hitscan weapons like the Vortex.
 <!--Fixes-->
-- Fixed bots prematurely detonating guided Devastator rockets + more improvements! (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)
+- Various minor fixes and improvements. (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)
 - Fixed bots being unable to fire fireball alt fire. (Author: Dr. Jaska) [1104](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1104)
 
 ---
