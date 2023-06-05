@@ -37,7 +37,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Replaced map screenshots by removing old Nexuiz assets and not displaying items. (Author: LegendaryGuard) [168](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/168)
 - Fixed wrong minimap scales on Dance, Implosion, Space-Elevator and Xoylent. (Author: SpiKe) [170](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/170)
 - Added the Arc entity definition for mappers. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
-- Updated entity definition bboxes to match 0.8.6 (for mappers). (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
+- Updated entity definition bounding boxes to match 0.8.6 (for mappers). (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
 - Bromine: disabled the grass shadows + minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
 - Fixed a few minor visual issues on Opium and Solarium. (Author: SpiKe)
 - Packaged a xoncompat repo containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
@@ -46,7 +46,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Added LOD models for the monsters to boost performance with lots of monsters in the map and fixed some LOD related bugs. (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
 
 #### Weapons
-- Added Overkill weaponry decompiled sources (Blender 2.79b source files) and organize weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
+- Added Overkill weaponry decompiled sources (Blender 2.79b source files) and organized weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
 - Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
 - Optimized g_fireball and fixed g_fireball and v_fireball UVs and enhanced slight details in the fireball textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
@@ -64,7 +64,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ##### Keepaway
 - Added Team Keepaway. (Author: Mario) [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045)  
   Team Keepaway is the teamplay variant of Free For All Keepaway.  
-  Points are awarded for each frag to the team in possession of the ball and for killing opposing teams' ball carriers!
+  Points are awarded for each kill to the team in possession of the ball and for killing opposing teams' ball carriers!
 <!--Fixes-->
 - Fixed several Keepaway issues. (Author: bones_was_here) [1175](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1175)
 
@@ -80,12 +80,12 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed blocking of moving map entities with a BSP model being broken. (Author: terencehill) [1092](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1092)
 
 ##### Physics
-- Added Quake 3 jump pad compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
+- Added Quake 3 jump pad trajectory compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
 
 ##### Mutators
-- Allowed dropping powerups with the use key & fix powerup dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
+- Allowed dropping powerups with the use key & fixed powerup dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
 <!--Fixes-->
-- Fixed a few issues with instagib and LMS items and in particular extralife. (Author: terencehill) [1164](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1164)
+- Fixed a few issues with instagib/LMS items and in particular extralife. (Author: terencehill) [1164](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1164)
 - Fixed Extralife pickup sound and improved instagib powerup replacement system. (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
 - Fixed pokenades causing a crash when monsters are disabled. (Author: Mario) [1041](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1041)
 
@@ -97,8 +97,8 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Physics
 - Made all remaining entities use physics logic handled by QuakeC gamecode rather than the engine, allowing for future advancements in movement and gameplay. (Author: Mario) [1044](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1044)
-- q3df teleporter flags. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
-- Compensate for Q3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
+- Implemented teleporter entity flags from Quake 3 DeFRaG. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
+- Compensate for Quake 3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
 
 ##### Clan Arena
 - Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Author: Dr. Jaska) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
@@ -106,7 +106,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Balance
 - Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
-- Made cvars g_*_weaponarena no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
+- Made the cvars g_*_weaponarena no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
 
 ##### Weapons
 - Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
@@ -125,13 +125,13 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ### User Interface
 
 ##### HUD
-- Improved StrafeHUD. (Author: Juhu) [1066](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1066)
+- Improved StrafeHUD a lot with many new features and bugfixes. (Author: Juhu) [1066](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1066)
 - Made it possible to switch between the default quickmenu and a customized quickmenu provided by the server. (Author: terencehill) [1018](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1018)
 - Allowed players to make the server's custom quickmenu default. (Author: terencehill) [1090](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1090)
 - Added an option in HUD editor to show a line for centering panels. (Author: terencehill) [1157](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1157)
-- Make the speed unit a global, consistent setting. (Author: z411) [1130](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1130)
-- Improve duel centerprint title. (Author: terencehill) [1039](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1039)
-- Clean up ammo sorting in the HUD to not reference items directly. (Author: Mario) [1121](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1121)
+- Made the speed unit a global, consistent setting. (Author: z411) [1130](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1130)
+- Improved duel centerprint title. (Author: terencehill) [1039](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1039)
+- Cleaned up ammo sorting in the HUD to not reference items directly. (Author: Mario) [1121](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1121)
 
 ##### Scoreboard
 - Implemented team selection in the scoreboard and added a scoreboard user interface (TAB-ESC to enter). (Author: terencehill) [1027](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1027)
@@ -143,8 +143,8 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Disabled CTS recording damage taken and dealt. (Author: Dr. Jaska) [1025](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1025)
 - Removed useless damage dealt, damage taken and ELO scoreboard columns from CTS. (Author: Dr. Jaska) [1030](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1030)
 
-##### Menu
-- Added menu_gamemenu client cvar to enable/disable the in-game menu. (Author: z411) [1101](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1101)
+##### In-Game Pause Menu
+- Added `menu_gamemenu` client cvar to enable/disable the pause menu. (Author: z411) [1101](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1101)
 - Fixed welcome dialog popping up instead of pause menu on the first ESC key press when replaying a demo. (Author: terencehill) [1058](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1058)
 
 ##### Translations
@@ -188,15 +188,14 @@ The campaign has received an overhaul! Many new levels and improvements. (Author
 ---
 
 ### Bots
-Improved aim and remote rocket detonation. (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)  
-New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
-These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
-and they prioritise low health targets instead of always targeting the closest opponent!  
-To opt in to these superbots set `skill` to `101` or any higher number, for toughest normal bots set `skill` to `100` or below.  
-Be warned that these bots are a real challenge to even the best veteran players.  
-For these bots to be fun it is recommended to not give superbots hitscan weapons like the Vortex.
+- New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
+  These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
+  and they prioritise low health targets instead of always targeting the closest opponent!  
+  To opt in to these superbots set `skill` to `101` or any higher number, for toughest normal bots set `skill` to `100` or below.  
+  Be warned that these bots are a real challenge to even the best veteran players.  
+  For these bots to be fun it is recommended to not give superbots hitscan weapons like the Vortex.
 <!--Fixes-->
-- Various minor fixes and improvements. (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)
+- Improved bot aim and fixed several minor things, including premature guided Devastator rocket detonation. (Author: terencehill) [1063](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1063)
 - Fixed bots being unable to fire fireball alt fire. (Author: Dr. Jaska) [1104](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1104)
 
 ---
@@ -215,18 +214,18 @@ For these bots to be fun it is recommended to not give superbots hitscan weapons
 <!-- so imo netradiant should have its own releases, and release notes, and should finally increase the version number -->
 
 <!--Fixes-->
-- Fix build with GCC 13. (Author: Freddy) [198](https://gitlab.com/xonotic/netradiant/-/merge_requests/198)
-- Make it build on M1 Mac. (Author: slipher) [195](https://gitlab.com/xonotic/netradiant/-/merge_requests/195)
-- Do not crash in Winding_Clip when using -D_GLIBCXX_ASSERTIONS. (Author: Walter Doekes) [194](https://gitlab.com/xonotic/netradiant/-/merge_requests/194)
+- Fixed building with GCC 13. (Author: Freddy) [198](https://gitlab.com/xonotic/netradiant/-/merge_requests/198)
+- Fixed building on M1 Mac. (Author: slipher) [195](https://gitlab.com/xonotic/netradiant/-/merge_requests/195)
+- Fixed a crash in Winding_Clip when using -D_GLIBCXX_ASSERTIONS. (Author: Walter Doekes) [194](https://gitlab.com/xonotic/netradiant/-/merge_requests/194)
 
 ---
 
 ### Moderation
-New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
-In short, players are able to locally ignore someone's chat messages via `ignore #player_id`.  
-Server Admins/Moderators are able to use `muteban #player_id` to mute a player from all chats for everyone,  
-`voteban #player_id` to disallow them from voting and `playban #player_id` to disallow them from playing.  
-Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic/-/wikis/Moderation-tools) for more information!
+- New banning systems and new features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
+  In short, players are able to locally ignore someone's chat messages via `ignore #player_id`.  
+  Server Admins/Moderators are able to use `muteban #player_id` to mute a player from all chats for everyone,  
+  `voteban #player_id` to disallow them from voting and `playban #player_id` to disallow them from playing.  
+  Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic/-/wikis/Moderation-tools) for more information!
 
 ---
 
@@ -235,7 +234,7 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 - Vortex charging now uses the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
 - Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
 - Created a new electricity effect. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
-- Implement cl_gunoffset and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
+- Implement `cl_gunoffset` and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
 - Made `r_ambient` default to `0` instead of `4`. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
 - Made CTF flags to be colored by gamecode instead of assets being colored. (Author: Mario) [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038)
 <!--Fixes-->
@@ -253,9 +252,9 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 
 ### Game logic
 - Implemented announcer queue to prevent overlapping announcements. (Author: z411) [1075](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1075)
-- Automatic per-map min & max player limits, many warmup and player count and Welcome message things. (Author: bones_was_here) [1022](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1022)
-- Implemented g_warmup > 1 and related fixes and refactoring. (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)
-- Autopause for dedicated servers, better autopause for singleplayer/listen. (Author: bones_was_here) [1144](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1144)
+- Automatic per-map min & max player limits. Fixed many warmup, player count and Welcome dialog things. (Author: bones_was_here) [1022](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1022)
+- Implemented `g_warmup` > 1 and related fixes and refactoring. (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)
+- Autopause for dedicated servers and improved autopause for singleplayer/listen. (Author: bones_was_here) [1144](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1144)
 <!--Fixes-->
 - Clear item waypoints when deleting items to fix issues with dropped powerups. (Author: Mario) [1070](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1070)
 - Fixed `weapon_shotgun` and `weapon_vortex` aliases missing. (Author: Mario) [1052](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1052)
@@ -282,9 +281,9 @@ Checkout the new [moderation tools wiki page](https://gitlab.com/xonotic/xonotic
 ---
 
 ### DarkPlaces Engine
-- Increase response buffer to allow listing more players in the ingame server browser. (Author: terencehill) [1d7fd4d7](https://gitlab.com/xonotic/darkplaces/-/commit/1d7fd4d72503aa1c8b6473cba0505373c15ac80e)
+- Increased response buffer to allow listing more players in the ingame server browser. (Author: terencehill) [1d7fd4d7](https://gitlab.com/xonotic/darkplaces/-/commit/1d7fd4d72503aa1c8b6473cba0505373c15ac80e)
 <!--Fixes-->
-- Work around various obscure bugs in physics and logic caused by GCC and Clang compilers optimising incorrectly for CPUs with the AVX extension. (Author: bones_was_here)
+- Worked around various obscure bugs in physics and logic caused by GCC and Clang compilers optimising incorrectly for CPUs with the AVX extension. (Author: bones_was_here)
 
 ---
 
