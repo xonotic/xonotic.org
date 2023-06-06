@@ -75,7 +75,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Implemented 4 new features for LMS. (Author: terencehill) [808](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/808)
 - Players are now allowed to get back into the game if they moved to spectator. (Author: terencehill) [1051](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1051)
 
-##### Map entities
+##### Map Entities
 - Fixes for teamed items and Quake 3 compatibility. (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
 - Fixed blocking of moving map entities with a BSP model being broken. (Author: terencehill) [1092](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1092)
 
@@ -151,7 +151,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Updated translation names for Chinese (China, Hong Kong, Taiwan) languages. (Author: William Goodspeed) [1115](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1115)
 - Added proper names to the Indonesian and Latin translations. (Author: SpiKe) [1143](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1143)
 
-##### Voting screens and Intermission
+##### Voting Screens and Intermission
 - Made map voting screen's chosen levelshot expand to the center of the screen for a second before it is loaded. (Author: terencehill) [1060](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1060)
 <!--Fixes-->
 - Made 100% abstain votes in map voting choose a random map. (Author: Dr. Jaska) [1172](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1172)
@@ -243,14 +243,14 @@ The campaign has received an overhaul! Many new levels and improvements. (Author
 
 ---
 
-### Map entities
+### Map Entities
 - Allowed mappers to define item skins. (Author: Mario) [1107](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1107)
 <!--Fixes-->
 - Fixed error spam which occurred when standing in the way of rotating doors. (Author: Mario) [1105](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1105)
 
 ---
 
-### Game logic
+### Game Logic
 - Implemented announcer queue to prevent overlapping announcements. (Author: z411) [1075](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1075)
 - Created new automatic per-map min & max player limits. Fixed many warmup, player count and Welcome dialog things. (Author: bones_was_here) [1022](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1022)
 - Implemented `g_warmup` > 1 and related fixes and refactoring. (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)
@@ -265,7 +265,7 @@ The campaign has received an overhaul! Many new levels and improvements. (Author
 
 ---
 
-### Map compatibility
+### Map Compatibility
 - Implemented compatibility for Quake 3 (and its mods) mapinfo file formats (e.g. .defi and .arena) to a degree. (Author: Mario) [856](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/856)
 
 ---
@@ -315,7 +315,7 @@ The campaign has received an overhaul! Many new levels and improvements. (Author
 - Updated rsync scripts and their README. (Author: Dr. Jaska) [100](https://gitlab.com/xonotic/xonotic/-/merge_requests/100)
 - Improved usability of WarpZoneLib_ExactTrigger_Touch function. (Author: bones_was_here) [9956823e](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/9956823e4f50b794be0f40632ea8c36e6eb498d2) [7a46019a](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/7a46019af3dd728d31c44c8d40acc57ba1bd4f2f)
 
-### Cruft removal
+### Cruft Removal
 - Removed view projecting function cs_project. (Author: Mario) [1043](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1043)
 - Cleaned up obsolete warmup info messages. (Author: z411) [1088](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1088)
 - Deleted 4 unused model files. (Author: Dr. Jaska) [1149](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1149)
