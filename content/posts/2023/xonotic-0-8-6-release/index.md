@@ -50,6 +50,9 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
 - Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
 - Optimized g_fireball and fixed g_fireball and v_fireball UVs and enhanced slight details in the fireball textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
+- Fixed wrong player's glow color on the Fireball. (Author: terencehill) [cd6c2c93](https://gitlab.com/xonotic/xonotic/-/commit/cd6c2c93684d30a3e2878d8f4d48875dcd4c1978)
+- Fixed wrong player's glow color on dropped weapons. (Author: terencehill) [40b83807](https://gitlab.com/xonotic/xonotic/-/commit/40b838075e618d6075fdaa25f2f00b223be3712e)
+- Made crylink screen brighter. (Author: MusicGoat) [4d874ab3](https://gitlab.com/xonotic/xonotic/-/commit/4d874ab391add1ad554f777c2d8aaebbeec0ddcc)
 
 ---
 
@@ -143,9 +146,10 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Disabled CTS recording damage taken and dealt. (Author: Dr. Jaska) [1025](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1025)
 - Removed useless damage dealt, damage taken and ELO scoreboard columns from CTS. (Author: Dr. Jaska) [1030](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1030)
 
-##### In-Game Pause Menu
-- Added the `menu_gamemenu` client cvar to enable/disable the pause menu. (Author: z411) [1101](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1101)
-- Fixed welcome dialog popping up instead of pause menu on the first ESC key press when replaying a demo. (Author: terencehill) [1058](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1058)
+##### In-Game "Game" Menu (also called ESC or Pause menu)
+- Added the `menu_gamemenu` client cvar to enable/disable the Game menu. (Author: z411) [1101](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1101)
+- Fixed welcome dialog popping up instead of Game menu on the first ESC key press when replaying a demo. (Author: terencehill) [1058](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1058)
+- Fixed Settings button in the Game menu opening a standard settings page. (Author: terencehill) [d99f5ca5](https://gitlab.com/xonotic/xonotic/-/commit/d99f5ca57c15cb2fa4735a1658a6e33fa0834017)
 
 ##### Translations
 - Updated translation names for Chinese (China, Hong Kong, Taiwan) languages. (Author: William Goodspeed) [1115](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1115)
@@ -155,6 +159,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Made map voting screen's chosen levelshot expand to the center of the screen for a second before it is loaded. (Author: terencehill) [1060](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1060)
 <!--Fixes-->
 - Made 100% abstain votes in map voting choose a random map. (Author: Dr. Jaska) [1172](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1172)
+- Fixed "Voting endmatch during intermission will skip the next map and go into a random map". (Author: terencehill) [22f4e736](https://gitlab.com/xonotic/xonotic/-/commit/22f4e7369ad11646609c6420cba17d452e652c4b)
 - Fixed not notifying about the vote in progress being canceled when the match ends. (Author: terencehill) [1181](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1181)
 - Fixed many crashes in map voting screen related to gametypes with low amount of supported maps. (Author: terencehill) [1188](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1188)
 - Fixed `sv_vote_gametype_options` so that it defaults to the current gametype if it has no valid gametypes. (Author: Dr. Jaska) [1190](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1190)
@@ -233,13 +238,14 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when fired. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
 - Made Vortex's charging use the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
 - Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
-- Created a new electricity effect. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
+- Replaced smoke with an electricity effect on players hit by a player carrying the Disability buff. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
 - Implement `cl_gunoffset` and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
 - Made `r_ambient` default to `0` instead of `4`. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
 - Made CTF flags to be colored by gamecode instead of assets being colored. (Author: Mario) [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038)
 <!--Fixes-->
 - Fixed a few cases where particles and/or decals did not appear for some weapons at times. (Author: terencehill) [1112](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1112)
 - Fixed 2 more decal issues. (Author: terencehill) [1127](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1127)
+- Smoothed `v_deathtiltangle` effect. (Author: terencehill) [3389f6aa](https://gitlab.com/xonotic/xonotic/-/commit/3389f6aa909c6a1d591a9622bb85e05b45b036c2)
 
 ---
 
