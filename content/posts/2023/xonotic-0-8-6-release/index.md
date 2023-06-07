@@ -154,10 +154,6 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed the welcome dialog popping up instead of the Game menu on the first ESC key press when replaying a demo. (Author: terencehill) [1058](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1058)
 - Fixed Settings button in the Game menu opening a standard settings page. (Author: terencehill) [[d99f5ca5]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/d99f5ca57c15cb2fa4735a1658a6e33fa0834017)
 
-##### Translations
-- Updated translation names for Chinese (China, Hong Kong, Taiwan) languages. (Author: William Goodspeed) [1115](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1115)
-- Added proper names to the Indonesian and Latin translations. (Author: SpiKe) [1143](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1143)
-
 ##### Voting Screens and Intermission
 - Made the map voting screen's chosen levelshot expand to the center of the screen for a second before it is loaded. (Author: terencehill) [1060](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1060)
 <!--Fixes-->
