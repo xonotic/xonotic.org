@@ -50,12 +50,12 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
 - Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
 - Optimized g_fireball and fixed g_fireball and v_fireball UVs and enhanced slight details in the fireball textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
-- Fixed wrong player's glow color on the Fireball. (Author: terencehill) [cd6c2c93](https://gitlab.com/xonotic/xonotic/-/commit/cd6c2c93684d30a3e2878d8f4d48875dcd4c1978)
-- Fixed wrong player's glow color on dropped weapons. (Author: terencehill) [40b83807](https://gitlab.com/xonotic/xonotic/-/commit/40b838075e618d6075fdaa25f2f00b223be3712e)
-- Made crylink screen brighter. (Author: MusicGoat) [4d874ab3](https://gitlab.com/xonotic/xonotic/-/commit/4d874ab391add1ad554f777c2d8aaebbeec0ddcc)
+- Fixed wrong Fireball having wrong player glow color. (Author: terencehill) [[cd6c2c93]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/cd6c2c93684d30a3e2878d8f4d48875dcd4c1978)
+- Fixed dropped weapons having wrong player glow color. (Author: terencehill) [[40b83807]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/40b838075e618d6075fdaa25f2f00b223be3712e)
+- Made Crylink's screen brighter. (Author: MusicGoat) [[4d874ab3]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/4d874ab391add1ad554f777c2d8aaebbeec0ddcc)
 
 #### Items
-- Fixed Invisible and Speed powerup items aren't drawing their 2D icon when aren't available to pick up. (Author: LegendaryGuard) [aaec1d16](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/aaec1d16f81e3217b5a67e3e1c7c03860d09cbcc)
+- Fixed the Invisibility and Speed powerups not drawing their 2D icons when they aren't available to pick up. (Author: LegendaryGuard) [[aaec1d16]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/aaec1d16f81e3217b5a67e3e1c7c03860d09cbcc)
 
 ---
 
@@ -141,7 +141,8 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Scoreboard
 - Implemented team selection in the scoreboard and added a scoreboard user interface (TAB-ESC to enter). (Author: terencehill) [1027](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1027)
-- Made scoreboard pings colored! (Author: z411) [968](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/968)
+- Made scoreboard pings colored! (Author: z411) [968](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/968)  
+  By default the best pings are green, ok pings are yellow, bad pings are orange and the worst pings are red.
 - Made showing the average scores per round in the scoreboard possible. (Author: terencehill) [975](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/975)
 - Created the Item Pickup panel. (Author: z411) [1094](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1094)
 <!--Fixes-->
@@ -152,7 +153,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ##### In-Game "Game" Menu (also called ESC or Pause menu)
 - Added the `menu_gamemenu` client cvar to enable/disable the Game menu. (Author: z411) [1101](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1101)
 - Fixed welcome dialog popping up instead of Game menu on the first ESC key press when replaying a demo. (Author: terencehill) [1058](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1058)
-- Fixed Settings button in the Game menu opening a standard settings page. (Author: terencehill) [d99f5ca5](https://gitlab.com/xonotic/xonotic/-/commit/d99f5ca57c15cb2fa4735a1658a6e33fa0834017)
+- Fixed Settings button in the Game menu opening a standard settings page. (Author: terencehill) [[d99f5ca5]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/d99f5ca57c15cb2fa4735a1658a6e33fa0834017)
 
 ##### Translations
 - Updated translation names for Chinese (China, Hong Kong, Taiwan) languages. (Author: William Goodspeed) [1115](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1115)
@@ -162,7 +163,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Made map voting screen's chosen levelshot expand to the center of the screen for a second before it is loaded. (Author: terencehill) [1060](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1060)
 <!--Fixes-->
 - Made 100% abstain votes in map voting choose a random map. (Author: Dr. Jaska) [1172](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1172)
-- Fixed "Voting endmatch during intermission will skip the next map and go into a random map". (Author: terencehill) [22f4e736](https://gitlab.com/xonotic/xonotic/-/commit/22f4e7369ad11646609c6420cba17d452e652c4b)
+- Fixed voting `endmatch` during an intermission skipping the next map and going into a random map. (Author: terencehill) [[22f4e736]](https://gitlab.com/xonotic/xonotic/-/commit/22f4e7369ad11646609c6420cba17d452e652c4b)
 - Fixed not notifying about the vote in progress being canceled when the match ends. (Author: terencehill) [1181](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1181)
 - Fixed many crashes in map voting screen related to gametypes with low amount of supported maps. (Author: terencehill) [1188](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1188)
 - Fixed `sv_vote_gametype_options` so that it defaults to the current gametype if it has no valid gametypes. (Author: Dr. Jaska) [1190](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1190)
@@ -198,7 +199,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 ### Bots
 - New extremely tough bots, superbots! (Author: Dr. Jaska) [1053](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1053)  
   These superbots have no aim limitations, actively dodge projectiles, strafe randomly while in combat  
-  and prioritise low health targets instead of always targeting the closest opponent!  
+  and prioritize low health targets instead of always targeting the closest opponent!  
   To opt in to these superbots set `skill` to `101` or any higher number, for toughest normal bots set `skill` to `100` or below.  
   Be warned that these bots are a real challenge to even the best veteran players.  
   For these bots to be fun it is recommended to not give superbots hitscan weapons like the Vortex.
@@ -241,14 +242,14 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when fired. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
 - Made Vortex's charging use the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
 - Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
-- Replaced smoke with an electricity effect on players hit by a player carrying the Disability buff. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
+- Created a new electricity effect and replaced the Disability buff's on hit smoke effect with it. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
 - Implement `cl_gunoffset` and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
 - Made `r_ambient` default to `0` instead of `4`. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
 - Made CTF flags to be colored by gamecode instead of assets being colored. (Author: Mario) [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038)
 <!--Fixes-->
 - Fixed a few cases where particles and/or decals did not appear for some weapons at times. (Author: terencehill) [1112](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1112)
 - Fixed 2 more decal issues. (Author: terencehill) [1127](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1127)
-- Smoothed `v_deathtiltangle` effect. (Author: terencehill) [3389f6aa](https://gitlab.com/xonotic/xonotic/-/commit/3389f6aa909c6a1d591a9622bb85e05b45b036c2)
+- Smoothed the effect of `v_deathtiltangle`. (Author: terencehill) [[3389f6aa]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/3389f6aa909c6a1d591a9622bb85e05b45b036c2)
 
 ---
 
@@ -281,18 +282,18 @@ The campaign has received an overhaul! There are many new levels and improvement
 
 ### Behind the Scenes
 - Added useful in-game tools for debugging. (Author: terencehill) [1152](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1152)
-- The files in the release zips now have correct date modified metadata. (Author: bones_was_here) [9a55f9d2](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
+- The files in the release zips now have correct date modified metadata. (Author: bones_was_here) [[9a55f9d2]](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
 <!--Fixes-->
-- Fixed error when unzipping `cygiconv-2.dll` with Windows Explorer. (Author: bones_was_here) [9a55f9d2](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
+- Fixed error when unzipping `cygiconv-2.dll` with Windows Explorer. (Author: bones_was_here) [[9a55f9d2]](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
 - Fixed URLs and syntax errors in AppData. (Author: AsciiWolf) [96](https://gitlab.com/xonotic/xonotic/-/merge_requests/96)
 - Fixed make scripts failing with preset MAKEFLAGS which did not start with a dash. (Author: kiwixz) [97](https://gitlab.com/xonotic/xonotic/-/merge_requests/97)
 
 ---
 
 ### DarkPlaces Engine
-- Increased response buffer to allow listing more players in the ingame server browser. (Author: terencehill) [1d7fd4d7](https://gitlab.com/xonotic/darkplaces/-/commit/1d7fd4d72503aa1c8b6473cba0505373c15ac80e)
+- Increased the response buffer to allow for listing more players in the in-game server browser. (Author: terencehill) [[1d7fd4d7]](https://gitlab.com/xonotic/darkplaces/-/commit/1d7fd4d72503aa1c8b6473cba0505373c15ac80e)
 <!--Fixes-->
-- Worked around various obscure bugs in physics and logic caused by GCC and Clang compilers optimising incorrectly for CPUs with the AVX extension. (Author: bones_was_here)
+- Worked around various obscure bugs in physics and logic caused by GCC and Clang compilers optimizing incorrectly for CPUs with the AVX extension. (Author: bones_was_here)
 
 ---
 
@@ -315,14 +316,14 @@ The campaign has received an overhaul! There are many new levels and improvement
 ##### Refactoring
 - Moved handling of the nade orb overlay to client side, resolved the need to network orb states via STAT macroes. (Author: Mario) [1035](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1035)
 - Some minor tweaks to the QuakeC physics logic. (Author: Mario) [1077](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1077)
-- Use gender-neutral pronouns when referring to the player. (Author: squidink7) [1111](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1111)
+- Changed male pronouns to gender-neutral pronouns when referring to the player. (Author: squidink7) [1111](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1111)
 - Added a registry field for renamed weapons to define their previous name to maintain compatibility. (Author: Mario) [1119](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1119)
 - Cleaned up ammo_pickupevalfunc function to not reference items directly. (Author: Mario) [1120](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1120)
 - Added a new function to copy fields from items to replacements. (Author: Mario) [1124](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1124)
 - Switched to QuakeC-based setcolor function implementation. (Author: Mario) [1126](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1126)
 - Improved xonotic-linux-sdl.sh script slightly. (Author: Dr. Jaska) [99](https://gitlab.com/xonotic/xonotic/-/merge_requests/99)
 - Updated rsync scripts and their README. (Author: Dr. Jaska) [100](https://gitlab.com/xonotic/xonotic/-/merge_requests/100)
-- Improved usability of WarpZoneLib_ExactTrigger_Touch function. (Author: bones_was_here) [9956823e](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/9956823e4f50b794be0f40632ea8c36e6eb498d2) [7a46019a](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/7a46019af3dd728d31c44c8d40acc57ba1bd4f2f)
+- Improved usability of WarpZoneLib_ExactTrigger_Touch function. (Author: bones_was_here) [[9956823e]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/9956823e4f50b794be0f40632ea8c36e6eb498d2) [[7a46019a]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/7a46019af3dd728d31c44c8d40acc57ba1bd4f2f)
 
 ### Cruft Removal
 - Removed view projecting function cs_project. (Author: Mario) [1043](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1043)
@@ -332,7 +333,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Removed map entity whitelist checks. (Author: LegendaryGuard) [1180](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1180)
 - Removed legacy MOTD. (Author: bones_was_here) [1012](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1012)
 - Removed override of engine +showscores command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
-- Remove trigger_init function, it was in the way and mostly duplicating WarpZoneLib_ExactTrigger_Init function's code. (Author: bones_was_here) [2b46f62d](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/2b46f62db61e8ca869fc591d9ebe4053c3e876d7)
+- Remove trigger_init function, it was in the way and mostly duplicating WarpZoneLib_ExactTrigger_Init function's code. (Author: bones_was_here) [[2b46f62d]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/2b46f62db61e8ca869fc591d9ebe4053c3e876d7)
 
 ---
 
