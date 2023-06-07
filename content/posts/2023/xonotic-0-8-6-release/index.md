@@ -106,7 +106,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Compensate for Quake 3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
 
 ##### Clan Arena
-- Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Author: Dr. Jaska) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
+- Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Co-Authors: Dr. Jaska & z411) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
 - Added a server-side option to disable dead players being able to spectate with freecam in Clan Arena. (enabled by default in XPM). (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
 
 ##### Balance
