@@ -54,6 +54,9 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed wrong player's glow color on dropped weapons. (Author: terencehill) [40b83807](https://gitlab.com/xonotic/xonotic/-/commit/40b838075e618d6075fdaa25f2f00b223be3712e)
 - Made crylink screen brighter. (Author: MusicGoat) [4d874ab3](https://gitlab.com/xonotic/xonotic/-/commit/4d874ab391add1ad554f777c2d8aaebbeec0ddcc)
 
+#### Items
+- Fixed Invisible and Speed powerup items aren't drawing their 2D icon when aren't available to pick up. (Author: LegendaryGuard) [aaec1d16](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/aaec1d16f81e3217b5a67e3e1c7c03860d09cbcc)
+
 ---
 
 ### Gameplay
