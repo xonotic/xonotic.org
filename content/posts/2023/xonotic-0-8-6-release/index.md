@@ -168,6 +168,9 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Added `%o` and `%O` to chat formatting so that players can easily check and/or tell their coordinates, e.g. check step height. (Author: Dr. Jaska) [1166](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1166)
 <!--Fixes-->
 
+##### Translations
+- New translations have been added to the list of languages available in the User settings: Chinese (Hong Kong), Indonesian and Latin.
+
 ---
 
 ### Campaign
