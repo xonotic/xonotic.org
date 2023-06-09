@@ -39,7 +39,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Added the Arc entity definition for mappers. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
 - Updated entity definition bounding boxes to match 0.8.6 (for mappers). (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
 - Bromine: disabled the grass shadows + minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
-- Fixed a few minor visual issues on Opium and Solarium. (Author: SpiKe)
+- Fixed a few minor visual issues on Erbium, Opium and Solarium. (Author: SpiKe)
 - Packaged a xoncompat repository containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 
 #### Monsters
@@ -169,7 +169,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 <!--Fixes-->
 
 ##### Translations
-- New translations have been added to the list of languages available in the User settings: Chinese (Hong Kong), Indonesian and Latin.
+- New localizations for Chinese (Hong Kong), Indonesian and Latin have been added to the User settings (thanks to our new translators).
 
 ---
 
