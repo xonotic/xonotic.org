@@ -136,6 +136,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Added an option in HUD editor to show a line for centering panels. (Author: terencehill) [1157](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1157)
 - Made the speed unit a global, consistent setting. (Author: z411) [1130](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1130)
 - Improved duel centerprint title. (Author: terencehill) [1039](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1039)
+- Made `moveto*` votes always show player ID and name, 2 other minor voting related fixes. (Author: terencehill) [1198](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1198)
 - Cleaned up ammo sorting in the HUD to not reference items directly. (Author: Mario) [1121](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1121)
 
 ##### Scoreboard
