@@ -252,6 +252,10 @@ The campaign has received an overhaul! There are many new levels and improvement
 
 ---
 
+### Settings
+- Refined default values for mouse `sensitivity` (halved from 6 to 3) and master volume (9.0 to 7.0). (Author: Dr. Jaska) [1192](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1192)
+
+---
 ### Map Entities
 - Allowed mappers to define item skins. (Author: Mario) [1107](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1107)
 <!--Fixes-->
