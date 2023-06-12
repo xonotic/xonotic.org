@@ -215,22 +215,6 @@ The campaign has received an overhaul! There are many new levels and improvement
 
 ---
 
-### NetRadiant level editor? {#netradiant}
-- First bunch of merge from NetRadiantCustom. (Author: Thomas Debesse) [193](https://gitlab.com/xonotic/netradiant/-/merge_requests/193)
-- q3map2: add -externalnames option to write explicit external lightmap names... (Author: Thomas Debesse) [196](https://gitlab.com/xonotic/netradiant/-/merge_requests/196)
-<!-- does netradiant's current builds include this NRC MR? -->
-<!-- no, but we don't build those... currently... -->
-<!-- if we did it would make more sense to include netradiant in these release notes -->
-<!-- that said, just because xonotic is ready for a stable release doesn't mean netradiant/q3map2 are (catharsis stormkeep lolderp) -->
-<!-- so imo netradiant should have its own releases, and release notes, and should finally increase the version number -->
-
-<!--Fixes-->
-- Fixed building with GCC 13. (Author: Freddy) [198](https://gitlab.com/xonotic/netradiant/-/merge_requests/198)
-- Fixed building on M1 Mac. (Author: slipher) [195](https://gitlab.com/xonotic/netradiant/-/merge_requests/195)
-- Fixed a crash in Winding_Clip when using -D_GLIBCXX_ASSERTIONS. (Author: Walter Doekes) [194](https://gitlab.com/xonotic/netradiant/-/merge_requests/194)
-
----
-
 ### Moderation
 - New banning systems and features for moderation purposes. (Author: LegendaryGuard) [945](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/945)  
   In short, players are able to locally ignore someone's chat messages via `ignore #player_id`,  
