@@ -110,7 +110,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Clan Arena
 - Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Co-Authors: Dr. Jaska & z411) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
-- Added a server-side option to disable dead players being able to spectate with freecam in Clan Arena. (enabled by default in XPM). (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
+- Added a server-side option to disable dead players being able to spectate with freecam in Clan Arena (enabled by default only in XPM-ruleset). (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
 
 ##### Balance
 - Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
@@ -328,8 +328,8 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Removed flag respawn printing backtrace if called twice within half a second. (Author: Dr. Jaska) [1155](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1155)
 - Removed map entity whitelist checks. (Author: LegendaryGuard) [1180](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1180)
 - Removed legacy MOTD. (Author: bones_was_here) [1012](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1012)
-- Removed override of engine +showscores command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
-- Remove trigger_init function, it was in the way and mostly duplicating WarpZoneLib_ExactTrigger_Init function's code. (Author: bones_was_here) [[2b46f62d]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/2b46f62db61e8ca869fc591d9ebe4053c3e876d7)
+- Removed override of engine `+showscores` command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
+- Removed trigger_init function as it was in the way and mostly duplicating WarpZoneLib_ExactTrigger_Init function's code. (Author: bones_was_here) [[2b46f62d]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/2b46f62db61e8ca869fc591d9ebe4053c3e876d7)
 
 ---
 
