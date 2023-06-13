@@ -211,7 +211,13 @@ The campaign has received an overhaul! There are many new levels and improvement
 
 ---
 
-### XonStat? {#xonstat}
+### XonStat {#xonstat}
+- Added support for the Mayhem, Team Mayhem, LMS, and Team Keepaway game modes.
+- Endmatch reports now store anticheat telemetry to help identify suspicious behavior.
+- Fixed the server identification routine to prefer active servers when duplicate hashkey entries are found.
+- Defined an alpha version of a `balance` endpoint to provide the foundation for dynamic team balancing in the
+  future.
+- Fixed a bug where deactivated servers were still accessible in the UI.
 
 ---
 
