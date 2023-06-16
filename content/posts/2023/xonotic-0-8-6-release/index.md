@@ -81,12 +81,22 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Implemented 4 new features for LMS. (Author: terencehill) [808](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/808)
 - Players are now allowed to get back into the game if they moved to spectator. (Author: terencehill) [1051](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1051)
 
+##### Freeze Tag
+- Armor, ammo and weapons are no longer reset when a player is gibbed, for example for players falling into the void. (Author: terencehill) [1179](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1179)
+
+##### Capture the Flag
+- Fixed not getting notifications in CTF if another team gets yet another team's flag in 3-4 team CTF. (Author: z411) [1087](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1087)
+
+##### Clan Arena
+- Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Co-Authors: Dr. Jaska & z411) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
+- Added a server-side option to disable dead players being able to spectate with freecam in Clan Arena (enabled by default only in XPM-ruleset). (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
+
 ##### Map Entities
+- Implemented teleporter entity flags from Quake 3 DeFRaG. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
+- Added Quake 3 jump pad trajectory compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
+<!--Fixes-->
 - Fixes for teamed items and Quake 3 compatibility. (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
 - Fixed blocking of moving map entities with a BSP model being broken. (Author: terencehill) [1092](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1092)
-
-##### Physics
-- Added Quake 3 jump pad trajectory compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
 
 ##### Mutators
 - Allowed dropping powerups with the use key and fixed powerups dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
@@ -95,20 +105,9 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed Extralife pickup sound canceling long powerup sounds and improved instagib powerup replacement system. (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
 - Fixed pokenades causing a crash when monsters are disabled. (Author: Mario) [1041](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1041)
 
-##### Freeze Tag
-- Armor, ammo and weapons are no longer reset when a player is gibbed, for example for players falling into the void. (Author: terencehill) [1179](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1179)
-
-##### Capture the Flag
-- Fixed not getting notifications in CTF if another team gets yet another team's flag in 3-4 team CTF. (Author: z411) [1087](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1087)
-
 ##### Physics
 - Made all remaining entities use physics logic handled by QuakeC gamecode rather than the engine, allowing for future advancements in movement and gameplay. (Author: Mario) [1044](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1044)
-- Implemented teleporter entity flags from Quake 3 DeFRaG. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
 - Compensate for Quake 3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
-
-##### Clan Arena
-- Created a new opt-in feature for fewer stalemates in CA when round timer runs out. (Co-Authors: Dr. Jaska & z411) [1068](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1068)
-- Added a server-side option to disable dead players being able to spectate with freecam in Clan Arena (enabled by default only in XPM-ruleset). (Author: z411) [1081](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1081)
 
 ##### Balance
 - Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
