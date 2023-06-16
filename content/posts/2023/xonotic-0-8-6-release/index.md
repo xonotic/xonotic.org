@@ -113,6 +113,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ##### Balance
 - Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
 - Made the variables `g_*_weaponarena` no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
+- Disabled the weapon recoil by default (`g_norecoil 1`). (Author: bones_was_here)
 
 ##### Weapons
 - Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
@@ -334,7 +335,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 ### Mapping Support package and NetRadiant gamepack
 - Added the Arc entity definition. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
 - Updated entity definition bounding boxes to match 0.8.6. (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
-- Removed levelshots, lightmaps, minimaps and other unneeded directories from the Mapping Support package (Authors: bones_was_here and SpiKe)
+- Removed levelshots, lightmaps, minimaps and other unneeded directories from the Mapping Support package. (Authors: bones_was_here and SpiKe)
 
 ---
 
