@@ -110,9 +110,10 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Compensate for Quake 3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
 
 ##### Balance
-- Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
 - Made the variables `g_*_weaponarena` no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
-- Disabled the weapon recoil by default (`g_norecoil 1`). (Author: bones_was_here)
+<!--Balance Council-->
+- Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
+- Disabled the weapon recoil by default (`g_norecoil 1`). [5](/balancevotes/5/)
 
 ##### Weapons
 - Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
