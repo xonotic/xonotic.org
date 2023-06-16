@@ -38,8 +38,6 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Atelier: fixed players sometimes getting stuck by placing the teleporter exits slightly above the ground and making the decals underneath non-solid. (Author: SpiKe) [166](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/166)
 - Updated map screenshots, removing old Nexuiz assets and not displaying items. (Author: LegendaryGuard) [168](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/168)
 - Fixed wrong minimap scales on Dance, Implosion, Space-Elevator and Xoylent. (Author: SpiKe) [170](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/170)
-- Added the Arc entity definition for mappers. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
-- Updated entity definition bounding boxes to match 0.8.6 (for mappers). (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
 - Bromine: disabled the grass shadows + minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
 - Rebuilt some maps with the new q3map2 default light settings. (Author: bones_was_here) [180](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/180) (_partially merged_)
 - Fixed a few minor visual issues on Erbium, Opium and Solarium. (Author: SpiKe)
@@ -330,6 +328,13 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Removed legacy MOTD. (Author: bones_was_here) [1012](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1012)
 - Removed override of engine `+showscores` command. (Author: bones_was_here) [1128](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1128)
 - Removed trigger_init function as it was in the way and mostly duplicating WarpZoneLib_ExactTrigger_Init function's code. (Author: bones_was_here) [[2b46f62d]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/2b46f62db61e8ca869fc591d9ebe4053c3e876d7)
+
+---
+
+### Mapping Support package and NetRadiant gamepack
+- Added the Arc entity definition. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
+- Updated entity definition bounding boxes to match 0.8.6. (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
+- Removed levelshots, lightmaps, minimaps and other unneeded directories from the Mapping Support package (Authors: bones_was_here and SpiKe)
 
 ---
 
