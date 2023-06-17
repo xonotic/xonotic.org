@@ -68,9 +68,9 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ### Gameplay
 
 ##### Mayhem
-- Created the Mayhem and Team Mayhem gamemodes. (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)  
+- Created the Mayhem and Team Mayhem gametypes. (Author: Dr. Jaska) [884](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/884)  
   Mayhem is a mode full of chaos and deathmatching where players respawn with all weapons and full health/armor stack!  
-  In these gamemodes score is given 75% based on damage dealt and 25% based on frags.  
+  In these gametypes score is given 75% based on damage dealt and 25% based on frags.  
   In Free For All Mayhem the player (and in Team Mayhem the team) with the most damage dealt and frags earned at the end of a match wins!
 
 ##### Keepaway
@@ -81,7 +81,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed several Keepaway issues. (Author: bones_was_here) [1175](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1175)
 
 ##### Survival
-- Added Survival, a gamemode where a few randomly selected hunters must frag all of the survivors without being identified and stopped. (Author: Mario) [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072)
+- Added Survival, a gametype where a few randomly selected hunters must frag all of the survivors without being identified and stopped. (Author: Mario) [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072)
 
 ##### Last Man Standing
 - Implemented 4 new features for LMS. (Author: terencehill) [808](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/808)
@@ -360,7 +360,7 @@ This release includes several new or updated assets which older versions lack.
 ##### Gametypes [1178](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1178)  
   - [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045): Add Team Keepaway.
   - [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072): Add Survival.  
-  These gamemodes do not involve new assets other than their gamemode icons.  
+  These gametypes do not involve new assets other than their gametype icons.  
   This means that old clients playing them on up-to-date servers have gamecode compatibility,  
   but they will not be able to see the new icons on the gametype voting screen.  
   - [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038): Made CTF flags to be colored by gamecode instead of assets being colored.  
