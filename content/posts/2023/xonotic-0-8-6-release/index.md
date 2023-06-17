@@ -20,17 +20,23 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ---
 
 ### Artwork
+##### New official maps
 
-#### Maps
-- New official maps:
-  - [Go] by *dublpaws* and *Debugger*, a space CTF map with a futuristic theme! (Author: Mirio) [43](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/43)
+- ##### *Go* by *dublpaws* and *Debugger* {#}
+  A space CTF map with a futuristic theme! (Author: Mirio) [43](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/43)  
+  With fixes and visual upgrades by SpiKe and Mirio, waypoints by terencehill.  
 
   ![Go by dublpaws and Debugger](Go.png "0.67")  
   *click to view full size*
-  - [Trident] by *proraide*. Fight in an abandoned building! (Author: Amadeusz Sławiński) [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169)
+
+- ##### *Trident* by *proraide* {#}
+  Fight in an abandoned building! (Author: Amadeusz Sławiński) [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169)  
+  With fixes by SpiKe and waypoints by terencehill.  
 
   ![Trident by proraide](Trident.png "0.67")  
   *click to view full size*
+
+##### Existing maps
 - Removed Drain and Oil Rig. (Author: SpiKe) [161](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/161)
 - Stormkeep: Fixed an invisible crouching spot near the Mega Health. (Author: SpiKe) [162](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/162)
 - Implosion: Added flare lights on top of the radio pylons + clipped the walls in the corridors + brush and texture cleanups. (Author: SpiKe) [163](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/163)
@@ -43,10 +49,10 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed a few minor visual issues on Erbium, Opium and Solarium. (Author: SpiKe)
 - Packaged a xoncompat repository containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 
-#### Monsters
+##### Monsters
 - Added LOD models for the monsters to boost performance with lots of monsters in the map and fixed some LOD related bugs. (Author: Mario) [1069](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1069)
 
-#### Weapons
+##### Weapons
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
 - Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
 - Optimized g_fireball and fixed g_fireball and v_fireball UVs and enhanced a few slight details in the Fireball's textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
@@ -54,7 +60,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed dropped weapons having wrong player glow color. (Author: terencehill) [[40b83807]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/40b838075e618d6075fdaa25f2f00b223be3712e)
 - Made Crylink's screen brighter. (Author: MusicGoat) [[4d874ab3]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/4d874ab391add1ad554f777c2d8aaebbeec0ddcc)
 
-#### Items
+##### Items
 - Fixed the Invisibility and Speed powerups not displaying their 2D icons when the powerups aren't available for pickup. (Author: LegendaryGuard) [[aaec1d16]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/aaec1d16f81e3217b5a67e3e1c7c03860d09cbcc)
 
 ---
@@ -320,7 +326,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Updated rsync scripts and their README. (Author: Dr. Jaska) [100](https://gitlab.com/xonotic/xonotic/-/merge_requests/100)
 - Improved usability of WarpZoneLib_ExactTrigger_Touch function. (Author: bones_was_here) [[9956823e]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/9956823e4f50b794be0f40632ea8c36e6eb498d2) [[7a46019a]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/7a46019af3dd728d31c44c8d40acc57ba1bd4f2f)
 
-### Cruft Removal
+##### Cruft Removal
 - Removed view projecting function cs_project. (Author: Mario) [1043](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1043)
 - Cleaned up obsolete warmup info messages. (Author: z411) [1088](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1088)
 - Deleted 4 unused model files. (Author: Dr. Jaska) [1149](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1149)
