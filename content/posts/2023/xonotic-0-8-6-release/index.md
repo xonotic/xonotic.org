@@ -345,25 +345,27 @@ The campaign has received an overhaul! There are many new levels and improvement
 
 ---
 
-### Breaking Changes
-These changes partially break backwards compatibility with the assets available in 0.8.5:
-- Breaking changes that were merged in the maps-xonotic.pk3dir repository: [171](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/171)  
+### Compatibility with previous versions {#compatibility}
+This release includes several new or updated assets which older versions lack.
+
+##### Maps [171](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/171)  
   - [43](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/43): Add the map Go by dublpaws and Debugger.
   - [161](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/161): Remove Drain and Oilrig.
   - [162](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/162), [163](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/163), [166](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/166) and [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179): Changes to the stock maps.
-  - [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169): Add the map Trident by proraide.
-  - [178](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/178): Update the campaign with new maps and new game modes.  
+  - [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169): Add the map Trident by proraide.  
   New stock maps are expected to be on the client and thus will not be sent if a client does not have them.  
   This means that the maps with updates and changes to them will not have the changed visuals and/or geometry on old clients causing desync and mispredictions with what server hosts and client sees.  
   In the case of new maps, if the old client doesn't have them, they will only see a dark void with networked entities.  
-  Campaign data is not networked meaning any data about the campaign will be outdated and mismatching.
-- Breaking changes that were merged in the data-xonotic.pk3dir repository: [1178](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1178)  
+
+##### Gametypes [1178](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1178)  
   - [1045](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1045): Add Team Keepaway.
-  - [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072): Add Survival.
-  - [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038): Made CTF flags to be colored by gamecode instead of assets being colored.  
+  - [1072](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1072): Add Survival.  
   These gamemodes do not involve new assets other than their gamemode icons.  
-  This means that old clients playing them on up-to-date servers should have full gamecode compatibility,  
-  but they will not be able to see the new icons on the gametype voting screen due to not having the icons.  
-  CTF flag changes can and will visually break CTF flags for up-to-date clients playing on old unmaintained servers.  
-  The flags have been said to have forwards compatibility though, meaning that old clients on up-to-date servers should have the correct flag colors.  
+  This means that old clients playing them on up-to-date servers have gamecode compatibility,  
+  but they will not be able to see the new icons on the gametype voting screen.  
+  - [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038): Made CTF flags to be colored by gamecode instead of assets being colored.  
+  If a current client plays on an old server, flags will lack colour.  
+  The flags have forward compatibility though, meaning that old clients on up-to-date servers see the correct flag colors.  
+
+##### Translations
   Localized strings are not sent by the server and thus up-to-date clients on old servers and old clients on up-to-date servers will have translation desynchronization if they have changed notably.
