@@ -223,6 +223,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Fixed the server identification routine to prefer active servers when duplicate hashkey entries are found.
 - Defined an alpha version of a `balance` endpoint to provide the foundation for dynamic team balancing in the future.
 - Fixed a bug where deactivated servers were still accessible in the UI.
+- Dramatically improved CTS support (tolerance for players leaving the match, spectator recording, lap time sorting, and alivetime display)
 
 ---
 
