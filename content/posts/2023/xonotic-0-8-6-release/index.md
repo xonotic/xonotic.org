@@ -179,6 +179,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Translations
 - New localizations for Chinese (Hong Kong), Indonesian and Latin have been added to the User settings (thanks to our new translators).
+- Allow showing translated campaign level descriptions in game and add Chinese translations of the campaign from NaitLee. (Author: terencehill) [1205](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1205)
 
 ---
 
