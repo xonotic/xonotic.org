@@ -31,7 +31,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 - ##### *Trident* by *proraide* {#}
   Fight in an abandoned building! (Author: Amadeusz Sławiński) [169](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/169)  
-  With fixes by SpiKe and waypoints by terencehill.  
+  With fixes by SpiKe and Mirio, waypoints by terencehill.  
 
   ![Trident by proraide](Trident.png "0.67")  
   *click to view full size*
