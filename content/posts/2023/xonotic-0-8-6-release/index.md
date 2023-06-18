@@ -45,7 +45,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Updated the map screenshots, hid old Nexuiz assets and map items. (Author: LegendaryGuard) [168](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/168)
 - Fixed wrong minimap scales on Dance, Implosion, Space-Elevator and Xoylent. (Author: SpiKe) [170](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/170)
 - Bromine: disabled the grass shadows, minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
-- Rebuilt some maps with the new q3map2 default light settings. (Author: bones_was_here) [180](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/180) (_partially merged_)
+- Rebuilt some maps with our new q3map2 default light settings. (Author: bones_was_here) [180](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/180) (_partially merged_)
 - Fixed a few minor visual issues on Erbium, Opium and Solarium. (Author: SpiKe)
 - Packaged a xoncompat repository containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
 
@@ -171,7 +171,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 <!--Fixes-->
 
 ##### Translations
-- New localizations for Chinese (Hong Kong), Indonesian and Latin have been added to the User settings (thanks to our new translators).
+- New localizations for Chinese (Hong Kong), Indonesian and Latin have been added to the game (thanks to our new translators).
 - Allow showing translated campaign level descriptions in game and add Chinese translations of the campaign from NaitLee. (Author: terencehill) [1205](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1205)
 
 ---
