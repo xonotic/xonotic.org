@@ -337,6 +337,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 ### Mapping Support package and NetRadiant gamepack
 - Added the Arc entity definition. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
 - Updated entity definition bounding boxes to match 0.8.6. (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
+- Added the new xoncompat repository to the list of NetRadiant forbidden paths. (Author: SpiKe) [8](https://gitlab.com/xonotic/netradiant-xonoticpack/-/merge_requests/8)
 - Removed levelshots, lightmaps, minimaps and other unneeded directories from the Mapping Support package. (Authors: bones_was_here and SpiKe) [[7db1b19f]](https://gitlab.com/xonotic/xonotic/-/commit/7db1b19fc4357c61709097250d085c4a291eb054) and [103](https://gitlab.com/xonotic/xonotic/-/merge_requests/103)
 
 ---
