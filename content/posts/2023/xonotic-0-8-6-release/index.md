@@ -39,12 +39,12 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ##### Existing maps
 - Removed Drain and Oil Rig. (Author: SpiKe) [161](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/161)
 - Stormkeep: Fixed an invisible crouching spot near the Mega Health. (Author: SpiKe) [162](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/162)
-- Implosion: Added flare lights on top of the radio pylons + clipped the walls in the corridors + brush and texture cleanups. (Author: SpiKe) [163](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/163)
+- Implosion: Added flare lights on top of the radio pylons, clipped the walls in the corridors, brush and texture cleanups. (Author: SpiKe) [163](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/163)
 - Added copies of crate and jumppad LOD models that work with automatic LOD loading. (Author: Mario) [165](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/165)
 - Atelier: fixed players sometimes getting stuck by placing the teleporter exits slightly above the ground and making the decals underneath non-solid. (Author: SpiKe) [166](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/166)
-- Updated map screenshots, removing old Nexuiz assets and not displaying items. (Author: LegendaryGuard) [168](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/168)
+- Updated the map screenshots, hid old Nexuiz assets and map items. (Author: LegendaryGuard) [168](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/168)
 - Fixed wrong minimap scales on Dance, Implosion, Space-Elevator and Xoylent. (Author: SpiKe) [170](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/170)
-- Bromine: disabled the grass shadows + minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
+- Bromine: disabled the grass shadows, minor fixes. (Author: SpiKe) [179](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/179)
 - Rebuilt some maps with the new q3map2 default light settings. (Author: bones_was_here) [180](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/180) (_partially merged_)
 - Fixed a few minor visual issues on Erbium, Opium and Solarium. (Author: SpiKe)
 - Packaged a xoncompat repository containing assets from maps (Drain and Oil Rig) removed in this release. (Author: bones_was_here) [102](https://gitlab.com/xonotic/xonotic/-/merge_requests/102)
@@ -343,7 +343,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 ### Mapping Support package and NetRadiant gamepack
 - Added the Arc entity definition. (Author: SpiKe) [173](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/173)
 - Updated entity definition bounding boxes to match 0.8.6. (Author: bones_was_here) [175](https://gitlab.com/xonotic/xonotic-maps.pk3dir/-/merge_requests/175)
-- Removed levelshots, lightmaps, minimaps and other unneeded directories from the Mapping Support package. (Authors: bones_was_here and SpiKe)
+- Removed levelshots, lightmaps, minimaps and other unneeded directories from the Mapping Support package. (Authors: bones_was_here and SpiKe) [[7db1b19f]](https://gitlab.com/xonotic/xonotic/-/commit/7db1b19fc4357c61709097250d085c4a291eb054) and [103](https://gitlab.com/xonotic/xonotic/-/merge_requests/103)
 
 ---
 
