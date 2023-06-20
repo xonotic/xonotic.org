@@ -106,7 +106,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Physics
 - Made all remaining entities use physics logic handled by QuakeC gamecode rather than the engine, allowing for future advancements in movement and gameplay. (Author: Mario) [1044](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1044)
-- Compensate for Quake 3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
+- Compensated for Quake 3 frametime-dependent gravity in configs and jump pad code. (Author: bones_was_here) [1138](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1138)
 
 ##### Balance
 - Made the variables `g_*_weaponarena` no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
@@ -172,7 +172,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Translations
 - New localizations for Chinese (Hong Kong), Indonesian and Latin have been added to the game (thanks to our new translators).
-- Allow showing translated campaign level descriptions in game and add Chinese translations of the campaign from NaitLee. (Author: terencehill) [1205](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1205)
+- Allowed showing translated campaign level descriptions in game and added Chinese translations of the campaign from NaitLee. (Author: terencehill) [1205](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1205)
 
 ---
 
@@ -234,7 +234,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Made Vortex's charging use the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
 - Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
 - Replaced the Disability buff's smoke effect, players that are hit by someone holding the Disability buff will have a new electricity effect. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
-- Implement `cl_gunoffset` and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
+- Implemented `cl_gunoffset` and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
 - Made `r_ambient` default to `0` instead of `4`, thus removing all ambient lighting. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
 - Made CTF flags to be colored by gamecode instead of assets being colored. (Author: Mario) [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038)
 <!--Fixes-->
