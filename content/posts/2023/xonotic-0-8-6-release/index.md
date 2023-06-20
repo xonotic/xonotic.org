@@ -99,6 +99,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Mutators
 - Allowed dropping powerups with the use key and fixed powerups dropping outside of the map. (Author: z411) [1074](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1074)
+- Added overkill blaster keepforce and keepdamage cvars. (Author: bones_was_here) [1158](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1158)
 <!--Fixes-->
 - Fixed a few issues with instagib/LMS items and in particular extralife. (Author: terencehill) [1164](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1164)
 - Fixed Extralife pickup sound canceling long powerup sounds and improved instagib powerup replacement system. (Author: terencehill) [1174](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1174)
@@ -111,12 +112,11 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 ##### Balance
 - Made the variables `g_*_weaponarena` no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
 <!--Balance Council-->
-- Created the [Xonotic Balance Council](/balance_council/) responsible for future balance changes.
+- Created the [Xonotic Balance Council](/balance_council/) responsible for future gameplay balance changes. (Author: bones_was_here) [72](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/72)
 - Disabled the weapon recoil by default (`g_norecoil 1`). [5](/balancevotes/5/)
 
 ##### Weapons
 - Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
-- Added overkill blaster keepforce and keepdamage cvars. (Author: bones_was_here) [1158](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1158)
 <!--Fixes-->
 - Fixed some Shotgun bugs related to bots or the weapon being reloadable. (Author: terencehill) [1061](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1061)
 - Fixed inverted (lower value for core than outer edge) damage and edgedamage values for splash damage having completely wrong force calculations. (Author: Dr. Jaska) [1145](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1145)
@@ -166,7 +166,7 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 - Fixed `sv_vote_gametype_options` so that it defaults to the current gametype if it doesn't have a single valid gametype. (Author: Dr. Jaska) [1190](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1190)
 
 ##### Text
-- Changed default font hinting to 2. (Author: bones_was_here) [1048](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1048)
+- Changed default font hinting to 2. Clearer small text than 1, less distortion than 3. (Author: bones_was_here) [1048](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1048)
 - Added `%o` and `%O` to chat formatting so that players can easily check and/or tell their coordinates, e.g. check step height. (Author: Dr. Jaska) [1166](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1166)
 <!--Fixes-->
 
@@ -230,30 +230,43 @@ The campaign has received an overhaul! There are many new levels and improvement
 ---
 
 ### Visual Effects
-- Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when fired. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
 - Made Vortex's charging use the player's color instead of predefined colors. (Author: Mario) [1098](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1098)
 - Tweaked gibs' settings to reduce exaggerated throw velocity. (Author: terencehill) [1114](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1114)
 - Replaced the Disability buff's smoke effect, players that are hit by someone holding the Disability buff will have a new electricity effect. (Author: LegendaryGuard) [1062](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1062)
-- Implemented `cl_gunoffset` and casings-related fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)
-- Made `r_ambient` default to `0` instead of `4`, thus removing all ambient lighting. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
+- Implemented `cl_gunoffset` and bullet casings fixes and refactoring. (Author: bones_was_here) [1100](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1100)  
+  This allows you to adjust the first person weapon model position relative to your camera.
+- Changed to the engine's default `r_ambient 0` setting, thus allowing true black and giving mappers full control of contrast. (Author: bones_was_here) [993](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/993)
 - Made CTF flags to be colored by gamecode instead of assets being colored. (Author: Mario) [1038](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1038)
 <!--Fixes-->
+- Changed HLAC's secondary attack to only play a single sound and muzzle flash effect when fired. (Author: Mario) [1040](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1040)
 - Fixed a few cases where particles and/or decals did not appear for some weapons at times. (Author: terencehill) [1112](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1112)
 - Fixed 2 more decal related issues. (Author: terencehill) [1127](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1127)
 - Smoothed the effect of `v_deathtiltangle`. (Author: terencehill) [[3389f6aa]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/3389f6aa909c6a1d591a9622bb85e05b45b036c2)
 
----
+##### Items overhaul (Author: bones_was_here) [1202](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1202) {#items-overhaul}
+<p></p> <!-- half a <br> :) -->
 
-### Settings
-- Refined default values for mouse `sensitivity` (halved from 6 to 3) and master volume (9.0 to 7.0). (Author: Dr. Jaska) [1192](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1192)
+&emsp; ![Crylink despawning](despawning_crylink.png "0.333") &emsp; ![Electro despawning](despawning_electro.png "0.333")
+- Added despawning effects for dropped items, if you're quick there's still enough time to grab them.  
+  May be disabled with `cl_items_animate`.
+- Implemented immediate switching between simple item models and 3D item models with `cl_simple_items`.
+- Smoothed the motion of thrown items.
+- Reduced bandwidth used by items coming into view or drawing particle effects.
+- Replaced use of ghost items when in a vehicle with an effect indicating items can't be picked up, customisable with `cl_items_vehicle_alpha` and `cl_items_vehicle_color`.
+- Added cvar `cl_items_fadedist` to adjust fading out of distant items.  
+  Removed ability to override server's `g_items_maxdist` for fairness.
+- Added regular position and velocity updates for dropped items to resync the client's view after any errors or interruptions.
+- Prevented bobbing animations from moving the physics hitbox.
 
 ---
 
 ### Game Logic
 - Implemented announcer queue to prevent overlapping announcements. (Author: z411) [1075](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1075)
 - Created new automatic per-map min & max player limits. Fixed many warmup, player count and Welcome dialog things. (Author: bones_was_here) [1022](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1022)
-- Implemented `g_warmup` > 1 and related fixes and refactoring. (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)
-- Made autopause work for dedicated servers and improved autopause for listen servers. (Author: bones_was_here) [1144](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1144)
+- Implemented `g_warmup` > 1 and related fixes and refactoring. (Author: bones_was_here) [1082](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1082)  
+  The new `g_warmup` settings allow the server to stay in warmup until the minimum number of players have joined.
+- Made autopause work for dedicated servers and improved autopause for listen servers. (Author: bones_was_here) [1144](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1144)  
+  By default single player pauses while the menu or console are open, and empty servers pause after the map changes.
 <!--Fixes-->
 - Fixed issues with dropped powerups by also deleting item waypoints when deleting their items. (Author: Mario) [1070](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1070)
 - Fixed `weapon_shotgun` and `weapon_vortex` aliases missing. (Author: Mario) [1052](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1052)
@@ -270,7 +283,7 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Implemented teleporter entity flags from Quake 3 DeFRaG. (Author: Juhu) [1135](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1135)
 - Added Quake 3 jump pad trajectory compatibility. (Author: Juhu) [1134](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1134)
 <!--Fixes-->
-- Fixes for teamed items and Quake 3 compatibility. (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
+- Fixes for teamed items and support for them on Quake 3 maps added (requires the server has the latest DarkPlaces engine). (Author: bones_was_here) [1079](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1079)
 - Fixed blocking of moving map entities with a BSP model being broken. (Author: terencehill) [1092](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1092)
 - Fixed error spam which occurred when standing in the way of rotating doors. (Author: Mario) [1105](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1105)
 
@@ -280,6 +293,13 @@ The campaign has received an overhaul! There are many new levels and improvement
 - Added useful in-game tools for debugging. (Author: terencehill) [1152](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1152)
 - The files in the release zips now have correct date modified metadata. (Author: bones_was_here) [[9a55f9d2]](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
 - Added Overkill weaponry decompiled sources (Blender 2.79b source files) to mediasource repository and organized weapon directory structure to be similar to xonotic-data.pk3dir/models/weapons/. (Author: LegendaryGuard) [24](https://gitlab.com/xonotic/mediasource/-/merge_requests/24)
+- Website polishing and optimising, including:
+  - Implement and document asset processing for markdown images. (Author: bones_was_here) [68](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/68)
+  - Features and fixes for nav bar and footer. (Author: bones_was_here) [67](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/67)
+- Freddy has developed [PyTIBot](https://github.com/DefaultUser/PyTIBot) to support the team and development, including:
+  - Xonotic Team and Balance Council voting
+  - Git chat notifications and automation
+
 <!--Fixes-->
 - Fixed error when unzipping `cygiconv-2.dll` with Windows Explorer. (Author: bones_was_here) [[9a55f9d2]](https://gitlab.com/xonotic/xonotic/-/commit/9a55f9d2ad6b933f831236eaca2278ae0506ec7e)
 - Fixed URLs and syntax errors in AppData. (Author: AsciiWolf) [96](https://gitlab.com/xonotic/xonotic/-/merge_requests/96)
