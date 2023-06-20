@@ -54,9 +54,9 @@ Xonotic 0.8.6 is here at last! Bla, bla, bla...
 
 ##### Weapons
 - Optimized h_ok_grenade, h_ok_hmg, h_ok_mg, h_ok_rl and h_ok_sniper models to reduce file size. (Author: LegendaryGuard) [1106](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1106)
-- Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* files, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
-- Optimized g_fireball and fixed g_fireball and v_fireball UVs and enhanced a few slight details in the Fireball's textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
-- Fixed wrong Fireball having wrong player glow color. (Author: terencehill) [[cd6c2c93]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/cd6c2c93684d30a3e2878d8f4d48875dcd4c1978)
+- Updated and optimized Akordeon, Devastator, Fireball, Tuba and Vortex v_* models, scaled by -15%. Fixed Fireball Gloss material, scaled Tuba UVs by -20% and scaled v_kleinbottle by -35%. (Author: LegendaryGuard) [1113](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1113)
+- Optimized g_fireball, fixed g_fireball and v_fireball UVs and enhanced a few slight details in the Fireball's textures. (Author: LegendaryGuard) [1123](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1123)
+- Fixed Fireball having wrong player glow color. (Author: terencehill) [[cd6c2c93]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/cd6c2c93684d30a3e2878d8f4d48875dcd4c1978)
 - Fixed dropped weapons having wrong player glow color. (Author: terencehill) [[40b83807]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/40b838075e618d6075fdaa25f2f00b223be3712e)
 - Made Crylink's screen brighter. (Author: MusicGoat) [[4d874ab3]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/4d874ab391add1ad554f777c2d8aaebbeec0ddcc)
 
