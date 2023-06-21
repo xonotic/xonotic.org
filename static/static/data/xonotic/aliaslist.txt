@@ -1,6 +1,3 @@
-^7^2alias^7: create a script function (parameters are passed in as $X (being X a number), $* for all parameters, $X- for all parameters starting from $X). Without arguments show the list of all alias
-^7]alias 
-^7Current alias commands:
 ^7+attack2 : +button3
 ^7+con_chat_maximize : _con_chat_maximized 1; _backup_con_chatvars; con_notify 0; con_chattime 3600; cl_deathscoreboard 0; scr_centertime 0; r_track_sprites 0
 ^7+crouch : +button5
@@ -10,7 +7,7 @@
 ^7+hook : +button6
 ^7+hud_panel_radar_maximized : cl_cmd hud radar 1
 ^7+jetpack : +button10
-^7+show_info : +show_info$cl_welcome_in_menu_dialog
+^7+show_info : +show_info$_menu_welcome_dialog_available
 ^7+show_info0 : +button7
 ^7+show_info1 : menu_showwelcomedialog
 ^7+userbind : _userbind_call userbind${1}_press
@@ -24,7 +21,7 @@
 ^7-hook : -button6
 ^7-hud_panel_radar_maximized : cl_cmd hud radar 0
 ^7-jetpack : -button10
-^7-show_info : -show_info$cl_welcome_in_menu_dialog
+^7-show_info : -show_info$_menu_welcome_dialog_available
 ^7-show_info0 : -button7
 ^7-show_info1 : 
 ^7-userbind : _userbind_call userbind${1}_release
@@ -55,11 +52,20 @@
 ^7_menu_forced_saved_cvars_done : 
 ^7_menu_forced_saved_cvars_next : set _forced_saved_cvar_ doit; set _forced_saved_cvar_${1 ?} done; _menu_forced_saved_cvars_chck ${* ?}
 ^7_menu_loadmap_prepare_maxpl : maxplayers $_menu_loadmap_maxplayers
+^7_posview_camera_info_2 : echo view_origin ^7"$_posview_tmpcvar1"; echo view_angles ^7"$_posview_tmpcvar2"
+^7_posview_csqcplayer_info2 : prvm_edictget client $_posview_tmpcvar1 origin _posview_tmpcvar1; prvm_edictget client $_posview_tmpcvar1 v_angle_old _posview_tmpcvar2; _posview_csqcplayer_info3
+^7_posview_csqcplayer_info3 : echo csqcplayer origin ^7"$_posview_tmpcvar1"; echo csqcplayer angles ^7"$_posview_tmpcvar2"
+^7_posview_save_0 : 
+^7_posview_save_1 : posview_info
+^7_posview_save_to_cvars : prvm_edictget server 1 origin ${1 ?}; prvm_edictget server 1 v_angle ${2 ?}
+^7_posview_set : prvm_edictset server 1 origin "$1"; prvm_edictset server 1 fixangle 1; prvm_edictset server 1 angles "$2"
 ^7_restore_con_chatvars : _restore_con_chatvars_$_backup_con_chatvars_set
 ^7_restore_con_chatvars_0 : 
 ^7_restore_con_chatvars_1 : set _backup_con_chatvars_set 0; con_notify $_backup_con_notify; con_chattime $_backup_con_chattime; cl_deathscoreboard $_backup_cl_deathscoreboard; scr_centertime $_backup_scr_centertime;r_track_sprites $_backup_r_track_sprites
 ^7_sv_hook_gamestart : set _sv_hook_gametype $1; _sv_hook_gamestart_stage2
 ^7_sv_hook_gamestart_stage2 : sv_hook_gamestart_all; sv_hook_gamestart_${_sv_hook_gametype}
+^7_team_selection_show0 : menu_showteamselect
+^7_team_selection_show1 : _scoreboard_team_selection 1
 ^7_update_configversion_0 : _update_configversion_1
 ^7_update_configversion_1 : _update_configversion_2
 ^7_update_configversion_2 : volume 1; cl_gunalign 1; _update_configversion_3
@@ -93,7 +99,7 @@
 ^7autoswitch : set cl_autoswitch ${1 ?} ; cmd autoswitch ${1 ?}
 ^7ban : qc_cmd_sv     ban                  ${* ?}
 ^7banlist : qc_cmd_sv     banlist              ${* ?}
-^7bans : banlist
+^7bans : qc_cmd_sv banlist ${* ?}
 ^7bbox : qc_cmd_sv     bbox                 ${* ?}
 ^7blurtest : qc_cmd_cl     blurtest             ${* ?}
 ^7bot_cmd : qc_cmd_sv     bot_cmd              ${* ?}
@@ -102,6 +108,8 @@
 ^7bsp : ls maps/*.bsp
 ^7bufstr_get : qc_cmd_svcl bufstr_get ${* ?}
 ^7butcher : editmob butcher ${* ?}
+^7chatban : qc_cmd_sv mute    ${* ?}
+^7chatbans : g_chatban_list ${* ?}
 ^7chmap : changelevel ${* ?}
 ^7cl_hook_activeweapon : 
 ^7cl_hook_gameend : 
@@ -118,12 +126,17 @@
 ^7cl_hook_gamestart_ka : 
 ^7cl_hook_gamestart_kh : 
 ^7cl_hook_gamestart_lms : 
+^7cl_hook_gamestart_mayhem : 
 ^7cl_hook_gamestart_nb : 
 ^7cl_hook_gamestart_nop : 
 ^7cl_hook_gamestart_ons : 
 ^7cl_hook_gamestart_rc : 
+^7cl_hook_gamestart_surv : 
 ^7cl_hook_gamestart_tdm : 
+^7cl_hook_gamestart_tka : 
+^7cl_hook_gamestart_tmayhem : 
 ^7cl_hook_shutdown : 
+^7clear_ignores : qc_cmd_cmd    clear_ignores
 ^7clearmap : disconnect
 ^7clientversion : qc_cmd_cmd    clientversion        ${* ?}
 ^7cointoss : qc_cmd_sv     cointoss             ${* ?}
@@ -206,6 +219,7 @@
 ^7hud_save : qc_cmd_cl hud save ${* ?}
 ^7if_client : ${* asis}
 ^7if_dedicated : 
+^7ignore : qc_cmd_cmd    ignore               ${* ?}
 ^7info : qc_cmd_svcmd  info                 ${* ?}
 ^7join : qc_cmd_cmd    join                 ${* ?}
 ^7kickban : qc_cmd_sv     kickban              ${* ?}
@@ -241,6 +255,8 @@
 ^7movetospec : moveplayer ${1 ?} spec
 ^7movetoyellow : moveplayer ${1 ?} yellow
 ^7mute : qc_cmd_sv     mute                 ${* ?}
+^7muteban : qc_cmd_sv mute    ${* ?}
+^7mutebans : g_chatban_list ${* ?}
 ^7mx : qc_cmd_svcl mx ${* ?}
 ^7namemob : editmob name ${* ?}
 ^7navwaypoint_relink : g_waypointeditor_spawn
@@ -251,10 +267,41 @@
 ^7nextframe : qc_cmd_svmenu nextframe ${* ?}
 ^7nobots : minplayers 0; minplayers_per_team 0
 ^7nospectators : qc_cmd_sv     nospectators         ${* ?}
+^7pc_b : prvm_breakpoint client ${* ?}
+^7pc_e : prvm_edict client ${* ?}
+^7pc_fg : prvm_edictget client ${* ?}
+^7pc_fs : prvm_edictset client ${* ?}
+^7pc_fw : prvm_edictwatchpoint client ${* ?}
+^7pc_gg : prvm_globalget client ${* ?}
+^7pc_gs : prvm_globalset client ${* ?}
+^7pc_gw : prvm_globalwatchpoint client ${* ?}
 ^7physics : qc_cmd_cmd    physics              ${* ?}
+^7playban : qc_cmd_sv     playban              ${* ?}
+^7playbans : g_playban_list ${* ?}
 ^7ply : playdemo $1
+^7pm_b : prvm_breakpoint menu ${* ?}
+^7pm_e : prvm_edict menu ${* ?}
+^7pm_fg : prvm_edictget menu ${* ?}
+^7pm_fs : prvm_edictset menu ${* ?}
+^7pm_fw : prvm_edictwatchpoint menu ${* ?}
+^7pm_gg : prvm_globalget menu ${* ?}
+^7pm_gs : prvm_globalset menu ${* ?}
+^7pm_gw : prvm_globalwatchpoint menu ${* ?}
+^7posview_camera_info : prvm_globalget client view_origin _posview_tmpcvar1; prvm_globalget client view_angles _posview_tmpcvar2; _posview_camera_info_2
+^7posview_csqcplayer_info : prvm_globalget client csqcplayer _posview_tmpcvar1; _posview_csqcplayer_info2
+^7posview_info : echo saved player posview:; echo _posview_pos ^7"$_posview_pos"; echo _posview_angles ^7"$_posview_angles"
+^7posview_load : _posview_set "$_posview_pos" "$_posview_angles"
+^7posview_save : _posview_save_to_cvars _posview_pos _posview_angles; _posview_save_$posview_verbose
 ^7printmaplist : qc_cmd_svcmd  printmaplist         ${* ?}
 ^7printstats : qc_cmd_sv     printstats           ${* ?}
+^7ps_b : prvm_breakpoint server ${* ?}
+^7ps_e : prvm_edict server ${* ?}
+^7ps_fg : prvm_edictget server ${* ?}
+^7ps_fs : prvm_edictset server ${* ?}
+^7ps_fw : prvm_edictwatchpoint server ${* ?}
+^7ps_gg : prvm_globalget server ${* ?}
+^7ps_gs : prvm_globalset server ${* ?}
+^7ps_gw : prvm_globalwatchpoint server ${* ?}
 ^7qc_cmd_cl : cl_cmd $*
 ^7qc_cmd_cmd : cmd $*
 ^7qc_cmd_sv : sv_cmd $*
@@ -327,10 +374,14 @@
 ^7sv_hook_gamestart_ka : 
 ^7sv_hook_gamestart_kh : 
 ^7sv_hook_gamestart_lms : 
+^7sv_hook_gamestart_mayhem : 
 ^7sv_hook_gamestart_nb : 
 ^7sv_hook_gamestart_ons : 
 ^7sv_hook_gamestart_rc : 
+^7sv_hook_gamestart_surv : 
 ^7sv_hook_gamestart_tdm : 
+^7sv_hook_gamestart_tka : 
+^7sv_hook_gamestart_tmayhem : 
 ^7sv_hook_lastleave : 
 ^7sv_hook_readyrestart : 
 ^7sv_hook_warmupend : 
@@ -349,15 +400,20 @@
 ^7sv_vote_gametype_hook_ka : 
 ^7sv_vote_gametype_hook_kh : 
 ^7sv_vote_gametype_hook_lms : 
+^7sv_vote_gametype_hook_mayhem : 
 ^7sv_vote_gametype_hook_nb : 
 ^7sv_vote_gametype_hook_ons : 
 ^7sv_vote_gametype_hook_rc : 
+^7sv_vote_gametype_hook_surv : 
 ^7sv_vote_gametype_hook_tdm : 
+^7sv_vote_gametype_hook_tka : 
+^7sv_vote_gametype_hook_tmayhem : 
 ^7tdem : timedemo $1
 ^7team_auto : togglemenu 0; cmd selectteam auto; cmd join
 ^7team_blue : cmd selectteam blue; cmd join
 ^7team_pink : cmd selectteam pink; cmd join
 ^7team_red : cmd selectteam red; cmd join
+^7team_selection_show : _team_selection_show$_scoreboard_team_selection_available
 ^7team_yellow : cmd selectteam yellow; cmd join
 ^7teamstatus : qc_cmd_svcmd  teamstatus           ${* ?}
 ^7test_arc_bounce : settemp g_balance_arc_bolt_bounce_count 1 ; settemp g_balance_arc_bolt_bounce_lifetime 0.5 ; settemp g_balance_arc_bolt_bounce_explode 1 ; settemp g_balance_arc_bolt_ammo 2
@@ -375,8 +431,13 @@
 ^7togglezoom : ${_togglezoom}zoom
 ^7trace : qc_cmd_sv     trace                ${* ?}
 ^7unban : qc_cmd_sv     unban                ${* ?}
+^7unchatban : qc_cmd_sv unmute  ${* ?}
+^7unignore : qc_cmd_cmd    unignore             ${* ?}
 ^7unlockteams : qc_cmd_sv     unlockteams          ${* ?}
 ^7unmute : qc_cmd_sv     unmute               ${* ?}
+^7unmuteban : qc_cmd_sv unmute  ${* ?}
+^7unplayban : qc_cmd_sv     unplayban            ${* ?}
+^7unvoteban : qc_cmd_sv     unvoteban            ${* ?}
 ^7use : impulse 21
 ^7vabstain : qc_cmd_cmd vote abstain
 ^7vcall : qc_cmd_svcmd vote call ${* ?}
@@ -399,6 +460,8 @@
 ^7vno : qc_cmd_cl handlevote no
 ^7voice : qc_cmd_cmd    voice                ${* ?}
 ^7vote : qc_cmd_svcmd  vote                 ${* ?}
+^7voteban : qc_cmd_sv     voteban              ${* ?}
+^7votebans : g_voteban_list ${* ?}
 ^7vstatus : qc_cmd_svcmd vote status
 ^7vstop : qc_cmd_svcmd vote stop
 ^7vyes : qc_cmd_cl handlevote yes
@@ -406,14 +469,13 @@
 ^7weapbest : impulse 13
 ^7weaplast : impulse 11
 ^7weapnext : _weapnext_${cl_weaponpriority_useforcycling}
-^7weapon_arc : impulse 230
-^7weapon_ballstealer : impulse 247
-^7weapon_blaster : impulse 231
-^7weapon_crylink : impulse 232
-^7weapon_devastator : impulse 233
-^7weapon_electro : impulse 234
+^7weapon_arc : impulse 249
+^7weapon_blaster : impulse 230
+^7weapon_crylink : impulse 236
+^7weapon_devastator : impulse 239
+^7weapon_electro : impulse 235
 ^7weapon_find : qc_cmd_cl     weapon_find          ${* ?}
-^7weapon_fireball : impulse 236
+^7weapon_fireball : impulse 246
 ^7weapon_group_0 : impulse 14
 ^7weapon_group_1 : impulse 1
 ^7weapon_group_2 : impulse 2
@@ -425,22 +487,23 @@
 ^7weapon_group_8 : impulse 8
 ^7weapon_group_9 : impulse 9
 ^7weapon_hagar : impulse 238
-^7weapon_hlac : impulse 241
+^7weapon_hlac : impulse 243
 ^7weapon_hook : impulse 242
-^7weapon_machinegun : impulse 243
-^7weapon_magespike : impulse 244
-^7weapon_minelayer : impulse 245
-^7weapon_mortar : impulse 246
-^7weapon_okhmg : impulse 248
-^7weapon_okmachinegun : impulse 249
-^7weapon_oknex : impulse 250
-^7weapon_okrpc : impulse 251
-^7weapon_okshotgun : impulse 252
-^7weapon_turret_ewheel : impulse 235
-^7weapon_turret_flac : impulse 237
-^7weapon_turret_hellion : impulse 239
-^7weapon_turret_hk : impulse 240
-^7weapon_turret_phaser : impulse 253
+^7weapon_machinegun : impulse 232
+^7weapon_minelayer : impulse 234
+^7weapon_mortar : impulse 233
+^7weapon_porto : impulse 240
+^7weapon_rifle : impulse 245
+^7weapon_seeker : impulse 247
+^7weapon_shockwave : impulse 248
+^7weapon_shotgun : impulse 231
+^7weapon_tuba : impulse 244
+^7weapon_turret_ewheel : impulse 250
+^7weapon_turret_flac : impulse 251
+^7weapon_turret_hellion : impulse 252
+^7weapon_turret_hk : impulse 253
+^7weapon_vaporizer : impulse 241
+^7weapon_vortex : impulse 237
 ^7weapprev : _weapprev_${cl_weaponpriority_useforcycling}
 ^7who : qc_cmd_svcmd  who                  ${* ?}
 ^7wpeditor : qc_cmd_cmd    wpeditor             ${* ?}
