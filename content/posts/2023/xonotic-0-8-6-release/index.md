@@ -1,7 +1,7 @@
 ---
 author: Xonotic Team
 comments: false
-date: 2023-05-27 13:37:42+00:00
+date: 2023-06-20 04:42:29+00:00
 slug: xonotic-0-8-6-release
 title: Xonotic 0.8.6 Release
 categories:
@@ -10,8 +10,10 @@ categories:
 
 <!-- https://gohugo.io/content-management/summaries/ -->
 
-Xonotic 0.8.6 is here at last! Bla, bla, bla...
+This release should have been nerfed by the balance council because there's a lot here for a point version.  
+Two maps popular for years have been polished up and included. There's new gametypes and moderation features, new bot capabilities, new HUD and interface features, quality of life and customisation features for players and server admins, XonStat upgrades, and as usual more fixes and optimisations than you can swing a shotgun at.
 
+<span style="color:red">SECURITY ALERT:</span> a bug was discovered in versions older than 0.8.6 that is believed to be exploitable by malicious server admins to crash clients or, if they defeat mitigations, execute arbitrary code.  No working exploit code is known to exist at this time, however <span style="color:red">all users are urged to upgrade immediately, and not use versions older than 0.8.6 to join online servers.</span>
 
 <!--more-->
 

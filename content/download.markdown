@@ -1,7 +1,7 @@
 ---
 author: Xonotic Team
 comments: false
-date: 2023-06-01 13:37:42+00:00
+date: 2023-06-20 04:42:29+00:00
 slug: download
 title: Download Xonotic 0.8.6
 type: page
@@ -9,20 +9,25 @@ type: page
 
 No installation required, just unzip and run. Got questions? See the [FAQ](/faq) or [chat](/chat) with us.
 
-**Mirror links**  
-&emsp; <i class="fas fa-download"></i> [xonotic.org][806zip] (DE)  
-&emsp; <i class="fas fa-download"></i> [dl.illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.5.zip) (FR)  
-&emsp; <i class="fas fa-download"></i> [dl.unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.5.zip) (US)  
-&emsp; <i class="fas fa-download"></i> [xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.5.zip) (US)  
-&emsp; <i class="fas fa-download"></i> [xonotic.au](https://xonotic.au/downloads/xonotic-0.8.5.zip) (AU)  
-&emsp; <i class="fas fa-download"></i> [rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
-&emsp; <i class="fas fa-download"></i> [github.com](https://github.com/garymoon/xonotic/releases/download/xonotic-v0.8.5/xonotic-0.8.5.zip) (Global)  
+##### Mirror links
+&emsp; [<i class="fas fa-download"></i> xonotic.org][806zip] (DE)  
+&emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6.zip) (DE)  
+&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6.zip) (US)  
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6.zip) (AU)  
+<!--
+&emsp; [<i class="fas fa-download"></i> dl.illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.5.zip) (FR)  
+&emsp; [<i class="fas fa-download"></i> dl.unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.5.zip) (US)  
+&emsp; [<i class="fas fa-download"></i> rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
+&emsp; [<i class="fas fa-download"></i> github.com](https://github.com/garymoon/xonotic/releases/download/xonotic-v0.8.5/xonotic-0.8.5.zip) (Global)  
+-->
 
-**BitTorrent**  
-&emsp; <i class="fas fa-cloud-download-alt fa-fw"></i> [**Torrent file**](https://archive.org/download/xonotic-0.8.5/xonotic-0.8.5_archive.torrent) (courtesy of [archive.org](https://archive.org/details/xonotic-0.8.5))  
-&emsp; <i class="fas fa-magnet fa-fw"></i> [**Magnet link**](magnet:?xt=urn:btih:b3a90f204f8178553ce34eb938587e3ded705640&dn=xonotic-0.8.5&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2F&ws=http%3A%2F%2Fia902508.us.archive.org%2F0%2Fitems%2F)  
+<!--
+##### BitTorrent
+&emsp; [<i class="fas fa-cloud-download-alt fa-fw"></i> Torrent file](https://archive.org/download/xonotic-0.8.5/xonotic-0.8.5_archive.torrent) (courtesy of [archive.org](https://archive.org/details/xonotic-0.8.5))  
+&emsp; [<i class="fas fa-magnet fa-fw"></i> Magnet link](magnet:?xt=urn:btih:b3a90f204f8178553ce34eb938587e3ded705640&dn=xonotic-0.8.5&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2F&ws=http%3A%2F%2Fia902508.us.archive.org%2F0%2Fitems%2F)  
+-->
 
-????MiB&emsp; [sha512sum][806sum]&emsp; [Release Notes][806post]
+1182MiB&emsp; [sha512sum][806sum]&emsp; [Release Notes][806post]
 
 [Terms of Service and Privacy Policy](/tos)
 
@@ -54,20 +59,32 @@ There's no need to download the game again to get into the action. Use the follo
 
 ### Extra downloads
 
-<i class="fas fa-external-link-alt"></i><a name="netradiant"></a> [**NetRadiant**](https://netradiant.gitlab.io/page/download)  
+##### [NetRadiant <i class="fas fa-external-link-alt"></i>](https://netradiant.gitlab.io/page/download) {#netradiant}
 The official Xonotic level editor, compiled for Windows, Linux and macOS by illwieckz.  
 You can also [compile it from source](https://gitlab.com/xonotic/netradiant#getting-the-sources). The following mapping support package isn't required by NetRadiant.  
 
-<i class="fas fa-download"></i><a name="mappingsupport"></a> [**Mapping Support package**](https://dl.xonotic.org/xonotic-0.8.6-mappingsupport.zip)&emsp; 171MiB&emsp; [sha512sum][806sum]  
-The assets required to create Xonotic maps in other level editors and Radiant forks.  
+##### Mapping Support package {#mappingsupport}
+The assets required to create Xonotic maps in other level editors. &emsp; 102MiB&emsp; [sha512sum][806sum]  
+&emsp; [<i class="fas fa-download"></i> xonotic.org](https://dl.xonotic.org/xonotic-0.8.6-mappingsupport.zip) (DE)
+&emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-mappingsupport.zip) (DE)
+&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-mappingsupport.zip) (US)
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6-mappingsupport.zip) (AU)  
 
 <!--
-<i class="fas fa-download"></i><a name="higher-quality"></a> [**Higher quality Xonotic download (????MB)**](https://dl.xonotic.org/xonotic-0.8.2-high.zip)  
-A release build with JPEG textures, instead of DDS textures with S3 compression. This build has a larger file size and is compatible with old GPU drivers that lack S3TC support. It uses significantly more RAM and has longer loading times.
+##### Xonotic JPEG build {#jpeg}
+A Xonotic release with JPEG textures, instead of DDS textures with S3 compression. This build has a larger file size and is compatible with old GPU drivers that lack S3TC support. It uses significantly more RAM and VRAM and has longer loading times. &emsp; 1509MiB&emsp; [sha512sum][806sum]  
+&emsp; [<i class="fas fa-download"></i> xonotic.org](https://dl.xonotic.org/xonotic-0.8.6-high.zip) (DE)
+&emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-high.zip) (DE)
+&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-high.zip) (US)
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6-high.zip) (AU)  
 -->
 
-<i class="fas fa-download"></i><a name="source"></a> [**Xonotic source code**](https://dl.xonotic.org/xonotic-0.8.6-source.zip)&emsp; 6MiB&emsp; [sha512sum][806sum]  
-The source of all code parts (also included in the main zip).
+##### Xonotic source code {#source}
+The source of all code parts (also included in the main zip). &emsp; 7MiB&emsp; [sha512sum][806sum]  
+&emsp; [<i class="fas fa-download"></i> xonotic.org](https://dl.xonotic.org/xonotic-0.8.6-source.zip) (DE)
+&emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-source.zip) (DE)
+&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-source.zip) (US)
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6-source.zip) (AU)  
 
 ---
 
@@ -92,6 +109,9 @@ table tr td {
 	font-size: 1.2rem; /* same size as paragraph text */
 }
 </style>
+
+<span style="color:red">SECURITY ALERT:</span> Versions older than 0.8.6 have a bug believed to be exploitable by malicious server admins.  
+<span style="color:red">Do not use versions older than 0.8.6 to join online servers.</span> See also [0.8.6 Release Notes][806post].
 
 |   |   |   |   |
 | - | - | - | - |
