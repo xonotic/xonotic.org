@@ -12,20 +12,18 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 ##### Mirror links
 &emsp; [<i class="fas fa-download"></i> xonotic.org][806zip] (DE)  
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6.zip) (DE)  
-&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6.zip) (US)  
-&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6.zip) (AU)  
+&emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6.zip) (FR)  
+&emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6.zip) (US)  
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6.zip) (US)  
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6.zip) (AU)  
 <!--
-&emsp; [<i class="fas fa-download"></i> dl.illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.5.zip) (FR)  
-&emsp; [<i class="fas fa-download"></i> dl.unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.5.zip) (US)  
 &emsp; [<i class="fas fa-download"></i> rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
 &emsp; [<i class="fas fa-download"></i> github.com](https://github.com/garymoon/xonotic/releases/download/xonotic-v0.8.5/xonotic-0.8.5.zip) (Global)  
 -->
 
-<!--
 ##### BitTorrent
-&emsp; [<i class="fas fa-cloud-download-alt fa-fw"></i> Torrent file](https://archive.org/download/xonotic-0.8.5/xonotic-0.8.5_archive.torrent) (courtesy of [archive.org](https://archive.org/details/xonotic-0.8.5))  
-&emsp; [<i class="fas fa-magnet fa-fw"></i> Magnet link](magnet:?xt=urn:btih:b3a90f204f8178553ce34eb938587e3ded705640&dn=xonotic-0.8.5&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2F&ws=http%3A%2F%2Fia902508.us.archive.org%2F0%2Fitems%2F)  
--->
+&emsp; [<i class="fas fa-cloud-download-alt fa-fw"></i> Torrent file](https://fosstorrents.com/files/xonotic-0.8.6.zip.torrent) (courtesy of [fosstorrents.com](https://fosstorrents.com/games/xonotic/#downloads))  
+&emsp; [<i class="fas fa-magnet fa-fw"></i> Magnet link](magnet:?xt=urn:btih:92225c5f4b48f777edfe1dcaeda6b81edaab0a6a&dn=xonotic-0.8.6.zip&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=http%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&ws=https%3A%2F%2Fxonotic.antzucaro.com%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Fdl.xonotic.org%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Fdownload.evil-ant-colony.org%2Fxonotic%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Focv.xonotic.au%2Fdownloads%2Fxonotic-0.8.6.zip&ws=http%3A%2F%2Ffosstorrents.com%2Fdirect-links%2Fn%2FDownloads%2F%2Fxonotic-0.8.6.zip)  
 
 1182MiB&emsp; [sha512sum][806sum]&emsp; [Release Notes][806post]
 
@@ -67,24 +65,30 @@ You can also [compile it from source](https://gitlab.com/xonotic/netradiant#gett
 The assets required to create Xonotic maps in other level editors. &emsp; 102MiB&emsp; [sha512sum][806sum]  
 &emsp; [<i class="fas fa-download"></i> xonotic.org](https://dl.xonotic.org/xonotic-0.8.6-mappingsupport.zip) (DE)
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-mappingsupport.zip) (DE)
-&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-mappingsupport.zip) (US)
-&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6-mappingsupport.zip) (AU)  
+&emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6-mappingsupport.zip) (FR)  
+&emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6-mappingsupport.zip) (US)
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-mappingsupport.zip) (US)
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6-mappingsupport.zip) (AU)  
 
 <!--
 ##### Xonotic JPEG build {#jpeg}
 A Xonotic release with JPEG textures, instead of DDS textures with S3 compression. This build has a larger file size and is compatible with old GPU drivers that lack S3TC support. It uses significantly more RAM and VRAM and has longer loading times. &emsp; 1509MiB&emsp; [sha512sum][806sum]  
 &emsp; [<i class="fas fa-download"></i> xonotic.org](https://dl.xonotic.org/xonotic-0.8.6-high.zip) (DE)
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-high.zip) (DE)
-&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-high.zip) (US)
-&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6-high.zip) (AU)  
+&emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6-high.zip) (FR)
+&emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6-high.zip) (US)
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-high.zip) (US)
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6-high.zip) (AU)  
 -->
 
 ##### Xonotic source code {#source}
 The source of all code parts (also included in the main zip). &emsp; 7MiB&emsp; [sha512sum][806sum]  
 &emsp; [<i class="fas fa-download"></i> xonotic.org](https://dl.xonotic.org/xonotic-0.8.6-source.zip) (DE)
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-source.zip) (DE)
-&emsp; [<i class="fas fa-download"></i> xonotic.antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-source.zip) (US)
-&emsp; [<i class="fas fa-download"></i> xonotic.au](https://ocv.xonotic.au/downloads/xonotic-0.8.6-source.zip) (AU)  
+&emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6-source.zip) (FR)  
+&emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6-source.zip) (US)
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-source.zip) (US)
+&emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6-source.zip) (AU)  
 
 ---
 
