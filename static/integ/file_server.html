@@ -37,7 +37,7 @@ commented out <footer>
 		<title>{{.Host}}{{range $i, $crumb := .Breadcrumbs}}{{html $crumb.Text}}{{if ne $i 0}}/{{end}}{{end}}</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		{{ include "/integ/favicon.html" }}
+		{{ httpInclude "/integ/favicon.html" }}
 <style>
 * { padding: 0; margin: 0; }
 
@@ -301,10 +301,10 @@ footer {
 /* } */
 
 </style>
-{{ include "/integ/includes2.html" }}
+{{ httpInclude "/integ/includes2.html" }}
 	</head>
 	<body onload='initFilter()'>
-{{ include "/integ/nav.html" }}
+{{ httpInclude "/integ/nav.html" }}
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="0" width="0" style="position: absolute;">
 			<defs>
 				<!-- Folder -->
@@ -499,6 +499,6 @@ footer {
 			var timeList = Array.prototype.slice.call(document.getElementsByTagName("time"));
 			timeList.forEach(localizeDatetime);
 		</script>
-{{ include "/integ/footer.html" }}
+{{ httpInclude "/integ/footer.html" }}
 	</body>
 </html>

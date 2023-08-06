@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	{{ include "/integ/favicon.html" }}
+	{{ httpInclude "/integ/favicon.html" }}
 
 	<title>{{placeholder "http.error.status_code"}} {{placeholder "http.error.message"}} - Xonotic</title>
 
-	{{ include "/integ/includes2.html" }}
+	{{ httpInclude "/integ/includes2.html" }}
 </head>
 <body>
-	{{ include "/integ/nav.html" }}
+	{{ httpInclude "/integ/nav.html" }}
 
 	<div class="row">
 		<div class="small-12 columns text-center">
@@ -32,4 +32,4 @@
 		</div>
 	</div>
 
-{{ include "/integ/footer.html" }}
+{{ httpInclude "/integ/footer.html" }}
