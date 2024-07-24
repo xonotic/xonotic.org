@@ -174,10 +174,10 @@ Colors can be used in nicknames and chat messages via two ways: Either the simpl
 
 Demos are recordings of matches that you have played. To automatically record a demo each time you play enable the option Auto record demos in Multiplayer->Media->Demos. Or if you just want to record some matches open the console and type `rec demos/<name>` before playing. That is before starting a game or connecting to a server. The demo file will then be stored in [your config folder](#config)/data/demos/\<name\>.dem. If you downloaded a demo, copy it to [\<your config folder\>](#config)/data/demos/. You might have to create this directory if you have never recorded a demo before. To watch demos you can choose a demo file in Multiplayer->Media->Demos and click the Play button. Also you can watch demos typing `ply demos/<name>` in the console ([How do I open the console?]({{< relref "#how-do-i-open-the-console" >}})).
 
-## How can I keep the same stats profile when I reinstall or change my computer?
+## How can I keep the same stats profile when I reinstall or change computers?
 
 A secret stats ID file called `key_0.d0si` is located in [your config folder](#config).
-You can copy this file from one computer to another, this way you keep the same Xonstat profile.  
+You can copy this file from one computer to another, so that you keep the same Xonstat profile.  
 But never share this file with anyone, as doing so would compromise your profile!
 
 # Server setup
