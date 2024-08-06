@@ -121,11 +121,18 @@ Visit the official Xonotic [forum](http://forums.xonotic.org/), there is a suppo
   * Mac: ~/Library/Application Support/xonotic
       * Library might be hidden on Mac so Finder won't display it
 
+## How can I keep the same stats profile when I reinstall or change computers?
+
+A secret stats ID file called `key_0.d0si` is located in [your config folder](#config).
+You can copy this file from one computer to another, so that you keep the same Xonstat profile.  
+You can also copy the entire config folder if you wish to transfer all your settings as well as additional maps or assets.  
+But never share your stats ID with anyone, as doing so would compromise your profile!
+
 ## What is the difference between the config and install directories?
 
 The install directory is what you get when you unzip the downloaded file. We usually call it Xonotic. Since Xonotic (the game) doesn't need installation, Xonotic (the folder) can be anywhere you put it.
 
-The config directory (sometimes called user directory) has a specific [location](#config) depending on your OS but we usually call it ~/.xonotic since most players and devs are on linux. ~/.xonotic contains all your settings and it's where you can put additional maps or assets when experimenting with the game or running your own server.
+The config directory (sometimes called user directory) has a specific [location](#config) depending on your OS but we usually call it ~/.xonotic since most players and devs are on linux. ~/.xonotic/data contains all your settings and it's where you can put additional maps or assets when experimenting with the game or running your own server.
 
 ## How do I install new maps?
 
