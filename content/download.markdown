@@ -22,7 +22,7 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 -->
 
 ##### BitTorrent
-&emsp; [<i class="fas fa-cloud-download-alt fa-fw"></i> Torrent file](https://fosstorrents.com/files/xonotic-0.8.6.zip.torrent) (courtesy of [fosstorrents.com](https://fosstorrents.com/games/xonotic/#downloads))  
+&emsp; [<i class="fas fa-cloud-download-alt fa-fw"></i> Torrent file](https://dl.xonotic.org/xonotic-0.8.6.zip.torrent) (courtesy of [fosstorrents.com](https://fosstorrents.com/games/xonotic/#downloads))  
 &emsp; [<i class="fas fa-magnet fa-fw"></i> Magnet link](magnet:?xt=urn:btih:92225c5f4b48f777edfe1dcaeda6b81edaab0a6a&dn=xonotic-0.8.6.zip&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=http%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&ws=https%3A%2F%2Fxonotic.antzucaro.com%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Fdl.xonotic.org%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Fdownload.evil-ant-colony.org%2Fxonotic%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Focv.xonotic.au%2Fdownloads%2Fxonotic-0.8.6.zip&ws=http%3A%2F%2Ffosstorrents.com%2Fdirect-links%2Fn%2FDownloads%2F%2Fxonotic-0.8.6.zip)  
 
 1182MiB&emsp; [sha512sum][806sum]&emsp; [Release Notes][806post]
