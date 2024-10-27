@@ -22,6 +22,7 @@ This international group of leaders collaboratively oversees development, makes 
 
   * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
   * [Cloudwalk](http://forums.xonotic.org/member.php?action=profile&uid=8922)
+  * [Dr. Jaska](https://forums.xonotic.org/member.php?action=profile&uid=9093)
   * [Freddy](http://forums.xonotic.org/member.php?action=profile&uid=5301)
   * [Halogene](http://forums.xonotic.org/member.php?action=profile&uid=53)
   * [illwieckz](http://forums.xonotic.org/member.php?action=profile&uid=4581)
@@ -66,6 +67,7 @@ Coordinators are here to guide contributors, provide information both in and out
 #### Game Code
 
   * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
+  * [Dr. Jaska](https://forums.xonotic.org/member.php?action=profile&uid=9093)
   * [LegendGuard](http://forums.xonotic.org/member.php?action=profile&uid=8789)
   * [matthiaskrgr](http://forums.xonotic.org/member.php?action=profile&uid=2969)
   * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
