@@ -34,10 +34,11 @@ type: page
 ##### Usage of AI
 
 Content generated with AI has to be visibly marked accordingly. This includes images, messages/posts and code.
-Please also mark AI translations as they can sometimes change the meaning.
 
 In addition to a general "AI" marking, the following information is preferred:
 
 - Service/Technology
 - Model name and date
 - Prompt
+
+While it is not necessary to mark AI transformation tools (e.g translations, gramar corrections etc), it is advised as they can sometimes change the underlying meaning.
