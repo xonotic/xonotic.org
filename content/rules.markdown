@@ -26,6 +26,18 @@ type: page
 - Defamation, doxxing, harassment
 - Malicious code or shell commands
 - [Not Safe For Work](https://en.wikipedia.org/wiki/Not_safe_for_work) or deliberately disturbing content
-- Spam
+- Spam (including AI posts without any new information)
 - Links to content prohibited herein
 - Ban evasion
+- incorrect usage of AI
+
+##### Usage of AI
+
+Content generated with AI has to be visibly marked accordingly. This includes images, messages/posts and code.
+Please also mark AI translations as they can sometimes change the meaning.
+
+In addition to a general "AI" marking, the following information is preferred:
+
+- Service/Technology
+- Model name and date
+- Prompt
