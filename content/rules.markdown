@@ -41,4 +41,4 @@ In addition to a general "AI" marking, the following information is preferred:
 - Model name and date
 - Prompt
 
-While it is not necessary to mark AI transformation tools (e.g translations, gramar corrections etc), it is advised as they can sometimes change the underlying meaning.
+While it is not necessary to mark AI transformation tools (e.g translations, grammar corrections etc), it is advised as they can sometimes change the underlying meaning.
