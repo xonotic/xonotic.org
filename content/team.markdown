@@ -15,15 +15,14 @@ This international group of leaders collaboratively oversees development, makes 
   * [Antibody](http://forums.xonotic.org/member.php?action=profile&uid=530)
   * [CuBe0wL](http://forums.xonotic.org/member.php?action=profile&uid=15)
   * [divVerent](http://forums.xonotic.org/member.php?action=profile&uid=4)
-  * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
   * [Merlijn Hofstra](http://forums.xonotic.org/member.php?action=profile&uid=34)
-  * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
   * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
 
 ### Extended Team
 
   * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
   * [Cloudwalk](http://forums.xonotic.org/member.php?action=profile&uid=8922)
+  * [Dr. Jaska](https://forums.xonotic.org/member.php?action=profile&uid=9093)
   * [Freddy](http://forums.xonotic.org/member.php?action=profile&uid=5301)
   * [Halogene](http://forums.xonotic.org/member.php?action=profile&uid=53)
   * [illwieckz](http://forums.xonotic.org/member.php?action=profile&uid=4581)
@@ -57,7 +56,6 @@ Coordinators are here to guide contributors, provide information both in and out
 #### Level Design
 
   * [kuniuthefrogg](http://forums.xonotic.org/member.php?action=profile&uid=184)
-  * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
   * [SpiKe](http://forums.xonotic.org/member.php?action=profile&uid=3421)
 
 #### Engine Code
@@ -69,8 +67,8 @@ Coordinators are here to guide contributors, provide information both in and out
 #### Game Code
 
   * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
+  * [Dr. Jaska](https://forums.xonotic.org/member.php?action=profile&uid=9093)
   * [LegendGuard](http://forums.xonotic.org/member.php?action=profile&uid=8789)
-  * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
   * [matthiaskrgr](http://forums.xonotic.org/member.php?action=profile&uid=2969)
   * [terencehill](http://forums.xonotic.org/member.php?action=profile&uid=620)
   * [z411](http://forums.xonotic.org/member.php?action=profile&uid=9139)
@@ -91,6 +89,11 @@ Coordinators are here to guide contributors, provide information both in and out
 **Note:** Many of the core members are serving double roles as coordinators. This is not a considered a conflict of interests in decision making because these members are largely filling the role until someone else who fits the description can fill it.
 
 These coordination positions are time-consuming roles that require dedication, knowledge of the area and sharpened communication skills. If you believe you can be of assistance in this area, you may contact the team at [#dev:xonotic.org](https://matrix.to/#/#dev:xonotic.org) on Matrix. Don't forget, you can still [contribute in other ways](https://gitlab.com/xonotic/xonotic/-/wikis/Repository_Access) without the responsibilities of a coordinator.
+
+### Former Team Members
+
+  * [Mario](http://forums.xonotic.org/member.php?action=profile&uid=1258)
+  * [Mirio](http://forums.xonotic.org/member.php?action=profile&uid=213)
 
 ### Other Contributors and Supporters
 
