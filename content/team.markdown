@@ -21,11 +21,11 @@ This international group of leaders collaboratively oversees development, makes 
 ### Extended Team
 
   * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
-  * [Cloudwalk](http://forums.xonotic.org/member.php?action=profile&uid=8922)
   * [Dr. Jaska](https://forums.xonotic.org/member.php?action=profile&uid=9093)
   * [Freddy](http://forums.xonotic.org/member.php?action=profile&uid=5301)
   * [Halogene](http://forums.xonotic.org/member.php?action=profile&uid=53)
   * [illwieckz](http://forums.xonotic.org/member.php?action=profile&uid=4581)
+  * [k9er](https://forums.xonotic.org/member.php?action=profile&uid=10762)
   * [LegendGuard](http://forums.xonotic.org/member.php?action=profile&uid=8789)
   * [morosophos](http://forums.xonotic.org/member.php?action=profile&uid=7970)
   * [MrBougo](http://forums.xonotic.org/member.php?action=profile&uid=30)
