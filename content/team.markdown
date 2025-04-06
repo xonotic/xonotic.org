@@ -13,6 +13,7 @@ This international group of leaders collaboratively oversees development, makes 
 
   * [-z-](http://forums.xonotic.org/member.php?action=profile&uid=1)
   * [Antibody](http://forums.xonotic.org/member.php?action=profile&uid=530)
+  * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
   * [CuBe0wL](http://forums.xonotic.org/member.php?action=profile&uid=15)
   * [divVerent](http://forums.xonotic.org/member.php?action=profile&uid=4)
   * [Merlijn Hofstra](http://forums.xonotic.org/member.php?action=profile&uid=34)
@@ -20,7 +21,7 @@ This international group of leaders collaboratively oversees development, makes 
 
 ### Extended Team
 
-  * [bones_was_here](http://forums.xonotic.org/member.php?action=profile&uid=27)
+  * [AsciiWolf](https://asciiwolf.com)
   * [Dr. Jaska](https://forums.xonotic.org/member.php?action=profile&uid=9093)
   * [Freddy](http://forums.xonotic.org/member.php?action=profile&uid=5301)
   * [Halogene](http://forums.xonotic.org/member.php?action=profile&uid=53)
