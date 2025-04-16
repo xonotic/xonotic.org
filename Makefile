@@ -1,5 +1,8 @@
+server: data
+	hugo server -w --gc --disableFastRender
+
 clean:
-	rm -rf ./public
+	rm -rf ./public ./resources ./data/*
 
 .PHONY: data
 data:
@@ -8,5 +11,3 @@ data:
 gen: data
 	hugo --gc
 
-server:
-	hugo server -w --gc
