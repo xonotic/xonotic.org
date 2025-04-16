@@ -1,7 +1,8 @@
 ---
 title: "Xonotic: The Free and Fast Arena Shooter"
-author:
-  name: Xonotic Team
+params:
+  author:
+    name: Xonotic Team
 copyright: This website is licensed under the GNU Affero General Public License v3.0 except for components released under other licenses as noted in their respective sub-directories.
 languageCode: en-us
 
