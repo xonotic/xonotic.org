@@ -13,7 +13,7 @@ aliases:
 
 **There is no need to install Xonotic!** The zip file you downloaded from the homepage has everything. All binaries to run the game on Linux, Windows and macOS are inside of it. Just unzip the archive and run the appropriate executable for your OS.
 
-For example, on Windows or macOS you can start the game by double-clicking the Xonotic logo. On Linux you can run xonotic-linux-glx.sh or xonotic-linux-sdl.sh - whichever one works better on your hardware.
+For example, on Windows or macOS you can start the game by double-clicking the Xonotic logo. On Linux you can run `xonotic-linux-glx.sh` or `xonotic-linux-sdl.sh` - whichever one works better on your hardware.
 
 ## Is there a Debian package available?
 
@@ -45,7 +45,7 @@ Use the executables with sdl or glx in their name to launch Xonotic.
 
 ## I can't launch Xonotic on macOS Sierra or later
 
-(Full error message: "You have reached this menu due to missing or unlocatable content/data. You may consider adding -basedir /path/to/game to your launch commandline.")
+(Full error message: "You have reached this menu due to missing or unlocatable content/data. You may consider adding `-basedir /path/to/game` to your launch commandline.")
 
 In the Finder, control-click the app icon, then choose Open from the shortcut menu. Click Open on the dialog.
 
@@ -55,7 +55,7 @@ This happens because Xonotic is not signed using an Apple developer key.
 
 This is probably because you don't have the map that's running on the server or it didn't download correctly. Try clearing your _dlcache_ (in [\<your config folder\>](#config)/data/dlcache) and restarting Xonotic.
 
-For Linux users: you need to have libcurl installed, otherwise you won't be able to download any maps. libcurl should be available in any Linux distribution, just search for "libcurl" and install it in your distribution's package manager.
+For Linux users: you need to have `libcurl` installed, otherwise you won't be able to download any maps. `libcurl` should be available in any Linux distribution, just search for `libcurl` and install it in your distribution's package manager.
 
 ## When I start Xonotic all I see is a black screen or a black screen with some checkered squares
 
@@ -86,7 +86,7 @@ If none of that helps, you can try compiling Xonotic from [source](http://gitlab
 
 ## The sound is broken, it crackles and stutters
 
-Try run xonotic-wgl.exe instead of xonotic.exe (on Windows). Adding the command line options -sndspeed 48000 and/or -sndstereo can also help on some systems (on Linux, Mac, Windows).
+Try run `xonotic-wgl.exe` instead of `xonotic.exe` (on Windows). Adding the command line options `-sndspeed 48000` and/or `-sndstereo` can also help on some systems (on Linux, Mac, Windows).
 
 ## Mouse is too slow and sensitivity is at top (on Mac / Linux)
 
@@ -106,7 +106,7 @@ If you want to investigate crashes further:
 
 On Linux: In a terminal, `cd` into your Xonotic installation directory, execute `catchsegv ./xonotic-linux64-sdl -condebug -developer > crash.txt 2>&1` and give the file crash.txt to the developers. Note that you can also use `./xonotic-linux64-glx`.
 
-On Windows: Click Start->Run, and enter drwtsn32, click Ok in the next window, run Xonotic and wait for the crash. Then go to C:\Documents and Settings\All Users\Application Data\Microsoft\Dr Watson there should be a file called "drwtsn32.log", give that file along with the engine's build date to the developers. You'll see that date when you open the ingame console (How do I open the console?). Note that some folders of that path may be hidden or have a translated name if you're using a non-english windows.
+On Windows: Click Start->Run, and enter `drwtsn32`, click Ok in the next window, run Xonotic and wait for the crash. Then go to `C:\Documents and Settings\All Users\Application Data\Microsoft\Dr Watson` there should be a file called `drwtsn32.log`, give that file along with the engine's build date to the developers. You'll see that date when you open the ingame console (How do I open the console?). Note that some folders of that path may be hidden or have a translated name if you're using a non-english windows.
 
 ## Where can I get more help?
 
@@ -133,7 +133,7 @@ But never share your stats ID with anyone, as doing so would compromise your pro
 
 The install directory is what you get when you unzip the downloaded file. We usually call it Xonotic. Since Xonotic (the game) doesn't need installation, Xonotic (the folder) can be anywhere you put it.
 
-The config directory (sometimes called user directory) has a specific [location](#config) depending on your OS but we usually call it ~/.xonotic since most players and devs are on linux. ~/.xonotic/data contains all your settings and it's where you can put additional maps or assets when experimenting with the game or running your own server.
+The config directory (sometimes called user directory) has a specific [location](#config) depending on your OS but we usually call it `~/.xonotic` since most players and devs are on linux. `~/.xonotic/data` contains all your settings and it's where you can put additional maps or assets when experimenting with the game or running your own server.
 
 ## How do I install new maps?
 
@@ -145,7 +145,7 @@ There are multiple [unofficial map repositories](https://gitlab.com/xonotic/xono
 
 ## How can I place a shortcut to Xonotic on my Linux desktop?
 
-Use the script xonotic-linux-sdl.sh or xonotic-linux-glx.sh instead of the binaries. The scripts will use the correct working directory, choose the right version (32 or 64 bit) and also allow you to start a extra X server.
+Use the script `xonotic-linux-sdl.sh` or `xonotic-linux-glx.sh` instead of the binaries. The scripts will use the correct working directory, choose the right version (32 or 64 bit) and also allow you to start a extra X server.
 
 ## How do I open the console?
 
@@ -186,11 +186,11 @@ Demos are recordings of matches that you have played. To automatically record a 
 
 ## How do I start a server?
 
-Use the Multiplayer->Create menu to start a listen server. You will always have to play yourself in a listen server. If you want to create a server without being forced to play yourself please take a look at the file readme.txt in the Xonotic/server/ directory where the dedicated server is explained.
+Use the Multiplayer->Create menu to start a listen server. You will always have to play yourself in a listen server. If you want to create a server without being forced to play yourself please take a look at the file readme.txt in the `Xonotic/server/` directory where the dedicated server is explained.
 
 ## Which ports do I have to open in firewall/forward from my router to run a server?
 
-The default port is 26000 UDP. You can change that in the Multiplayer->Create menu or by starting Xonotic with the parameter `-port <port>` or having a line `port <port>` in the server config file. If you follow the tutorial mentioned above you do not need this command line argument as it will be done in the config file created for the server. To add the command line argument on Windows, create a new shortcut to xonotic.exe or xonotic-dedicated.exe and right click on it. Select properties and `-port <port>` in the "Target:" line. Be sure that the "Start in:" line contains the full path to your Xonotic folder and click "OK". The parameter will be used if you start Xonotic via that new shortcut.
+The default port is 26000 UDP. You can change that in the Multiplayer->Create menu or by starting Xonotic with the parameter `-port <port>` or having a line `port <port>` in the server config file. If you follow the tutorial mentioned above you do not need this command line argument as it will be done in the config file created for the server. To add the command line argument on Windows, create a new shortcut to `xonotic.exe` or `xonotic-dedicated.exe` and right click on it. Select properties and `-port <port>` in the "Target:" line. Be sure that the "Start in:" line contains the full path to your Xonotic folder and click "OK". The parameter will be used if you start Xonotic via that new shortcut.
 
 ## Is there some kind of rcon?
 
