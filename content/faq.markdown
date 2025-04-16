@@ -116,9 +116,10 @@ Visit the official Xonotic [forum](http://forums.xonotic.org/), there is a suppo
 
 ## Where are the configuration files located? {#config}
 
-  * Linux: ~/.xonotic
-  * Windows: C:\\Users\\\<your_user_name\>\\Saved Games\\xonotic
-  * Mac: ~/Library/Application Support/xonotic
+  * Linux: `~/.xonotic`
+      * Flathub flatpak: `~/.var/app/org.xonotic.Xonotic/.xonotic`
+  * Windows: `C:\Users\<your_user_name>\Saved Games\xonotic`
+  * Mac: `~/Library/Application Support/xonotic`
       * Library might be hidden on Mac so Finder won't display it
 
 ## How can I keep the same stats profile when I reinstall or change computers?
