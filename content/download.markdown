@@ -7,7 +7,9 @@ title: Download Xonotic 0.8.6
 type: page
 ---
 
-No installation required, just unzip and run. Got questions? See the [FAQ](/faq) or [chat](/chat) with us.
+For details of what's new in this version please check the [release notes][806post].  
+Use of the online services indicates you understand and agree to the [Terms of Service and Privacy Policy](/tos).  
+Got questions? Please see the [FAQ](/faq) and other [Documentation](https://gitlab.com/xonotic/xonotic/blob/master/README.md#documentation), or [chat](/chat) with us.  
 
 ##### Mirror links
 &emsp; [<i class="fas fa-download"></i> xonotic.org][806zip] (DE)  
@@ -25,9 +27,14 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 &emsp; [<i class="fas fa-cloud-download-alt fa-fw"></i> Torrent file](https://dl.xonotic.org/xonotic-0.8.6.zip.torrent) (courtesy of [fosstorrents.com](https://fosstorrents.com/games/xonotic/#downloads))  
 &emsp; [<i class="fas fa-magnet fa-fw"></i> Magnet link](magnet:?xt=urn:btih:92225c5f4b48f777edfe1dcaeda6b81edaab0a6a&dn=xonotic-0.8.6.zip&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=http%3A%2F%2Ffosstorrents.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&ws=https%3A%2F%2Fxonotic.antzucaro.com%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Fdl.xonotic.org%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Fdownload.evil-ant-colony.org%2Fxonotic%2Fxonotic-0.8.6.zip&ws=https%3A%2F%2Focv.xonotic.au%2Fdownloads%2Fxonotic-0.8.6.zip&ws=http%3A%2F%2Ffosstorrents.com%2Fdirect-links%2Fn%2FDownloads%2F%2Fxonotic-0.8.6.zip)  
 
-1182MiB&emsp; [sha512sum][806sum]&emsp; [Release Notes][806post]
+1182MiB &emsp; [sha512sum][806sum]  
 
-[Terms of Service and Privacy Policy](/tos)
+The zip file linked above requires no installation, just unzip and run.  
+The flatpak provides convenient installation on most Linux distributions but uses more storage space.
+
+<a href='https://flathub.org/apps/org.xonotic.Xonotic'>
+	<img width='240' height='80' alt='Get it on Flathub' src='https://flathub.org/api/badge?svg&locale=en'/>
+</a>
 
 ---
 
@@ -40,18 +47,18 @@ No installation required, just unzip and run. Got questions? See the [FAQ](/faq)
 &emsp; <i class="fa-brands fa-linux"></i> Linux (x86-64) with `glibc/libc6 2.29 or newer`, `libSDL2`, `libvorbisfile`, `libcurl`, `libpng`  
 &emsp; <i class="fa-brands fa-apple"></i> macOS (x86-64)  
 
-Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling) the included source code.
+Xonotic can run on other platforms if you [compile](https://gitlab.com/xonotic/xonotic/-/wikis/Compiling) the source code in the zip.
 
 ---
 
 ### Upgrading from an older version {#upgrading}
 
-There's no need to download the game again to get into the action. Use the following steps to upgrade to the 0.8.6 release:
+There's no need to download the zip again to get into the action. Use the following steps to upgrade:
 
-  1. Navigate to your Xonotic installation folder
-  2. Navigate to the `misc/tools/rsync-updater` folder
-  3. Execute `update-to-release.sh` (for Linux or Mac) or `update-to-release.bat` (for Windows) and wait for it to complete
-  4. Profit. You're done!
+  1. Navigate to the `misc/tools/rsync-updater` folder in your `Xonotic` "installation" folder
+  2. Execute `update-to-release.sh` (for Linux or Mac) or `update-to-release.bat` (for Windows) and wait for it to complete.
+
+The flatpak is upgraded through GNOME Software, KDE Plasma Discover, or the `flatpak update` command.
 
 ---
 
