@@ -49,7 +49,7 @@ Contents
 Preface
 =======
 
-This guide aims to show all fundamental aspects of vanilla Xonotic gameplay to enable new players to pick up the ropes quickly.
+This guide aims to show all fundamental aspects of vanilla Xonotic gameplay to enable new players to pick up the ropes quickly. It is designed to complement the in-game guide, offering an additional resource for those beginning their journey.
 
 Note that while movement aspects usually apply more or less unchanged to modified servers offering InstaGib, vehicle CTF, or [Overkill](/okguide/) gameplay, I will not explain the specifics of these game mutators/rulesets – I simply lack the expertise in non-vanilla game modes. The XDF ruleset has different physics and a separate video-guide called [XDF Academy](/posts/2018/2018-07-22-xdf-academy/). If you want to fully apply the knowledge gained from this guide, search for vanilla servers under the "Normal" category in the server browser.
 
