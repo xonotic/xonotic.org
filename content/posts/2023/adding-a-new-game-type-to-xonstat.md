@@ -15,8 +15,8 @@ First, let's examine a sample stats payload of each type. To do that we'll start
 
 Start up the game and open up the "create server" panel. We should see team mayhem and mayhem present in the list on the left.
 
-<a href="/m/uploads/2023/create_server_mayhem_selection.webp">
-  <img src="/m/uploads/2023/create_server_mayhem_selection.webp" title="Creating a Mayhem game locally" class="th m10">
+<a href="/m/uploads/2023/04/create_server_mayhem_selection.webp">
+  <img src="/m/uploads/2023/04/create_server_mayhem_selection.webp" title="Creating a Mayhem game locally" class="th m10">
 </a>
 
 Via the console, set the game report URI CVAR to the name of the text file into which you'd like the match results stored:
@@ -109,8 +109,8 @@ INSERT 0 1
 
 Success! They now show up on the recent games list after a simple refresh (the only thing that changed is the database, so no recompilation needed). Unfortunately they don't have any icons. We'll have to deal with that next.
 
-<a href="/m/uploads/2023/recent_games_missing_icon.webp">
-  <img src="/m/uploads/2023/recent_games_missing_icon.webp" title="Mayhem icons missing!" class="th m10">
+<a href="/m/uploads/2023/04/recent_games_missing_icon.webp">
+  <img src="/m/uploads/2023/04/recent_games_missing_icon.webp" title="Mayhem icons missing!" class="th m10">
 </a>
 
 The icons for XonStat are delivered in the form of a web font generated via the [IcoMoon] App. The CSS classes that reference this font are of the form `sprite-<gametype>`, where each class indexes into a particular code point in the font. Since there's no class definition or SVG icon yet for these modes, we can't expect `sprite-mayhem` or `sprite-tmayhem` to resolve to anything. To fix that, we have a somewhat convoluted process:
@@ -124,8 +124,8 @@ The icons for XonStat are delivered in the form of a web font generated via the 
 
 With these changes in place and the app restarted (template changes are compiled once on application startup, not hot-loaded) we can now see the icons. Nice!
 
-<a href="/m/uploads/2023/recent_games_icon_present.webp">
-  <img src="/m/uploads/2023/recent_games_icon_present.webp" title="Mayhem icons show up!" class="th m10">
+<a href="/m/uploads/2023/04/recent_games_icon_present.webp">
+  <img src="/m/uploads/2023/04/recent_games_icon_present.webp" title="Mayhem icons show up!" class="th m10">
 </a>
 
 How about the scoreboard or "game info" page view? This is the page that is shown when you click on the big blue "view" button next to recent game rows. These are hilariously lacking for the new mayhem modes because the scoreboard layout isn't known for the game types. This is handled in a big IF/THEN/ELSE part of the rendering code:
