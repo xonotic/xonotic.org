@@ -3,6 +3,8 @@ author: Antibody
 comments: false
 date: 2023-11-05 14:04:00+00:00
 title: Developer Interview with Antibody
+categories:
+- Interviews
 ---
 A little while back I had a lovely conversation with the YouTuber [SaltyOctopus][SaltyOctopus] 
 about development, open source, and my background with Xonotic. Check it out and let me know 

@@ -7,6 +7,7 @@ title: Xonotic Player Interviews
 wordpress_id: 452
 categories:
 - Announcements
+- Interviews
 tags:
 - interviews
 - player

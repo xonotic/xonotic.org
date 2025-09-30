@@ -4,7 +4,7 @@ comments: false
 date: 2016-03-07 19:44:00+00:00
 title: World Cup Interview - Mirio
 categories:
-- interviews
+- Interviews
 ---
 This blog post is going to be rather short and sweet, but thankfully it is for
 a reason! I recently sat down to talk with Mirio about a bunch of things regarding the
