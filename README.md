@@ -5,13 +5,15 @@ static, making administration and ongoing maintenance a good deal easier.
 
 [Install Hugo](https://gohugo.io/getting-started/installing), v0.83.0 or later extended build is needed.  Debian's `hugo` package is the extended build.
 
+Doesn't work on Windows, so you will have to use WSL.
+
 Run it in the xonotic.org repo's root: `make server` or `hugo server --watch --gc`
 
 It will offer a [localhost link](http://localhost:1313/) to preview the site and the page(s) will be refreshed automatically when you save a change.
 
 Note that the navigation bar is hardcoded to redirect to xonotic.org instead of a relative addres due to it being used across different sub-domains.
 
-New posts will therefore appear on [localhost link /posts](http://localhost:1313/posts/).
+New posts will therefore appear on [localhost link /posts](http://localhost:1313/posts/).  Make sure to put the date of the post in the past (timezone: GMT), or it won't appear.
 
 # Asset processing
 
