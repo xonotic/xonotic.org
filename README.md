@@ -7,7 +7,8 @@ static, making administration and ongoing maintenance a good deal easier.
 
 Doesn't work on Windows, so you will have to use WSL.
 
-Run it in the xonotic.org repo's root: `make server` or `hugo server --watch --gc`
+Run it in the xonotic.org repo's root: `make server`
+Temporary files can be removed with `make clean`.
 
 It will offer a [localhost link](http://localhost:1313/) to preview the site and the page(s) will be refreshed automatically when you save a change.
 
