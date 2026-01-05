@@ -18,6 +18,9 @@ markup:
     renderer:
       # xonotic.org includes inline html which is disabled by default in goldmark
       unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 3
 
 imaging:
   quality: 100

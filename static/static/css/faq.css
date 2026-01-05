@@ -1,11 +1,15 @@
 /* make headings smaller
 we have to start at h1 because of the table of contents
-h1 here is like h3 normally, h2 like h4 */
+though its heading levels can be customised, see https://gohugo.io/methods/page/tableofcontents/
+h1 here is like h3 normally, h2 like h4, h3 like h5 */
 div.toc-headings h1 {
   font-size:1.6875rem
 }
 div.toc-headings h2 {
   font-size:1.4375rem
+}
+div.toc-headings h3 {
+  font-size:1.125rem
 }
 
 table {
