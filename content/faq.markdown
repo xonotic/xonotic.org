@@ -2,7 +2,7 @@
 author: Antibody
 date: 2010-05-30 14:50:21+00:00
 type: faq
-title: FAQ
+title: Frequently Asked Questions
 aliases:
 - /the-game/faq
 ---
