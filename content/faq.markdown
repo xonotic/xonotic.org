@@ -46,13 +46,35 @@ The most likely reason Xonotic won't start is that you've accidentally launched 
 
 Use the executables with sdl or glx in their name to launch Xonotic.
 
-## I can't launch Xonotic on macOS Sierra or later
+## I can't launch Xonotic on macOS
+
+There are two macOS security features that can prevent Xonotic from launching properly:
+
+### Gatekeeper (app is blocked from opening)
+
+Since Xonotic is not signed with an Apple developer key, macOS will block it from running. You need to explicitly allow it:
+
+1. Try to open Xonotic - it will be blocked
+2. Open **System Settings** → **Privacy & Security**
+3. Scroll down to the Security section
+4. Click **Open Anyway** next to the Xonotic message
+5. Click **Open** when prompted
+
+### App Translocation (missing or unlocatable content/data error)
 
 (Full error message: "You have reached this menu due to missing or unlocatable content/data. You may consider adding `-basedir /path/to/game` to your launch commandline.")
 
-In the Finder, control-click the app icon, then choose Open from the shortcut menu. Click Open on the dialog.
+macOS moves apps downloaded from the internet to a temporary location for security (called "App Translocation"). This separates Xonotic from its data files, causing the error above.
 
-This happens because Xonotic is not signed using an Apple developer key.
+**Solution:** Move the Xonotic folder to a new location using Finder (drag and drop to `/Applications` or another folder). This clears the quarantine attribute.
+
+Alternatively, remove the quarantine attribute by running this in Terminal:
+
+    xattr -dr com.apple.quarantine /path/to/Xonotic
+
+Replace `/path/to/Xonotic` with your actual Xonotic folder location, for example:
+
+    xattr -dr com.apple.quarantine ~/Downloads/Xonotic
 
 ## When I join a server or after a map change I see nothing but a black screen, but I can still move and shoot
 
