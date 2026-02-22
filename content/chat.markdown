@@ -17,8 +17,8 @@ Most questions will be answered if you are patient, polite, clear, and don't bre
 
 #### [Matrix](https://matrix.org/docs/guides/introduction) {#}
 <!--using generic img class as we don't want th on these-->
-Space (group of rooms): [![#space:xonotic.org](https://xonotic.org/badgen/matrix/members/space/xonotic.org?color=orange "||img")](https://matrix.to/#/#space:xonotic.org)  
-Main room direct link: [![#main:xonotic.org](https://xonotic.org/badgen/matrix/members/main/xonotic.org?color=blue "||img")](https://matrix.to/#/#main:xonotic.org)
+Space (group of rooms): [![#space:xonotic.org](https://badgen.net/matrix/members/space/xonotic.org?color=orange "||img")](https://matrix.to/#/#space:xonotic.org)  
+Main room direct link: [![#main:xonotic.org](https://badgen.net/matrix/members/main/xonotic.org?color=blue "||img")](https://matrix.to/#/#main:xonotic.org)
 
 You remain in the chat room while your device is powered off and you can read the messages later.  
 Messages are synced between multiple clients.
