@@ -18,7 +18,6 @@ This is a Race mode known as DeFraG or CTS/Complete The Stage. The objective is 
 This mode also has some physics changes to uncap speed, change acceleration, and let us do double jumps, more ramp jumps, and a few other cool tricks. Come give it a go!  
 On some maps we use weapons, but for this tournament Kool had set us up with 5 phenominal strafe only maps (no weapons, just pure running). Join me as we go through the 5 strong weeks of competition and crown our champion. 
 
-## write description for this
  ![A view of a grey concrete map with blue lighting from hovering above a lava pool. The Xonotic logo, a blue font with a phoenix head in the centre O with wings branching behind the other letters is on the middle upper left, and the XDefrag logo in a similar font, but black where the XD is linked together is on the upper middle right. Below that is the text "Strafe Compeition" in white, reflected in the lava](titlepic.png)
  
 # Round 1
@@ -74,7 +73,6 @@ The secrets on this map were tougher to find than map 1. The first being hidden 
 [Top 20 Records](www.youtube.com/watch?v=sIeUL1NOvKY)  
 [Morosophos Top Runs](https://www.youtube.com/watch?v=G_Umm3kfAv8)  
 
-#Wreite descriptiopn
 ![Wood textured floor, grey brick walls, players gather in front of a purple glowing window labelled "BOOST". From left to right there's Kyle, lost, banano, shynx, anime girl, MxCrab, woah, Scrube McDuck, and todimus](round2.jpg)
 
 # Round 3
@@ -96,15 +94,33 @@ Some more difficult to access secrets this week, with one situated in checkpoint
 [Top 20 Records](https://www.youtube.com/watch?v=pWJc7n-8aR4)  
 [Morosophos Top Runs](https://www.youtube.com/watch?v=1Kid46SrDto)  
 
-# description
 ![A view of a grey concrete map with blue lighting from hovering above a lava pool. There are no players because I forgot to take a picture this week](round3.jpg)
 
 # Round 4
 The map idea that inspired this whole tournament, when source asked Kool to make a map using shotgun buttons. These are buttons you can shoot with the shotgun that give knockback to the player in a certain direction, allowing you to push them up, down, forwards, backwards, diagonally, and generally make some pretty cool routes. 
 
+nihlo joined us from WarSow race and in their first week playing got a top 20 time, putting in 19th place. They made great AD turns and looked comfortable switching from strafing to aiming at the targets. 
+
+In the big centre room with two targets, one on entry (pretty much mandatory to hit at these speeds to clear the gap faster), and one on exit (that had to be flicked back for, to reach an upper path), there was a bit of a back and forth between best routes. Some players opted to shoot both buttons, clearly the faster of the two routes (as exiting the upper path landed more speed from a downramp) but others didn't feel comfortable getting strafes in with the flick, or making the corner after, so shot only the first button and stayed low. This worked well for KristiDonk, who continues to impress since coming onto the scene in XDWC2025. 
+
+After a while it became clear the end part of the run, with a harsh drop down a chute with a push button at the top, and a ramp at the bottom was key to speed and a lot of timesave on this map. You needed to preserve some horizontal momentum in the chute, as hitting the wall would result in 1500ups exiting, but a good diagonal across could net over 1800.  
+Uchi was one of the first to employ the double shot super effectively, getting out with 2100ups from the chute! It was clear in the section after, across a tight bridge turn, that he'd been here a few times before as he didn't panic and knew his spacing would work out to get into the finish with style. 
+
+One of the hardest parts of this was shooting the second shot after hitting a push pad that reset vertical velocity. It was tight margins, but if you knew the timing of the first shot, you could keep the shot pressed and make the reload time do the work. 
+
+woah was unable to continue his great run of top 3 placements, but still opened up our top 5 this week. He'd struggled to make good use of all the button tricks, and was definitely showing that in the Twitch chat.  
+Shynx showed us again that you can't put nice scenery in a map, lest it be abused, by using the shotgun up pushers early to head hit and get a head hit reverse downramp push (these terms are getting hard to describe, as Jaska will complain about with the "DJ cancel" term).  
+delta tried something very special into the slick room, but was had by the randomness of the shotgun! At around 28s he tried to 180 flick and shoot the target again to go directly to the slick. Unfortunately the randomness failed him and he missed, and lost strafe at the same time. Still a great finish, and he's always reliable to show off something cool and unique.  
+frostie was surprised his time was second after seeing everyone else's runs, but a clean run implimenting all previous strats well was enough to secure second place. 
+
+goblin's run was something else here though. 0.66s ahead of 2nd place, a monumental gap here. At 8s in he shoots the target 3 times, as others have done, but he's brave as anything and waits for the crosshair to overlap the target instead of moving his aim. This is exactly what's taught in pewpew school, and it works here to let him keep strafing further than anyone else!  
+During the drop chute he shoots the target for a second time on nearly the last possible frame before it disappeared from view and exits with an incredible 2300+ups. What's possibly more impressive is how fast he gets back on the strafe after this, and then casually hits the final target to drop into the finish. 
+
+### Round 4 Secrets
+This round included an extra special secret, a hardcore parkour style map for the 4th card. This map has been released as xsc2026-round4-secret on the servers, if you want to give it a go. It's tough, and Kota makes it look easy!  
+The rest of the secrets are very well hidden too, one requiring a few button presses to get on top of the building, another needing you to drop carefully between invisible teleporter planes and then leap across beams, and another one that's so well hidden I've forgotten where it is! 
 
 
-# descript
 ![Flat textured green walls and floors, with brown woodish coloured roofs and side poles. In the lower middle of the screen is a jump button with a blue swooshy arrow on black background littered with bullet holes. Players in the pic are pearlfish, woah, Shynx, todimus, MxCrab, Kyle, anime girl, and Kotangens](round4.jpg)
 
 ### Round 4 Links
@@ -122,3 +138,5 @@ The map idea that inspired this whole tournament, when source asked Kool to make
 [Route Guide]()  
 [Top 20 Records]()  
 [Morosophos Top Runs]()  
+
+# CrabCup XSC Special Event
