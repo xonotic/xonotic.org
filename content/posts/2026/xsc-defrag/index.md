@@ -40,8 +40,9 @@ All 5 maps had 4 secrets on them to find. On this map they were reasonably easy 
 ### Round 1 Video Links
 [Kotangens Secrets](https://www.youtube.com/watch?v=iMPIet0ez1k)  
 [Route Guide](https://www.youtube.com/watch?v=kGszbyj-1kg)  
-[Top 20 Records](https://www.youtube.com/watch?v=feJFZ-p0SZY)
-[Morosophos Top Runs](https://www.youtube.com/watch?v=Ci85kXQGlro)
+[Top 20 Records](https://www.youtube.com/watch?v=feJFZ-p0SZY)  
+[Morosophos Top Runs](https://www.youtube.com/watch?v=Ci85kXQGlro)  
+[Round Results](https://xdwc.xdf.gg/xsc/map/xsc2026-round1/)
 
 
 ![A brown sandy textured room with sandstone brick roof. Players are on a bridge standing around with colourful names. From left to right: Kotangens, Shynx, MxCrab, Des, woah, Vy, wdjzr, todimus, Guniacz, and Macii](round1.jpg)
@@ -72,6 +73,7 @@ The secrets on this map were tougher to find than map 1. The first being hidden 
 [Route Guide](https://www.youtube.com/watch?v=kGszbyj-1kg)  
 [Top 20 Records](www.youtube.com/watch?v=sIeUL1NOvKY)  
 [Morosophos Top Runs](https://www.youtube.com/watch?v=G_Umm3kfAv8)  
+[Round Results](https://xdwc.xdf.gg/xsc/map/xsc2026-round2/)  
 
 ![Wood textured floor, grey brick walls, players gather in front of a purple glowing window labelled "BOOST". From left to right there's Kyle, lost, banano, shynx, anime girl, MxCrab, woah, Scrube McDuck, and todimus](round2.jpg)
 
@@ -93,6 +95,7 @@ Some more difficult to access secrets this week, with one situated in checkpoint
 [Route Guide](https://www.youtube.com/watch?v=W2py-4d6AnQ)  
 [Top 20 Records](https://www.youtube.com/watch?v=pWJc7n-8aR4)  
 [Morosophos Top Runs](https://www.youtube.com/watch?v=1Kid46SrDto)  
+[Round Results](https://xdwc.xdf.gg/xsc/map/xsc2026-round3/)  
 
 ![A view of a grey concrete map with blue lighting from hovering above a lava pool. There are no players because I forgot to take a picture this week](round3.jpg)
 
@@ -127,16 +130,78 @@ The rest of the secrets are very well hidden too, one requiring a few button pre
 [Kotangens Secrets](https://www.youtube.com/watch?v=gJbBZUddAw4)  
 [Route Guide](https://www.youtube.com/watch?v=5T5d5zTy4gY)  
 [Top 20 Records](https://www.youtube.com/watch?v=s46Qb_lRXQ4)  
-[Morosophos Top Runs](https://www.youtube.com/watch?v=7tG3MzhGJzU)  
+[Morosophos Top Runs](https://www.youtube.com/watch?v=7tG3MzhGJzU)   
+[Round Results](https://xdwc.xdf.gg/xsc/map/xsc2026-round4/) 
 
 # Round 5 
 
-![A large dark concrete arch with blue light strips in it, sat in a pool of lava. The players are on a narrow bridge in front. Players are Kotangens, Kyle, zontik, banano, Enuma Elis, MxCrab, 522, todimus, anime girl, Uchi, and Lightbringer](round5.jpg)
+The final round, and the final chance for contestants to secure their overall placements. Some placements were fairly set in stone with a few hundred points between places, but others it was down to the absolute wire! Vert and source went into this round just 1 point apart, and Uchi and qutebones were tied! It's very rare to see things that close. 
+
+This round was the longest, and possibly hardest, of the tournament. A fast wipe open map, with plenty of lines and routes to pick from. We were certainly going to see some different routes in the top 10 this week. One of the key moments was a set of stairs, fairly tricky to figure the spacing to get up in the first place, but taking the following corner tight was a difficult thing. That then led to a ramp over into two slits in the floor, carrying speed into the next rooms. 
+
+Des, our beloved admin and cheat provider, managed to up his performances and get a top 20 position. Forever the South American continental champion, but for the first time solidly into the top 20 in 19th place. He just really liked the map this week. 
+
+jhheight put in his 9th place finish, and rage quit the game. If you're reading this jh, we miss you, it's okay, please come back, we promise we won't play this map again if you're around <3 
+
+Tu, who up to this point has gone unmentioned in this write up coverage, but was introduced on the first 3 demos by the game itself, had been quietly having good runs every week and keeping a high placement in the overall. He slotted into 5th place this final week. Tu had previously impressed with some HUGE W turns through round 3, and was once again back showing how powerful the W turn is in Xonotic (with haste you gain as much accel as a perfect AD turn, but you've got to be skilled and brave to pull it off). The tactical butt touch at Checkpoint 4 to get spacing for the big gap was impressive. 
+
+woah showed us how lightly you can graze sideramps to get up on top at checkpoint 2, powering his way into 4th place. After the large pillars room woah grazed the walls of the next room, and the confidence through the tricky chicane final bend was mighty. 
+
+frostie switched the routes up a little at the start. He set the fastest time to checkpoint 1, and had the shortest overall distance of anyone for the whole map this week. The shorter line was a risk, due to having less speed, but frostie decided he could have the shorter route AND the speed, and made it work. 
+
+Having had the first time under 1 minute, set only a few hours after the round started (only 8 players at all went under 1 minute here), Shynx got himself 2nd place, his best performance on a round. A huge chunk ahead of frostie, and the biggest gap between two players in the top 20. He took a strong route at the start giving him a lot of speed through checkpoint 2. He skipped gracefully up the steps at checkpoint 4, and flew beautifully on the tightest line through the pillars. 3000 speed through the final chicaines was scary to watch. 
+
+Despite all that, and being pushed hard this week, goblin would reign supreme over us all. 5/5 in this tournament, and now on a 14 round in a row win streak since dzy beat him in XDWC2024-1.  
+It may not have been unexpected, but he certainly rose to the occasion. His gentle side ramp jump through into checkpoint 2, and the spacing adjust DJ cancel stepup for checkpoint 4 are the kinds of things that are almost impossible to notice at full speed, but they make all the difference in these events! 
+
+### Round 5 Secrets
+The secrets on this round were very cool (or kool, if you prefer). The third secret was well hidden in the pillar room, and Kota entered it with a nice backwards strafe. The 4th secret was apparently the hardest bonus track of any of the secrets. I wouldn't know, I couldn't find it, or finish the easy ones. Secrets being great maps in their own rights is what makes these 5 maps from Kool all the more special. 
 
 ### Round 5 Links
 [Kotangens Secrets](https://www.youtube.com/watch?v=-sH_267hQJo)  
-[Route Guide]()  
-[Top 20 Records]()  
-[Morosophos Top Runs]()  
+[Route Guide](https://www.youtube.com/watch?v=jmtAHH4wlno)  
+[Top 20 Records](https://www.youtube.com/watch?v=V1u_G0wwIB4)  
+[Morosophos Top Runs](https://www.youtube.com/watch?v=_cGGTcDHoz0)  
+[Round Results](https://xdwc.xdf.gg/xsc/map/xsc2026-round5/)
 
+![A large dark concrete arch with blue light strips in it, sat in a pool of lava. The players are on a narrow bridge in front. Players are Kotangens, Kyle, zontik, banano, Enuma Elis, MxCrab, 522, todimus, anime girl, Uchi, and Lightbringer](round5.jpg)
+
+# The Overall Results
+So, after 5 weeks of play, what does the overall look like? We had 344 players set a time across all the maps, which is an amazing number to see. 54 countries, 6 continents (if anyone knows someone who's out at the Antarctic research base in October or November so we can get all of them, that'd be amazing), and 748 total PBs (all players, all maps). 
+
+Congratulations to every single player, no matter your time it means a lot to everyone who helps organise these events, so thank you for playing. 
+
+The top spot, of course, with 5/5 wins, went to goblin. frostie managed a second place, staying consistently in the top 3 every week. woah kept himself just about Shynx for 3rd, and Shynx made sure to challenge woah for that top 3 in the end, getting much closer with the final round. delta rerouted his way into 5th, with Vert quietly behind. The inspiration of the tournament, source, picked up a nice 7th for his efforts. Tu was the first place gainer of the final round overtaking jhheight via his top 5 finish. With silny not playing the final round a lot of others moved up, Kyle managing to get the top 10, and in the fight between qutebones and Uchi, Uchi absolutely smashed it putting two places between them (ash taking the gap in between). 
+
+Through out the rest of the leaderboard we see battles between people, and it's great to see rivalries form on the leaderboards, especially knowing that some of my best friends in this game have been formed because we were constantly near each other in XDWC rounds. 
+
+### Kools Message To Players
+Thank you to everyone who played the maps i made. I really hope you enjoyed the event and had fun. It was such a pleasure to watch the different routes you guys did on the maps.
+A big thanks to the guys behind the scene such as Woah, Moro, Mirio, MxCrab, Hyphonical, ash, amino. Special thanks to source for pushing me to make this event and a map like round 4.
+Once again, Thank you very much everyone and have a great week-end.
+
+
+[Results Page](https://xdwc.xdf.gg/xsc/)  
 # CrabCup XSC Special Event
+And now, for something a little different.  
+Every other week on a Thursday evening since the start of this year I've been running mini competitions (you can find out [more information here](https://forums.xonotic.org/showthread.php?tid=10103)). For this week after XSC I decided to see who could battle hardest with only 20 minutes to set a time on each map. 
+
+It was a tough competition, since everyone had to play hard for over an hour and a half. By the end it was definitely endurance based. 
+
+Of course, being a live event, not everyone could show up, but those that did proved that performance in the main event mostly translated to performance after, and interestingly not so many routes were changed, even after seeing the best runs from the top players and knowing all the tricks. 
+
+The results are here:  
+![A spreadsheet of results. In order of final finish: Kyle, wdjzr, MxCrab, banano, 522, Des, Ramses, 2337, Tu, plaza, Radio, Moon, brainfluid, Xord, 10_days_til_xmas. Kyle won maps 2, 4, and 5. wdjzr won maps 1 and 3. These are highlighted yellow. The rest of the points are shown.](results.png)
+
+-and the [video of the event is here](https://www.youtube.com/watch?v=VHXISCtr9ig&list=PLIiLNY1jJwloZ1xE6cHsCdJVA63dEZK_3&index=1)
+
+# Where to find us! 
+If you've got this far, surely you owe it to yourself to hop online and play with us! We don't bite (unless asked).  
+A guide to playing the game [can be found here](https://xdf.gg/guide), but just joining the servers and playing is perfectly fine. There are multiple servers to pick from. Look for the `exe.pub` servers in CTS mode. There's Relaxed Running for easier maps with 20 minute time limits, and Respect the Grind for those same maps but longer time limits for bashing out the perfect run.  
+Hardcore Parkour is where the tricky torture style maps go (and longer maps, it's not all super hard), and we even have a hook race and Vanilla Quake 3 physics servers if you prefer those.  
+All the chats are linked together, and even bridged to IRC with #clanexe on QuakeNet, so whatever server you're playing there's always some company. 
+
+Morosophos, our wonderful admin, posts automatic world record videos to [his channel here](www.youtube.com/@morosophosxon2836), and I take those videos and commentate over them every month [for my channel here](https://www.youtube.com/@MxCrab).  
+Tournament information is posted over on the Xonotic forums, but history and live info for all events is on https://xdwc.xdf.gg and all runs on regular servers get uploaded to https://xdf.gg so you can see your place on the leaderboards and climb that ladder! 
+
+Thank you so very much for coming along on this journey, I hope you enjoyed the tournament, and that we'll see you on the servers soon! Have a good timezone, and cya! - MxCrab
