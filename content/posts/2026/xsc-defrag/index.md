@@ -16,7 +16,7 @@ Hello, hello hellohello, after 5 weeks of exceptional competition across 5 exell
 MxCrab here with the DeFraG/CTS community to share a little tournament that just happened. First a small explainer of what our gamemode is.  
 This is a Race mode known as DeFraG or CTS/Complete The Stage. The objective is to reach the finish as fast as possible, with nobody around to shoot you or get in your way. We use plenty of tricks to move faster, a lot are the ones you might see in pewpew modes but taken more to the extreme (and if you want to learn more you can [click here for the XDF guide I made](https://xdf.gg/guide) wink wink, nudge nudge).  
 This mode also has some physics changes to uncap speed, change acceleration, and let us do double jumps, more ramp jumps, and a few other cool tricks. Come give it a go!  
-On some maps we use weapons, but for this tournament Kool had set us up with 5 phenominal strafe only maps (no weapons, just pure running). Join me as we go through the 5 strong weeks of competition and crown our champion. 
+On some maps we use weapons, but for this tournament Kool had set us up with 5 phenomenal strafe only maps (no weapons, just pure running). Join me as we go through the 5 strong weeks of competition and crown our champion. 
 
  ![A view of a grey concrete map with blue lighting from hovering above a lava pool. The Xonotic logo, a blue font with a phoenix head in the centre O with wings branching behind the other letters is on the middle upper left, and the XDefrag logo in a similar font, but black where the XD is linked together is on the upper middle right. Below that is the text "Strafe Compeition" in white, reflected in the lava](titlepic.png)
  
@@ -30,7 +30,7 @@ One of the coolest tricks we saw was a spacing adjustment at the end from jhheig
 
 woah showed us the perfect end jump, losing so little speed it almost felt like he didn't hit the ramp, while Kablaa showed us how sketchy it could get towards the end as he nearly missed the final ramp (despite knowing these are the best runs, I still get scared someone will miss a jump, or hit a wall)
 
-To open us up the top 5 was source, the big talking strafer who inspired this tournament, Shynx in 4th, a tight strafing route with a nice end and a very hard grinder, woah one of the cleanest strafers in the game and with amazing AD tight turns, frostie in 2nd with a few nice tricks in his route and some very tight lines, and taking the win was the mighty goblin, a full 0.36s faster than 2nd place. That might not sound like a lot but 0.36s takes us from 2nd to 7th.   
+To open us up the top 5 was source, the big talking strafer who inspired this tournament, Shynx in 4th, a tight strafing route with a nice end and a very hard grinder, woah one of the cleanest strafers in the game and with amazing AD tight turns, frostie in 2nd with a few nice tricks in his route and some very tight lines, and taking the win was the mighty goblin, a full 0.36s faster than 2nd place. That might not sound like a lot but another 0.36s takes us from 2nd to 7th.   
 
 It was a big gap made with some impeccable downramps to gain more speed than other players, and a bit of wizardry with a DJ cancel (a trick to stop you from double jumping in certain situations where it makes it faster). 
 
@@ -50,12 +50,12 @@ All 5 maps had 4 secrets on them to find. On this map they were reasonably easy 
 # Round 2
 
 This round had many routes, but sometimes one route reigns supreme. We were unsure whether one would for a short while, until an unfortunate trick was discovered.  
-Of the 3 routes out the start you could drop down behind to hit some major slick patches, exiting the first room with over 2300ups, though this would lose the Speed powerup (an extra 30%ish speed gained). You could go straight out on a tight line down a ramp and hit a small slick patch, a good route of this was the fastest first room exit, but with the least speed (keeps haste though), and finally you could take a booster panel slightly wider from the small slick patch. This kept haste, was a bit faster than the small slick, and was in between the other two on first room exit time.  
-Unfortunately this wall of booster could be hit twice, exiting the first room slightly slower than the tightest line, but with 2200+ speed and keeping haste. 
+Of the 3 routes out the start you could drop down behind to hit some major slick patches, exiting the first room with over 2300ups, though this would lose the Speed powerup (an extra 30%ish speed gained). You could go straight out on a tight line down a ramp and hit a small slick patch, a good route of this was the fastest first room exit, but with the least speed (keeps Speed though), and finally you could take a booster panel slightly wider from the small slick patch. This kept Speed, was a bit faster than the small slick, and was in between the other two on first room exit time.  
+Unfortunately this wall of booster could be hit twice, exiting the first room slightly slower than the tightest line, but with 2200+ speed and keeping Speed. 
 
 The rest of the map was a high speed afair with an empahsis on tighter lines and not losing speed on the ramps. It was a tough balance between perfect ramps, and getting high enough to get over the end. 
 
-The Turkish Delight, wdjzr impressed us this week getting himself a 14th place. He had pixel precision on the 2nd room ramp, and a lovely smooth turn through the final corner being able to get a good strafe in towards the finish. 
+The Turkish Delight, wdjzr enthralled us this week getting himself a 14th place. He had pixel precision on the 2nd room ramp, and a lovely smooth turn through the final corner being able to get a good strafe in towards the finish. 
 
 Kyle impressed this week, taking very tight lines and grazing walls on his way to 13th place. Avoiding the step at the end just barely, giving us a moment of worry (forgetting that these are pre-recorded best runs)
 
@@ -85,7 +85,7 @@ A legendary mapper in the community, ash, who often doesn't compete in the main 
 
 Vert dropped in 6th place, showing off a few really technical tricks in the middle. Taking a double jump instead of a ramp at 14s into his run, he then DJ cancels the next step after the drop to get perfect spacing to land on a small ramp used to guide players up and around from the yellow path, giving him a fairly large speed boost (~100ups) and then continuing his way. A fairly quiet event for Vert, but his shotgun slapping ways lift our spirits. 
 
-delta once again opens out top 5 with a 38.74, just 0.03 ahead of Shynx, both of these players using almost identical routes to each other. frostie brought us back to the inside route on checkpoint 3, while woah showed us how good he could take a tight turn, taking a very late wide line into checkpoint 3. goblin decided that last week was too close for comfort and smashed everyone with a 38.14s time, 0.45s faster than woah in 2nd place. The gains he made in the 2nd last checkpoint were incredible. Perfect landings for each ramp, something that requires near perfect strafing and lines to make up, he very nearly clips a step in checkpoint 7 but holds on just about, finishing a fantastic run making it look easy. 
+delta once again opens out top 5 with a 38.74, just 0.03 ahead of Shynx, both of these players using almost identical routes to each other. frostie brought us back to the inside route on checkpoint 3, while woah showed us how good he could take a tight turn, taking a very late wide line into checkpoint 3. goblin decided that last week was too close for comfort and smashed everyone with a 38.14s time, 0.45s faster than woah in 2nd place. The gains he made in the 2nd last checkpoint were incredible. Perfect landings for each ramp, something that requires near perfect strafing and lines to make up, he very nearly clips a step in checkpoint 7 but holds on just about, finishing a fantastic run, making it look easy. 
 
 ### Round 3 Secrets
 Some more difficult to access secrets this week, with one situated in checkpoint 3 requiring a good run up, well placed spacing, and a ramp off a tiny diagonal ledge at the back of the room to get you up to the teleporter spot. Kota is very good at these as often they're used on pewpew maps to get to powerful items faster than others. He of course did all of the tricks with ease! 
@@ -137,21 +137,21 @@ The rest of the secrets are very well hidden too, one requiring a few button pre
 
 The final round, and the final chance for contestants to secure their overall placements. Some placements were fairly set in stone with a few hundred points between places, but others it was down to the absolute wire! Vert and source went into this round just 1 point apart, and Uchi and qutebones were tied! It's very rare to see things that close. 
 
-This round was the longest, and possibly hardest, of the tournament. A fast wipe open map, with plenty of lines and routes to pick from. We were certainly going to see some different routes in the top 10 this week. One of the key moments was a set of stairs, fairly tricky to figure the spacing to get up in the first place, but taking the following corner tight was a difficult thing. That then led to a ramp over into two slits in the floor, carrying speed into the next rooms. 
+This round was the longest, and possibly hardest, of the tournament. A fast wide open map, with plenty of lines and routes to pick from. We were certainly going to see some different routes in the top 10 this week. One of the key moments was a set of steps, fairly tricky to figure the spacing to get up in the first place, but taking the following corner tight was a difficult thing. That then led to a ramp over into two slits in the floor, carrying speed into the next rooms. 
 
 Des, our beloved admin and cheat provider, managed to up his performances and get a top 20 position. Forever the South American continental champion, but for the first time solidly into the top 20 in 19th place. He just really liked the map this week. 
 
 jhheight put in his 9th place finish, and rage quit the game. If you're reading this jh, we miss you, it's okay, please come back, we promise we won't play this map again if you're around <3 
 
-Tu, who up to this point has gone unmentioned in this write up coverage, but was introduced on the first 3 demos by the game itself, had been quietly having good runs every week and keeping a high placement in the overall. He slotted into 5th place this final week. Tu had previously impressed with some HUGE W turns through round 3, and was once again back showing how powerful the W turn is in Xonotic (with haste you gain as much accel as a perfect AD turn, but you've got to be skilled and brave to pull it off). The tactical butt touch at Checkpoint 4 to get spacing for the big gap was impressive. 
+Tu, who up to this point has gone under the radar in this write up coverage, but was introduced on the first 3 demos by the game itself, had been quietly having good runs every week and keeping a high placement in the overall. He slotted into 5th place this final week. Tu had previously impressed with some HUGE W turns through round 3, and was once again back showing how powerful the W turn is in Xonotic (with Speed you gain as much accel as a perfect AD turn, but you've got to be skilled and brave to pull it off). The tactical butt wall touch at Checkpoint 4 to get spacing for the big gap was impressive. 
 
-woah showed us how lightly you can graze sideramps to get up on top at checkpoint 2, powering his way into 4th place. After the large pillars room woah grazed the walls of the next room, and the confidence through the tricky chicane final bend was mighty. 
+woah showed us how lightly you can scrape sideramps to get up on top at checkpoint 2, powering his way into 4th place. After the large pillars room woah grazed the walls of the next room, and the confidence through the tricky chicane final bend was mighty. 
 
 frostie switched the routes up a little at the start. He set the fastest time to checkpoint 1, and had the shortest overall distance of anyone for the whole map this week. The shorter line was a risk, due to having less speed, but frostie decided he could have the shorter route AND the speed, and made it work. 
 
 Having had the first time under 1 minute, set only a few hours after the round started (only 8 players at all went under 1 minute here), Shynx got himself 2nd place, his best performance on a round. A huge chunk ahead of frostie, and the biggest gap between two players in the top 20. He took a strong route at the start giving him a lot of speed through checkpoint 2. He skipped gracefully up the steps at checkpoint 4, and flew beautifully on the tightest line through the pillars. 3000 speed through the final chicaines was scary to watch. 
 
-Despite all that, and being pushed hard this week, goblin would reign supreme over us all. 5/5 in this tournament, and now on a 14 round in a row win streak since dzy beat him in XDWC2024-1.  
+Despite all that, and being pushed hard this week, goblin would reign supreme over us all. 5 out of 5 in this tournament, and now on a 14 round in a row win streak since dzy beat him in XDWC2024-1.  
 It may not have been unexpected, but he certainly rose to the occasion. His gentle side ramp jump through into checkpoint 2, and the spacing adjust DJ cancel stepup for checkpoint 4 are the kinds of things that are almost impossible to notice at full speed, but they make all the difference in these events! 
 
 ### Round 5 Secrets
@@ -201,11 +201,11 @@ The results are here:
 
 # Where to find us! 
 If you've got this far, surely you owe it to yourself to hop online and play with us! We don't bite (unless asked).  
-A guide to playing the game [can be found here](https://xdf.gg/guide), but just joining the servers and playing is perfectly fine. There are multiple servers to pick from. Look for the `exe.pub` servers in CTS mode. There's Relaxed Running for easier maps with 20 minute time limits, and Respect the Grind for those same maps but longer time limits for bashing out the perfect run.  
+A guide to playing this wonderful gamemode [can be found here](https://xdf.gg/guide), but just joining the servers and playing is perfectly fine. There are multiple servers to pick from. Look for the `exe.pub` servers in CTS mode. There's Relaxed Running for easier maps with 20 minute time limits, and Respect the Grind for those same maps but longer time limits for bashing out the perfect run.  
 Hardcore Parkour is where the tricky torture style maps go (and longer maps, it's not all super hard), and we even have a hook race and Vanilla Quake 3 physics servers if you prefer those.  
 All the chats are linked together, and even bridged to IRC with #clanexe on QuakeNet, so whatever server you're playing there's always some company. 
 
-Morosophos, our wonderful admin, posts automatic world record videos to [his channel here](www.youtube.com/@morosophosxon2836), and I take those videos and commentate over them every month [for my channel here](https://www.youtube.com/@MxCrab).  
+Morosophos, our wonderful admin, posts automatic world record videos to [his channel here](https://www.youtube.com/@morosophosxon2836), and I take those videos and commentate over them every month [for my channel here](https://www.youtube.com/@MxCrab).  
 Tournament information is posted over on the Xonotic forums, but history and live info for all events is on https://xdwc.xdf.gg and all runs on regular servers get uploaded to https://xdf.gg so you can see your place on the leaderboards and climb that ladder! 
 
 Thank you so very much for coming along on this journey, I hope you enjoyed the tournament, and that we'll see you on the servers soon! Have a good timezone, and cya! - MxCrab
