@@ -16,9 +16,9 @@ Got questions? Please see the [FAQ](/faq) and other [Documentation](https://gitl
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6.zip) (DE)  
 &emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6.zip) (FR)  
 &emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6.zip) (US)  
-&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6.zip) (US)  
 &emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6.zip) (AU)  
 <!--
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6.zip) (US)  
 &emsp; [<i class="fas fa-download"></i> rm.cloudns.org](https://rm.cloudns.org/~xonotic/xonotic-0.8.5.zip) (DE)  
 &emsp; [<i class="fas fa-download"></i> github.com](https://github.com/garymoon/xonotic/releases/download/xonotic-v0.8.5/xonotic-0.8.5.zip) (Global)  
 -->
@@ -74,8 +74,10 @@ The assets required to create Xonotic maps in other level editors. &emsp; 102MiB
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-mappingsupport.zip) (DE)
 &emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6-mappingsupport.zip) (FR)  
 &emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6-mappingsupport.zip) (US)
-&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-mappingsupport.zip) (US)
 &emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6-mappingsupport.zip) (AU)  
+<!--
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-mappingsupport.zip) (US)
+-->
 
 <!--
 ##### Xonotic JPEG build {#jpeg}
@@ -94,8 +96,10 @@ The source of all code parts (also included in the main zip). &emsp; 7MiB&emsp; 
 &emsp; [<i class="fas fa-download"></i> evil-ant-colony.org](https://download.evil-ant-colony.org/xonotic/xonotic-0.8.6-source.zip) (DE)
 &emsp; [<i class="fas fa-download"></i> illwieckz.net](https://dl.illwieckz.net/share/xonotic/release/xonotic-0.8.6-source.zip) (FR)  
 &emsp; [<i class="fas fa-download"></i> unvanquished.net](https://dl.unvanquished.net/share/xonotic/release/xonotic-0.8.6-source.zip) (US)
-&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-source.zip) (US)
 &emsp; [<i class="fas fa-download"></i> xonotic.au](https://xonotic.au/downloads/xonotic-0.8.6-source.zip) (AU)  
+<!--
+&emsp; [<i class="fas fa-download"></i> antzucaro.com](https://xonotic.antzucaro.com/xonotic-0.8.6-source.zip) (US)
+-->
 
 ---
 

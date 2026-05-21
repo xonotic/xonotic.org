@@ -31,7 +31,7 @@ Package size: 943MiB
 We have found a better compression method than used for previous release, so the 0.5 release is much smaller than what it would've been with old compression (1.4GB).
 
 You can also download and play this release on Desura:
-[![Desura Digital Distribution](http://button.desura.com/play/outline/games/12648.png)](http://www.desura.com/games/xonotic)
+[Desura Digital Distribution](http://www.desura.com/games/xonotic)
 
 
 ### Multi-language support

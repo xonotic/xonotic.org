@@ -30,7 +30,7 @@ Other resources:
 
 You can also download and play Xonotic on Desura:
 
-[![Desura Digital Distribution](http://button.desura.com/play/outline/games/12648.png)](http://www.desura.com/games/xonotic)
+[Desura Digital Distribution](http://www.desura.com/games/xonotic)
 
 While you're downloading the game, check out some of the highlights of this release...
 

@@ -241,7 +241,7 @@ It should also be noted that IllFonic's code may be in violation of the GPL as m
 
 ## Was a compromise attempted?
 
-Yes, many in the Nexuiz community tried to [reach a compromise](http://alientrap.org/forum/viewtopic.php?f=4&t=6079), such as having Illfonic contribute some artwork and/or gamecode back to Nexuiz GPL and for them to use a derivative name for their project, e.g. "Nexuiz Reloaded". <del>Illfonic [flatly refused](https://web.archive.org/web/20101212220555/http://alientrap.org/forum/viewtopic.php?p=76108&f=7) all such suggestions.</del> This, along with the clear stance that Alientrap has taken on this issue, made it clear that no compromise could be reached.
+Yes, many in the Nexuiz community tried to [reach a compromise](https://web.archive.org/web/20101212165111/http://alientrap.org/forum/viewtopic.php?f=4&t=6079), such as having Illfonic contribute some artwork and/or gamecode back to Nexuiz GPL and for them to use a derivative name for their project, e.g. "Nexuiz Reloaded". <del>Illfonic [flatly refused](https://web.archive.org/web/20101212220555/http://alientrap.org/forum/viewtopic.php?p=76108&f=7) all such suggestions.</del> This, along with the clear stance that Alientrap has taken on this issue, made it clear that no compromise could be reached.
 
 **Update** It has been clarified that, despite some of misleading wording in previous communication, Illfonic will be contributing _some_ of the game code back to Nexuiz GPL, mainly having to do with bandwidth improvements and animation blending.
 

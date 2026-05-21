@@ -72,17 +72,17 @@ This balance part of the preview release is really a test to see how it works ou
 
 The old player models in Nexuiz were quite outdated, so we decided to remove them all and start from scratch. Currently we do not have as many models as we used to, but they are of much higher quality. The animations have also been done from scratch, and they are now well aligned with the player models.
 
-[![](/m/uploads/2010/05/412771687019-200x200.png)](/m/uploads/2010/05/412771687019.png)
+[![](/m/uploads/2010/05/412771687019-200x200.png)](/m/uploads/2010/05/412771687019-1024x640.png)
 
-[![](/m/uploads/2010/05/9127717046613-200x200.png)](/m/uploads/2010/05/9127717046613.png)
+[![](/m/uploads/2010/05/9127717046613-200x200.png)](/m/uploads/2010/05/9127717046613-1024x640.png)
 
-[![](/m/uploads/2010/05/012771705399-200x200.png)](/m/uploads/2010/05/012771705399.png)
+[![](/m/uploads/2010/05/012771705399-200x200.png)](/m/uploads/2010/05/012771705399-1024x640.png)
 
-[![](/m/uploads/2010/05/412771683267-200x200.png)](/m/uploads/2010/05/412771683267.png)
+[![](/m/uploads/2010/05/412771683267-200x200.png)](/m/uploads/2010/05/412771683267-1024x640.png)
 
-[![](/m/uploads/2010/05/di-1212771613363-200x200.png)](/m/uploads/2010/05/di-1212771613363.png)
+[![](/m/uploads/2010/05/di-1212771613363-200x200.png)](/m/uploads/2010/05/di-1212771613363-1024x640.png)
 
-[![](/m/uploads/2010/05/712771685977-200x200.png)](/m/uploads/2010/05/712771685977.png)
+[![](/m/uploads/2010/05/712771685977-200x200.png)](/m/uploads/2010/05/712771685977-1024x640.png)
 
   
 

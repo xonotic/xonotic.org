@@ -115,7 +115,7 @@ Two maps popular for years have been polished up and included. There's new gamet
 - Made the variables `g_*_weaponarena` no longer list servers as modified if they are set to `"most"` or `"most_available"`. (Author: Dr. Jaska) [1103](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1103)
 <!--Balance Council-->
 - Created the [Xonotic Balance Council](/balance_council/) responsible for future gameplay balance changes. (Author: bones_was_here) [72](https://gitlab.com/xonotic/xonotic.org/-/merge_requests/72)
-- Disabled the weapon recoil by default (`g_norecoil 1`). [5](/balancevotes/5/)
+- Disabled the weapon recoil by default (`g_norecoil 1`). [5](https://xonotic.org/balancevotes/5/)
 
 ##### Weapons
 - Made Crylink full-auto instead of semi-automatic when it has only 1 spike (pellet). (Author: Dr. Jaska) [1153](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1153)
@@ -162,7 +162,7 @@ Two maps popular for years have been polished up and included. There's new gamet
 - Made the map voting screen's chosen levelshot expand to the center of the screen for a second before it is loaded. (Author: terencehill) [1060](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1060)
 <!--Fixes-->
 - Made 100% abstain votes in map voting choose a random map. (Author: Dr. Jaska) [1172](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1172)
-- Fixed voting for `endmatch` successfully during an intermission skipping the next map and going into a random map. (Author: terencehill) [[22f4e736]](https://gitlab.com/xonotic/xonotic/-/commit/22f4e7369ad11646609c6420cba17d452e652c4b)
+- Fixed voting for `endmatch` successfully during an intermission skipping the next map and going into a random map. (Author: terencehill) [[22f4e736]](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/commit/22f4e7369ad11646609c6420cba17d452e652c4b)
 - Fixed not notifying about the vote in progress being canceled when the match ends. (Author: terencehill) [1181](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1181)
 - Fixed crashes in map voting screen related to gametypes with low amount of supported maps. (Author: terencehill) [1188](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1188)
 - Fixed `sv_vote_gametype_options` so that it defaults to the current gametype if it doesn't have a single valid gametype. (Author: Dr. Jaska) [1190](https://gitlab.com/xonotic/xonotic-data.pk3dir/-/merge_requests/1190)
