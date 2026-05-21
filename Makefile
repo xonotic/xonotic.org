@@ -11,3 +11,6 @@ data:
 gen: data
 	hugo --gc
 
+test: gen
+	# 403 is only a warning because llm scraper mitigations also block linkinator
+	export PATH=node_modules/.bin:$$PATH ; linkinator --timeout 60000 --check-css --status-code "403:warn" --recurse public/

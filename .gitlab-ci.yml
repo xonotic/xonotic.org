@@ -1,0 +1,10 @@
+# This is based on debian stable so its hugo and python versions usually match srv04's
+image: docker.io/library/node:latest
+
+test_website:
+  timeout: 10 minutes
+  script:
+    - apt-get update
+    - apt-get --yes install hugo
+    - npm install linkinator
+    - make test
