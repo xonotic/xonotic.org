@@ -68,7 +68,7 @@ As usual, none of these features would be possible without such a vibrant and he
 [Archer Profile]: https://forums.xonotic.org/member.php?action=profile&uid=3351
 [Boil]: https://forums.xonotic.org/showthread.php?tid=6749
 [Boil music]: https://forums.xonotic.org/showthread.php?tid=7299&pid=80292#pid80292
-[daemon project]: https://wiki.unvanquished.net/index.php?title=Engine
+[daemon project]: https://wiki.unvanquished.net/wiki/Daemon
 [Erbium]: https://forums.xonotic.org/showthread.php?tid=5715
 [Geoplanetary]: https://forums.xonotic.org/showthread.php?tid=447
 [Justin Profile]: https://forums.xonotic.org/member.php?action=profile&uid=380

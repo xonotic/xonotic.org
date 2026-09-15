@@ -29,8 +29,8 @@ Other resources:
 [Map editor download via HTTP](http://dl.xonotic.org/xonotic-0.7.0-mappingsupport.zip) (166M, md5: 1ee3939f3bd84281d2609cf34397eb01)
 
 You can also download and play Xonotic on Desura:
+`http://www.desura.com/games/xonotic` (dead link)
 
-[Desura Digital Distribution](http://www.desura.com/games/xonotic)
 
 While you're downloading the game, check out some of the highlights of this release...
 

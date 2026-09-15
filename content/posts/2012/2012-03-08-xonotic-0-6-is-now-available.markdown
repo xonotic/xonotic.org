@@ -31,7 +31,7 @@ Package size: 964MiB
 [Map editor download via HTTP](http://mirror.bitmissile.com/xonotic/releases/xonotic-0.6.0-mappingsupport.zip) (150MiB, md5: 0ccee66956043898a696f97df1a3f723)
 
 You can also download and play Xonotic on Desura:
-[Desura Digital Distribution](http://www.desura.com/games/xonotic)
+`http://www.desura.com/games/xonotic` (dead link)
 
 ### Client side networked players
 

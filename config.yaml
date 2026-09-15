@@ -25,4 +25,9 @@ markup:
 imaging:
   quality: 100
   resampleFilter: Lanczos
+
+# Hugo 0.165 fails to build the website because:
+# access denied: "text/html" is not whitelisted in policy "security.allowContent"
+security:
+  allowContent: '.'
 ---

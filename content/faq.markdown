@@ -86,7 +86,7 @@ For Linux users: you need to have `libcurl` installed, otherwise you won't be ab
 
 This happens when the engine can't load the data*.pk3 file or has trouble to initialize OpenGL. The reasons could be:
 
-  * You unpacked the zip file without folder names, see [How do I install Xonotic?]({{< relref "#how-do-i-install-xonotic" >}})
+  * You unpacked the zip file without folder names, see [How do I install Xonotic?](#install)
   * On Linux: the current directory is not your Xonotic/ folder.
   * On Mac: you tried to extract and move the files from a Xonotic update and it deleted the old files. When using the mac GUI please be sure to move only the files not the folders as that will delete the old files or use the mv console command which will not delete the old files.
   * The engine could not initialize OpenGL. Please install the latest drivers for your graphic card. You will probably find one for your card there: [intel](http://intel.com), [AMD](http://amd.com), [nvidia](http://nvidia.com).
