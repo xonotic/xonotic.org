@@ -21,7 +21,7 @@ On some maps we use weapons, but for this tournament Kool had set us up with 5 p
  ![A view of a grey concrete map with blue lighting from hovering above a lava pool. The Xonotic logo, a blue font with a phoenix head in the centre O with wings branching behind the other letters is on the middle upper left, and the XDefrag logo in a similar font, but black where the XD is linked together is on the upper middle right. Below that is the text "Strafe Compeition" in white, reflected in the lava](titlepic.png)
  
 # Round 1
-The first round was an Egyptian-styled map with a few routes to choose from, where snowballing your speed really mattered. If you'd like some extracurricular viewing then [my beginner's route guide for the map can be seen here](www.youtube.com/watch?v=kGszbyj-1kg). It was a great map for those who could see the future, and figure out what spacing would happen if only they pushed a *tiny* bit harder. 
+The first round was an Egyptian-styled map with a few routes to choose from, where snowballing your speed really mattered. If you'd like some extracurricular viewing then [my beginner's route guide for the map can be seen here](https://www.youtube.com/watch?v=kGszbyj-1kg). It was a great map for those who could see the future, and figure out what spacing would happen if only they pushed a *tiny* bit harder. 
 
 I very much want to thank and talk about everyone who played this tournament, but we have to cut it off somewhere, so I'll try to call out highlights. In the weekly review streams I cover the top 20 + any continental bests outside the top 20. In the early top 20 we saw a few different routes, as people were able to optimise a weaker route better, or pull off a weaker run on the stronger route. It was tight between lines this week for sure. 
 
@@ -71,7 +71,7 @@ The secrets on this map were tougher to find than map 1. The first being hidden 
 ### Round 2 Links
 [Kotangens Secrets](https://www.youtube.com/watch?v=qJEMVa8cmFU)  
 [Route Guide](https://www.youtube.com/watch?v=kGszbyj-1kg)  
-[Top 20 Records](www.youtube.com/watch?v=sIeUL1NOvKY)  
+[Top 20 Records](https://www.youtube.com/watch?v=sIeUL1NOvKY)  
 [Morosophos Top Runs](https://www.youtube.com/watch?v=G_Umm3kfAv8)  
 [Round Results](https://xdwc.xdf.gg/xsc/map/xsc2026-round2/)  
 
