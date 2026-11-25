@@ -142,7 +142,7 @@ In a 1-on-1 game you should pick up items even if you're already maxed out, if t
 |------------|
 |![][h_mega] |
 
-[h_mega]: http://pics.nexuizninjaz.com/images/s92ftsza0q7r8daau47z.png
+[h_mega]: s92ftsza0q7r8daau47z.png
 
 ## Armor
 
@@ -150,8 +150,8 @@ In a 1-on-1 game you should pick up items even if you're already maxed out, if t
 |-------------|--------------|--------------|
 |![][a_mega]  |  ![][a_big]  |  ![][a_small]|
 
-[a_mega]: http://pics.nexuizninjaz.com/images/havtb83g2yglb201q84t.png
-[a_big]: http://pics.nexuizninjaz.com/images/jyi1aj1vx6rrrckx7zgt.png
-[a_small]: http://pics.nexuizninjaz.com/images/5zl9javsx6dasvom21gv.png
+[a_mega]: havtb83g2yglb201q84t.png
+[a_big]: jyi1aj1vx6rrrckx7zgt.png
+[a_small]: 5zl9javsx6dasvom21gv.png
 
 The small (5) shard is dropped by killed enemies. As noted above, it's more useful than it looks.
